@@ -1,0 +1,10 @@
+<service>
+	<sensors>
+		<sensor name="SensorFileSysWalker" run="true">
+			<property name="focusDir" value="C:\tmp\aaaa"/>
+		</sensor>
+	</sensors>
+
+	<effectors>
+	</effectors>
+</service>

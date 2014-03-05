@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\arobottarget.cpp" />
+    <ClCompile Include="src\sensors\eye.cpp" />
+    <ClCompile Include="src\effectors\wheeledlegs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\arobottarget.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\library\generic\lib\generic.lib" />
+    <Library Include="..\..\platform\lib\platform.lib" />
+    <Library Include="..\..\mind\lib\mind.lib" />
+    <Library Include="..\..\library\nxtpp\lib\nxtpp.lib" />
+  </ItemGroup>
+</Project>

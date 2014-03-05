@@ -1,0 +1,49 @@
+<service>
+        <topics>
+
+                <!-- platform topics -->
+                <topic name="target.commands">
+                        <property name="msgid" value="H"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="false"/>
+                </topic>
+
+                <topic name="test.commands.in">
+                        <property name="msgid" value="TESTREQUEST"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="false"/>
+                </topic>
+
+                <topic name="test.commands.out">
+                        <property name="msgid" value="TESTRESPONSE"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="false"/>
+                </topic>
+
+                <topic name="http.request">
+                        <property name="msgid" value="HTTP.IN"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="true"/>
+                </topic>
+
+                <topic name="http.response">
+                        <property name="msgid" value="HTTP.OUT"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="true"/>
+                </topic>
+
+                <topic name="scheduler">
+                        <property name="msgid" value="SCHD"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="true"/>
+                </topic>
+
+                <!-- mind topics -->
+                <topic name="mind.default">
+                        <property name="msgid" value="MIND"/>
+                        <property name="auth" value="false"/>
+                        <property name="sync" value="false"/>
+                </topic>
+
+        </topics>
+</service>

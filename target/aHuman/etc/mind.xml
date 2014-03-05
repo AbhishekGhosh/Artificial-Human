@@ -1,0 +1,432 @@
+<service>
+
+	<!-- ================= basic neural networks parameters =============== -->
+	<neural-networks>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_INITIAL_pQ" value="70"/>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_MIN_pQ" value="10"/>
+		<property name="NEURON_ACTION_POTENTIAL_BY_SIGNAL_pQ" value="20"/>
+		<property name="NEURON_MEMBRANE_POTENTIAL_BY_ACTION_POTENTIAL_pQ" value="65"/>
+		<property name="NEURON_MEMBRANE_THRESHOLD_INITIAL_pQ" value="60"/>
+		<property name="NEURON_FIRE_OUTPUT_BY_MEMBRANE_POTENTIAL_pQ" value="80"/>
+		<property name="NEURON_INHIBIT_DELAY_ms" value="10"/>
+		<property name="NEURON_FIRE_OUTPUT_SILENT_ms" value="10"/>
+		<property name="NEURON_FIRE_IMPULSE_pQ" value="2"/>
+		<property name="NEURON_POTENTIAL_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_OUTPUT_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_FULL_RELAX_ms" value="1000"/>
+		<property name="NEURON_CONNECTIVITY_UPDATE_FACTOR" value="95"/>
+	</neural-networks>
+
+	<!-- ================= mind geometry =============== -->
+	<mind-space>
+	</mind-space>
+
+	<!-- ================= mind components and circuits =============== -->
+	<mind-map>
+
+		<region-type-set>
+
+			<region-type name="nucleus" implementation="mock">
+				<connector id="nucleus.input" type="target"/>
+				<connector id="nucleus.output" type="source"/>
+				<ignoreconnector id="nucleus.interneurons" type="target"/>
+			</region-type>
+
+			<region-type name="neocortex" implementation="mock" notes="feed-forward and feed-back">
+				<connector id="neocortex.ffin" type="target"/>
+				<connector id="neocortex.ffout" type="source"/>
+				<connector id="neocortex.fbin" type="target"/>
+				<connector id="neocortex.fbout" type="source"/>
+			</region-type>
+
+			<region-type name="allocortex" implementation="mock" notes="feed-forward-only">
+				<connector id="allocortex.input.direct" type="target" notes="polymorphic in HF/climbing fibers to molecular in CR"/>
+				<connector id="allocortex.input.indirect" type="target" notes="molecular in HF/mossy fibers to granular in CR"/>
+				<connector id="allocortex.output" type="source" notes="mossy fibers from polymorphic in HF/purkinje in CR"/>
+			</region-type>
+
+			<region-type name="ganglion" implementation="mock">
+				<connector id="ganglion.input" type="target"/>
+				<connector id="ganglion.output" type="source"/>
+				<ignoreconnector id="ganglion.feedback" type="target"/>
+			</region-type>
+
+		</region-type-set>
+
+		<!-- ================= typical links =============== -->
+		<connection-type-set>
+
+			<connection-type name="nucleus-nucleus" regionsrc="nucleus" regiondst="nucleus">
+				<link-type name="positive" implementation="mock" nttype="excitatory" nt="GLU" src="nucleus.output" dst="nucleus.input"/>
+			</connection-type>
+
+			<connection-type name="nucleus-neocortex" regionsrc="nucleus" regiondst="neocortex">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="nucleus.output" dst="neocortex.ffin"/>
+			</connection-type>
+
+			<connection-type name="neocortex-nucleus" regionsrc="neocortex" regiondst="nucleus">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="neocortex.ffout" dst="nucleus.input"/>
+			</connection-type>
+
+			<connection-type name="neocortex-neocortex" regionsrc="neocortex" regiondst="neocortex" >
+				<link-type name="cortex-forward" implementation="mock" nttype="excitatory" nt="GLU" src="neocortex.ffout" dst="neocortex.ffin"/>
+				<link-type name="cortex-feedback" implementation="mock" nttype="excitatory" nt="GLU" src="neocortex.fbout" dst="neocortex.fbin" back="true"/>
+			</connection-type>
+
+			<connection-type name="neocortex-allocortex" regionsrc="neocortex" regiondst="allocortex">
+				<link-type name="light" implementation="mock" nttype="excitatory" nt="GLU" src="neocortex.ffout" dst="allocortex.input.indirect"/>
+			</connection-type>
+
+			<connection-type name="allocortex-neocortex" regionsrc="allocortex" regiondst="neocortex">
+				<link-type name="light" implementation="mock" nttype="excitatory" nt="GLU" src="allocortex.output" dst="neocortex.ffin"/>
+			</connection-type>
+
+			<connection-type name="allocortex-nucleus" regionsrc="allocortex" regiondst="nucleus">
+				<link-type name="light" implementation="mock" nttype="excitatory" nt="GLU" src="allocortex.output" dst="nucleus.input"/>
+			</connection-type>
+
+			<connection-type name="nucleus-ganglion" regionsrc="nucleus" regiondst="ganglion">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="nucleus.output" dst="ganglion.input"/>
+			</connection-type>
+
+			<connection-type name="ganglion-ganglion" regionsrc="ganglion" regiondst="ganglion">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="ganglion.output" dst="ganglion.input"/>
+			</connection-type>
+
+			<connection-type name="ganglion-nucleus" regionsrc="ganglion" regiondst="nucleus">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="ganglion.output" dst="nucleus.input"/>
+			</connection-type>
+
+			<connection-type name="nucleus-allocortex" regionsrc="nucleus" regiondst="allocortex">
+				<link-type name="primary-input" implementation="mock" nttype="excitatory" nt="GLU" src="nucleus.output" dst="allocortex.input.direct"/>
+			</connection-type>
+
+			<connection-type name="allocortex-allocortex" regionsrc="allocortex" regiondst="allocortex">
+				<link-type name="light" implementation="mock" nttype="excitatory" nt="GLU" src="allocortex.output" dst="allocortex.input.direct"/>
+			</connection-type>
+
+		</connection-type-set>
+
+		<component-set>
+
+			<!-- ================= cortical =============== -->
+			<area id="VCA" type="Cortical" name="Visual Cortex Area" enabled="true" function="Visual Cortex">
+				<region id="VCA.NC.V1" type="neocortex" role="processor"/>
+				<region id="VCA.NC.V2" type="neocortex" role="processor"/>
+				<region id="VCA.NC.V3" type="neocortex" role="processor"/>
+				<region id="VCA.NC.V4" type="neocortex" role="processor"/>
+				<region id="VCA.NC.MT" type="neocortex" role="processor"/>
+				<region id="VCA.NC.PO" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IT.TEO" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IT.TE" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IPS.PEF" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IPS.VIP" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IPS.AIP" type="neocortex" role="processor"/>
+				<region id="VCA.NC.IPL.MST" type="neocortex" role="processor"/>
+			</area>
+
+			<area id="ACA" type="Cortical" name="Auditory Cortex Area" enabled="true" function="Auditory Cortex">
+				<region id="ACA.NC.A1" type="neocortex" role="processor"/>
+				<region id="ACA.NC.A2" type="neocortex" role="processor"/>
+				<region id="ACA.NC.A3" type="neocortex" role="processor"/>
+				<region id="ACA.NC.A4" type="neocortex" role="processor"/>
+				<region id="ACA.NC.IPL.SMW" type="neocortex" role="processor"/>
+				<region id="ACA.NC.BRA" type="neocortex" role="processor"/>
+				<region id="ACA.NC.PRI" type="neocortex" role="processor"/>
+				<region id="ACA.FD.TH.SG" type="nucleus" role="processor" size="100"/>
+			</area>
+
+			<area id="MCA" type="Cortical" name="Motor Cortex Area" enabled="true" function="Motor Control">
+				<region id="MCA.NC.PMC.F2" type="neocortex" role="processor"/>
+				<region id="MCA.NC.PMC.F7" type="neocortex" role="processor"/>
+				<region id="MCA.NC.PMC.F4" type="neocortex" role="processor"/>
+				<region id="MCA.NC.PMC.F5" type="neocortex" role="processor"/>
+				<region id="MCA.NC.MC" type="neocortex" role="processor"/>
+				<region id="MCA.FD.TH.VA" type="nucleus" role="processor" size="100"/>
+				<region id="MCA.FD.TH.VL" type="nucleus" role="relay" size="100"/>
+				<region id="MCA.NC.PMC.FEF" type="neocortex" role="processor"/>
+				<region id="MCA.NC.SMC" type="neocortex" role="processor"/>
+			</area>
+
+			<area id="SMA" type="Cortical" name="Somatic Cortex Area" enabled="true" function="Somatic Proprioception">
+				<region id="SMA.NC.PG.S1" type="neocortex" role="processor"/>
+				<region id="SMA.FD.TH.VPL" type="nucleus" role="relay"/>
+				<region id="SMA.FD.TH.VPM" type="nucleus" role="relay"/>
+				<region id="SMA.FD.TH.VPI" type="nucleus" role="relay"/>
+				<region id="SMA.NC.SPL.SA" type="neocortex" role="processor"/>
+				<region id="SMA.NC.PO.PCC" type="neocortex" role="processor"/>
+				<region id="SMA.FD.TH.RIL" type="nucleus" role="processor"/>
+				<region id="SMA.FD.PV.OPV" type="nucleus" role="processor"/>
+				<region id="SMA.NC.SPL.PG" type="neocortex" role="processor"/>
+				<region id="SMA.FD.TH.LP" type="nucleus" role="processor"/>
+			</area>
+
+			<area id="PHA" type="Cortical" name="Parahippocampal Area" enabled="true" function="Integrating Sensory Streams for Hippocampus">
+				<region id="PHA.NC.INS.PPC" type="neocortex" role="processor"/>
+				<region id="PHA.NC.INS.HR" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PH.ET" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PH.PPG" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PH.PRR" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PH.PIR" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PAS" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PRS" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PSS" type="neocortex" role="processor"/>
+				<region id="PHA.NC.TPC" type="neocortex" role="processor"/>
+				<region id="PHA.NC.INS.AIC" type="neocortex" role="processor"/>
+				<region id="PHA.NC.INS.PIC" type="neocortex" role="processor"/>
+				<region id="PHA.NC.PH.TFTH" type="neocortex" role="processor"/>
+				<region id="PHA.FD.MB.LMB" type="nucleus" role="processor" size="100"/>
+				<region id="PHA.FD.TH.LI" type="nucleus" role="processor"/>
+				<region id="PHA.FT.EPF" type="nucleus" role="relay"/>
+				<region id="PHA.FT.AON" type="nucleus" role="processor"/>
+			</area>
+
+			<area id="FCA" type="Cortical" name="Frontal Cortex Area" enabled="true" function="Sensory-Drive Associations">
+				<region id="FCA.NC.IPG" type="neocortex" role="processor"/>
+				<region id="FCA.NC.LPFC" type="neocortex" role="processor"/>
+				<region id="FCA.NC.OMPFC" type="neocortex" role="processor"/>
+				<region id="FCA.FD.TH.MD" type="nucleus" role="processor" size="100"/>
+			</area>
+
+			<area id="CGA" type="Cortical" name="Cingulate Cortex Area" enabled="true" function="Consciousness">
+				<region id="CGA.NC.MPL.RSC" type="neocortex" role="processor"/>
+				<region id="CGA.NC.MPL.PCG" type="neocortex" role="processor"/>
+				<region id="CGA.NC.VACG" type="neocortex" role="processor"/>
+				<region id="CGA.NC.DACG" type="neocortex" role="processor"/>
+				<region id="CGA.NC.PACG" type="neocortex" role="processor"/>
+				<region id="CGA.NC.SGC" type="neocortex" role="processor"/>
+				<region id="CGA.NC.SPL.PF" type="neocortex" role="processor"/>
+				<region id="CGA.FD.TH.AN" type="nucleus" role="processor" size="100"/>
+				<region id="CGA.FD.TH.LD" type="nucleus" role="processor" size="100"/>
+				<region id="CGA.FD.TH.SM" type="nucleus" role="relay" size="100"/>
+			</area>
+
+			<!-- ================= subcortical =============== -->
+			<area id="VBA" type="Subcortical" name="Visual Basal Area" enabled="true" function="Visual Subcortical Nuclei">
+				<region id="VBA.FD.RT" type="nucleus" role="relay"/>
+				<region id="VBA.FD.LGN" type="nucleus" role="relay"/>
+				<region id="VBA.FD.PV.IPV" type="nucleus" role="relay"/>
+				<region id="VBA.FD.PV.LPV" type="nucleus" role="relay"/>
+				<region id="VBA.FD.PV.MPV" type="nucleus" role="relay"/>
+				<region id="VBA.MM.PT.NOT" type="nucleus" role="relay"/>
+				<region id="VBA.MM.PT.PON" type="nucleus" role="relay"/>
+				<region id="VBA.MM.PT.PR" type="nucleus" role="relay"/>
+				<region id="VBA.MM.PT.SL" type="nucleus" role="relay"/>
+				<region id="VBA.MM.TRH" type="nucleus" role="relay"/>
+				<region id="VBA.MM.OCN" type="nucleus" role="relay"/>
+				<region id="VBA.MM.SOA" type="nucleus" role="relay"/>
+				<region id="VBA.MM.RP.RIP" type="nucleus" role="relay"/>
+				<region id="VBA.HP.ABD" type="nucleus" role="relay"/>
+				<region id="VBA.HM.NPH" type="nucleus" role="relay"/>
+				<region id="VBA.MM.SC.SUP" type="nucleus" role="relay"/>
+				<region id="VBA.SC.IZ.CSC" type="nucleus" role="relay"/>
+				<region id="VBA.MM.EWN" type="nucleus" role="parasympathetic"/>
+			</area>
+
+			<area id="ABA" type="Subcortical" name="Auditory Basal Area" enabled="true" function="Auditory Subcortical Nuclei">
+				<region id="ABA.FD.TH.MGB" type="nucleus" role="relay"/>
+				<region id="ABA.MM.IC" type="nucleus" role="relay"/>
+				<region id="ABA.MM.SOC" type="nucleus" role="relay"/>
+				<region id="ABA.HP.PN.LL" type="nucleus" role="relay"/>
+				<region id="ABA.HM.COCH" type="nucleus" role="relay"/>
+				<region id="ABA.PN.SG.SP" type="ganglion" role="sensory"/>
+			</area>
+
+			<area id="HBA" type="Subcortical" name="Hippocampus Basal Area" enabled="true" function="Creating Long Term Memory, Sensory Temporal Coding">
+				<region id="HBA.FT.DG" type="allocortex" role="processor"/>
+				<region id="HBA.FT.HC.CA1" type="allocortex" role="processor"/>
+				<region id="HBA.FT.HC.CA2" type="allocortex" role="processor"/>
+				<region id="HBA.FT.HC.CA3" type="allocortex" role="processor"/>
+				<region id="HBA.FT.HC.CA4" type="allocortex" role="processor"/>
+				<region id="HBA.FT.SC.SUB" type="allocortex" role="processor"/>
+				<region id="HBA.FD.MB.MMB" type="nucleus" role="relay" size="100"/>
+				<region id="HBA.FD.TH.RE" type="nucleus" role="relay" size="100"/>
+				<region id="HBA.FD.TH.RH" type="nucleus" role="relay" size="100"/>
+			</area>
+
+			<area id="BGA" type="Subcortical" name="Basal Ganglia Area" enabled="true" function="Conscious Action Control, Motor Temporal Coding">
+				<region id="BGA.FT.VP" type="nucleus" role="relay"/>
+				<region id="BGA.FT.CN" type="nucleus" role="relay"/>
+				<region id="BGA.FT.PU" type="nucleus" role="relay"/>
+				<region id="BGA.FT.GPE" type="nucleus" role="relay"/>
+				<region id="BGA.FT.GPI" type="nucleus" role="relay"/>
+				<region id="BGA.FT.SN.PC" type="nucleus" role="relay"/>
+				<region id="BGA.FT.SN.PR" type="nucleus" role="relay"/>
+				<region id="BGA.FD.STN" type="nucleus" role="relay"/>
+				<region id="BGA.FD.TH.CM" type="nucleus" role="relay"/>
+				<region id="BGA.FD.TH.PF" type="nucleus" role="relay"/>
+				<region id="BGA.HP.PPN" type="nucleus" role="relay"/>
+				<region id="BGA.FT.ACC" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="BFA" type="Subcortical" name="Basal Feeling Area" enabled="true" function="Drive Stimuli Integration">
+				<region id="BFA.FT.AM" type="nucleus" role="relay"/>
+				<region id="BFA.FT.NBM" type="nucleus" role="relay"/>
+				<region id="BFA.FT.BNST" type="nucleus" role="relay"/>
+				<region id="BFA.FT.SEP" type="nucleus" role="relay"/>
+				<region id="BFA.FT.IPAC" type="nucleus" role="relay"/>
+				<region id="BFA.FD.HB" type="nucleus" role="relay"/>
+				<region id="BFA.FD.TH.PT" type="nucleus" role="relay"/>
+				<region id="BFA.FD.TH.PV" type="nucleus" role="relay"/>
+			</area>
+
+			<!-- ================= hindbrain =============== -->
+			<area id="MBA" type="Hindbrain" name="Motor Brainstem Area" enabled="true" function="Postural Control and Rythmic Locomotion">
+				<region id="MBA.MM.RD" type="nucleus" role="relay"/>
+				<region id="MBA.MM.TG.LDT" type="nucleus" role="relay"/>
+				<region id="MBA.HP.CR" type="nucleus" role="relay"/>
+				<region id="MBA.HP.BR" type="nucleus" role="relay"/>
+				<region id="MBA.HP.PN.PBB" type="nucleus" role="relay"/>
+				<region id="MBA.HP.PN.RP" type="nucleus" role="relay"/>
+				<region id="MBA.HM.RF.MED" type="nucleus" role="relay"/>
+				<region id="MBA.PN.SG.VB" type="ganglion" role="sensory"/>
+				<region id="MBA.MM.SC.DEEP" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="FBA" type="Hindbrain" name="Feeling Brainstem Area" enabled="true" function="Pain and Moods">
+				<region id="FBA.MM.RP.MRN" type="nucleus" role="relay"/>
+				<region id="FBA.MM.RP.DRN" type="nucleus" role="relay"/>
+				<region id="FBA.MM.PAG" type="nucleus" role="relay"/>
+				<region id="FBA.MM.CNF" type="nucleus" role="relay"/>
+				<region id="FBA.MM.VTA" type="nucleus" role="relay"/>
+				<region id="FBA.HP.RP.PRN" type="nucleus" role="relay"/>
+				<region id="FBA.HP.RP.LI" type="nucleus" role="relay"/>
+				<region id="FBA.HP.RP.MRN" type="nucleus" role="relay"/>
+				<region id="FBA.HP.NI" type="nucleus" role="relay"/>
+				<region id="FBA.HP.LC" type="nucleus" role="relay"/>
+				<region id="FBA.HM.RP" type="nucleus" role="relay"/>
+				<region id="FBA.FD.TH.SF" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="HTA" type="Hindbrain" name="Hypothalamus Area" enabled="true" function="Visceral Motor Control">
+				<region id="HTA.FD.HT.AH" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.AR" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.AVPV" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.DM" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.LT" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.PO" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.PN" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.PV" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.PVI" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.RCH" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.SCN" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.SO" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.TBC" type="nucleus" role="relay"/>
+				<region id="HTA.FD.HT.VM" type="nucleus" role="relay"/>
+			</area>
+
+			<!-- ================= motor =============== -->
+			<area id="FMA" type="Motor" name="Face Motor and Sensory Area" enabled="true" function="Face Mimics and Proprioception">
+				<region id="AVA.PN.SG.OLB" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.SG.TRG" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.PSYM.PTG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.SG.PET" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.SG.NOD" type="ganglion" role="sensory"/>
+				<region id="HMA.MM.MSTR" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.PSYM.OTG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.SG.GNG" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.SG.JUG" type="ganglion" role="sensory"/>
+				<region id="AVA.PN.PSYM.SPG" type="ganglion" role="parasympathetic"/>
+				<region id="VBA.PN.PSYM.CLG" type="ganglion" role="parasympathetic"/>
+				<region id="VBA.PN.PSYM.EPG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.PSYM.SXG" type="ganglion" role="parasympathetic"/>
+				<region id="HMA.HP.FCM" type="nucleus" role="relay"/>
+				<region id="HMA.HM.TGM.PA5" type="nucleus" role="relay"/>
+				<region id="HMA.HM.HYG" type="nucleus" role="relay"/>
+				<region id="HMA.HM.AMB" type="nucleus" role="relay"/>
+				<region id="HMA.HM.RA" type="nucleus" role="relay"/>
+				<region id="HMA.HM.INM" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PN.KFN" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="HMA" type="Motor" name="Head Motor Area" enabled="true" function="Head Motor Execution and Proprioception">
+				<region id="HMA.MM.CJ" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PN.SC" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PRF.GCR" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PRF.CRF" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PRF.RPO" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PRF.PDT" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PTP.PTR" type="nucleus" role="relay"/>
+				<region id="HMA.HP.PTP.TRM" type="nucleus" role="relay"/>
+				<region id="HMA.HM.TGM.PE5" type="nucleus" role="relay"/>
+				<region id="HMA.HM.TGM.STR" type="nucleus" role="relay"/>
+				<region id="HMA.HM.SOL" type="nucleus" role="relay"/>
+				<region id="HMA.SC.VH.SAN" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="BMA" type="Motor" name="Body Motor Area" enabled="true" function="Body Motor Execution and Proprioception">
+				<region id="BMA.MM.DSCH" type="nucleus" role="relay"/>
+				<region id="BMA.MM.PT.PTA" type="nucleus" role="relay"/>
+				<region id="BMA.HP.PRF.PVR" type="nucleus" role="relay"/>
+				<region id="BMA.HP.VB" type="nucleus" role="relay"/>
+				<region id="BMA.HP.VG" type="ganglion" role="sensory"/>
+				<region id="BMA.HP.PB" type="nucleus" role="relay"/>
+				<region id="BMA.HM.IO" type="nucleus" role="relay"/>
+				<region id="BMA.HM.ARC" type="nucleus" role="relay"/>
+				<region id="BMA.HM.CU" type="nucleus" role="relay"/>
+				<region id="BMA.HM.ACU" type="nucleus" role="relay"/>
+				<region id="BMA.HM.GR" type="nucleus" role="relay"/>
+				<region id="BMA.SC.PH.CL" type="nucleus" role="relay"/>
+				<region id="BMA.SC.PH.MG" type="nucleus" role="relay"/>
+				<region id="BMA.SC.PH.SG" type="nucleus" role="relay"/>
+				<region id="BMA.SC.PH.NP" type="nucleus" role="relay"/>
+				<region id="BMA.SC.LH.LCV" type="nucleus" role="relay"/>
+				<region id="BMA.SC.LH.LSN" type="nucleus" role="relay"/>
+				<region id="BMA.SC.IZ.CCV" type="nucleus" role="relay"/>
+				<region id="BMA.SC.IZ.CBS" type="nucleus" role="relay"/>
+				<region id="BMA.SC.IZ.RPL" type="nucleus" role="relay"/>
+				<region id="BMA.SC.VH.PM" type="nucleus" role="relay"/>
+				<region id="BMA.SC.VH.PL" type="nucleus" role="relay"/>
+				<region id="BMA.SC.VH.VL" type="nucleus" role="relay"/>
+				<region id="BMA.SC.VH.VM" type="nucleus" role="relay"/>
+				<region id="BMA.SC.VH.PHR" type="nucleus" role="relay"/>
+			</area>
+
+			<area id="AVA" type="Motor" name="Autonomous Visceral Area" enabled="true" function="Sympathetic and Parasympathetic systems">
+				<region id="AVA.HM.SAL.ISL" type="nucleus" role="parasympathetic"/>
+				<region id="AVA.HM.SAL.SSL" type="nucleus" role="parasympathetic"/>
+				<region id="AVA.HM.VG" type="nucleus" role="parasympathetic"/>
+				<region id="AVA.SC.VH.ONF" type="nucleus" role="relay"/>
+				<region id="AVA.SC.IZ.IML" type="nucleus" role="sympathetic"/>
+				<region id="AVA.SC.IZ.IMM" type="nucleus" role="relay"/>
+				<region id="AVA.SC.IZ.SPS" type="nucleus" role="parasympathetic"/>
+				<region id="AVA.SC.CC.DCN" type="nucleus" role="relay"/>
+				<region id="AVA.PN.SYM.SCG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.MCG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.STG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.CEG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.SMG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.ARG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.IMG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.SYM.TG" type="ganglion" role="sympathetic"/>
+				<region id="AVA.PN.PSYM.ILG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.PSYM.CRG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.PSYM.PPG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.PSYM.PUG" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.PSYM.GUT" type="ganglion" role="parasympathetic"/>
+				<region id="AVA.PN.SG.DRG" type="ganglion" role="sensory"/>
+			</area>
+
+		</component-set>
+
+		<circuit-set xmlfile="mindnet.xml"/>
+
+	</mind-map>
+
+	<!-- ================= memory state =============== -->
+	<active-memory>
+		<memory-focus>
+			<property name="objectCount" value="100"/>
+		</memory-focus>
+
+		<thread-pool>
+			<property name="name" value="AMT"/>
+			<property name="run" value="false"/>
+			<property name="threadCount" value="20"/>
+			<property name="operationsPerSecond" value="100"/>
+			<property name="secondsPerCycle" value="1"/>
+			<property name="maxLoad" value="10"/>
+		</thread-pool>
+	</active-memory>
+
+</service>

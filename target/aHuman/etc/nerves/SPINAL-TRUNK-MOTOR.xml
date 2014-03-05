@@ -1,0 +1,72 @@
+<pns>
+
+	<division category="Spinal Nerves" name="CERVICAL, THORACIC, LUMBAR AND SACRAL - TRUNK MOTOR NERVES">
+
+		<element name="first intercostal nerve"
+			synonyms="small branch"
+			imgsrc="http://dermatologic.com.ar/c1tt2.png"
+			distribution="1st rib"
+			modality="flexor motor"
+			>
+			<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.TRUNK"></fibers>
+		</element>
+
+		<element name="thoracic and abdominal intercostal nerves"
+			imgsrc="http://www.rci.rutgers.edu/~uzwiak/AnatPhys/APFallLect10_files/image013.jpg"
+			modality="flexor motor, extensor motor"
+			>
+			<element name="thoracic and thoracicoabdominal intercostal nerves, flexors"
+				imgsrc="http://www.cixip.com/Public/kindeditor/attached/image/20121122/20121122104412_41232.jpg"
+				distribution="rectus abdominis; external intercostal muscles; serratus posterior superior muscle"
+				modality="flexor motor"
+				action="parietes of the thorax and abdomen; trunk flexor; forced respiration; aid in quiet and forced inhalation"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.TRUNK"></fibers>
+			</element>
+			<element name="thoracic intercostal nerves, extensors"
+				distribution="semispinalis dorsi (thoracis); transversus thoracis muscle; subcostalis muscle"
+				modality="extensor motor"
+				action="extends vertebral column"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.TRUNK"></fibers>
+			</element>
+			<element name="thoracicoabdominal intercostal nerves, extensors"
+				origin="T7-T11"
+				distribution="internal intercostal muscles, serratus posterior inferior"
+				modality="extensor motor"
+				action="aid in forced expiration (quiet expiration is a passive process); rotation and extension of the trunk"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.TRUNK"></fibers>
+			</element>
+		</element>
+
+		<element name="subcostal nerve, motor"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne219.htm SUBCOSTAL NERVE]"
+			imgsrc="http://painmuse.org/images/pyramidalis.jpg"
+			modality="flexor motor"
+			action="internal oblique muscle and transversus abdominis; forced respiration"
+			>
+			<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.TRUNK"></fibers>
+		</element>
+
+		<element name="posterior ramus, motor"
+			imgsrc="http://classconnection.s3.amazonaws.com/1527/flashcards/688632/png/jskasdklaj.png"
+			modality="flexor motor, extensor motor"
+			>
+			<element name="motor nerves of back, flexors"
+				distribution="iliocostalis muscle, spinalis muscle, rotatores muscles"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.TRUNK"></fibers>
+			</element>
+			<element name="motor nerves of back, extensors"
+				distribution="longissimus muscle, multifidus muscle, semispinalis, levatores costarum muscles, interspinales muscles, intertransversarii muscle"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.TRUNK"></fibers>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

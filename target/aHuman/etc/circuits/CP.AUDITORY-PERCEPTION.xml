@@ -1,0 +1,109 @@
+<circuits>
+
+	<circuit id="CP.CORTICAL-AUDITORY-SYSTEM" name="Cortical Auditory System"
+		image="http://www.nature.com/neuro/journal/v12/n6/images/nn.2331-F5.jpg"
+		reference="http://www.nature.com/neuro/journal/v12/n6/fig_tab/nn.2331_F5.html"
+		components="PMC8=MCA.NC.PMC.AFEF PMC6=MCA.NC.VPMC IPL40=ACA.NC.IPL.SMG Core41=ACA.NC.A1 Belt42=ACA.NC.A2 AC22=ACA.NC.A4 STS22=ACA.NC.A3 IFC45=ACA.NC.BRA IFC44=ACA.NC.BRA"
+		>
+		<link src="IPL40" dst="AC22"/>
+		<link src="AC22" dst="STS22"/>
+		<link src="Core41" dst="Belt42"/>
+		<link src="Belt42" dst="AC22"/>
+		<link src="STS22" dst="IFC45"/>
+		<link src="IFC45" dst="IFC44"/>
+		<link src="IFC44" dst="IPL40"/>
+		<link src="IFC44" dst="PMC8"/>
+		<link src="AC22" dst="IPL40"/>
+		<link src="IPL40" dst="PMC6"/>
+		<link src="PMC8" dst="PMC6"/>
+	</circuit>
+
+	<circuit id="CP.DUAL-AUDITORY-PROCESSING" name="Dual Auditory Processing"
+		image="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846110/bin/nihms147975f1.jpg"
+		reference="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2846110/"
+		components="PPC=ACA.NC.IPL.SMG A1=ACA.NC.A1 ST=ACA.NC.A3 VLPFC=MCA.NC.VPMC DLPFC=MCA.NC.DPMC"
+		>
+		<link src="A1" dst="PPC"/>
+		<link src="A1" dst="ST"/>
+		<link src="ST" dst="VLPFC"/>
+		<link src="A1" dst="DLPFC"/>
+		<link src="PPC" dst="DLPFC"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-AUDITORY-INTERACTIONS" name="Visual-Auditory Interactions in Tectum"
+		image="http://cdn.f1000r.com.s3.amazonaws.com/manuscripts/1181/d6e9eca8-bb85-4382-8286-723b00f8b36f_figure7.gif" imageHeight="400" imageWidth="400"
+		reference="http://f1000research.com/articles/2-20/v1"
+		components="PM=NC.PMC MGB=ABA.FD.TH.MGB AM=BFA.FT.AM SC=MM.SC AC=ACA.NC.A1 IC=ABA.MM.IC OC=ABA.MM.SOC CN=ABA.HM.COCH"
+		>
+		<link src="CN" dst="OC"/>
+		<link src="OC" dst="IC"/>
+		<link src="IC" dst="OC"/>
+		<link src="IC" dst="MGB"/>
+		<link src="MGB" dst="AC"/>
+		<link src="AC" dst="IC"/>
+		<link src="PM" dst="SC"/>
+		<link src="SC" dst="IC"/>
+		<link src="IC" dst="SC"/>
+		<link src="AM" dst="AC"/>
+		<link src="AM" dst="IC"/>
+	</circuit>
+
+	<circuit id="CP.ECHOLOCATION" name="Echo-Location in Bats"
+		image="http://c431376.r76.cf2.rackcdn.com/1349/fnana-04-00134-HTML/image_m/fnana-04-00134-g001.jpg" imageHeight="200" imageWidth="600"
+		reference="http://www.frontiersin.org/neuroanatomy/10.3389/fnana.2010.00134/full"
+		components="SG=ACA.FD.TH.SG A1=ACA.NC.A1"
+		>
+		<link src="SG" dst="A1"/>
+	</circuit>
+
+	<circuit id="CP.FIVE-AUDITORY-PATHWAYS" name="Five Parallel Auditory Pathways"
+		image="http://lifeboat.com/kurzweil/cochlea.gif"
+		reference="http://lifeboat.com/ex/law.of.accelerating.returns"
+		components="Cochlea=TARGET.TSA.EAR CochleaGanglion=ABA.PN.SG.SP VNTB=ABA.MM.SOC.TZ MC=ABA.HM.COCH GBC=ABA.HM.COCH OC=ABA.HM.COCH SBC=ABA.HM.COCH DCN=ABA.HM.COCH DNLL=ABA.HP.PN.LL VNLL=ABA.HP.PN.LL MSO=ABA.MM.SOC LSO=ABA.MM.SOC ICC=ABA.MM.IC ICx=ABA.MM.IC SC=MM.SC MGB=ABA.FD.TH.MGB LS=HBA.FT.HF AC=ACA.NC.A1"
+		>
+		<link src="CochleaGanglion" dst="DCN"/>
+		<link src="CochleaGanglion" dst="OC"/>
+		<link src="CochleaGanglion" dst="MC"/>
+		<link src="CochleaGanglion" dst="GBC"/>
+		<link src="CochleaGanglion" dst="SBC"/>
+		<link src="GBC" dst="LSO"/>
+		<link src="SBC" dst="LSO"/>
+		<link src="SBC" dst="MSO"/>
+		<link src="LSO" dst="DNLL"/>
+		<link src="OC" dst="VNLL"/>
+		<link src="DCN" dst="ICC"/>
+		<link src="VNLL" dst="ICC"/>
+		<link src="DNLL" dst="ICC"/>
+		<link src="ICC" dst="MGB"/>
+		<link src="ICC" dst="ICx"/>
+		<link src="ICx" dst="SC"/>
+		<link src="ICC" dst="VNTB"/>
+		<link src="VNTB" dst="Cochlea"/>
+		<link src="MGB" dst="AC"/>
+	</circuit>
+
+	<circuit id="CP.AUDITORY-SYSTEM-BRAIN" name="Auditory System in Brain"
+		image="http://www.benbest.com/science/anatmind/FigVI1.gif"
+		reference="http://www.benbest.com/science/anatmind/anatmd6.html"
+		components="A1=ACA.NC.A1 Ear=TARGET.TSA.EAR Cochlea=ABA.HM.COCH CochleaGanglion=ABA.PN.SG.SP Olive=ABA.MM.SOC IC=ABA.MM.IC MGB=ABA.FD.TH.MGB"
+		>
+		<link src="CochleaGanglion" dst="Cochlea"/>
+		<link src="Cochlea" dst="Olive"/>
+		<link src="Olive" dst="IC"/>
+		<link src="IC" dst="MGB"/>
+		<link src="MGB" dst="A1"/>
+	</circuit>
+
+	<circuit id="CP.AUDITORY-SYSTEM-MODEL" name="Auditory System Model"
+		image="http://ars.sciencedirect.com/content/image/1-s2.0-S1359644605035427-gr1.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S1359644605035427"
+		components="A1=ACA.NC.A1 Ear=TARGET.TSA.EAR Cochlea=ABA.HM.COCH CochleaGanglion=ABA.PN.SG.SP Olive=ABA.MM.SOC IC=ABA.MM.IC MGB=ABA.FD.TH.MGB"
+		>
+		<link src="Ear" dst="CochleaGanglion"/>
+		<link src="Cochlea" dst="Olive"/>
+		<link src="Olive" dst="IC"/>
+		<link src="IC" dst="MGB"/>
+		<link src="MGB" dst="A1"/>
+	</circuit>
+
+</circuits>

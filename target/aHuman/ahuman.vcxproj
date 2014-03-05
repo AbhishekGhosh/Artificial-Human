@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C022ED5A-2BDB-474A-B063-7384FDA1D995}</ProjectGuid>
+    <RootNamespace>ahuman</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(ProjectDir)\bin\</OutDir>
+    <IntDir>$(ProjectDir)\build\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir);$(ProjectDir)\include</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions); _CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(TargetDir)$(TargetName).pdb</ProgramDataBaseFileName>
+      <PrecompiledHeaderOutputFile>$(ProjectDir)\pch\$(TargetName).pch</PrecompiledHeaderOutputFile>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;Ws2_32.lib</AdditionalDependencies>
+      <GenerateMapFile>true</GenerateMapFile>
+      <SubSystem>Console</SubSystem>
+      <BaseAddress>0x00400000</BaseAddress>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <FixedBaseAddress>true</FixedBaseAddress>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+    </Link>
+    <BuildLog>
+      <Path>$(ProjectDir)\build\$(MSBuildProjectName).log</Path>
+    </BuildLog>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="etc\circuits.xml" />
+    <None Include="etc\circuits\CF.REWARD.xml" />
+    <None Include="etc\circuits\CL.GENERIC.xml" />
+    <None Include="etc\circuits\CM.AUDITORY-CONTROL.xml" />
+    <None Include="etc\circuits\CM.CORTICAL-LIMB-CONTROL.xml" />
+    <None Include="etc\circuits\CM.MUSCLE-CONTROL.xml" />
+    <None Include="etc\circuits\CP.AUDITORY-PERCEPTION.xml" />
+    <None Include="etc\circuits\CP.GUSTATORY-OLFACTORY.xml" />
+    <None Include="etc\circuits\CP.VISUAL-MOTOR-CONTROL.xml" />
+    <None Include="etc\circuits\CP.VISUAL-PERCEPTION-FLOWS.xml" />
+    <None Include="etc\circuits\CT.CONSCIOUSNESS-HIPPOCAMPUS.xml" />
+    <None Include="etc\circuits\CT.CONSCIOUSNESS-PREFRONTAL.xml" />
+    <None Include="etc\circuits\CX.EYE.xml" />
+    <None Include="etc\data\face.txt" />
+    <None Include="etc\data\miscanatomy.txt" />
+    <None Include="etc\data\nerves.txt" />
+    <None Include="etc\data\spinalcord.txt" />
+    <None Include="etc\hmind.xml" />
+    <None Include="etc\hpns.xml" />
+    <None Include="etc\logging.xml" />
+    <None Include="etc\main.xml" />
+    <None Include="etc\media.xml" />
+    <None Include="etc\messaging.xml" />
+    <None Include="etc\mind.xml" />
+    <None Include="etc\mindnet.xml" />
+    <None Include="etc\nerves\CRANIAL-MIXED.xml" />
+    <None Include="etc\nerves\CRANIAL-MOTOR.xml" />
+    <None Include="etc\nerves\CRANIAL-SENSORY.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HANDSHOULDER.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HEADNECK.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HEARTLUNG.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-MOTOR.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-SYMPATHETIC.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-MOTOR.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-SENSORY.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-SYMPATHETIC.xml" />
+    <None Include="etc\scheduler.xml" />
+    <None Include="etc\statistics.xml" />
+    <None Include="etc\target.xml" />
+    <None Include="etc\testing.xml" />
+    <None Include="etc\_renamecomp.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ahumanmodel.h" />
+    <ClInclude Include="include\ahumanplayer.h" />
+    <ClInclude Include="include\ahumantarget.h" />
+    <ClInclude Include="include\ahumanverify.h" />
+    <ClInclude Include="include\ahumanwiki.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\xmlhuman.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\actuator\actuator-endocrine.cpp" />
+    <ClCompile Include="src\actuator\actuator_breast.cpp" />
+    <ClCompile Include="src\actuator\actuator_ear.cpp" />
+    <ClCompile Include="src\actuator\actuator_eye.cpp" />
+    <ClCompile Include="src\actuator\actuator_face.cpp" />
+    <ClCompile Include="src\actuator\actuator_feeder.cpp" />
+    <ClCompile Include="src\actuator\actuator_genitalia.cpp" />
+    <ClCompile Include="src\actuator\actuator_hand.cpp" />
+    <ClCompile Include="src\actuator\actuator_heart.cpp" />
+    <ClCompile Include="src\actuator\actuator_protector.cpp" />
+    <ClCompile Include="src\actuator\actuator_leg.cpp" />
+    <ClCompile Include="src\actuator\actuator_liver.cpp" />
+    <ClCompile Include="src\actuator\actuator_lung.cpp" />
+    <ClCompile Include="src\actuator\actuator_neck.cpp" />
+    <ClCompile Include="src\actuator\actuator_nose.cpp" />
+    <ClCompile Include="src\actuator\actuator_rectum.cpp" />
+    <ClCompile Include="src\actuator\actuator_speaker.cpp" />
+    <ClCompile Include="src\actuator\actuator_stomach.cpp" />
+    <ClCompile Include="src\actuator\actuator_trunk.cpp" />
+    <ClCompile Include="src\actuator\actuator_ureter.cpp" />
+    <ClCompile Include="src\actuator\actuator_vessels.cpp" />
+    <ClCompile Include="src\ahumantarget.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mindmodel.cpp" />
+    <ClCompile Include="src\modelfibervalidator.cpp" />
+    <ClCompile Include="src\modelverifier_circuits.cpp" />
+    <ClCompile Include="src\modelverifier_hmind.cpp" />
+    <ClCompile Include="src\modelverifier.cpp" />
+    <ClCompile Include="src\modelverifier_mind.cpp" />
+    <ClCompile Include="src\modelverifier_muscles.cpp" />
+    <ClCompile Include="src\modelverifier_nerves.cpp" />
+    <ClCompile Include="src\scenarioplayer.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\wikiareapages.cpp" />
+    <ClCompile Include="src\wikicircuitpages.cpp" />
+    <ClCompile Include="src\wikimusclemainpage.cpp" />
+    <ClCompile Include="src\wikimusclespecpages.cpp" />
+    <ClCompile Include="src\wikinervemainpage.cpp" />
+    <ClCompile Include="src\wikinervespecpages.cpp" />
+    <ClCompile Include="src\wikiregionpage.cpp" />
+    <ClCompile Include="src\wikihierarchypage.cpp" />
+    <ClCompile Include="src\wikimainpage.cpp" />
+    <ClCompile Include="src\wikimaker.cpp" />
+    <ClCompile Include="src\wikispinalcordpage.cpp" />
+    <ClCompile Include="src\xmlcircuits.cpp" />
+    <ClCompile Include="src\xmlhmind.cpp" />
+    <ClCompile Include="src\xmlmuscles.cpp" />
+    <ClCompile Include="src\xmlnerves.cpp" />
+    <ClCompile Include="src\xmlspinalcordlayout.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\library\generic\lib\generic.lib" />
+    <Library Include="..\..\mind\lib\mind.lib" />
+    <Library Include="..\..\platform\lib\platform.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

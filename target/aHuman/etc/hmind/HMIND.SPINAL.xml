@@ -1,0 +1,407 @@
+<hmind>
+
+	<division name="Spinal Cord"
+		dotdef="color=royalblue1"
+		>
+
+		<element id="BMA.SC.LH" name="Lateral Horn/Funiculus">
+			<element id="BMA.SC.LH.LCV" name="Lateral Cervical Nucleus" mapped="true" type="1-order Sensory Nucleus" index="LCN"
+				refs="NL:[http://neurolex.org/wiki/Category:Lateral_cervical_nucleus Lateral cervical nucleus]"
+				function="Relay Low-threshold Mechanoreceptors to CR"
+				notes="From Lamina V"
+				/>
+			<element id="BMA.SC.LH.LSN" name="Lateral Spinal Nucleus" mapped="true" type="1-order Sensory Nucleus" index="LSN"
+				refs="NL:[http://neurolex.org/wiki/Category:Lateral_spinal_nucleus Lateral spinal nucleus]"
+				function="Integrate autonomic and homeostatic functions"
+				notes="Projects to HT and lateral globus pallidus"
+				/>
+		</element>
+
+		<element id="BMA.SC.PH" name="Posterior/Dorsal Horn">
+			<element id="BMA.SC.PH.L1" name="Lamina I">
+				<element id="BMA.SC.PH.MG" name="Marginal Nucleus" mapped="true" type="1-order Sensory Nucleus" index="MN"
+					refs="NA:Marginal Nucleus;BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73903 Posteromarginal nucleus]"
+					function="Relay information related to pain and temperature sensation"
+					notes="Pain sensation cannot be modulated"
+					/>
+			</element>
+			<element id="BMA.SC.PH.L2" name="Lamina II">
+				<element id="BMA.SC.PH.SG" name="Substantia Gelatinosa" mapped="true" type="1-order Sensory Nucleus" index="SG"
+					refs="NA:Gelatinosus substance = BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A74019 Substantia gelatinosa]"
+					function="Relay for C-fibers of slowly conducting, poorly localized pain sensation"
+					notes="Second of two after proprius 1-order neurons"
+					/>
+			</element>
+			<element id="BMA.SC.PH.L34" name="Lamina III, IV">
+				<element id="BMA.SC.PH.NP" name="Proprius Nucleus" mapped="true" type="1-order Sensory Nucleus" index="NPR"
+					refs="NA:Nucleus Proprius;NL:[http://neurolex.org/wiki/Category:Nucleus_proprius Nucleus proprius];BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73906 Nucleus proprius dorsalis]"
+					function="Relay light touch, pain and temperature information"
+					notes="With Clarke's Nucleus sensing fine touch and proprioception"
+					/>
+			</element>
+			<element id="BMA.SC.PH.L56" name="Lamina V, VI">
+				<element id="BMA.SC.PH.CL" name="Clarke's Nucleus" mapped="true" type="Sensory Relay Nucleus" index="CLN"
+					refs="NA:Nucleus thoracicus;NL:[http://neurolex.org/wiki/Category:Clarke%27s_Nucleus Clarke's Nucleus];BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73912 Dorsal nucleus of Clarke]"
+					function="Unconscious Proprioception"
+					notes="To CR"
+					>
+					<element name="Clarke's Nucleus of Lumbar Spinal Cord" refs="NL:[http://neurolex.org/wiki/Category:Clarke%27s_nucleus_of_lumbar_spinal_cord Clarke's nucleus of lumbar spinal cord]"/>
+					<element name="Clarke's Nucleus of Thoracic Spinal Cord" refs="NL:[http://neurolex.org/wiki/Category:Clarke%27s_nucleus_of_thoracic_spinal_cord Clarke's nucleus of thoracic spinal cord]"/>
+				</element>
+			</element>
+		</element>
+
+		<element id="SC.IZ" name="Intermediate Zone">
+			<element id="SC.IZ.L7" name="Lamina VII">
+				<element id="BMA.SC.IZ.CCV" name="Central Cervical Nucleus" mapped="true" type="1-order Sensory Nucleus" index="CCN"
+					refs="NL:[http://neurolex.org/wiki/Category:Central_cervical_nucleus Central cervical nucleus]"
+					function="Coordinate voluntary movements, maintain balance, and learn motor skills"
+					notes="Receive neck and vestibular input and project to CR and vestibular nuclei"
+					/>
+				<element id="BMA.SC.IZ.CBS" name="Centrobasalis Nucleus" mapped="true" type="1-order Sensory Nucleus" index="CBN"
+					refs="NA:Central Nucleus;NL:[http://neurolex.org/wiki/Category:Nucleus_centrobasalis Nucleus centrobasalis]"
+					function="Unconscious proprioception to CR"
+					notes="Upper extremity, relay motor feedback to CR, major site of termination for dorsal root fibers"
+					/>
+				<element id="AVA.SC.IZ.IMM" name="Intermediomedial Nucleus" mapped="true" type="Preganglionic Symp. Nucleus" index="IMM"
+					refs="NA:Intermediomedial nucleus;BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73918 Intermediomedial nucleus]"
+					function="Visceral sensory"
+					notes="ventral spinocerebellar tract"
+					/>
+
+				<element id="AVA.SC.IZ.IMLC" name="Intermediolateral Column">
+					<element id="AVA.SC.IZ.IML" name="Intermediolateral Nucleus" mapped="true" type="Preganglionic Symp. Nucleus" index="IML"
+						refs="NA:Intermediolateral nucleus;BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73915 Intermediolateral nucleus]"
+						function="Mediate entire sympathetic innervation of body"
+						notes="from Lamina VII, visceral sensory"
+						/>
+					<element id="VBA.SC.IZ.CSC" name="Ciliospinal Center" mapped="true" type="Preganglionic Symp. Nucleus" index="CSC"
+						refs="NA:[http://en.wikipedia.org/wiki/Ciliospinal_center Ciliospinal Center]"
+						function="Control of iris dilator muscle"
+						notes="Budge's Center, intermediolateral cell column"
+						/>
+					<element id="AVA.SC.IZ.SPS" name="Sacral Parasympathetic Nucleus" mapped="true" type="Preganglionic Parasymp. Nucleus" index="SPS"
+						refs="BP:[http://www.nan.upol.cz/neuro/cd56_en.html Sacral parasympathetic nuclei]"
+						function="parasympathetic impulses pass via postganglionic fibers to the urinary bladder, erectile tissues, and the smooth muscles and glands in the colon and rectum"
+						notes="from Lamina VII, visceral parasympathetic"
+						/>
+				</element>
+			</element>
+		</element>
+
+		<element id="SC.VH" name="Anterior/Ventral Horn">
+			<element id="SC.VH.L8" name="Lamina VIII">
+				<element id="BMA.SC.VH.VM" name="Ventromedial Nucleus" mapped="true" type="1-order Motor Nucleus" index="VMN"
+					refs="NA:Anteromedial Nucleus;BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73930 Medial motor nucleus of spinal cord]"
+					function="Innervation of trunk muscles"
+					notes="Upper and lower"
+					/>
+				<element id="BMA.SC.VH.PM" name="Posteromedial Nucleus" mapped="true" type="1-order Motor Nucleus" index="PMN"
+					refs="NA:Posteromedial Nucleus"
+					function="Innervation of trunk muscles"
+					notes="Upper and lower"
+					/>
+			</element>
+			<element id="SC.VH.L9" name="Lamina IX">
+				<element id="BMA.SC.VH.VL" name="Ventrolateral Nucleus" mapped="true" type="1-order Motor Nucleus" index="VLN"
+					refs="NA:Anterolateral Nucleus;BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73934 Lateral motor nucleus of spinal cord]"
+					function="Innervation of limb muscles"
+					notes="Upper and lower"
+					/>
+				<element id="BMA.SC.VH.PL" name="Posterolateral Nucleus" mapped="true" type="1-order Motor Nucleus" index="PLN"
+					refs="NA:Posterolateral Nucleus"
+					function="Innervation of limb muscles"
+					notes="Upper and lower"
+					/>
+				<element id="BMA.SC.IZ.RPL" name="Retroposterolateral Nucleus" mapped="true" type="1-order Motor Nucleus" index="RPL"
+					refs="NA:Retroposterior Lateral Nucleus"
+					function="Innervation of limbs muscles"
+					/>
+				<element id="HMA.SC.VH.SAN" name="Spinal Accessory Nucleus" mapped="true" type="Premotor Nucleus" index="SAN"
+					refs="NA:Nucleus of Accessory Nerve;NL:[http://neurolex.org/wiki/Category:Accessory_nucleus Accessory nucleus]"
+					function="Control of neck"
+					notes="Rotate head, continuus from AMB"
+					/>
+				<element id="BMA.SC.VH.PHR" name="Phrenic Nucleus" mapped="true" type="1-order Motor Nucleus" index="PHN"
+					refs="NA:Nucleus of Phrenic Nerve;NL:[http://neurolex.org/wiki/Category:Phrenic_nucleus Phrenic nucleus]"
+					function="Innervation of diaphragm"
+					notes="Projections from Nucleus Solitarius"
+					/>
+				<element id="AVA.SC.VH.ONF" name="Onuf's Nucleus" mapped="true" type="Preganglionic Nucleus" index="ONN"
+					refs="NA:Lumbosacral Nucleus;NL:[http://neurolex.org/wiki/Category:Onuf%27s_nucleus Onuf's nucleus]"
+					function="Maintenance of urination and defecation, muscular contraction during orgasm"
+					notes="From Barrington's Nucleus"
+					/>
+			</element>
+		</element>
+
+		<element id="AVA.SC.CC" name="Cenral canal">
+			<element id="AVA.SC.CC.L10" name="Lamina X">
+				<element id="AVA.SC.CC.DCN" name="Dorsal Commisural Nucleus" mapped="true" type="Parasymp. Visceral Sensory Nucleus" index="DCN"
+					refs="BP:[http://bioportal.bioontology.org/ontologies/39927/?p=terms&amp;conceptid=FMA%3A73900 Commissural nucleus of spinal cord]"
+					function="Relay of sensory information from pelvic viscera"
+					notes="Includes nociception"
+					>
+					<element name="Lumbar Dorsal Commisural Nucleus"/>
+					<element name="Sacral Dorsal Commisural Nucleus"/>
+				</element>
+			</element>
+		</element>
+
+		<layout imgsrc="http://thebrain.mcgill.ca/flash/a/a_03/a_03_cl/a_03_cl_dou/a_03_cl_dou_1d.jpg">
+			<level id="C1">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CCN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN"/>
+			</level>
+
+			<level id="C2">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CCN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN"/>
+			</level>
+
+			<level id="C3">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CCN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN,PHN"/>
+			</level>
+
+			<level id="C4">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CCN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN,PHN,PLN,VLN"/>
+			</level>
+
+			<level id="C5">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CBN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN,PHN,PLN,VLN"/>
+			</level>
+
+			<level id="C6">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CBN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="SAN,PLN,VLN"/>
+			</level>
+
+			<level id="C7">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="CBN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN"/>
+			</level>
+
+			<level id="C8">
+				<lamina id="LO" elements="LCN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="CBN,RPL"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN"/>
+			</level>
+
+			<level id="T1">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM,RPL,CSC"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T2">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM,CSC"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T3">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T4">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T5">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T6">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T7">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T8">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T9">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T10">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T11">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="T12">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+			</level>
+
+			<level id="L1">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="L2">
+				<lamina id="LO" elements="LSN"/>
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVII" elements="IML,IMM"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PMN,PLN,VLN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="L3">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LV" elements="CLN"/><lamina id="LVI" elements="CLN"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN"/>
+			</level>
+
+			<level id="L4">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN"/>
+			</level>
+
+			<level id="L5">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN"/>
+			</level>
+
+			<level id="S1">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="RPL,SPS"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="PLN,VLN,ONN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="S2">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="RPL,SPS"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="ONN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="S3">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVII" elements="RPL,SPS"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LIX" elements="ONN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="S4">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVIII" elements="VMN"/>
+				<lamina id="LX" elements="DCN"/>
+			</level>
+
+			<level id="S5">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVIII" elements="VMN"/>
+			</level>
+
+			<level id="CX">
+				<lamina id="LI" elements="MN"/><lamina id="LII" elements="SG"/><lamina id="LIII" elements="NPR"/><lamina id="LIV" elements="NPR"/>
+				<lamina id="LVIII" elements="VMN"/>
+			</level>
+		</layout>
+
+	</division>
+
+</hmind>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="generic">
+      <UniqueIdentifier>{526c7b53-b8e9-43c7-848f-b2b968f5035c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic\include">
+      <UniqueIdentifier>{7392449c-134c-4deb-8b17-26ba08c5b310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic\lib">
+      <UniqueIdentifier>{0bc04683-d007-43a2-8f64-42d77e2522b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="generic\include\_genmsh.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genos.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genplat.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genset.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genstr.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genmisc.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genmap.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_genhuge.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_gendata.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_gencube.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\_gencach.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="generic\include\__gen.h">
+      <Filter>generic\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nxtpp\include\nxtpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="generic\lib\generic.lib">
+      <Filter>generic\lib</Filter>
+    </Library>
+    <Library Include="nxtpp\lib\nxtpp.lib" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,216 @@
+<circuits>
+
+	<circuit id="CP.BASE-VISUAL-CORTEX-FLOWS" name="3 Visual Cortex Paths"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/visual-streams.jpg"
+		reference="article:Biological/2008-dorsal-stream.pdf"
+		components="LPC=FCA.NC.LPFC pre-SMA=MCA.NC.SMC dPM=MCA.NC.DPMC vPM=MCA.NC.VPMC MI=MCA.NC.MC IPS=VCA.NC.IPS SPL=NC.SPL IPL=NC.IPL IT=VCA.NC.IT OCC=NC.LOBE.OCC"
+		>
+		<link src="OCC" dst="IPS"/>
+		<link src="OCC" dst="IT" function="ventral stream"/>
+		<link src="OCC" dst="IPL" function="ventro-dorsal stream"/>
+		<link src="IPS" dst="IPL" function="ventro-dorsal stream"/>
+		<link src="IPS" dst="SPL" function="dorsal stream"/>
+		<link src="IT" dst="IPS"/>
+		<link src="IT" dst="LPC"/>
+		<link src="IPL" dst="vPM"/>
+		<link src="IPL" dst="LPC"/>
+		<link src="SPL" dst="dPM"/>
+		<link src="LPC" dst="pre-SMA"/>
+		<link src="LPC" dst="vPM"/>
+		<link src="pre-SMA" dst="vPM"/>
+		<link src="pre-SMA" dst="dPM"/>
+		<link src="vPM" dst="MI"/>
+		<link src="dPM" dst="MI"/>
+	</circuit>
+
+	<circuit id="CP.PRIMARY-VISUAL-FORWARD-FLOWS" name="Paths from Retina to Parietal Cortex and IT"
+		image="http://thebrain.mcgill.ca/flash/a/a_02/a_02_cr/a_02_cr_vis/a_02_cr_vis_3a.jpg"
+		reference="http://thebrain.mcgill.ca/flash/i/i_02/i_02_cr/i_02_cr_vis/i_02_cr_vis.html"
+		components="Retina=VBA.FD.RT LGN=VBA.FD.LGN V1=VCA.NC.V1 V2=VCA.NC.V2 V3=VCA.NC.V3 V4=VCA.NC.V4 MT=VCA.NC.MT PO=VCA.NC.PO VIP=VCA.NC.IPS.VIP MST=VCA.NC.IPL.MST LIP=VCA.NC.IPS.LIP 7a=SMA.NC.SPL.PG TEO=VCA.NC.IT.TEO TE=VCA.NC.IT.TE"
+		>
+		<link src="Retina" dst="LGN"/>
+		<link src="LGN" dst="V1"/>
+		<link src="V1" dst="V2"/>
+		<link src="V2" dst="V3"/>
+		<link src="V2" dst="V4"/>
+		<link src="V3" dst="V4"/>
+		<link src="V1" dst="MT"/>
+		<link src="V2" dst="MT"/>
+		<link src="V3" dst="MT"/>
+		<link src="V4" dst="MT"/>
+		<link src="V2" dst="PO"/>
+		<link src="V3" dst="PO"/>
+		<link src="V4" dst="TEO"/>
+		<link src="V4" dst="TE"/>
+		<link src="TEO" dst="TE"/>
+		<link src="MT" dst="VIP"/>
+		<link src="MT" dst="MST"/>
+		<link src="MT" dst="LIP"/>
+		<link src="PO" dst="VIP"/>
+		<link src="PO" dst="MST"/>
+		<link src="VIP" dst="7a"/>
+		<link src="MST" dst="7a"/>
+		<link src="LIP" dst="7a"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-PATH-TO-HC" name="Visual Path to Hippocampus"
+		image="http://www.scholarpedia.org/w/images/thumb/f/f2/ITCortex_pathway.jpg/400px-ITCortex_pathway.jpg"
+		reference="http://www.scholarpedia.org/article/Inferior_temporal_cortex"
+		components="V1=VCA.NC.V1 V2=VCA.NC.V2 V4=VCA.NC.V4 TEO=VCA.NC.IT.TEO IT=VCA.NC.IT.TE PRPH=PHA.NC.PH.PRR ER=PHA.NC.PH.ET H=HBA.FT.HF A=BFA.FT.AM"
+		>
+		<link src="V1" dst="V2"/>
+		<link src="V2" dst="V4"/>
+		<link src="V4" dst="TEO"/>
+		<link src="V4" dst="IT"/>
+		<link src="TEO" dst="IT"/>
+		<link src="IT" dst="PRPH"/>
+		<link src="PRPH" dst="ER"/>
+		<link src="ER" dst="H"/>
+		<link src="IT" dst="A"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-FUNCTIONAL-VIEW" name="Functional View of Visual Perception"
+		image="http://thebrain.mcgill.ca/flash/a/a_02/a_02_cr/a_02_cr_vis/a_02_cr_vis_3b.jpg"
+		reference="http://thebrain.mcgill.ca/flash/i/i_02/i_02_cr/i_02_cr_vis/i_02_cr_vis.html"
+		components="LGN=VBA.FD.LGN V1=VCA.NC.V1 V2=VCA.NC.V2 V3=VCA.NC.V3 V4=VCA.NC.V4 V5=VCA.NC.MT PG=VCA.NC.IPS TE=VCA.NC.IT"
+		>
+		<link src="LGN" dst="V1"/>
+		<link src="V1" dst="V2"/>
+		<link src="V2" dst="V3"/>
+		<link src="V2" dst="V5"/>
+		<link src="V3" dst="V5"/>
+		<link src="V5" dst="PG"/>
+		<link src="V3" dst="V4"/>
+		<link src="V4" dst="TE"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-DORSAL-PATHWAY" name="Visual Dorsal Pathway"
+		image="http://www.hindawi.com/journals/nri/2012/719056.fig.001.jpg"
+		reference="http://www.hindawi.com/journals/nri/2012/719056"
+		components="Retina=VBA.FD.RT LGN=VBA.FD.LGN V1=VCA.NC.V1 V2=VCA.NC.V2 V3=VCA.NC.V3 V4=VCA.NC.V4 V5=VCA.NC.MT MST=VCA.NC.IPL.MST IT=VCA.NC.IT V6=VCA.NC.PO IPL=NC.IPL SPL=NC.SPL"
+		>
+		<link src="Retina" dst="LGN"/>
+		<link src="LGN" dst="V1"/>
+		<link src="V3" dst="V4"/>
+		<link src="V3" dst="V5"/>
+		<link src="V3" dst="V6"/>
+		<link src="V5" dst="MST"/>
+		<link src="MST" dst="IPL"/>
+		<link src="V6" dst="IPL"/>
+		<link src="V6" dst="SPL"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-SPATIAL-PROCESSING" name="McNaughton Spatial Processing Network"
+		image="http://www.nature.com/nrn/journal/v3/n2/images/nrn726-f3.jpg"
+		reference="http://www.nature.com/nrn/journal/v3/n2/fig_tab/nrn726_F3.html"
+		components="SomSensCortex=SMA.NC.PG.S1 ParInsVestCortex=VCA.NC.IPS.VIP VisualCortex=NC.LOBE.OCC PosteriorParietalCortex=SMA.NC.SPL.PG ITCortex=VCA.NC.IT PCGRSP=CGA.NC.MPL SUB=HBA.FT.SC.SUB EnthCortex=PHA.NC.PH.ET HF=HBA.FT.HF"
+		>
+		<link src="SomSensCortex" dst="PosteriorParietalCortex"/>
+		<link src="ParInsVestCortex" dst="PosteriorParietalCortex"/>
+		<link src="VisualCortex" dst="PosteriorParietalCortex"/>
+		<link src="VisualCortex" dst="ITCortex"/>
+		<link src="PosteriorParietalCortex" dst="PCGRSP"/>
+		<link src="PCGRSP" dst="PosteriorParietalCortex"/>
+		<link src="PCGRSP" dst="SUB"/>
+		<link src="PCGRSP" dst="EnthCortex"/>
+		<link src="ITCortex" dst="EnthCortex"/>
+		<link src="SUB" dst="PCGRSP"/>
+		<link src="EnthCortex" dst="PCGRSP"/>
+		<link src="EnthCortex" dst="HF"/>
+		<link src="HF" dst="PCGRSP"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-PARIETAL-ASSOCIATION-CORTEX" name="Parietal Association Cortex"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0166223697010679-gr6.gif"
+		reference="http://www.sciencedirect.com/science/article/pii/S0166223697010679"
+		components="7b=CGA.NC.SPL.PF 7a=SMA.NC.SPL.PG LIP=VCA.NC.IPS.LIP AIP=VCA.NC.IPS.AIP TE=VCA.NC.IT.TE VIP=VCA.NC.IPS.VIP V5A=VCA.NC.MT V6=VCA.NC.PO cIPS=VCA.NC.IPS.PEF TEO=VCA.NC.IT.TEO V5=VCA.NC.MT V3A=VCA.NC.V3 V4=VCA.NC.V4 V3d=VCA.NC.V3 V3v=VCA.NC.V3 V2=VCA.NC.V2 V1=VCA.NC.V1 LGB=VBA.FD.LGN"
+		>
+		<link src="LGB" dst="V1"/>
+		<link src="V1" dst="V2"/>
+		<link src="V1" dst="V5"/>
+		<link src="V2" dst="V5"/>
+		<link src="V2" dst="V3d"/>
+		<link src="V2" dst="V3v"/>
+		<link src="V3d" dst="V5"/>
+		<link src="V3d" dst="V3A"/>
+		<link src="V3v" dst="V4"/>
+		<link src="V5" dst="VIP"/>
+		<link src="V5" dst="V5A"/>
+		<link src="V3A" dst="V6"/>
+		<link src="V3A" dst="cIPS"/>
+		<link src="V4" dst="TEO"/>
+		<link src="VIP" dst="7b"/>
+		<link src="V5A" dst="7a"/>
+		<link src="V6" dst="7a"/>
+		<link src="V6" dst="LIP"/>
+		<link src="V3A" dst="LIP"/>
+		<link src="cIPS" dst="AIP"/>
+		<link src="TEO" dst="TE"/>
+	</circuit>
+
+	<circuit id="CP.GLOBAL-VISUAL-SYSTEM" name="Global visual system"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0959438808001566-gr1.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S0959438808001566"
+		components="FrontalCortex=NC.LOBE.ANT BGA=BGA.FT.BG ParietalCortex=NC.LOBE.PAR VisualCortex=NC.LOBE.OCC LGN=VBA.FD.LGN Pulvinar=FD.PV ATH=CGA.FD.TH.AN Striatum=BGA.FT.ST SCs=MM.SC SCi=MM.SC SNr=BGA.FT.SN.PR SNc=BGA.FT.SN.PC RF=HP.PRF SpinalCord=SC.VH.L9 Retina=VBA.FD.RT OPN=VBA.MM.OCN"
+		>
+		<link src="Retina" dst="LGN"/>
+		<link src="Retina" dst="SCs"/>
+		<link src="SCs" dst="LGN"/>
+		<link src="SCs" dst="SCi"/>
+		<link src="LGN" dst="VisualCortex"/>
+		<link src="VisualCortex" dst="SCs"/>
+		<link src="VisualCortex" dst="ParietalCortex"/>
+		<link src="ParietalCortex" dst="VisualCortex"/>
+		<link src="Pulvinar" dst="VisualCortex"/>
+		<link src="Pulvinar" dst="ParietalCortex"/>
+		<link src="SCs" dst="Pulvinar"/>
+		<link src="SCi" dst="Pulvinar"/>
+		<link src="VisualCortex" dst="SCi"/>
+		<link src="ParietalCortex" dst="SCi"/>
+		<link src="ParietalCortex" dst="FrontalCortex"/>
+		<link src="FrontalCortex" dst="ParietalCortex"/>
+		<link src="SCi" dst="ATH"/>
+		<link src="Striatum" dst="ATH"/>
+		<link src="SCi" dst="SNc"/>
+		<link src="SNr" dst="SCi"/>
+		<link src="Striatum" dst="SNr"/>
+		<link src="SNc" dst="Striatum"/>
+		<link src="FrontalCortex" dst="BGA"/>
+		<link src="FrontalCortex" dst="SCi"/>
+		<link src="FrontalCortex" dst="RF"/>
+		<link src="RF" dst="OPN"/>
+		<link src="RF" dst="SpinalCord"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-PERCEPTION-ABSTRACTION" name="Visual perception abstraction"
+		image="http://asweknowit.ca/evcult/NatIntel/Fig12.GIF"
+		reference="http://asweknowit.ca/evcult/NatIntel/nat_intel.shtml"
+		components="FEF=MCA.NC.PMC.FEF IT=VCA.NC.IT Prestriate=VCA.NC.V3 OCC=NC.LOBE.OCC Pulvinar=FD.PV LGN=VBA.FD.LGN SC=MM.SC Retina=VBA.FD.RT"
+		>
+		<link src="Retina" dst="LGN"/>
+		<link src="Retina" dst="SC"/>
+		<abstractlink src="LGN" dst="Pulvinar"/>
+		<link src="SC" dst="Pulvinar"/>
+		<link src="LGN" dst="OCC"/>
+		<link src="OCC" dst="Prestriate"/>
+		<abstractlink src="Prestriate" dst="IT"/>
+		<abstractlink src="Pulvinar" dst="IT"/>
+		<link src="IT" dst="FEF"/>
+		<link src="FEF" dst="SC"/>
+	</circuit>
+
+	<circuit id="CP.VISUAL-PERCEPTION-V6" name="Similarities and differences between V6, V6Av, and V6Ad"
+		image="http://www.jneurosci.org/content/31/5/1790/F12.medium.gif"
+		reference="http://www.jneurosci.org/content/31/5/1790.full"
+		components="V6=VCA.NC.PO"
+		>
+	</circuit>
+
+	<circuit id="CP.VISUAL-PERCEPTION-V1" name="Similarities and differences between V6, V6Av, and V6Ad"
+		image="http://www.ib.cnea.gov.ar/~redneu/2013/BOOKS/Principles%20of%20Neural%20Science%20-%20Kandel/gateway.ut.ovid.com/fulltextservice/ct%7B06b9ee1beed594190674f1983457a7dd32af6a0d5a4c9892~34/da5c28ff2.gif.png"
+		reference="http://www.ib.cnea.gov.ar/~redneu/2013/BOOKS/Principles%20of%20Neural%20Science%20-%20Kandel/gateway.ut.ovid.com/gw2/ovidweb.cgisidnjhkoalgmeho00dbookimagebookdb_7c_2fc~34.htm"
+		components="V1=VCA.NC.V1"
+		>
+	</circuit>
+
+</circuits>

@@ -1,0 +1,19 @@
+<service>
+
+	<metrics>
+		<metric name="NL2.link.projection.rate" type="percentage"/>
+		<metric name="NL2.link.projection.srcsize" type="int"/>
+		<metric name="NL2.link.projection.dstsize" type="int"/>
+		<metric name="NL3.link.projection.srcsize" type="int"/>
+		<metric name="NL3.link.projection.dstsize" type="int"/>
+		<metric name="NL4.link.projection.srcsize" type="int"/>
+		<metric name="NL4.link.projection.dstsize" type="int"/>
+		<metric name="cortex.prediction.rate" type="percentage"/>
+		<metric name="cortex.spatialmatch.rate" type="percentage"/>
+		<metric name="cortex.temporalmatch.rate" type="percentage"/>
+	</metrics>
+
+	<logging>
+	</logging>
+
+</service>

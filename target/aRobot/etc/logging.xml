@@ -1,0 +1,55 @@
+<logging>
+
+	<!-- logging configuration -->
+	<loggers>
+
+		<logger name="default">
+			<property name="syncMode" value="false"/>
+			<property name="filename" value="log\main.log"/>
+			<property name="format" value="log: %"/>
+		</logger>
+
+		<logger name="statistics">
+			<property name="syncMode" value="false"/>
+			<property name="filename" value="log\statistics.log"/>
+			<property name="format" value="log: %"/>
+		</logger>
+
+	</loggers>		
+		
+	<objectLogLevel level="INFO">
+
+		<class name="SensorEye" level="DEBUG"/>
+		<class name="EffectorWheeledLegs" level="DEBUG"/>
+		<class name="SocketServer" level="ERROR">
+			<instance name="test" level="DEBUG"/>
+		</class>
+		<class name="SocketConnection" level="ERROR"/>
+		<class name="MessageChannel" level="ERROR"/>
+		<class name="MessageQueue" level="ERROR"/>
+		<class name="NucleiRegion" level="ERROR"/>
+		<class name="StatLogTask" level="DEBUG" logger="statistics" />
+
+		<class name="NeuroPool" level="DEBUG"/>
+		<class name="CortexRegion" level="INFO"/>
+		<class name="CortexSpatialPooler" level="ERROR"/>
+		<class name="CortexSpatialPoolerItem" level="ERROR"/>
+		<class name="CortexTemporalPooler" level="ERROR"/>
+		<class name="CortexTemporalPoolerItem" level="ERROR"/>
+		<class name="ExcitatoryLink" level="INFO"/>
+		<class name="InhibitoryLink" level="ERROR"/>
+
+	</objectLogLevel>
+
+	<serviceLogLevel level="INFO">
+
+		<class name="MessagingService" level="DEBUG"/>
+		<class name="MindService" level="DEBUG"/>
+		<class name="StatService" level="DEBUG" logger="statistics" />
+
+	</serviceLogLevel>
+
+	<customLogLevel level="INFO">
+	</customLogLevel>
+
+</logging>

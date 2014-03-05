@@ -1,0 +1,90 @@
+<pns>
+
+	<division category="Spinal Nerves" name="THORACIC NERVES - SENSORY">
+
+		<element name="intercostal nerves, sensory"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/intercostal.htm INTERCOSTAL NERVES]"
+			origin="arise from anterior divisions (rami anteriores; ventral divisions) of the thoracic spinal nerves from T1 to T11"
+			modality="general sensory"
+			>
+			<element name="intercostal nerves, anterior cutaneous branches"
+				origin="T1-T11"
+				imgsrc="http://classconnection.s3.amazonaws.com/694/flashcards/597694/png/pectoralis_major21310847263117.png"
+				modality="general sensory"
+				>
+				<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+				<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+			</element>
+			<element name="intercostal nerves, lateral cutaneous branches"
+				modality="general sensory"
+				>
+				<element name="intercostobrachial nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/intercostobrachial.htm INTERCOSTOBRACHIAL NERVE]"
+					origin="T2-T3, lateral cutaneous branch of the 2nd intercostal nerve"
+					distribution="two nerves arising from the intercostal nerves and supplying the skin of the upper limb"
+					imgsrc="http://classconnection.s3.amazonaws.com/269/flashcards/1797269/png/axilla1346722704234.png"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+					<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+					<element name="first intercostobrachial nerve"
+						origin="T2, second intercostal nerve"
+						distribution="skin on back and medial aspect of arm"
+						modality="general sensory"
+						/>
+					<element name="second intercostobrachial nerve"
+						origin="T3, third intercostal nerve"
+						distribution="skin of axilla and medial aspect of arm, supplies breast areola"
+						modality="general sensory"
+						/>
+				</element>
+				<element name="intercostal nerves, anterior lateral cutaneous branches"
+					origin="T4-T11"
+					distribution="run forward to the side and the forepart of the chest, supplying the skin and the mamma; those of the fifth and sixth nerves supply the upper digitations of the Obliquus externus abdominis"
+					imgsrc="http://classconnection.s3.amazonaws.com/694/flashcards/597694/png/pectoralis_major21310847263117.png"
+					modality="general sensory"
+					>
+					<element name="thoracic breast nerves"
+						origin="T4/T5 intercostal nerve"
+						imgsrc="http://o.quizlet.com/i/WM82O-qf8wi2b2MsP-NiDw.jpg"
+						distribution="supplies breast nipple, areola; those of the fifth and sixth nerves supply the upper digitations of the Obliquus externus abdominis; supplying the skin and the mamma"
+						modality="general sensory"
+						>
+						<fibers type="GSA" src="TARGET.TEA.BREAST" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+						<fibers type="GSA" src="TARGET.TEA.BREAST" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+					</element>
+					<element name="intercostal muscular somatic nerves"
+						imgsrc="http://i223.photobucket.com/albums/dd230/healthy-back/Obliquus_abdominis_externus_side_1.jpg"
+						distribution="musculus obliquus abdominis externus, musculus obliquus abdominis internus, musculus transversus abdominis; run forward to the side and the forepart of the chest"
+						modality="general sensory"
+						>
+						<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+						<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+					</element>
+				</element>
+				<element name="intercostal nerves, posterior lateral cutaneous branches"
+					origin="T4-T11"
+					distribution="run backward, and supply the skin over the scapula and Latissimus dorsi; run forward the side two way side of the muscular supply"
+					imgsrc="http://www.eorthopod.com/sites/default/files/images/adult_shoulder_fx_anatomy04.jpg"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+					<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+				</element>
+			</element>
+		</element>
+
+		<element name="subcostal nerve, sensory"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne219.htm SUBCOSTAL NERVE]"
+			origin="anterior branch of twelfth thoracic nerve"
+			distribution="skin of lower abdomen and lateral side of gluteal region, parts of abdominal transverse, oblique, and rectus muscles, and usually the pyramidal muscle, and adjacent peritoneum, musculus quadratus lumborum"
+			imgsrc="http://www.cixip.com/Public/kindeditor/attached/image/20121122/20121122135445_48690.jpg"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.TX"/></fibers>
+		</element>
+
+	</division>
+
+</pns>

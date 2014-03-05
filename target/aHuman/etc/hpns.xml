@@ -1,0 +1,61 @@
+<pns>
+
+	<category name="nerves">
+		<division category="Cranial Nerves" name="CRANIAL NERVES - FACE" xmlfile="nerves/CRANIAL-FACE.xml" page="HumanNervesCranial"/>
+		<division category="Cranial Nerves" name="CRANIAL NERVES - VISCERAL" xmlfile="nerves/CRANIAL-VISCERAL.xml" page="HumanNervesCranial"/>
+		<division category="Spinal Nerves" name="HEAD AND NECK CERVICAL NERVES" xmlfile="nerves/SPINAL-CERVICAL-HEADNECK.xml" page="HumanNervesSpinalCervical"/>
+		<division category="Spinal Nerves" name="ARM AND SHOULDER CERVICAL NERVES" xmlfile="nerves/SPINAL-CERVICAL-ARMSHOULDER.xml" page="HumanNervesSpinalCervical"/>
+		<division category="Spinal Nerves" name="HEART AND LUNG CERVICAL NERVES" xmlfile="nerves/SPINAL-CERVICAL-HEARTLUNG.xml" page="HumanNervesSpinalCervical"/>
+		<division category="Spinal Nerves" name="CERVICAL NERVES - SYMPATHETIC FIBERS" xmlfile="nerves/SPINAL-CERVICAL-SYMPATHETIC.xml" page="HumanNervesSpinalCervical"/>
+		<division category="Spinal Nerves" name="THORACIC NERVES - SENSORY" xmlfile="nerves/SPINAL-THORACIC-SENSORY.xml" page="HumanNervesSpinalThoracic"/>
+		<division category="Spinal Nerves" name="THORACIC NERVES - SYMPATHETIC FIBERS" xmlfile="nerves/SPINAL-THORACIC-SYMPATHETIC.xml" page="HumanNervesSpinalThoracic"/>
+		<division category="Spinal Nerves" name="LUMBOSACRAL NERVES - GENITAL AND GASTROINTESTINAL" xmlfile="nerves/SPINAL-LUMBOSACRAL-GENITAL.xml" page="HumanNervesSpinalGenital"/>
+		<division category="Spinal Nerves" name="LUMBOSACRAL NERVES - THIGH AND UPPER LEG" xmlfile="nerves/SPINAL-LUMBOSACRAL-THIGH.xml" page="HumanNervesSpinalThigh"/>
+		<division category="Spinal Nerves" name="LUMBOSACRAL NERVES - FOOT AND LOWER LEG" xmlfile="nerves/SPINAL-LUMBOSACRAL-FOOT.xml" page="HumanNervesSpinalFoot"/>
+		<division category="Spinal Nerves" name="CERVICAL, THORACIC, LUMBAR AND SACRAL - TRUNK MOTOR NERVES" xmlfile="nerves/SPINAL-TRUNK-MOTOR.xml" page="HumanNervesSpinalTrunk"/>
+
+		<division category="Spinal Nerves" name="CERVICAL NERVES - ROOTS" xmlfile="nerves/SPINAL-CERVICAL-ROOTS.xml" page="HumanNervesSpinalRoots"/>
+		<division category="Spinal Nerves" name="LUMBAR NERVES - ROOTS" xmlfile="nerves/SPINAL-LUMBAR-ROOTS.xml" page="HumanNervesSpinalRoots"/>
+		<division category="Spinal Nerves" name="THORACIC NERVES - ROOTS" xmlfile="nerves/SPINAL-THORACIC-ROOTS.xml" page="HumanNervesSpinalRoots"/>
+		<division category="Spinal Nerves" name="SACRAL AND COCCYGEAL NERVES - ROOTS" xmlfile="nerves/SPINAL-SACRAL-ROOTS.xml" page="HumanNervesSpinalRoots"/>
+	</category>
+
+	<category name="muscles">
+		<division category="TARGET.TEA.ENDOCRINE" name="Endocrine" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.FACE" name="Scalp/Eyelid" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.FACE" name="Face" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TSA.EYE" name="Extraocular muscles" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TSA.EYE" name="Intraocular muscles" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TSA.EAR" name="Ear" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TSA.NOSE" name="Nose" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.HEART" name="Heart" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.FEEDER" name="Mastication" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.FEEDER" name="Tongue" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.FEEDER" name="Soft palate" xmlfile="muscles/HEAD.xml" page="HumanMusclesHead"/>
+		<division category="TARGET.TEA.LUNG" name="Pharynx" xmlfile="muscles/HEAD.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.LUNG" name="Larynx" xmlfile="muscles/HEAD.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.NECK" name="Suboccipital" xmlfile="muscles/NECK.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.NECK" name="Cervical" xmlfile="muscles/NECK.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.NECK" name="Suprahyoid" xmlfile="muscles/NECK.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.NECK" name="Infrahyoid/Strap" xmlfile="muscles/NECK.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.NECK" name="Vertebrate" xmlfile="muscles/NECK.xml" page="HumanMusclesNeck"/>
+		<division category="TARGET.TEA.TRUNK" name="Visceral" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.TRUNK" name="Back" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.TRUNK" name="Chest" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.TRUNK" name="Abdomen" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.GENITALIA" name="Pelvis" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.GENITALIA" name="Perineum" xmlfile="muscles/TORSO.xml" page="HumanMusclesTorso"/>
+		<division category="TARGET.TEA.HAND" name="Arms Vertebral column" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.HAND" name="Thoracic walls" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.HAND" name="Shoulder" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.HAND" name="Arm" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.HAND" name="Forearm" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.HAND" name="Hand" xmlfile="muscles/UPPERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.LEG" name="Iliac region" xmlfile="muscles/LOWERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.LEG" name="Buttocks" xmlfile="muscles/LOWERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.LEG" name="Thigh" xmlfile="muscles/LOWERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.LEG" name="Leg" xmlfile="muscles/LOWERLIMBS.xml" page="HumanMusclesLimbs"/>
+		<division category="TARGET.TEA.LEG" name="Foot" xmlfile="muscles/LOWERLIMBS.xml" page="HumanMusclesLimbs"/>
+	</category>
+
+</pns>

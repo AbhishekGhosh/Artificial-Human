@@ -1,0 +1,478 @@
+<pns>
+
+	<division category="Spinal Nerves" name="ARM AND SHOULDER CERVICAL NERVES">
+
+		<element name="arm nerves, motor"
+			modality="flexor motor, extensor motor"
+			>
+			<element name="musculocutaneous nerve, motor"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne5.htm MUSCULOCUTANEOUS NERVE]"
+				origin="lateral cord of brachial PLEXUS-C5-C7"
+				distribution="coracobrachial and biceps brachial muscles, the elbow joint, and skin of radial side of forearm"
+				action="flexion and adduction of humerus; flexion and supination of forearm; flexion of arm (short head)"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PL" dst="TARGET.TEA.HAND"></fibers>
+			</element>
+			<element name="median nerve, motor"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne2.htm MEDIAN NERVE]"
+				origin="lateral and medial cords of brachial PLEXUS-C6-T1"
+				distribution="ultimately, skin on front of lateral part of hand, most of flexor muscles of front of forearm, most of short muscles of thumb and elbow joint, and many joints of hand"
+				modality="flexor motor"
+				>
+				<element name="median nerve, motor, forearm innervation"
+					modality="flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PL" dst="TARGET.TEA.HAND"></fibers>
+					<element name="median nerve, superficial muscles in foream"
+						distribution="pronator teres"
+						modality="flexor motor"
+						action="pronates and flexes forearm"
+						/>
+					<element name="interosseous nerve of forearm, anterior, deep muscles of forearm"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne203.htm ANTERIOR INTEROSSEOUS NERVE]"
+						distribution="pronator quadratus"
+						modality="flexor motor"
+						action="pronates forearm"
+						/>
+				</element>
+				<element name="median nerve, motor, wrist and fingers innervation"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne205.htm PALMAR DIGITAL BRANCHES OF MEDIAN NERVE]"
+					modality="flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.IZ.RPL" dst="TARGET.TEA.HAND"></fibers>
+					<element name="median nerve, superficial muscles in hand"
+						distribution="flexor carpi radialis; palmaris longus"
+						modality="flexor motor"
+						action="flexion/abduction of wrist, 2-3 metacarpals; flexion wrist, 2-5 metacarpals"
+						/>
+					<element name="median nerve, intermediate muscles of foream"
+						distribution="flexor digitorum superficialis muscle"
+						modality="flexor motor"
+						action="flexion of wrist/fingers, middle phalanges 2-5"
+						>
+						<element name="median nerve, lumbricals branches"
+							distribution="motor innervation to first and second lumbricals of hand"
+							modality="flexor motor"
+							action="extension of interphalageal joints of digits 2-3; flexion of MCP joints"
+							/>
+					</element>
+					<element name="median nerve, deep muscles"
+						modality="flexor motor"
+						>
+						<element name="interosseous nerve of forearm, anterior, hand"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne203.htm ANTERIOR INTEROSSEOUS NERVE]"
+							origin="median nerve"
+							distribution="flexor digitorum profundus, muscular branches; flexor pollicis longus"
+							modality="flexor motor"
+							action="flexion of wrist/fingers, distal phalanges 2-5; flexion of wrist/thumb, distal phalanx 1"
+							/>
+						<element name="median nerve, recurrent branch"
+							distribution="muscles of thenar compartment; opponens pollicis, abductor pollicis brevis"
+							modality="flexor motor"
+							action="abduction of thumb; opposition of thumb"
+							/>
+					</element>
+				</element>
+			</element>
+			<element name="ulnar nerve, motor"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne1.htm ULNAR NERVE]; cubital nerve"
+				origin="medial and lateral cords of brachial PLEXUS (C7-T1)"
+				distribution="ultimately to skin on front and back of medial part of hand, some flexor muscles on front of forearm, many short muscles of hand, elbow joint, many joints of hand"
+				modality="flexor motor"
+				>
+				<element name="ulnar nerve, motor, wrist and fingers innervation"
+					modality="flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.IZ.RPL" dst="TARGET.TEA.HAND"></fibers>
+					<element name="ulnar nerve, superficial muscles"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne20.htm SUPERFICIAL BRANCH OF ULNAR NERVE]"
+						modality="flexor motor"
+						>
+						<element name="ulnar nerve, muscular branches"
+							distribution="flexor carpi ulnaris"
+							modality="flexor motor"
+							action="flexion/adduction (ulnar deviation) of wrist, pisiform/hamate/5 metacarpal"
+							/>
+						<element name="ulnar nerve, superficial branch"
+							distribution="palmaris brevis; abductor digiti minimi; opponens digiti minimi"
+							modality="flexor motor"
+							action="opposition of digit 5 to thumb; abduction of digit 5; stabilization of skin of palm for gripping"
+							/>
+					</element>
+					<element name="ulnar nerve, deep muscles"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne21.htm DEEP BRANCH OF ULNAR NERVE]"
+						modality="flexor motor"
+						>
+						<element name="ulnar nerve, pollicis brevis"
+							distribution="flexor pollicis brevis"
+							modality="flexor motor"
+							action="flex the thumb"
+							/>
+						<element name="ulnar nerve, adductor pollicis and lumbrical"
+							distribution="adductor pollicis; third and fourth lumbrical muscles"
+							modality="flexor motor"
+							action="extension of IP joints; flexion of MCP joints"
+							/>
+						<element name="ulnar nerve, interossei"
+							distribution="palmar interossei; dorsal interossei"
+							modality="flexor motor"
+							action="flexion of digit 5; extension of interphalangeal joints of digits 4-5"
+							/>
+						<element name="ulnar nerve, flexor digiti minimi"
+							distribution="flexor digiti minimi"
+							modality="flexor motor"
+							action="flexion of thumb - deep head, aids in opposition and adduction"
+							/>
+						<element name="ulnar nerve, hypothenar muscles"
+							distribution="hypothenar muscles"
+							modality="flexor motor"
+							action="control motion of little finger, abduction of digits 2-4"
+							/>
+					</element>
+				</element>
+			</element>
+			<element name="radial nerve, motor"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne3.htm RADIAL NERVE]"
+				origin="posterior cord of brachial PLEXUS (C6-C8, and sometimes C5 and T1)"
+				distribution="descending in the back of arm and forearm, it is ultimately distributed to skin on back of arm, forearm, and hand, extensor muscles on back of arm and forearm, and elbow joint and many joints of hand"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VL" dst="TARGET.TEA.HAND"></fibers>
+
+				<element name="radial nerve, upper arm muscular branches"
+					distribution="triceps brachii (lateral and medial heads), anconeus, brachioradialis, extensor carpi radialis longus"
+					modality="extensor motor"
+					action="extension and abduction (radial deviation) of hand; flexion (brachioradialis)/extension (anconeus) of forearm; extension of forearm; extension of arm (long head)"
+					/>
+				<element name="radial nerve, deep branch"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne24.htm DEEP BRANCH OF RADIAL NERVE]"
+					modality="extensor motor"
+					>
+					<element name="radial nerve, deep branch before supinator"
+						distribution="extensor carpi radialis brevis, supinator"
+						modality="extensor motor"
+						action="supination of forearm (and hand); extension of hand"
+						/>
+					<element name="interosseous nerve of forearm, posterior"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne25.htm POSTERIOR INTEROSSEOUS NERVE]"
+						origin="continuation of deep branch of radial nerve"
+						distribution="extensor digitorum, extensor digiti minimi, extensor carpi ulnaris, abductor/extensor pollicis longus, extensor pollicis brevis, extensor indicis"
+						notes="long abductor muscle of thumb, extensor muscles of the thumb and second finger, and wrist and intercarpal joints"
+						modality="extensor motor"
+						action="extension of proximal phalanx of thumb; extension and abduction of 5th digit; extension of digits 2-5; extension and adduction (ulnar deviation) of hand; extension of index finger; extension of distal phalanx of thumb; abduction and extension of thumb"
+						/>
+				</element>
+			</element>
+		</element>
+
+		<element name="arm nerves, sensory"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+			<element name="cutaneous nerve of arm, medial"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/medcutnarm.htm MEDIAL CUTANEOUS NERVE OF ARM]"
+				origin="medial cord of brachial PLEXUS (T1)"
+				distribution="skin on medial and posterior aspects of arm"
+				modality="general sensory"
+				>
+				<fibers type="GSA" src="TARGET.TEA.HAND" dst="MBA.HP.CR"><mid id="AVA.PN.SG.DRG.CX"/><mid id="BMA.SC.IZ.CBS"/></fibers>
+				<element name="cutaneous nerve of forearm, medial"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne4.htm MEDIAL CUTANEOUS NERVE OF FOREARM]"
+					origin="medial cord of brachial PLEXUS (C8, T1)"
+					distribution="skin of front, medial, and posteromedial aspects of forearm"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.HAND" dst="SMA.FD.TH.VPL"><mid id="AVA.PN.SG.DRG.CX"/><mid id="BMA.HM.CU"/></fibers>
+				</element>
+			</element>
+
+			<element name="musculocutaneous nerve, sensory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne5.htm MUSCULOCUTANEOUS NERVE]"
+				origin="lateral cord of brachial PLEXUS-C5-C7"
+				distribution="coracobrachial and biceps brachial muscles, the elbow joint, and skin of radial side of forearm"
+				modality="general sensory"
+				>
+				<element name="cutaneous nerve of forearm, lateral"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/latcutnforearm.htm LATERAL CUTANEOUS NERVE OF FOREARM]"
+					origin="continuation of musculocutaneous nerve"
+					distribution="skin over radial side of forearm and sometimes an area of skin of dorsum of hand"
+					modality="general sensory"
+					/>
+			</element>
+
+			<element name="median nerve, sensory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne2.htm MEDIAN NERVE]"
+				origin="lateral and medial cords of brachial PLEXUS-C6-T1"
+				distribution="ultimately, skin on front of lateral part of hand, most of flexor muscles of front of forearm, most of short muscles of thumb and elbow joint, and many joints of hand"
+				imgsrc="http://24.media.tumblr.com/tumblr_mbrcpmS4XD1rn6pqko1_500.jpg"
+				modality="general sensory"
+				>
+				<element name="median nerve, palmar cutaneous branch"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne204.htm PALMAR CUTANEOUS BRANCH OF MEDIAN NERVE]"
+					distribution="lateral aspect of skin of palm (but not digits)"
+					modality="general sensory"
+					/>
+				<element name="median nerve, digital cutaneous branches"
+					distribution="lateral (radial) three and a half digits on the palmar side; index, middle and ring finger on dorsum of the hand"
+					modality="general sensory"
+					>
+					<element name="digital nerves of median nerve, common palmar"
+						distribution="thumb, index, middle, and ring fingers, and first two lumbrical muscles"
+						modality="general sensory"
+						/>
+					<element name="digital nerves of median nerve, proper palmar"
+						distribution="first two lumbrical muscles, skin and joints of both sides and palmar aspect of thumb, index, and middle fingers, radial side of ring finger, and back of distal aspect of these digits"
+						modality="general sensory"
+						/>
+				</element>
+			</element>
+
+			<element name="ulnar nerve, sensory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne1.htm ULNAR NERVE]; cubital nerve"
+				origin="medial and lateral cords of brachial PLEXUS (C7-T1)"
+				distribution="ultimately to skin on front and back of medial part of hand, some flexor muscles on front of forearm, many short muscles of hand, elbow joint, many joints of hand"
+				imgsrc="http://joelvanderlugt.files.wordpress.com/2012/11/netter464_ulnar_nerve.jpg"
+				modality="general sensory"
+				>
+				<element name="ulnar nerve, dorsal branch"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne19.htm DORSAL BRANCH OF ULNAR NERVE]"
+					modality="general sensory"
+					distribution="supplies cutaneous innervation to posterior skin (except nails)"
+					>
+					<element name="digital nerves of ulnar nerve, dorsal"
+						origin="dorsal branch of ulnar nerve"
+						distribution="skin and joints of medial side of little finger, dorsal aspects of adjacent sides of little and ring fingers and of ring and middle fingers"
+						modality="general sensory"
+						/>
+				</element>
+				<element name="ulnar nerve, palmar cutaneous branch"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne18.htm PALMAR CUTANEOUS BRANCH OF ULNAR NERVE]"
+					modality="general sensory"
+					distribution="supplies cutaneous innervation to anterior skin and nails"
+					>
+					<element name="digital nerves of ulnar nerve, common palmar number two"
+						origin="superficial branch of ulnar nerve"
+						distribution="little and ring fingers"
+						modality="general sensory"
+						>
+						<element name="digital nerves of ulnar nerve, proper palmar"
+							synonyms="proper palmar digital nerves of ulnar nerve"
+							origin="the lateral of the two common palmar digital nerves from the superficial branch of the ulnar nerve"
+							distribution="skin and joints of adjacent sides of fourth and fifth fingers"
+							modality="general sensory"
+							/>
+					</element>
+				</element>
+			</element>
+
+			<element name="radial nerve, sensory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne3.htm RADIAL NERVE]"
+				origin="posterior cord of brachial PLEXUS (C6-C8, and sometimes C5 and T1)"
+				distribution="descending in the back of arm and forearm, it is ultimately distributed to skin on back of arm, forearm, and hand, extensor muscles on back of arm and forearm, and elbow joint and many joints of hand"
+				imgsrc="http://thepainsource.com/wp-content/uploads/2010/07/PIN1-300x252.jpg"
+				modality="general sensory"
+				>
+				<element name="radial nerve, sensory, cutaneous branches"
+					modality="general sensory"
+					>
+					<element name="radial nerve, posterior cutaneous nerve of arm"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne22.htm POSTERIOR CUTANEOUS NERVE OF ARM]"
+						origin="axilla"
+						distribution="skin on back of arm"
+						modality="general sensory"
+						/>
+					<element name="cutaneous nerve of arm, inferior lateral"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne7.htm LOWER LATERAL CUTANEOUS NERVE OF ARM]"
+						origin="radial nerve, arm"
+						distribution="skin of lateral surface of lower part of arm"
+						modality="general sensory"
+						/>
+					<element name="cutaneous nerve of forearm, posterior"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne12.htm POSTERIOR CUTANEOUS NERVE OF FOREARM]"
+						origin="radial nerve"
+						distribution="skin of dorsal aspect of forearm"
+						modality="general sensory"
+						/>
+					<element name="radial nerve, superficial branch"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne23.htm SUPERFICIAL BRANCH OF RADIAL NERVE]"
+						distribution="radial side of thumb (by a digital nerve), skin of radial side and ball of thumb"
+						modality="general sensory"
+						>
+						<element name="digital nerves of radial nerve, dorsal"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne206.htm DORSAL DIGITAL BRANCHES OF SUPERFICIAL RADIAL NERVE]"
+							origin="superficial branch of radial nerve"
+							distribution="skin and joints of back of thumb, index finger, and part of middle finger, as far distally as the distal phalanx"
+							modality="general sensory"
+							/>
+					</element>
+				</element>
+			</element>
+		</element>
+
+		<element name="shoulder nerves, pure motor"
+			modality="flexor motor, extensor motor"
+			>
+			<element name="long thoracic nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/longthoracic.htm LONG THORACIC NERVE]; nerve of Bell"
+				origin="brachial PLEXUS (ventral branches of C5-C7)"
+				distribution="descends behind brachial plexus to serratus anterior muscle"
+				imgsrc="http://www.med.mun.ca/anatomy/imagedb/nerv_sys/ul_innervation/images/013_LongThoracic083.jpg"
+				modality="flexor motor"
+				action="protraction of scapula; upward rotation of glenoid cavity; holds medial border against thoracic wall"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+			</element>
+			<element name="pectoral nerve"
+				imgsrc="https://dw9r2us9jo9xp.cloudfront.net/images/anatomy_term/nervus-pectoralis-lateralis/nervus_pectoralis_lateralis_atlas_8sTQxnUtQPvbzDhSwQsRg.png" imgheight="500"
+				modality="flexor motor, extensor motor"
+				action="adduction and medial rotation of arm; flexion (clavicular fibers) and extension (sternocostal fibers) of humerus"
+				>
+				<element name="lateral pectoral nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne13.htm LATERAL PECTORAL NERVE]"
+					origin="C5-7"
+					distribution="upper pectoralis major muscle"
+					modality="flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+				</element>
+				<element name="medial pectoral nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne10.htm MEDIAL PECTORAL NERVE]"
+					origin="C8-T1"
+					distribution="lower pectoralis major muscle, pectoralis minor"
+					modality="extensor motor"
+					action="depression of shoulder; downward rotation of scapula"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.HAND"></fibers>
+				</element>
+			</element>
+			<element name="scapular nerves, pure motor"
+				modality="flexor motor, extensor motor"
+				>
+				<element name="nerve to levator scapulae"
+					origin="C3-C4"
+					distribution="shoulder, levator scapulae"
+					modality="flexor motor"
+					action="elevation of scapulae; medial rotation of scapula"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+				</element>
+				<element name="subscapular nerves"
+					origin="posterior division of the brachial plexus"
+					modality="extensor motor"
+					action="move scapulae"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.HAND"></fibers>
+					<element name="upper subscapular nerve"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/uppersubscapular.htm UPPER SUBSCAPULAR NERVE]"
+						distribution="subscapularis"
+						modality="extensor motor"
+						action="medially rotate shoulder, adduct at shoulder"
+						/>
+					<element name="lower subscapular nerve"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/lowersubscapular.htm LOWER SUBSCAPULAR NERVE]"
+						distribution="subscapularis, teres major"
+						modality="extensor motor"
+						action="adduction, internal rotation and extension of arm"
+						/>
+					<element name="middle subscapular nerve"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne9.htm THORACODORSAL NERVE]; long scapular nerve"
+						origin="posterior cord of brachial PLEXUS (C7-C8)"
+						distribution="latissimus dorsi muscle"
+						imgsrc="http://home.comcast.net/~wnor/backvessels.jpg"
+						modality="extensor motor"
+						action="extend and adduct at shoulder, medially rotate at shoulder, and horizontally abduct away from midline"
+						>
+					</element>
+				</element>
+				<element name="dorsal scapular nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/dorsalscapularn.htm DORSAL SCAPULAR NERVE]"
+					origin="brachial PLEXUS-ventral branch of C5"
+					distribution="rhomboid muscles and occasionally levator muscle of scapula"
+					modality="flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+					<element name="dorsal scapular nerve, branch to rhomboideus minor"
+						distribution="rhomboideus minor"
+						action="elevation and retraction of scapula; downward rotation of glenoid cavity"
+						modality="flexor motor"
+						/>
+					<element name="dorsal scapular nerve, branch to rhomboideus major"
+						distribution="rhomboideus major"
+						action="elevation and retraction of scapula; downward rotation of glenoid cavity"
+						modality="flexor motor"
+						/>
+				</element>
+			</element>
+		</element>
+		<element name="shoulder nerves, mixed"
+			modality="general sensory, flexor motor, extensor motor"
+			>
+			<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.HAND" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+			<element name="axillary nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne8.htm AXILLARY NERVE]"
+				origin="posterior cord of brachial PLEXUS (C5-C6)"
+				distribution="deltoid and teres minor muscles, skin on back of arm"
+				imgsrc="http://www.physio-pedia.com/images/f/ff/Axillary_nn_Fig_2.jpg"
+				modality="general sensory, flexor motor, extensor motor"
+				>
+				<element name="axillary nerve, anterior branch"
+					distribution="anterior border of deltoid to provide motor innervation, few small cutaneous branches"
+					modality="general sensory, flexor motor"
+					action="abduction (middle fibers), flexion and internal rotation (anterior fibers)"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+				</element>
+				<element name="axillary nerve, posterior branch"
+					distribution="supplies teres minor and posterior part of deltoid"
+					modality="general sensory, extensor motor"
+					action="external rotation of scapula; extension and external rotation (posterior fibers) of humerus"
+					>
+					<element name="cutaneous nerve of arm, superior lateral"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne6.htm UPPER LATERAL CUTANEOUS NERVE OF ARM]"
+						origin="axillary nerve"
+						distribution="skin of back of arm"
+						modality="general sensory"
+						/>
+					<element name="axillary nerve, motor branch to triceps brachii"
+						distribution="motor branch of long head of triceps brachii"
+						action="acts on shoulder joint and is also involved in retroversion and adduction of arm"
+						modality="extensor motor, general sensory"
+						>
+						<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.HAND"></fibers>
+					</element>
+				</element>
+			</element>
+			<element name="scapular nerves"
+				modality="flexor motor, general sensory"
+				>
+				<element name="suprascapular nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/suprascapular.htm SUPRASCAPULAR NERVE]"
+					origin="brachial PLEXUS (C5-C6)"
+					distribution="descends through suprascapular and spinoglenoid notches and supplies acromioclavicular and shoulder joints, and supraspinous and infraspinous muscles"
+					imgsrc="http://www.shoulderdoc.co.uk/images/uploaded/suprascapular_and_axillary_nerves_02.jpg"
+					modality="flexor motor, general sensory"
+					action="external rotation of humerus; abduction of humerus"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.HAND"></fibers>
+				</element>
+			</element>
+			<element name="subclavian nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/subclavius.htm NERVE TO SUBCLAVIUS]"
+				origin="upper trunk of brachial PLEXUS (C5)"
+				distribution="subclavius muscle and sternoclavicular joint"
+				imgsrc="http://pds.exblog.jp/pds/1/200511/03/86/a0057586_9493576.jpg"
+				modality="extensor motor, general sensory"
+				action="possible depresses clavicle; maintains sternoclavicular joint"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.HAND"></fibers>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

@@ -1,0 +1,507 @@
+<pns>
+
+	<division category="MUSCLES - HEAD" name="Endocrine">
+
+		<element name="Endocrine - pituitary gland" type="gland" link="http://en.wikipedia.org/wiki/Pituitary_gland"
+			nerves="INTERNAL"
+			action="Release hormones by request from HT"
+			/>
+		<element name="Endocrine - thyroid gland" type="gland" link="http://en.wikipedia.org/wiki/Thyroid"
+			nerves="middle cervical ganglion, thyroid branches"
+			action="release thyroid hormones into blood"
+			/>
+		<element name="Endocrine - parathyroid gland" type="gland" link="http://en.wikipedia.org/wiki/Thyroid"
+			nerves="middle cervical ganglion, thyroid branches"
+			action="release parathyroid hormones into blood"
+			/>
+
+		<element name="Endocrine - pancreas"
+			action="prepare the body for a meal"
+			>
+			<element name="Endocrine - pancreas, sympathetic" type="gland" link="http://en.wikipedia.org/wiki/Pancreas"
+				nerves="greater thoracic splanchnic nerve"
+				action="release parathyroid hormones into blood"
+				/>
+			<element name="Endocrine - pancreas, parasympathetic" type="gland" link="http://en.wikipedia.org/wiki/Pancreas"
+				nerves="vagus nerve, celiac branch"
+				action="release parathyroid hormones into blood"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Scalp/Eyelid" group="Facial muscles">
+
+		<element name="Occipitofrontalis muscle">
+			<element name="Face - frontalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Frontalis_muscle"
+				nerves="facial nerve, temporal branch"
+				action="raises the eyebrows"
+				/>
+			<element name="Face - occipitalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Occipitalis_muscle"
+				nerves="auricular nerve, posterior, occipital branch"
+				action="moves the scalp back"
+				/>
+		</element>
+
+		<element name="Face - corrugator supercilii muscle" type="cranial" link="http://en.wikipedia.org/wiki/Corrugator_supercilii_muscle"
+			nerves="facial nerve, temporal branch"
+			action="wrinkles forehead"
+			/>
+
+		<element name="Face - depressor supercilii muscle" type="cranial" link="http://en.wikipedia.org/wiki/Depressor_supercilii_muscle"
+			nerves="facial nerve, zygomatic branch"
+			action="depression of eyebrow"
+			/>
+
+		<element name="Eye - lacrimal gland" type="gland" link="http://en.wikipedia.org/wiki/Lacrimal_gland"
+			nerves="petrosal nerve, greater, to lacrimal gland"
+			action="secrete the aqueous layer of the tear film"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Extraocular muscles" group="Extraocular muscles">
+
+		<element name="Eye - levator palpebrae superioris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Levator_palpebrae_superioris_muscle"
+			nerves="oculomotor nerve"
+			action="retracts/elevates eyelid"
+			/>
+
+		<element name="Eye - superior tarsal muscle" type="cranial" link="http://en.wikipedia.org/wiki/Superior_tarsal_muscle"
+			nerves="internal carotid nerve, to tarsal muscle"
+			action="raise the upper eyelid"
+			/>
+
+		<element name="Eye - inferior tarsal muscle" type="cranial" link="http://en.wikipedia.org/wiki/Tarsus_%28eyelids%29"
+			nerves="internal carotid nerve, to tarsal muscle"
+			action="lower lid retraction"
+			/>
+
+		<element name="Eye - orbicularis oculi muscle" type="cranial" link="http://en.wikipedia.org/wiki/Orbicularis_oculi_muscle"
+			nerves="facial nerve, temporal branch:temporal; facial nerve, zygomatic branch:zygomatic; ciliary nerves, sympathetic fibers:palpebrale"
+			action="closes the eyelids"
+			/>
+
+		<element name="Rectus">
+			<element name="Eye - inferior rectus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Inferior_rectus_muscle"
+				nerves="oculomotor nerve, inferior branch"
+				action="depression and adduction"
+				/>
+			<element name="Eye - lateral rectus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Lateral_rectus_muscle"
+				nerves="abducent nerve"
+				action="abducts the eyeball"
+				/>
+			<element name="Eye - medial rectus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Medial_rectus_muscle"
+				nerves="oculomotor nerve, inferior branch"
+				action="adducts the eyeball"
+				/>
+			<element name="Eye - superior rectus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Superior_rectus_muscle"
+				nerves="oculomotor nerve, superior branch"
+				action="elevates, adducts, and rotates medially the eye"
+				/>
+		</element>
+
+		<element name="Oblique">
+			<element name="Eye - inferior oblique muscle" type="cranial" link="http://en.wikipedia.org/wiki/Inferior_oblique_muscle"
+				nerves="oculomotor nerve, inferior branch"
+				action="extorsion, elevation, abduction"
+				/>
+			<element name="Eye - superior oblique muscle" type="cranial" link="http://en.wikipedia.org/wiki/Superior_oblique_muscle"
+				nerves="trochlear nerve"
+				action="primary: intorsion, secondary:abduct (laterally rotate) and depress the eyeball"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Intraocular muscles">
+
+		<element name="Eye - ciliary muscle">
+			<element name="Eye - ciliary muscle - sympathetic" type="cranial" link="http://en.wikipedia.org/wiki/Ciliary_muscle"
+				nerves="ciliary nerves, sympathetic fibers"
+				action="accommodation excitation"
+				/>
+			<element name="Eye - ciliary muscle - parasympathetic" type="cranial" link="http://en.wikipedia.org/wiki/Ciliary_muscle"
+				nerves="ciliary nerves, short, parasympathetic fibers"
+				action="accommodation inhibition"
+				/>
+		</element>
+
+		<element name="Eye - iris dilator muscle" type="cranial" link="http://en.wikipedia.org/wiki/Iris_dilator_muscle"
+			nerves="ciliary nerves, sympathetic fibers"
+			action="pupil dilation"
+			/>
+
+		<element name="Eye - iris sphincter muscle" type="cranial" link="http://en.wikipedia.org/wiki/Iris_sphincter_muscle"
+			nerves="ciliary nerves, short, parasympathetic fibers"
+			action="constricts pupil"
+			/>
+
+		<element name="Eye - orbitalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Orbitalis_muscle"
+			nerves="ciliary nerves, sympathetic fibers"
+			action="protrusion of eyeball"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Ear" group="facial, auricular muscles; muscles of auditory ossicles">
+
+		<element name="Auricular muscles"
+			notes="auricula - part of outer ear; move scalp and to point auricula in direction of source of sound"
+			>
+			<element name="Ear - anterior auricular muscle" type="cranial" link="http://en.wikipedia.org/wiki/Anterior_auricular_muscle"
+				nerves="facial nerve, temporal branch"
+				action="pulls ear forward"
+				/>
+			<element name="Ear - posterior auricular muscle" type="cranial" link="http://en.wikipedia.org/wiki/Posterior_auricular_muscle"
+				nerves="auricular nerve, posterior"
+				action="pulls ear backward"
+				/>
+			<element name="Ear - superior auricular muscle" type="cranial" link="http://en.wikipedia.org/wiki/Superior_auricular_muscle"
+				nerves="auricular nerve, posterior"
+				action="pulls ear upward"
+				/>
+			<element name="Ear - oblique muscle of auricle" type="cranial" link="http://en.wikipedia.org/wiki/Oblique_muscle_of_auricle"
+				nerves="auricular nerve, posterior, auricular branch"
+				action="movement of the ears"
+				/>
+		</element>
+
+		<element name="Ear - temporoparietalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Temporoparietalis_muscle"
+			nerves="facial nerve, temporal branch"
+			action="assist the frontal belly in drawing the epicranial aponeurosis towards the front of the cranium"
+			/>
+
+		<element name="Ear - stapedius muscle" type="cranial" link="http://en.wikipedia.org/wiki/Stapedius"
+			nerves="stapedius nerve"
+			action="control the amplitude of sound waves to the inner ear"
+			/>
+
+		<element name="Ear - tympanic membrane muscle" type="cranial" link="http://en.wikipedia.org/wiki/Tensor_tympani"
+			nerves="nerve to tensor tympani"
+			action="tensing the tympanic membrane"
+			/>
+
+		<element name="Ear - outer hair cells" type="cranial" link="http://www.d.umn.edu/~jfitzake/Lectures/UndergradPharmacy/SensoryPhysiology/Audition/OHCFunction.html"
+			nerves="cochlear nerve"
+			action="contracts basilar membrane; mechanically amplify low-level sound that enters cochlea"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Nose" group="Facial muscles">
+
+		<element name="Face - procerus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Procerus_muscle"
+			nerves="facial nerve, buccal branch"
+			action="draws down the medial angle of the eyebrow giving expressions of frowning"
+			/>
+
+		<element name="Nose - nasalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Nasalis_muscle"
+			notes="compressor naris and dilator nasalis"
+			nerves="facial nerve, buccal branch"
+			action="compresses bridge, depresses tip of nose, elevates corners of nostrils, dilation of nostrils"
+			/>
+
+		<element name="Nose - depressor septi nasi muscle" type="cranial" link="http://en.wikipedia.org/wiki/Depressor_septi_nasi_muscle"
+			nerves="facial nerve, buccal branch"
+			action="depression of nasal septum"
+			/>
+
+		<element name="Nose - levator labii superioris alaeque nasi muscle" type="cranial" link="http://en.wikipedia.org/wiki/Levator_labii_superioris_alaeque_nasi_muscle"
+			nerves="facial nerve, buccal branch"
+			action="dilates the nostril; elevates the upper lip and wing of the nose"
+			/>
+
+		<element name="Nose - nasal glands" type="cranial" link="http://en.wikipedia.org/wiki/Nasal_glands"
+			notes="anterior serous glands; seromucous glands; bowman glands"
+			nerves="facial nerve, buccal branch"
+			action="anterior - moisturize the nasal mucosa; bowman - help the olfactory region with smelling"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Face" group="Facial muscles">
+
+		<element name="Face - levator anguli oris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Levator_anguli_oris"
+			nerves="facial nerve, buccal branch"
+			action="smile (elevates angle of mouth)"
+			/>
+
+		<element name="Face - depressor anguli oris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Depressor_anguli_oris_muscle"
+			nerves="facial nerve, marginal mandibular branch"
+			action="depresses angle of mouth"
+			/>
+
+		<element name="Face - transverse muscle of the chin" type="cranial" link="http://en.wikipedia.org/wiki/Transverse_muscle_of_the_chin"
+			nerves="facial nerve, marginal mandibular branch"
+			action="assist with pulling the lower lip downward and help to tighten the skin over the chin"
+			/>
+
+		<element name="Face - levator labii superioris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Levator_labii_superioris"
+			nerves="facial nerve, zygomatic branch"
+			action="elevates the upper lip"
+			/>
+
+		<element name="Face - depressor labii inferioris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Depressor_labii_inferioris_muscle"
+			nerves="facial nerve, marginal mandibular branch"
+			action="depress the lower lip"
+			/>
+
+		<element name="Zygomatic muscles">
+			<element name="Zygomaticus major muscle">
+				<element name="Face - zygomaticus major muscle, proper" type="cranial" link="http://en.wikipedia.org/wiki/Zygomaticus_major_muscle"
+					nerves="facial nerve, zygomatic branch"
+					action="draws angle of mouth upward and laterally"
+					/>
+				<element name="Face - zygomaticus major muscle, buccal" type="cranial" link="http://en.wikipedia.org/wiki/Zygomaticus_major_muscle"
+					nerves="facial nerve, buccal branch"
+					action="draws angle of mouth upward and laterally"
+					/>
+			</element>
+			<element name="Face - zygomaticus minor muscle" type="cranial" link="http://en.wikipedia.org/wiki/Zygomaticus_minor_muscle"
+				nerves="facial nerve, buccal branch"
+				action="elevates upper lip"
+				/>
+		</element>
+
+		<element name="Face - mentalis muscle" type="cranial" link="http://en.wikipedia.org/wiki/Mentalis"
+			nerves="facial nerve, marginal mandibular branch"
+			action="elevates and wrinkles skin of chin, protrudes lower lip"
+			/>
+
+		<element name="Face - orbicularis oris muscle" type="cranial" link="http://en.wikipedia.org/wiki/Orbicularis_oris_muscle"
+			nerves="facial nerve, buccal branch"
+			action="pucker the lips"
+			/>
+
+		<element name="Face - risorius muscle" type="cranial" link="http://en.wikipedia.org/wiki/Risorius"
+			nerves="facial nerve, buccal branch"
+			action="draw back angle of mouth"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Mastication" group="Muscles of mastication">
+
+		<element name="Pterygoid muscles">
+			<element name="Feeder - lateral pterygoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Lateral_pterygoid_muscle"
+				nerves="pterygoid nerve, lateral"
+				action="depresses mandible"
+				/>
+			<element name="Feeder - medial pterygoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Medial_pterygoid_muscle"
+				nerves="pterygoid nerve, medial"
+				action="elevates mandible, closes jaw, helps lateral pterygoids in moving the jaw from side to side"
+				/>
+		</element>
+
+		<element name="Feeder - buccinator muscle" type="cranial" link="http://en.wikipedia.org/wiki/Buccinator_muscle"
+			nerves="facial nerve, buccal branch"
+			action="compress the cheeks against the teeth (blowing), mastication"
+			/>
+
+		<element name="Feeder - masseter muscle" type="cranial" link="http://en.wikipedia.org/wiki/Masseter_muscle"
+			nerves="masseteric nerve"
+			action="elevation (as in closing of the mouth) and retraction of mandible"
+			/>
+
+		<element name="Feeder - temporal muscle" type="cranial" link="http://en.wikipedia.org/wiki/Temporalis_muscle"
+			nerves="temporal nerves, deep"
+			action="elevation and retraction of mandible"
+			/>
+
+		<element name="Feeder - parotid gland" type="cranial" link="http://en.wikipedia.org/wiki/Parotid_gland"
+			nerves="petrosal nerve, lesser"
+			action="major salivary gland; promotes the secretion of saliva"
+			/>
+
+		<element name="Feeder - submandibular gland" type="cranial" link="http://en.wikipedia.org/wiki/Submandibular_gland"
+			nerves="chorda tympani, parasympathetic"
+			action="one of major salivary glands; promotes the secretion of saliva"
+			/>
+
+		<element name="Feeder - sublingual gland" type="cranial" link="http://en.wikipedia.org/wiki/Sublingual_gland"
+			notes="the only unencapsulated major salivary gland"
+			nerves="sublingual nerve"
+			action="one of major salivary glands; promotes the secretion of saliva"
+			/>
+
+		<element name="Vessels - parotid gland vasoconstrictors" type="cranial" link="http://en.wikipedia.org/wiki/Parotid_gland"
+			nerves="external carotid nerve"
+			action="reduces glandular bloodflow, thereby decreasing the volume of fluid in salivary secretions, producing an enzyme rich mucous saliva"
+			/>
+
+		<element name="Vessels - submandibular gland vasoconstrictors" type="cranial" link="http://en.wikipedia.org/wiki/Submandibular_gland"
+			nerves="external carotid nerve"
+			action="reduces glandular bloodflow, thereby decreasing the volume of fluid in salivary secretions, producing an enzyme rich mucous saliva"
+			/>
+
+		<element name="Vessels - sublingual gland vasoconstrictors" type="cranial" link="http://en.wikipedia.org/wiki/Sublingual_gland"
+			nerves="external carotid nerve"
+			action="reduces glandular bloodflow, thereby decreasing the volume of fluid in salivary secretions, producing an enzyme rich mucous saliva"
+			/>
+
+		<element name="Protector - hard palate mucous gland" type="cranial" link="http://en.wikipedia.org/wiki/Oral_mucosa"
+			nerves="palatine nerve, greater, parasympathetic fibers"
+			action="lubrication and buffering as well as secretion of some antibodies; moist surface"
+			/>
+		<element name="Protector - soft palate mucous gland" type="cranial" link="http://en.wikipedia.org/wiki/Oral_mucosa"
+			nerves="palatine nerves, lesser, parasympathetic fibers"
+			action="lubrication and buffering as well as secretion of some antibodies; moist surface"
+			/>
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Tongue" group="Muscles of tongue; Muscles of soft palate and fauces">
+
+		<element name="Extrinsic">
+			<element name="Feeder - genioglossus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Genioglossus"
+				nerves="hypoglossal nerve"
+				action="complex - inferior fibers protrude the tongue, middle fibers depress the tongue, and its superior fibers draw the tip back and down"
+				/>
+			<element name="Feeder - hyoglossus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Hyoglossus"
+				nerves="hypoglossal nerve"
+				action="depresses tongue"
+				/>
+			<element name="Feeder - styloglossus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Styloglossus"
+				nerves="hypoglossal nerve"
+				action="elevates and retracts tongue"
+				/>
+			<element name="Feeder - chondroglossus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Chondroglossus"
+				nerves="hypoglossal nerve"
+				action="depresses tongue"
+				/>
+			<element name="Feeder - palatoglossus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Palatoglossus_muscle"
+				nerves="vagus nerve, pharyngeal plexus"
+				action="raising the back part of the tongue"
+				/>
+		</element>
+
+		<element name="Intrinsic">
+			<element name="Feeder - inferior longitudinal muscle of tongue" type="cranial" link="http://en.wikipedia.org/wiki/Inferior_longitudinal_muscle"
+				nerves="hypoglossal nerve"
+				action="shortens, retracts, pulls tip downward"
+				/>
+			<element name="Feeder - superior longitudinal muscle of tongue" type="cranial" link="http://en.wikipedia.org/wiki/Superior_longitudinal_muscle"
+				nerves="hypoglossal nerve"
+				action="shortens, turns tip upward, turns lateral margins upward"
+				/>
+			<element name="Feeder - transverse muscle of tongue" type="cranial" link="http://en.wikipedia.org/wiki/Transversus_muscle"
+				nerves="hypoglossal nerve"
+				action="narrows and elongates"
+				/>
+			<element name="Feeder - vertical muscle of tongue" type="cranial" link="http://en.wikipedia.org/wiki/Verticalis_muscle"
+				nerves="hypoglossal nerve"
+				action="flattens"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Soft palate" group="Muscles of soft palate and fauces">
+
+		<element name="Feeder - levator veli palatini muscle" type="cranial" link="http://en.wikipedia.org/wiki/Levator_veli_palatini"
+			nerves="vagus nerve, pharyngeal branch"
+			action="elevates soft palate"
+			/>
+
+		<element name="Feeder - musculus uvulae muscle" type="cranial" link="http://en.wikipedia.org/wiki/Musculus_uvulae"
+			nerves="palatine nerves, lesser, parasympathetic fibers"
+			action="elevates and retracts the uvula, thickening the central part of the soft palate"
+			/>
+
+		<element name="Speaker - palatopharyngeus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Palatopharyngeus_muscle"
+			nerves="vagus nerve, pharyngeal branch"
+			action="pulls pharynx and larynx"
+			/>
+
+		<element name="Feeder - tensor veli palatini muscle" type="cranial" link="http://en.wikipedia.org/wiki/Tensor_veli_palatini_muscle"
+			nerves="nerve to tensor veli palatini"
+			action="tension of the soft palate"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Pharynx" group="Muscles of pharynx">
+
+		<element name="Pharyngeal constrictor">
+			<element name="Feeder - inferior pharyngeal constrictor muscle" type="cranial" link="http://en.wikipedia.org/wiki/Inferior_pharyngeal_constrictor_muscle"
+				nerves="laryngeal nerve, external"
+				action="swallowing"
+				/>
+			<element name="Feeder - middle pharyngeal constrictor muscle" type="cranial" link="http://en.wikipedia.org/wiki/Middle_pharyngeal_constrictor_muscle"
+				nerves="vagus nerve, pharyngeal plexus"
+				action="swallowing"
+				/>
+			<element name="Feeder - superior pharyngeal constrictor muscle" type="cranial" link="http://en.wikipedia.org/wiki/Superior_pharyngeal_constrictor_muscle"
+				nerves="vagus nerve, pharyngeal plexus"
+				action="swallowing"
+				/>
+		</element>
+
+		<element name="Nose - salpingopharyngeus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Salpingopharyngeus_muscle"
+			nerves="vagus nerve, pharyngeal plexus"
+			action="raise the nasopharynx"
+			/>
+
+		<element name="Lung - stylopharyngeus muscle" type="cranial" link="http://en.wikipedia.org/wiki/Stylopharyngeus_muscle"
+			nerves="glossopharyngeal nerve, stylopharyngeal branch"
+			action="elevate the larynx, elevate the pharynx, swallowing"
+			/>
+
+		<element name="Protector - pharyngeal tonsils" type="gland" link="http://www.wisegeekhealth.com/what-is-a-pharyngeal-tonsil.htm"
+			nerves="pharyngeal nerve"
+			action="enhance the capabilities of the lymphatic system against foreign agents that enter through nose"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - HEAD" name="Larynx" group="Muscles of larynx, intrinsic">
+
+		<element name="Speaker - cricothyroid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Cricothyroid_muscle"
+			nerves="laryngeal nerve, external"
+			action="tension and elongation of the vocal folds (has minor adductory effect)"
+			/>
+
+		<element name="Cricoarytenoid muscle">
+			<element name="Speaker - lateral cricoarytenoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Lateral_cricoarytenoid_muscle"
+				nerves="inferior laryngeal nerve"
+				action="adduct and medially rotate the cartilage, pulling the vocal ligaments towards the midline and backwards and so closing off the rima glottidis"
+				/>
+			<element name="Speaker - posterior cricoarytenoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Posterior_cricoarytenoid_muscle"
+				nerves="inferior laryngeal nerve"
+				action="abducts and laterally rotates the cartilage, pulling the vocal ligaments away from the midline and forward and so opening the rima glottidis"
+				/>
+		</element>
+
+		<element name="Speaker - oblique arytenoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Oblique_arytenoid"
+			nerves="inferior laryngeal nerve"
+			action="sphincter of the laryngeal inlet"
+			/>
+
+		<element name="Speaker - thyroarytenoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Thyroarytenoid_muscle"
+			nerves="inferior laryngeal nerve"
+			action="thickens the vocal folds and decreases length; also helps to adduct the vocal folds during speech"
+			/>
+
+		<element name="Speaker - arytenoid muscle" type="cranial" synonym="Transverse arytenoid" link="http://en.wikipedia.org/wiki/Arytenoid_muscle"
+			nerves="laryngeal nerve, external"
+			action="approximate the arytenoid cartilages (close rima glottidis)"
+			/>
+
+		<element name="Speaker - aryepiglottic muscle" type="cranial" link="http://en.wikipedia.org/wiki/Aryepiglottic_muscle"
+			nerves="inferior laryngeal nerve"
+			action="close the inlet"
+			/>
+
+		<element name="Speaker - levator muscle of thyroid gland" type="cranial" link="http://en.wikipedia.org/wiki/Levator_muscle_of_thyroid_gland"
+			nerves="laryngeal nerve, external"
+			action="elevates the thyroid gland"
+			/>
+
+		<element name="Speaker - thyroepiglottic muscle" type="cranial" link="http://en.wikipedia.org/wiki/Thyroepiglottic_muscle"
+			nerves="inferior laryngeal nerve"
+			action="closes the inlet to the larynx"
+			/>
+
+	</division>
+
+</pns>

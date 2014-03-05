@@ -1,0 +1,516 @@
+http://en.wikipedia.org/wiki/Book:Muscular_system
+http://en.wikipedia.org/wiki/Table_of_muscles_of_the_human_body
+http://en.wikipedia.org/wiki/List_of_flexors_of_the_human_body
+http://en.wikipedia.org/wiki/List_of_extensors_of_the_human_body
+
+Muscular system
+
++   Abdominal muscles
++	Abdominal oblique muscle
++		Abdominal external oblique muscle - T7, T8
++		Abdominal internal oblique muscle - T7, T8, T9, T10, T11, T12, [subcostal nerve]
++	Cremaster muscle - [genitofemoral nerve, genital branch]
++	Dartos musculus 
++		Sebileau's muscle - [genitofemoral nerve, genital branch]
++	Quadratus lumborum muscle - T12, L1, L2, L3
++	Rectus abdominis muscle - [02-06, upper thoracic nerves], [07-11, lower thoracic nerves]
++	Transversus abdominis muscle - [07-11, lower thoracic nerves], [subcostal nerve], [iliohypogastric nerve]
++	Pyramidalis muscle - [subcostal nerve]
++   Arm
++	Anterior compartment
++		Biceps muscle - C5, C6, [musculocutaneous nerve]
++		Brachialis muscle - [musculocutaneous nerve], [radial nerve]
++		Coracobrachialis muscle - [musculocutaneous nerve]
++	Posterior compartment
++		Triceps brachii muscle - [radial nerve, upper arm muscular branches], [axillary nerve, motor branch to triceps brachii]
++		Anconeus muscle - [radial nerve, motor]
++		Articularis cubiti muscle - [radial nerve, motor]
++   Axioappendicular muscles
++	Anterior axioappendicular muscles
++		Pectoralis major muscle - [lateral pectoral nerve], [medial pectoral nerve]
++		Pectoralis minor muscle - [lateral pectoral nerve], [medial pectoral nerve]
++		Serratus anterior muscle - [long thoracic nerve]
++		Subclavius muscle - [subclavian nerve]
++		Sternalis muscle - [THORACIC NERVES - MOTOR ROOTS]
++	Posterior axioappendicular muscles
++		Extrinsic shoulder muscles
++			Superficial Posterior Axioappendicular muscles
++				Latissimus dorsi muscle - C6, C7, C8, [middle subscapular nerve]
++				Trapezius muscle - [accessory nerve]
++			Deep Posterior Axioappendicular muscles
++				Levator scapulae muscle - C4, C5, [dorsal scapular nerve]
++				Levator claviculae muscle - [C1-C4, upper cervical ventral spinal roots]
++				Rhomboid muscles
++					Rhomboid major muscle - C5, [dorsal scapular nerve]
++					Rhomboid minor muscle - C4, C5, C6, [dorsal scapular nerve]
++   Coccygeus muscle - S4, S5
++   Deltoid muscle - [axillary nerve, posterior branch]
++   Extraocular muscles = Muscles of orbit
++	Inferior oblique muscle - [oculomotor nerve, inferior branch]
++	Inferior rectus muscle - [oculomotor nerve, inferior branch]
++	Lateral rectus muscle - [abducent nerve]
++	Levator palpebrae superioris muscle - [oculomotor nerve]
++	Medial rectus muscle - [oculomotor nerve, inferior branch]
++	Orbicularis oculi muscle - [facial nerve, temporal branch], [facial nerve, zygomatic branch]
++	Superior oblique muscle - [trochlear nerve]
++	Superior rectus muscle - [oculomotor nerve, superior branch]
++	Superior tarsal muscle - [internal carotid nerve]
++   Facial muscles
++	Auricular muscles
++		Anterior auricular muscle - [facial nerve, temporal branch]
++		Posterior auricular muscle - [auricular nerve, posterior]
++		Superior auricular muscle - [auricular nerve, posterior]
++		Oblique muscle of auricle - [auricular nerve, posterior, auricular branch]
++	Buccinator muscle - [facial nerve, buccal branch], [buccal nerve]
++	Corrugator supercilii muscle - [facial nerve, temporal branch]
++	Depressor anguli oris muscle - [facial nerve, marginal mandibular branch]
++	Transverse muscle of the chin - [facial nerve, marginal mandibular branch]
++	Depressor labii inferioris muscle - [facial nerve, marginal mandibular branch]
++	Depressor septi nasi muscle - [facial nerve, buccal branch]
++	Depressor supercilii muscle - [facial nerve, zygomatic branch]
++	Levator anguli oris - [facial nerve, buccal branch]
++	Levator labii superioris muscle - [facial nerve, zygomatic branch]
++	Levator labii superioris alaeque nasi muscle - [facial nerve, buccal branch]
++	Mentalis muscle - [facial nerve, marginal mandibular branch]
++	Nasalis muscle - [facial nerve, buccal branch]
++		Dilator naris muscle
++	Occipitofrontalis muscle - [auricular nerve, posterior, occipital branch], [facial nerve, temporal branch]
++		Occipitalis muscle - [auricular nerve, posterior, occipital branch]
++		Frontalis muscle - [facial nerve, temporal branch]
++	Orbicularis oris muscle - [facial nerve, buccal branch]
++	Procerus muscle - [facial nerve, buccal branch]
++	Risorius - [facial nerve, buccal branch]
++	Temporoparietalis muscle - [facial nerve, temporal branch]
++	Zygomaticus major muscle - [facial nerve, zygomatic branch], [facial nerve, buccal branch]
++	Zygomaticus minor muscle - [facial nerve, buccal branch]
++   Foot
++	Dorsal
++		Extensor digitorum brevis muscle - [fibular nerve, deep]
++		Extensor hallucis brevis muscle - [fibular nerve, deep]
++	Plantar
++		1st layer
++			Abductor digiti minimi muscle of foot - [plantar nerve, lateral]
++			Abductor hallucis muscle - [plantar nerve, medial]
++			Flexor digitorum brevis muscle - [plantar nerve, medial]
++		2nd layer
++			Quadratus plantae muscle - [plantar nerve, lateral, deep branch]
++			Lumbrical muscle (foot) - [plantar nerve, lateral], [lantar nerve, medial, branches to LAFF muscles]
++		3rd layer
++			Flexor digiti minimi brevis muscle (foot) - [plantar nerve, lateral, digital branches branch]
++			Flexor hallucis brevis muscle - [plantar nerve, medial, branches to LAFF muscles]
++			Adductor hallucis muscle - [plantar nerve, lateral]
++		4th layer
++			Dorsal interossei muscles of the foot - [plantar nerve, lateral]
++			Plantar interossei muscles - [plantar nerve, lateral, digital branches branch]
++   Forearm
++	Anterior compartment
++		Superficial
++			Pronator teres muscle - [median nerve, superficial muscles in foream]
++			Flexor carpi radialis muscle - [median nerve, superficial muscles in hand]
++			Palmaris longus muscle - [median nerve, superficial muscles in hand]
++			Flexor carpi ulnaris muscle - [ulnar nerve, muscular branches]
++			Flexor digitorum superficialis muscle - [median nerve, intermediate muscles of foream]
++		Deep
++			Pronator quadratus muscle - [interosseous nerve of forearm, anterior, deep muscles of forearm]
++			Flexor digitorum profundus muscle - [interosseous nerve of forearm, anterior, hand], [ulnar nerve, interossei]
++			Flexor pollicis longus muscle - [interosseous nerve of forearm, anterior, hand]
++	Posterior compartment
++		Superficial
++			mobile wad
++				Brachioradialis muscle - [musculocutaneous nerve], [radial nerve]
++				Extensor carpi radialis brevis muscle - [radial nerve, deep branch before supinator]
++				Extensor carpi radialis longus muscle - [radial nerve, upper arm muscular branches]
++			Extensor digitorum muscle - [interosseous nerve of forearm, posterior]
++			Extensor carpi ulnaris muscle - [interosseous nerve of forearm, posterior]
++			Extensor digiti minimi muscle - [interosseous nerve of forearm, posterior]
++		Deep
++			Supinator muscle - [musculocutaneous nerve], [radial nerve, deep branch before supinator]
++			anatomical snuff box
++				Abductor pollicis longus muscle - [interosseous nerve of forearm, posterior]
++				Extensor pollicis brevis muscle - [interosseous nerve of forearm, posterior]
++				Extensor pollicis longus muscle - [interosseous nerve of forearm, posterior]
++			Extensor indicis muscle - [interosseous nerve of forearm, posterior]
++   Hand
++	Lateral volar
++		Thenar
++			Opponens pollicis muscle - [median nerve, recurrent branch]
++			Flexor pollicis brevis muscle - [median nerve, recurrent branch], [ulnar nerve, pollicis brevis]
++			Abductor pollicis brevis muscle - [median nerve, recurrent branch]
++			Adductor pollicis muscle - [ulnar nerve, adductor pollicis and lumbrical]
++	Medial volar
++		Palmaris brevis muscle - [ulnar nerve, superficial branch]
++		Hypothenar
++			Abductor digiti minimi muscle of hand - [ulnar nerve, deep muscles]
++			Flexor digiti minimi brevis (hand) - [ulnar nerve, flexor digiti minimi]
++			Opponens digiti minimi muscle - [ulnar nerve, superficial branch]
++	Intermediate
++		Lumbricals of the hand muscles - [median nerve, lumbricals branches], [ulnar nerve, adductor pollicis and lumbrical]
++		Interosseous muscles of the hand
++			Dorsal interossei muscles of the hand - [ulnar nerve, deep muscles]
++			Palmar interossei muscles - [ulnar nerve, deep muscles]
++   Intraocular muscles
++	Ciliary muscle - [ciliary nerves, short, parasympathetic fibers], [ciliary nerves, sympathetic fibers]
++	Iris dilator muscle - [ciliary nerves, sympathetic fibers]
++	Iris sphincter muscle - [ciliary nerves, short, parasympathetic fibers]
++	Orbitalis muscle - [ciliary nerves, sympathetic fibers]
++   Leg muscles
++	Iliac region
++		Iliopsoas muscle (psoas major, iliacus) - [L3 nerve, ventral ramus], [L4 nerve, ventral ramus]
++		Psoas major muscle - L1-L3
++		Psoas minor muscle - L1
++		Iliacus muscle - L2, L3, [femoral nerve, thigh, muscular branches]
++	Buttocks
++		Gluteus maximus muscle - [gluteal nerve, inferior]
++		Gluteus medius muscle - [gluteal nerve, superior]
++		Gluteus minimus muscle - [gluteal nerve, superior]
++		Tensor fasciae latae muscle - [gluteal nerve, superior]
++		Lateral rotator group muscles
++			Piriformis muscle - [piriform nerve]
++			Gemellus superior muscle - [obturator nerve, internal]
++			Gemellus inferior muscle - [nerve of quadrate muscle of thigh]
++			Obturator internus muscle - [obturator nerve, internal]
++			Obturator externus muscle - [obturator nerve, proper]
++			Quadratus femoris muscle - [nerve of quadrate muscle of thigh]
++	Leg
++		Anterior compartment
++			Tibialis anterior muscle - [fibular nerve, deep]
++			Extensor digitorum longus muscle - [fibular nerve, deep]
++			Extensor hallucis longus muscle - [fibular nerve, deep]
++			Fibularis tertius - [fibular nerve, deep]
++		Posterior compartment
++			Superficial
++				Triceps surae muscles
++					Gastrocnemius muscle - [tibial nerve, muscular branches]
++					Soleus muscle - [tibial nerve]
++					Accessory soleus muscle - [tibial nerve]
++				Plantaris muscle - [tibial nerve, muscular branches]
++			Deep
++				Popliteus muscle - [tibial nerve, muscular branches]
++				Tarsal tunnel
++					Flexor digitorum longus muscle - [plantar nerve, medial]
++					Flexor hallucis longus muscle - [tibial nerve]
++					Tibialis posterior muscle - [tibial nerve, muscular branches]
++		Lateral compartment
++			Peroneus muscles (Fibularis muscles)
++				Fibularis brevis - [fibular nerve, superficial]
++				Fibularis longus - [fibular nerve, superficial]
++   Levator ani
++	Iliococcygeus muscle - [S4 nerve, ventral ramus]
++	Pubococcygeus muscle - [S3 nerve, ventral ramus], [S4 nerve, ventral ramus]
++	Puborectalis muscle - [S3 nerve, ventral ramus], [S4 nerve, ventral ramus], [nerve to levator ani]
++   Muscles of auditory ossicles
++	Stapedius muscle - [stapedius nerve]
++	Tensor tympani muscle - [nerve to tensor tympani]    
++   Muscles of the back
++	Erector spinae muscles - [CERVICAL NERVES - MOTOR ROOTS], [THORACIC NERVES - MOTOR ROOTS], [LUMBAR NERVES - ROOTS], [SACRAL AND COCCYGEAL NERVES - ROOTS]
++		Iliocostalis muscle
++		Longissimus muscle
++		Spinalis muscle
++	Intercostal muscle
++		External intercostal muscles - [THORACIC NERVES - MOTOR ROOTS]
++		Internal intercostal muscles - [THORACIC NERVES - MOTOR ROOTS]
++		Innermost intercostal muscle - [THORACIC NERVES - MOTOR ROOTS]
++		Levatores costarum muscles - [THORACIC NERVES - MOTOR ROOTS]
++		Subcostalis muscle - [THORACIC NERVES - MOTOR ROOTS]
++		Transversus thoracis muscle - [THORACIC NERVES - MOTOR ROOTS]
++	Serratus muscle
++		Serratus posterior inferior muscle - [07-11, lower thoracic nerves]
++		Serratus posterior superior muscle - [02-06, upper thoracic nerves]
++	Splenius muscles
++		Splenius capitis muscle - C3, C4
++		Splenius cervicis muscle - C1, C2
++	Transversospinales muscles
++		Interspinales muscles - [CERVICAL NERVES - MOTOR ROOTS], [01, T1 nerve], [12, T12 nerve], [LUMBAR NERVES - ROOTS]
++		Intertransversarii muscle - [CERVICAL NERVES - MOTOR ROOTS], [01, T1 nerve], [12, T12 nerve], [LUMBAR NERVES - ROOTS]
++		Multifidus muscle - [CERVICAL NERVES - MOTOR ROOTS], [THORACIC NERVES - MOTOR ROOTS], [LUMBAR NERVES - ROOTS], [SACRAL AND COCCYGEAL NERVES - ROOTS]
++		Rotatores muscles - [THORACIC NERVES - MOTOR ROOTS]
++		Semispinalis capitis - [occipital nerve, greater]
++		Semispinalis cervicis - C3, C4, C5, T2, T3, T4, T5
++		Semispinalis dorsi (thoracis) - [02-06, upper thoracic nerves]
++    Muscles of larynx
++	Intrinsic
++		Cricothyroid muscle - [laryngeal nerve, external]
++		Cricoarytenoid muscle
++			Lateral cricoarytenoid muscle - [inferior laryngeal nerve]
++			Posterior cricoarytenoid muscle - [inferior laryngeal nerve]
++		Oblique arytenoid muscle - [inferior laryngeal nerve]
++		Thyroarytenoid muscle - [inferior laryngeal nerve]
++		Transverse arytenoid = Arytenoid muscle - [laryngeal nerve, external]
++		Aryepiglottic muscle - [recurrent laryngeal nerve]
++		Levator muscle of thyroid gland - [laryngeal nerve, external]
++		Thyroepiglottic muscle - [laryngeal nerve, internal]
++	Extrinsic
++		Infrahyoid muscles = Strap muscles of the neck
++			Sternohyoid muscle - [ansa cervicalis, inferior root]
++			Sternothyroid muscle - [ansa cervicalis, inferior root]
++			Thyrohyoid muscle - [thyroid nerve]
++			Omohyoid muscle - [ansa cervicalis]
++		Suprahyoid muscles
++			Digastric muscle - [facial nerve, digastric branch], [mylohyoid nerve]
++			Geniohyoid muscle - [nerve to geniohyoid]
++			Stylohyoid muscle - [facial nerve, stylohyoid branch]
++			Mylohyoid muscle - [mylohyoid nerve]
++   Muscles of mastication
++	Lateral pterygoid muscle - [pterygoid nerve, lateral]
++	Masseter muscle - [masseteric nerve]
++	Medial pterygoid muscle - [pterygoid nerve, medial]
++	Temporal muscle - [temporal nerves, deep]
++		Sphenomandibularis muscle
++   Muscles of pharynx
++	Pharyngeal constrictor
++		Inferior pharyngeal constrictor muscle - [laryngeal nerve, external]
++		Middle pharyngeal constrictor muscle - [vagus nerve, pharyngeal plexus]
++		Superior pharyngeal constrictor muscle - [vagus nerve, pharyngeal plexus]
++	Salpingopharyngeus muscle - [vagus nerve, pharyngeal plexus]
++	Stylopharyngeus muscle - [glossopharyngeal nerve, stylopharyngeal branch]
++   Muscles of soft palate and fauces
++	Levator veli palatini muscle - [vagus nerve, pharyngeal branch]
++	Musculus uvulae muscle - [palatine nerves, lesser, parasympathetic fibers]
++	Palatoglossus muscle - [vagus nerve, pharyngeal plexus]
++	Palatopharyngeus muscle - [vagus nerve, pharyngeal branch]
++	Tensor veli palatini muscle - [nerve to tensor veli palatini]
++   Muscles of tongue
++	Genioglossus muscle - [hypoglossal nerve]
++	Hyoglossus muscle - [hypoglossal nerve]
++	Styloglossus muscle - [hypoglossal nerve]
++	Chondroglossus muscle - [hypoglossal nerve]
++	Transverse muscle of tongue - [hypoglossal nerve]
++	Vertical muscle of tongue - [hypoglossal nerve]
++	Inferior longitudinal muscle of tongue - [hypoglossal nerve]
++	Superior longitudinal muscle of tongue - [hypoglossal nerve]
++   Perineal muscles
++	Bulbospongiosus muscle - [perineal nerve, deep branch]
++	Deep transverse perineal muscle - [dorsal nerve of clitoris], [dorsal nerve of penis]
++	Ischiocavernosus muscle - [perineal nerve, deep branch]
++	Sphincter ani
++		Sphincter ani externus muscle - S4, [inferior rectal nerve]
++		Sphincter ani internus muscle - [splanchnic nerves, pelvic], [hypogastric nerve]
++		Corrugator cutis ani muscle - [inferior rectal nerve]
++	Superficial transverse perineal muscle - [perineal nerve, deep branch]
++	Urethral sphincter
++		Internal sphincter muscle of urethra - [splanchnic nerves, lumbar], [hypogastric nerve]
++		External sphincter muscle of urethra
++			External sphincter muscle of male urethra - [perineal nerve, deep branch]
++			External sphincter muscle of female urethra - [perineal nerve, deep branch]
++		Detrusor urinae muscle - [hypogastric nerve], [splanchnic nerves, pelvic]
++   Platysma muscle - [facial nerve, cervical branch]
++   Rotator cuff
++	Infraspinatus muscle - [suprascapular nerve]
++	Subscapularis muscle - [suprascapular nerve]
++	Supraspinatus muscle - [axillary nerve]
++	Teres minor muscle - [lower subscapular nerve], [upper subscapular nerve]
++   Sternocleidomastoid muscle - [accessory nerve, external]
++   Suboccipital muscles
++	Obliquus capitis inferior muscle - [suboccipital nerve]
++	Obliquus capitis superior muscle - [suboccipital nerve]
++	Rectus capitis posterior major muscle - [suboccipital nerve]
++	Rectus capitis posterior minor muscle - [suboccipital nerve]
++   Teres major muscle - [lower subscapular nerve]
++   Thigh
++	Anterior compartment
++		Sartorius muscle - [femoral nerve, thigh, muscular branches]
++		Quadriceps femoris muscle
++			Rectus femoris muscle - [femoral nerve, thigh, muscular branches]
++			Vastus intermedius muscle - [femoral nerve, thigh, muscular branches]
++			Vastus lateralis muscle - [femoral nerve, thigh, muscular branches]
++			Vastus medialis - [femoral nerve, thigh, muscular branches]
++			Articularis genu muscle - [femoral nerve, leg]
++			Obliquus genu muscle - [femoral nerve, thigh, muscular branches]
++	Posterior compartment/Hamstring
++		Biceps femoris muscle - [common peroneal nerve], [tibial nerve]
++		Semimembranosus muscle - [tibial nerve]
++		Semitendinosus muscle - [tibial nerve]
++	Medial compartment of thigh
++		Adductor muscles of the hip
++			Adductor brevis muscle - [obturator nerve, proper]
++			Adductor longus muscle - [obturator nerve, proper]
++			Adductor magnus muscle - [obturator nerve, proper], [tibial nerve]
++			Adductor minimus muscle - [obturator nerve, proper], [tibial nerve]
++			Pectineus muscle - [femoral nerve, thigh], [obturator nerve, accessory]
++			Gracilis muscle - [obturator nerve, proper]
++   Thoracic diaphragm - [phrenic nerve], diaphragm separates the thoracic cavity (heart, lungs & ribs) from the abdominal cavity and performs an important function in respiration
++   Vertebrate muscles
++	Longus capitis muscle - [C1-C4, upper cervical ventral spinal roots]
++	Longus colli muscle - C2, C3, C4, C5, C6
++	Rectus capitis anterior muscle - C1, C2
++	Rectus capitis lateralis muscle - C1, C2
++	Scalene muscles
++		Scalenus anterior - C5, C6
++		Scalenus medius - C3, C4, C5, C6, C7, C8
++		Scalenus posterior - C6, C7, C8
+
+Tables
+    Articular disk of the temporomandibular joint - thin, oval plate, placed between the condyle of the mandible and the mandibular fossa
+    Atrioventricular node - part of the electrical control system of the heart that coordinates the top of the heart
+    Ponticulus - crossed by a vertical ridge, the ponticulus, which gives attachment to the Auricularis posterior muscle
+    Posterior axillary fold - compound structure consisting of the latissimus dorsi and teres major muscles
+    Table of muscles of the human body: Head
+    Table of muscles of the human body: Lower limb
+    Table of muscles of the human body: Neck
+    Table of muscles of the human body: Torso
+    Table of muscles of the human body: Upper limb
+
+Terms
+    Abdominal fascia - various types of fascia found in the abdominal region
+    Achilles tendon - calcaneal tendon or the tendo calcaneus, is a tendon of the posterior leg
+    Adductor canal - aponeurotic tunnel in the middle third of the thigh, extending from the apex of the femoral triangle to the opening in the adductor magnus, the adductor hiatus
+    Adductor hiatus -  hiatus (gap) between the adductor magnus muscle and the femur that allows the passage of the femoral vessels from the anterior thigh to the posterior thigh and then the popliteal fossa
+    Alar fascia - layer of fascia, sometimes described as part of the prevertebral fascia, and sometimes as in front of it
+    Anococcygeal body - fibrous median raphe in the floor of the pelvis, which extends between the coccyx and the margin of the anus
+    Antebrachial fascia - dense, membranous investment, which forms a general sheath for the muscles in brachial fascia region
+    Anterior compartment of the arm - flexor compartment of the arm
+    Anterior compartment of the forearm - flexor compartment of the forearm
+    Aortic hiatus - hole in the human diaphragm
+    Aponeurosis - layers of flat broad tendons
+    Aponeurosis of the Obliquus externus abdominis - thin but strong membranous structure, the fibers of which are directed downward and medially
+    Arcade of Frohse - most superior part of the superficial layer of the supinator muscle, and is a fibrous arch over the posterior interosseous nerve
+    Arcuate line of rectus sheath - horizontal line that demarcates the lower limit of the posterior layer of the rectus sheat
+    Axillary fascia - upper part of the Pectoralis major, in the interval between it and the Latissimus dorsi, where it closes in the axillary space
+    Axillary sheath - fibrous sheath that encloses the first portion of the axillary artery, together with the axillary vein and the brachial plexus
+    Bicipital aponeurosis - broad aponeurosis of the biceps brachii which is located in the cubital fossa of the elbow and separates superficial from deep structures in much of the fossa
+    Bipennate muscle - pennate muscle type
+    Brachial fascia - deep fascia of the arm
+    Buccopharyngeal fascia - fascia in the head
+    Buck's fascia - layer of deep fascia covering the three erectile bodies of the penis
+    Bundle of His - collection of heart muscle cells specialized for electrical conduction that transmits the electrical impulses from the AV node (located between the atria and the ventricles) to the point of the apex of the fascicular branches
+    Cardiac muscle - one of three major types of muscle, the others being skeletal and smooth muscle
+    Cardiac pacemaker - cells that create these rhythmical impulses
+    Carotid sheath - anatomical term for the fibrous connective tissue that surrounds the vascular compartment of the neck
+    Central tendon of diaphragm - thin but strong aponeurosis situated slightly anterior to the vault formed by the muscle, resulting in longer posterior muscle fibers
+    Clavipectoral fascia - strong fascia situated under cover of the clavicular portion of the pectoralis major
+    Common extensor tendon - tendon shared by a number of extensor muscles in the forearm
+    Common flexor tendon - tendon shared by a number of superficial flexor muscles in the forearm
+    Conjoint tendon - structure formed from the lower part of the transversus abdominis muscle as it inserts into the crest of the pubis and pectineal line immediately behind the superficial inguinal ring
+    Connective tissue in skeletal muscle - contains: Layers of connective tissue and Tendon, and sometimes aponeurosis
+    Contrahens muscles -  muscles widely present in the hands of mammals, including monkeys on the palmar/plantar side
+    Crura of superficial inguinal ring - bounded below by the crest of the pubis
+    Crural fascia - deep fascia of the leg
+    Crus of diaphragm - tendinous structures that extend inferiorly from the diaphragm to attach to the vertebral column
+    Cubital tunnel - channel which allows the Ulnar nerve to travel over the elbow
+    Dartos fascia - fat-free layer of smooth muscular fiber outside the external spermatic fascia but below the skin
+    Deep cervical fascia - lies under cover of the Platysma, and invests the neck
+    Deep fascia - layer of fibrous connective tissue which can surround individual muscles, and also divide groups of muscles into compartments
+    Deep inguinal ring - entrance to the inguinal canal
+    Deep perineal pouch - anatomic space enclosed in part by the perineum, and located superior to the perineal membrane
+    Deltoid fascia - fibrous membrane overlying the deltoid muscle of the shoulder
+    Divarication of rectus abdominis muscles - disorder defined as a separation of the rectus abdominis muscle into right and left halves
+    Electrical conduction system of the heart - isolated conduction system of the heart
+    Endomysium - wispy layer of areolar connective tissue that ensheaths each individual muscle fiber
+    Endopelvic part of the pelvic fascia - continued over the various pelvic viscera to form for the fibrous coverings
+    Epimysium - layer of connective tissue, which ensheaths the entire muscle
+    Epitenon - loose connective tissue sheath covering a tendon over its entire length
+    Esophageal hiatus - hole in the diaphragm through which the esophagus and the vagus nerve pass
+    Extensor expansion - anatomical term that refers to the special connective attachments by which the extensor tendons insert into the phalanges
+    Extensor retinaculum of the hand - anatomical term for the thickened part of the antebrachial fascia that holds the tendons of the extensor muscles in place
+    Fascia - layer of fibrous tissue
+    Fascia cribrosa - portion of fascia covering the fossa ovalis in the thigh is perforated by the great saphenous vein and by numerous blood and lymphatic vessels
+    Fascia lata - deep fascia of the thigh
+    Fascia of Camper - thick superficial layer of the anterior abdominal wall
+    Fascia of Colles - thin, aponeurotic in structure, and of considerable strength, serving to bind down the muscles of the root of the penis
+    Fascia of perineum - fascia which covers the muscles of the superficial perineal pouch
+    Fascia of Scarpa - layer of the anterior abdominal wall
+    Fascial compartments of arm - formed by tough connective tissue septa
+    Fascial compartments of leg - tough connective tissue septa
+    Femoral canal - lateral compartment contains the femoral artery, the intermediate compartment contains the femoral vein, and the medial and smallest compartment
+    Femoral ring - base of the femoral canal
+    Femoral sheath - prolongation downward, behind the inguinal ligament, of the fascia which line the abdomen, the transversalis fascia being continued down in front of the femoral vessels and the iliac fascia behind them
+    Fibular retinacula - fibrous bands which bind down the tendons of the Peronei longus and brevis as they run across the lateral side of the ankle
+    Flexor retinaculum of foot - strong fibrous band, extending from the tibial malleolus above to the margin of the calcaneus below, converting a series of bony grooves in this situation into canals for the passage of the tendons of the Flexor muscles and the posterior tibial vessels and tibial nerve into the sole of the foot
+    Flexor retinaculum of the hand - strong, fibrous band that arches over the carpus, converting the deep groove on the front of the carpal bones into a tunnel, the carpal tunnel, through which the Flexor tendons of the digits and the median nerve pass.
+    Galea aponeurotica - tough layer of dense fibrous tissue which covers the upper part of the cranium
+    Hamstring - group of tendons contracted by three posterior thigh muscles (semitendinosus, semimembranosus and biceps femoris) that make up the borders of the space behind the knee, or their corresponding tendons
+    Iliac fascia - fascia in the pelvic area of the human body
+    Iliopectineal arch - thickened band of fused iliac fascia and psoas fascia[1] passing from the posterior aspect of the inguinal ligament anteriorly across the front of the femoral nerve to attach to the iliopubic eminence of the hip bone posteriorly
+    Iliotibial tract - longitudinal fibrous reinforcement of the fascia lata
+    Inferior extensor retinaculum of foot - Y-shaped band placed in front of the ankle-joint, the stem of the Y being attached laterally to the upper surface of the calcaneus, in front of the depression for the interosseous talocalcaneal ligament
+    Inferior fascia of pelvic diaphragm - covers both surfaces of the Levatores ani. The inferior layer is known as the anal fascia
+    Infraspinous fascia - dense fibrous membrane, covering the Infraspinatous muscle and fixed to the circumference of the infraspinatous fossa
+    Inguinal canal - passage in the anterior (toward the front of the body) abdominal wall which in men conveys the spermatic cord and in women the round ligament
+    Inguinal ligament - band running from the pubic tubercle to the anterior superior iliac spine
+    Inguinal triangle - region of the abdominal wall. It is also known by the eponym Hesselbach's triangle, after Franz Kaspar Hesselbach
+    Intercrural fibres of superficial inguinal ring - series of curved tendinous fibers, which arch across the lower part of the aponeurosis of the Obliquus externus, describing curves with the convexities downward
+    Investing layer of deep cervical fascia - most superficial part of the deep cervical fascia, and it encloses the whole neck
+    Ischioanal fossa - fat-filled space located lateral to the anal canal and inferior to the pelvic diaphragm
+    Lacunar ligament - ligament in the inguinal region[1] that connects the inguinal ligament to the pectineal ligament[2] near the point where they both insert on the pubic tubercle
+    Lateral arcuate ligament - ligament under the diaphragm that arches across the upper part of the quadratus lumborum
+    Lateral compartment of leg - contains Fibularis longus and Fibularis brevis
+    Lateral intermuscular septum of thigh - fold of deep fascia in the thigh. It is between the vastus lateralis and biceps femoris
+    Linea alba (abdomen) - fibrous structure that runs down the midline of the abdomen in humans and other vertebrates
+    Linea semilunaris - curved tendinous line placed one on either side of the rectus abdominis
+    Lower abdominals - colloquial term for the lower part of the Rectus abdominis
+    Lumbocostal triangle - defect in the diaphragm normally posterior lateral
+    Masseteric fascia - strong layer of fascia derived from the deep cervical fascia on the human head and neck
+    Medial arcuate ligament - tendinous fascia that arches over the psoas major muscle as it passes through the diaphragm
+    Medial intermuscular septum of arm - extends from the lower part of the crest of the lesser tubercle of the humerus below the Teres major, along the medial supracondylar ridge to the medial epicondyle
+    Medial intermuscular septum of thigh - fold of deep fascia in the thigh. It is between the vastus medialis, and the adductors and pectineus
+    Median arcuate ligament - ligament under the diaphragm that connects the right and left crura of diaphragm
+    Mobile wad - part of the arm that runs along the inside of the forearm
+    Muscle contraction - generates tension during the action of actin and myosin cross-bridge cycling
+    Muscle cross-sectional area - area of the cross section of a muscle perpendicular to its longitudinal dimension generally at it largest point
+    Muscle fascicle - bundle of skeletal muscle fibers surrounded by perimysium, a type of connective tissue
+    Muscular lacuna - lateral compartment inferior to the inguinal ligament, for the passage of the iliopsoas muscle, the femoral nerve and the nervus cutaneus femoris lateralis
+    Myosin - molecules generate force in skeletal muscle through a power stroke mechanism fuelled by the energy released from ATP hydrolysis
+    Neuromuscular junction - connects the nervous system to the muscular system via synapses between efferent nerve fibers and muscle fibers, also known as muscle cells
+    Obturator fascia - covers the pelvic surface of, and is attached around the margin of the origin of, the muscle
+    Palatine aponeurosis - thin, firm fibrous lamella called the palatine aponeurosis, which supports the muscles and gives strength to the soft palate
+    Palmar aponeurosis - (palmar fascia) invests the muscles of the palm, and consists of central, lateral, and medial portions
+    Panniculus adiposus - fatty layer of the subcutaneous tissues, superficial to a deeper vestigial layer of muscle, the panniculus carnosus
+    Pectineal ligament - extension of the lacunar ligament that runs on the pectineal line of the pubic bone
+    Pelvic fascia - fascial sheaths of Obturator internus (Fascia of the Obturator internus), Piriformis (Fascia of the Piriformis), pelvic diaphragm (Diaphragmatic part of the pelvic fascia); fascia associated with the pelvic viscera
+    Pelvic floor - composed of muscle fibers of the levator ani, the coccygeus, and associated connective tissue which span the area underneath the pelvis
+    Pennate muscle - muscle with fascicles that attach obliquely (in a slanting position) to its tendon
+    Pericardium - tough double layered membrane which covers the heart
+    Perimysium - sheath of connective tissue that groups muscle fibers into bundles (anywhere between 10 to 100 or more) or fascicles
+    Perineal body - pyramidal fibromuscular mass in the middle line of the perineum at the junction between the urogenital triangle and the anal triangle
+    Perineal membrane - anatomical term for a fibrous membrane in the perineum
+    Pes anserinus (leg) - insertion of the conjoined tendons of three muscles[1] onto the anteromedial (front and inside) surface of the proximal extremity of the tibia
+    Pharyngeal raphe - raphe that serves as the origin and insertion for several of the pharyngeal constrictors (thyropharyngeal part of the inferior pharyngeal constrictor muscle, Middle pharyngeal constrictor muscle, Superior pharyngeal constrictor muscle)
+    Pharyngobasilar fascia - situated between the mucous and muscular layers
+    Piriformis fascia - very thin and is attached to the front of the sacrum and the sides of the greater sciatic foramen; it is prolonged on the muscle into the gluteal region.
+    Plantar fascia - thick connective tissue (fascia) which supports the arch on the bottom (plantar side) of the foot
+    Posterior compartment of leg - divided further into deep and superficial compartments
+    Posterior compartment of the forearm - extensor compartment
+    Posterior crural intermuscular septum - band of fascia which separates the lateral compartment of leg
+    Pretracheal fascia - extends medially in front of the carotid vessels, and assists in forming the carotid sheath
+    Prevertebral fascia - fascia in the neck
+    Prevertebral muscles - muscles located between the prevertebral fascia (older definition) and the vertebral column, i.e., the longus capitis, longus colli, rectus capitis anterior, and rectus capitis lateralis muscles
+    Puboprostatic ligament - thickening of the superior fascia of the pelvic diaphragm in the male that extends laterally from the prostate to the tendinous arch of the pelvic fascia and continues forward and medially from the tendinous arch to the pubis
+    Pubovesical ligament - ligament that extends from the neck of the bladder to the inferior aspect of the pubis bones
+    Pudendal canal - anatomical structure in the pelvis through which the internal pudendal artery, internal pudendal veins, and the pudendal nerve pass
+    Purkinje fibers - specialized cardiomyocytes that are able to conduct cardiac action potentials more quickly and efficiently than any other cells in the heart
+    Quadrangular space - axillary space in the arm
+    Quadriceps tendon - connects the quadriceps femoris muscles to the superior aspects of the patella on the anterior of the thigh and controls knee flexion and extension
+    Rectoprostatic fascia - membranous partition at the lowest part of the rectovesical pouch. It separates the prostate and urinary bladder from the rectum
+    Rectovaginal fascia - thin structure separating the vagina and the rectum
+    Rectus sheath - compartment, formed by the aponeuroses of the transversus abdominis and the external and internal oblique muscles
+    Reflected ligament - layer of tendinous fibers of a triangular shape, formed by an expansion from the lacunar ligament and the inferior crus of the subcutaneous inguinal ring
+    Saphenous opening - oval opening in the superomedial part of the fascia lata of the thigh
+    Sinoatrial node - impulse-generating (pacemaker) tissue located in the right atrium of the heart, and thus the generator of normal sinus rhythm
+    Skeletal striated muscle - form of striated muscle tissue which is under the control of the somatic nervous system
+    Sliding filament model - mechanism for muscle contraction
+    Smooth muscle tissue - muscle tissue that contracts without conscious control
+    Sternocostal triangle - small zones lying between the costal and sternal attachments of the thoracic diaphragm
+    Stratum membranosum - layer of subcutaneous tissue
+    Striated muscle tissue - form of fibers that have repeating sarcomeres
+    Subcutaneous tissue of perineum - layer of subcutaneous tissue surrounding the region of the perineal body
+    Superficial fascia - blending with the reticular layer of the dermis
+    Superior extensor retinaculum of foot - upper part of the anterior annular ligament
+    Superficial inguinal ring - anatomical structure in the anterior wall of the human abdomen
+    Superficial perineal pouch - compartment of the perineum
+    Superior fascia of pelvic diaphragm - diaphragmatic part of the pelvic fascia covers both surfaces of the Levatores ani
+    Superior fascia of the urogenital diaphragm - continuous with the obturator fascia and stretches across the pubic arch
+    Supraspinous fascia - completes the osseofibrous case in which the supraspinatus muscle is contained
+    Temporal fascia - covers the Temporalis muscle
+    Tendinous arch of pelvic fascia - white line of the pelvic fascia, and marks the line of attachment of the special fascia
+    Tendinous intersection - crossed by three fibrous bands called the tendinous inscriptions (or tendinous intersections)
+    Tendon - tough band of fibrous connective tissue that usually connects muscle to bone and is capable of withstanding tension
+    Thoracolumbar fascia - deep investing membrane which covers the deep muscles of the back of the trunk
+    Thoracic diaphragm - diaphragm separates the thoracic cavity (heart, lungs & ribs) from the abdominal cavity and performs an important function in respiration
+    Transversalis fascia - thin aponeurotic membrane which lies between the inner surface of the transversus abdominis muscle and the extraperitoneal fascia.
+    Triangular interval (lateral triangular space, lower triangular space, triceps hiatus) is a space found in the axilla, transmits radial nerve and profunda brachii artery
+    Triangular space (medial triangular space, upper triangular space, medial axillary space, foramen omotricipitale) - is an axillary space
+    Unipennate muscle - fibers are, like the plumes of a quill pen, to one side of a tendon, which runs the entire length of the muscle; such muscles are termed unipennate
+    Upper esophageal sphincter - superior portion of the esophagus, under control of cricopharyngeus portion of the inferior pharyngeal constrictor
+    Urogenital diaphragm - while this term is used to refer to a layer of the pelvis that separates the deep perineal sac from the upper pelvis, such a discrete border of the sac probably does not exist
+    Visceral fascia - organ cover (3-layer - parietal layer/serous membrane/visceral layer; last - meninges/brain, pericardia/heart, pleura/lungs, peritonea/abdomen)
+    Vocal muscle - upper portion of the thyroarytenoid muscle which is primarily involved in producing speech

@@ -1,0 +1,317 @@
+<pns>
+
+	<division category="Spinal Nerves" name="THORACIC NERVES - ROOTS" tree="false">
+
+		<element name="T1 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne26.htm T1 NERVE]"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="T1 nerve, dorsal root" type="root"
+				branches="divides into medial and lateral branches"
+				distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T1 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T1 dermatome"
+				modality="general sensory"
+				>
+				<nerve name="median nerve, sensory"/>
+				<nerve name="radial nerve, sensory"/>
+				<nerve name="ulnar nerve, sensory"/>
+				<nerve name="cutaneous nerve of arm, medial"/>
+				<nerve name="intercostal nerves, anterior cutaneous branches"/>
+			</element>
+			<element name="T1 nerve, ventral root" type="root"
+				branches="large and small branches"
+				distribution="large - brachial plexus; small - first intercostal nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="median nerve, motor"/>
+				<nerve name="radial nerve, motor"/>
+				<nerve name="ulnar nerve, motor"/>
+				<nerve name="medial pectoral nerve"/>
+				<nerve name="middle subscapular nerve"/>
+				<nerve name="first intercostal nerve"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+		<element name="upper thoracic nerves"
+			modality="flexor motor, extensor motor, general sensory"
+			action="parietes of the thorax; trunk flexor (rectus abdominis, intercostals)"
+			>
+			<element name="T2 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne27.htm T2 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T2 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T2 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T2 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="first intercostobrachial nerve"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T2 nerve, ventral root" type="root"
+					distribution="2nd intercostal nerve"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T3 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne28.htm T3 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T3 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T3 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T3 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="second intercostobrachial nerve"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T3 nerve, ventral root" type="root"
+					distribution="3rd intercostal nerve"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T4 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne29.htm T4 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T4 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T4 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T4 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="thoracic breast nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T4 nerve, ventral root" type="root"
+					distribution="4th intercostal nerve"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T5 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne30.htm T5 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T5 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T5 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T5 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="thoracic breast nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T5 nerve, ventral root" type="root"
+					distribution="5th intercostal nerve"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T6 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne31.htm T6 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T6 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T6 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T6 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T6 nerve, ventral root" type="root"
+					distribution="6th intercostal nerve"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+		</element>
+
+		<element name="lower thoracic nerves"
+			distribution="Rectus abdominis; Intercostales; Serratus posterior inferior"
+			modality="flexor motor, extensor motor, general sensory"
+			imgsrc="http://www.cutandjacked.com/sites/default/files/images/abs/manage_abs5.jpg"
+			action="parietes of the thorax and abdomen; forced respiration"
+			>
+			<element name="T7 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne32.htm T7 NERVE]"
+				distribution="supply muscles of abdomen - external oblique, internal oblique, transversus abdominis, rectus abdominis"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T7 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T7 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T7 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T7 nerve, ventral root" type="root"
+					distribution="7th intercostal nerve; supply external oblique, internal oblique, transversus abdominis, rectus abdominis muscles"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T8 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne33.htm T8 NERVE]"
+				distribution="supply muscles of abdomen - external oblique, internal oblique, transversus abdominis, rectus abdominis"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T8 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T8 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T8 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T8 nerve, ventral root" type="root"
+					distribution="8th intercostal nerve; supply external oblique, internal oblique, transversus abdominis, rectus abdominis muscles"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T9 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne34.htm T9 NERVE]"
+				distribution="supplies muscles of anterior abdominal wall - internal oblique, transversus abdominis, rectus abdominis"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T9 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T9 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T9 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T9 nerve, ventral root" type="root"
+					distribution="9th intercostal nerve; supply external oblique, internal oblique, transversus abdominis, rectus abdominis muscles"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T10 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne35.htm T10 NERVE]"
+				distribution="supplies muscles of anterior abdominal wall - internal oblique, rectus abdominis, transversus abdominis"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T10 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T10 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T10 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T10 nerve, ventral root" type="root"
+					distribution="10th intercostal nerve; supply external oblique, internal oblique, transversus abdominis, rectus abdominis muscles"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="T11 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne36.htm T11 NERVE]"
+				distribution="supplies muscles of anterior abdominal wall - internal oblique, rectus abdominis, transversus abdominis"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="T11 nerve, dorsal root" type="root"
+					branches="divides into medial and lateral branches"
+					distribution="medial - muscular semispinalis thoracis and multifidus, cutaneous medial part of posterior aspect of T11 dermatome; lateral - muscular longissimus thoracis and iliocostalis thoracis, cutaneous lateral part of the T11 dermatome"
+					modality="general sensory"
+					>
+					<nerve name="intercostal muscular somatic nerves"/>
+					<nerve name="intercostal nerves, posterior lateral cutaneous branches"/>
+					<nerve name="intercostal nerves, anterior cutaneous branches"/>
+				</element>
+				<element name="T11 nerve, ventral root" type="root"
+					distribution="11th intercostal nerve; supply external oblique, internal oblique, transversus abdominis, rectus abdominis muscles"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="thoracic and thoracicoabdominal intercostal nerves, flexors"/>
+					<nerve name="thoracic intercostal nerves, extensors"/>
+					<nerve name="thoracicoabdominal intercostal nerves, extensors"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+		</element>
+
+		<element name="T12 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne37.htm 12TH THORACIC NERVE]"
+			action="internal oblique muscle and transversus abdominis; forced respiration"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="T12 nerve, dorsal root" type="root"
+				branches="divides into medial and lateral branches"
+				distribution="medial - muscular multifidus and longissimus thoracis; lateral - skin of anterior part of gluteal region"
+				modality="general sensory"
+				>
+				<nerve name="subcostal nerve, sensory"/>
+			</element>
+			<element name="T12 nerve, ventral root" type="root"
+				distribution="subcostal nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="subcostal nerve, motor"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

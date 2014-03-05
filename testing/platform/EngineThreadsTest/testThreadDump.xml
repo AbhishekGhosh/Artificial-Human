@@ -1,0 +1,5 @@
+<xmlcall name="ThreadDump" class="EngineThreadsTest" method="testThreadDump">
+	<parameters>
+		<property name="showStack" value="true"/>
+	</parameters>
+</xmlcall>

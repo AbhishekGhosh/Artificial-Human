@@ -1,0 +1,167 @@
+<pns>
+
+	<division category="Spinal Nerves" name="LUMBAR NERVES - ROOTS" tree="false">
+
+		<element name="L1 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne40.htm L1 NERVE]"
+			origin="Spinal cord segment L1"
+			branches="dorsal - medial, lateral; ventral - lower, upper"
+			imgsrc="http://25.media.tumblr.com/tumblr_m78bm0YZdg1qmsba5o1_500.jpg"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="L1 nerve, dorsal root" type="root"
+				distribution="medial - to multifidus, lateral - cutaneous branches, supply skin of gluteal region"
+				imgsrc="http://postpartumpunk.com/wp-content/uploads/2012/09/multifidus-system-side.jpg"
+				modality="general sensory"
+				>
+				<nerve name="iliohypogastric nerve"/>
+				<nerve name="ilioinguinal nerve"/>
+				<nerve name="genitofemoral nerve, genital branch"/>
+				<nerve name="genitofemoral nerve, femoral branch"/>
+				<nerve name="cluneal nerves, superior"/>
+			</element>
+			<element name="L1 nerve, ventral root" type="root"
+				distribution="lower to lumbar plexus - to genitofemoral nerve, upper - to iliohypogastric nerve, ilioinguinal nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="genitofemoral nerve, genital branch"/>
+				<nerve name="nerve to quadratus lumborum"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+		<element name="L2 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne43.htm L2 NERVE]"
+			origin="Spinal cord segment L2"
+			branches="dorsal - medial, lateral; ventral - 1-4 branches"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="L2 nerve, dorsal root" type="root"
+				distribution="medial - to multifidus, lateral - cutaneous branches, supply skin of gluteal region"
+				modality="general sensory"
+				>
+				<nerve name="genitofemoral nerve, genital branch"/>
+				<nerve name="genitofemoral nerve, femoral branch"/>
+				<nerve name="cutaneous nerve of thigh, lateral"/>
+				<nerve name="femoral nerve, leg"/>
+				<nerve name="cluneal nerves, superior"/>
+				<nerve name="femoral nerve, thigh, sensory"/>
+				<nerve name="cutaneous nerve of thigh, lateral"/>
+			</element>
+			<element name="L2 nerve, ventral root" type="root"
+				distribution="1 - to genitofemoral nerve, 2 - to lateral cutaneous nerve of thigh, 3 - to femoral nerve, 4 - to obturator nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="genitofemoral nerve, genital branch"/>
+				<nerve name="femoral nerve, thigh, motor"/>
+				<nerve name="nerve to quadratus lumborum"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+		<element name="L3 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne44.htm L3 NERVE]"
+			origin="Spinal cord segment L3"
+			branches="dorsal - medial, lateral; ventral - 1-4 branches"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="L3 nerve, dorsal root" type="root"
+				distribution="medial - to multifidus, lateral - cutaneous branches, supply skin of gluteal region"
+				modality="general sensory"
+				>
+				<nerve name="cutaneous nerve of thigh, lateral"/>
+				<nerve name="femoral nerve, leg"/>
+				<nerve name="cluneal nerves, superior"/>
+				<nerve name="femoral nerve, thigh, sensory"/>
+				<nerve name="cutaneous nerve of thigh, lateral"/>
+				<nerve name="obturator nerve, proper"/>
+				<nerve name="obturator nerve, accessory"/>
+			</element>
+			<element name="L3 nerve, ventral root" type="root"
+				distribution="1 - to lateral cutaneous nerve of thigh, 2 - to femoral nerve, 3 - to accessory obturator nerve, 4 - to obturator nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="femoral nerve, thigh, motor"/>
+				<nerve name="obturator nerve, proper"/>
+				<nerve name="obturator nerve, accessory"/>
+				<nerve name="nerve to quadratus lumborum"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+		<element name="L4 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne45.htm L4 NERVE]"
+			origin="Spinal cord segment L4"
+			branches="dorsal - medial, lateral; ventral - 1-4 branches"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="L4 nerve, dorsal root" type="root"
+				distribution="medial - to multifidus, lateral - to erector spinae group"
+				modality="general sensory"
+				>
+				<nerve name="femoral nerve, leg"/>
+				<nerve name="common peroneal nerve"/>
+				<nerve name="tibial nerve"/>
+				<nerve name="gluteal nerve, superior"/>
+				<nerve name="nerve of quadrate muscle of thigh"/>
+				<nerve name="femoral nerve, thigh, sensory"/>
+				<nerve name="obturator nerve, proper"/>
+				<nerve name="obturator nerve, accessory"/>
+			</element>
+			<element name="L4 nerve, ventral root" type="root"
+				distribution="1 - to femoral nerve, 2 - to lumbosacral trunk, 3 - to accessory obturator nerve, 4 - to obturator nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="common peroneal nerve"/>
+				<nerve name="tibial nerve"/>
+				<nerve name="gluteal nerve, superior"/>
+				<nerve name="nerve of quadrate muscle of thigh"/>
+				<nerve name="femoral nerve, thigh, motor"/>
+				<nerve name="obturator nerve, proper"/>
+				<nerve name="obturator nerve, accessory"/>
+				<nerve name="nerve to quadratus lumborum"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+		<element name="L5 nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne46.htm L5 NERVE]"
+			origin="Spinal cord segment L5"
+			branches="dorsal - medial, lateral; ventral - 1-4 branches"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="L5 nerve, dorsal root" type="root"
+				distribution="medial - to multifidus, lateral - to erector spinae group"
+				modality="general sensory"
+				>
+				<nerve name="common peroneal nerve"/>
+				<nerve name="tibial nerve"/>
+				<nerve name="sural nerve"/>
+				<nerve name="gluteal nerve, superior"/>
+				<nerve name="nerve of quadrate muscle of thigh"/>
+				<nerve name="obturator nerve, internal"/>
+			</element>
+			<element name="L5 nerve, ventral root" type="root"
+				distribution="1 - to tibial part of sciatic nerve, 2 - to common peroneal part of sciatic nerve, 3 - to superior gluteal nerve, 4 - to inferior gluteal nerve"
+				modality="flexor motor, extensor motor"
+				>
+				<nerve name="common peroneal nerve"/>
+				<nerve name="tibial nerve"/>
+				<nerve name="sural nerve"/>
+				<nerve name="gluteal nerve, inferior"/>
+				<nerve name="gluteal nerve, superior"/>
+				<nerve name="nerve of quadrate muscle of thigh"/>
+				<nerve name="obturator nerve, internal"/>
+				<nerve name="motor nerves of back, flexors"/>
+				<nerve name="motor nerves of back, extensors"/>
+			</element>
+		</element>
+
+	</division>
+
+</pns>
+

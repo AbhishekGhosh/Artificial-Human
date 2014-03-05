@@ -1,0 +1,338 @@
+<pns>
+
+	<division category="Spinal Nerves" name="LUMBOSACRAL NERVES - GENITAL AND GASTROINTESTINAL">
+
+		<element name="Rectum nerves, somatic"
+			modality="general sensory, flexor motor, extensor motor"
+			>
+			<fibers type="GSA" src="TARGET.TEA.RECTUM" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.RECTUM" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+			<element name="pudendal nerve, rectum"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne96.htm PUDENDAL NERVE]"
+				origin="sacral PLEXUS (S2-S4)"
+				branches="enters pudendal canal, gives off inferior anal nerve, and then divides into perineal nerve and dorsal nerve of penis (clitoris)"
+				distribution="muscles, skin, and erectile tissue of perineum"
+				modality="general sensory, flexor motor, extensor motor"
+				>
+				<element name="inferior rectal nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne97.htm INFERIOR RECTAL NERVE]; anal nerves, inferior; rectal nerves, inferior hemorrhoidal nerves"
+					origin="pudendal nerve, or independently from sacral PLEXUS, S5"
+					branches="cutaneous branches mainly, but muscular branches to external anal sphincter"
+					distribution="supplying perianal skin and lower part of anal canal; external anal sphincter muscle, skin around anus, and lining of anal canal up to pectinate line"
+					imgsrc="http://a248.e.akamai.net/7/248/432/20110621154202/www.msdlatinamerica.com/ebooks/RockwoodGreensFracturesinAdults/files/4bbe9a84ff01b3c7055a1d4ec936b0dc.gif"
+					modality="general sensory, flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.RECTUM"></fibers>
+				</element>
+
+				<element name="perineal nerve, rectum"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/perinealS4.htm PERINEAL BRANCH OF S4]; MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne98.htm PERINEAL NERVE]"
+					origin="pudendal nerve, S4"
+					branches="muscular branches and posterior scrotal or labial nerves"
+					distribution="muscular branches supply superficial transverse perineal muscles and levator ani muscles"
+					modality="general sensory, flexor motor, extensor motor"
+					>
+					<element name="nerves to coccygeus and levator ani muscles"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/nervelevatorani.htm NERVE TO LEVATOR ANI]"
+						distribution="motor innervation to coccygeus and levator ani muscles"
+						imgsrc="http://naturalhealingcyprus.files.wordpress.com/2013/07/muscles-of-the-pelvic-floor-diaphragm-levator-ani-coccygeus-pubococcygeus-iliococcygeus.jpg"
+						modality="general sensory, extensor motor"
+						action="supports the viscera in pelvic cavity; in quadruped animals with tails, are responsible for moving the tail around"
+						>
+						<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.RECTUM"></fibers>
+					</element>
+					<element name="nerve to superficial transverse perineal"
+						distribution="pelvic surface of levator ani"
+						imgsrc="http://www.emory.edu/ANATOMY/AnatomyManual/91a.jpg"
+						modality="general sensory, flexor motor"
+						action="fixation of central tendon of perineum, support of pelvic floor"
+						>
+						<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.RECTUM"></fibers>
+					</element>
+				</element>
+			</element>
+		</element>
+
+		<element name="Genitalia nerves, somatic"
+			modality="general sensory, flexor motor, sympathetic motor"
+			>
+			<fibers type="GSA" src="TARGET.TEA.GENITALIA" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.GENITALIA" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+			<element name="genitofemoral nerve, genital"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne71.htm GENITOFEMORAL NERVE]"
+				origin="lumbar PLEXUS (L1-L2)"
+				branches="genital"
+				distribution="cremaster muscle, skin of scrotum or labium majus"
+				modality="general sensory, flexor motor, sympathetic motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.GENITALIA"></fibers>
+
+				<element name="genitofemoral nerve, genital branch"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne207.htm GENITAL BRANCH OF GENITOFEMORAL NERVE]"
+					origin="genitofemoral nerve (L1-L2)"
+					distribution="muscular branches to cremaster muscle (male only, raise and lower testes in order to regulate temperature of testes and promote spermatogenesis); cutaneous branches to skin of scrotum/male and labium majus/female, mons pubis/female"
+					imgsrc="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/genitofemoral-female.png"
+					modality="general sensory, flexor motor, sympathetic motor"
+					>
+					<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+				</element>
+			</element>
+
+			<element name="ilioinguinal nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne41.htm ILIOINGUINAL NERVE]"
+				origin="lumbar PLEXUS L1 (sometimes T12); accompanies the spermatic cord through the inguinal canal"
+				branches="anterior scrotal or labial branches"
+				distribution="skin of scrotum or labia majora, and adjacent part of thigh"
+				modality="general sensory"
+				>
+				<element name="labial nerves, anterior"
+					origin="female, ilioinguinal nerve"
+					distribution="skin of anterior labial region of labia majora, and adjacent part of thigh"
+					imgsrc="http://o.quizlet.com/AwDDMOPDtSxffTWsxERtEA_m.png"
+					modality="general sensory"
+					/>
+				<element name="scrotal nerves, anterior"
+					origin="male, ilioinguinal nerve"
+					distribution="skin of anterior scrotal region"
+					imgsrc="http://www.aafp.org/afp/2001/1015/afp20011015p1405-f7.jpg"
+					modality="general sensory"
+					/>
+			</element>
+
+			<element name="iliohypogastric nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne42.htm ILIOHYPOGASTRIC NERVE]"
+				origin="lumbar PLEXUS L1 (sometimes T12)"
+				branches="lateral and anterior cutaneous branches"
+				distribution="skin above the pubis and over the lateral side of the buttock, and occasionally the pyramidal muscle"
+				imgsrc="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/iliohypogastric-nerve.png"
+				modality="general sensory"
+				/>
+
+			<element name="pudendal nerve, genitalia"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne96.htm PUDENDAL NERVE]"
+				origin="sacral PLEXUS (S2-S4)"
+				branches="enters pudendal canal, gives off inferior anal nerve, and then divides into perineal nerve and dorsal nerve of penis (clitoris)"
+				distribution="muscles, skin, and erectile tissue of perineum"
+				modality="general sensory, flexor motor, sympathetic motor"
+				>
+				<element name="nerve to urethral bulb"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne100.htm NERVE TO URETHRAL BULB]"
+					origin="Pudendal nerve/nerve to bulbospongiosus"
+					branches="mucosal and cutaneous/visceral"
+					distribution="male/bulb of penis, female/clitoral bulbs - erectile tissue"
+					imgsrc="http://home.comcast.net/~wnor/maleugtrianglesection.jpg"
+					modality="general sensory"
+					/>
+
+				<element name="dorsal nerve of clitoris/penis"
+					distribution="deep transverse muscle of perineum, sphincter muscle of urethra, corpus cavernosum of clitoris, and skin, prepuce, and glans of clitoris"
+					modality="general sensory, flexor motor"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.GENITALIA"></fibers>
+
+					<element name="dorsal nerve of clitoris"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne101.htm DORSAL NERVE OF PENIS OR CLITORIS]"
+						origin="pudendal nerve"
+						imgsrc="http://www.drwhan.com/images/bsp003.jpg"
+						modality="general sensory, flexor motor"
+						/>
+					<element name="dorsal nerve of penis"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne101.htm DORSAL NERVE OF PENIS OR CLITORIS]"
+						origin="pudendal nerve"
+						imgsrc="http://esph.co.uk/assets/images/Blog/Pudendal_nerve.svg.png"
+						modality="general sensory, flexor motor"
+						/>
+				</element>
+
+				<element name="perineal nerve, genitalia"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/perinealS4.htm PERINEAL BRANCH OF S4]; MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne98.htm PERINEAL NERVE]"
+					origin="pudendal nerve"
+					branches="muscular branches and posterior scrotal or labial nerves"
+					distribution="muscular branches supply bulbocavernous, ischiocavernous, bulb of the penis; scrotal (labial) nerves supply scrotum or labium majus"
+					modality="general sensory, flexor motor, sympathetic motor"
+					>
+					<element name="perineal nerve, deep branch"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/posteriorlabial.htm POSTERIOR LABIAL NERVES]"
+						origin="pudendal nerve"
+						distribution="muscles of the perineum - bulbospongiosus, ischiocavernosus, sphincter urethrae"
+						imgsrc="http://o.quizlet.com/i/XxQa3Rmc7bIm_803uy_KYg.jpg"
+						modality="general sensory, flexor motor"
+						>
+						<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.GENITALIA"></fibers>
+					</element>
+					<element name="perineal nerve, superficial branch"
+						modality="general sensory, sympathetic motor"
+						>
+						<element name="labial nerve, posterior"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/posteriorlabial.htm POSTERIOR LABIAL NERVES]"
+							origin="pudendal nerve"
+							distribution="labium majus"
+							imgsrc="http://www.anatomy.yalemedicine.org/graphics/unrestricted/grays/jpg/chapter5/F66124-005-f076b.jpg"
+							modality="general sensory"
+							/>
+						<element name="scrotal nerve, posterior"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne99.htm POSTERIOR SCROTAL NERVES]"
+							origin="pudendal nerve"
+							distribution="skin of scrotum"
+							imgsrc="http://www.pudendalhope.info/sites/default/files/AC1357_02A.jpg" imgheight="400"
+							modality="general sensory, sympathetic motor"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+						</element>
+					</element>
+				</element>
+			</element>
+		</element>
+
+		<element name="Autonomic nerves"
+			imgsrc="http://www.med.umich.edu/lrc/coursepages/m1/anatomy2010/html/modules/intro_autonomics_2_module/Files/symp_abdomen.jpg"
+			modality="sympathetic motor, parasympathetic motor, autonomic sensory"
+			>
+			<element name="splanchnic nerves"
+				modality="sympathetic motor, parasympathetic motor, autonomic sensory"
+				>
+				<element name="splanchnic nerves, lumbar"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne306.htm LUMBAR SPLANCHNIC NERVES]"
+					origin="lumbar sympathetic trunk, L1-L3"
+					distribution="upper nerves ones go to intermesenteric and adjacent plexuses, and lower ones descend to superior hypogastric plexus; sensory - pregnancy and nociception to IML, adds to pelvic nerve"
+					modality="sympathetic motor, autonomic sensory"
+					>
+					<element name="left hypogastric nerve"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne295.htm HYPOGASTRIC NERVE]"
+						origin="Left hypogastric plexus (L1-L5)"
+						modality="sympathetic motor, autonomic sensory"
+						>
+						<element name="left hypogastric nerve, ureteric"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne327.htm URETERIC PLEXUS]; MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne329.htm UTERINE NERVES]"
+							distribution="ureteric smooth muscles"
+							imgsrc="http://classes.midlandstech.edu/carterp/Courses/bio211/chap25/Slide25.GIF"
+							modality="sympathetic motor, autonomic sensory"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.URETER"><mid id="AVA.PN.SYM.IMG"/></fibers>
+							<fibers type="GVA" src="TARGET.TEA.URETER" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						</element>
+						<element name="left hypogastric nerve, uterovaginal"
+							synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne330.htm UTEROVAGINAL PLEXUS]; Plexus of Frankenhauser"
+							distribution="walls of the vagina, uterus"
+							imgsrc="http://a248.e.akamai.net/7/248/432/20110621154233/www.msdlatinamerica.com/ebooks/RockwoodGreensFracturesinAdults/files/abfda5814b7fbef31f3633fc3ce85a6c.gif"
+							modality="sympathetic motor, autonomic sensory"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+							<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						</element>
+						<element name="left hypogastric nerve, cervical"
+							distribution="female: produces cervical mucus that changes in consistency during the menstrual cycle to prevent or promote pregnancy"
+							imgsrc="http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/image_article_collections/anatomy_pages/493x335_cervix.jpg"
+							modality="sympathetic motor, autonomic sensory"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+							<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						</element>
+						<element name="left hypogastric nerve, prostatic"
+							distribution="male: emission is the result of peristaltic contractions of the ampullary portion of the vas deferens, the seminal vesicles, and the prostatic smooth muscles"
+							imgsrc="http://www.scielo.br/img/revistas/aabc/v82n2/15f01.gif"
+							modality="sympathetic motor, autonomic sensory"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+							<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						</element>
+						<element name="left hypogastric nerve, lubricate"
+							distribution="greater vestibular (Bartholin) glands in females and the bulbourethral (Cowper) glands in males"
+							imgsrc="http://intranet.tdmu.edu.ua/data/kafedra/internal/histolog/classes_stud/en/med/lik/ptn/2/20%20Male%20reproductive%20system.%20Female%20reproductive%20system.files/image001.jpg"
+							modality="sympathetic motor, autonomic sensory"
+							>
+							<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.SYM.IMG"/></fibers>
+							<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						</element>
+					</element>
+					<element name="right hypogastric nerve"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne295.htm HYPOGASTRIC NERVE]"
+						origin="Right hypogastric plexus (L1-L5)"
+						distribution="smooth internal anal sphincter muscle"
+						imgsrc="http://www.zuniv.net/physiology/book/images/22-5.jpg"
+						modality="sympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.RECTUM"><mid id="AVA.PN.SYM.IMG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.RECTUM" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+				</element>
+				<element name="splanchnic nerves, pelvic"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne102.htm PELVIC SPLANCHNIC NERVES]"
+					origin="sacral PLEXUS S2-S4"
+					branches="to penis/clitoris/vagina, to other pelvic structures (urinary bladder, rectum, anus, sigmoid and descending colon, terminal transverse colon, uterus and uterine tubes)"
+					distribution="leaving sacral plexus, they enter inferior hypogastric plexus and supply pelvic organs; mating and conception"
+					modality="parasympathetic motor, autonomic sensory"
+					notes="parasymp. innervation of testis and ovaries - from vagus nerve"
+					>
+					<element name="splanchnic nerves, pelvic, nipple"
+						distribution="breast, smooth muscles of the nipple"
+						imgsrc="http://www.fairbanksplasticsurgery.com/static/uploaded/nipple_deformities_small.png"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.BREAST"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.BREAST" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+					<element name="splanchnic nerves, pelvic, to penis/clitoris"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+						<element name="cavernous nerves of clitoris"
+							origin="uterovaginal PLEXUS, pelvic splanchnic nerve"
+							distribution="erectile tissue of clitoris"
+							imgsrc="http://o.quizlet.com/i/j3m42JLaeiZME1E0EkVVHA.jpg"
+							modality="parasympathetic motor, autonomic sensory"
+							/>
+						<element name="cavernous nerves of penis"
+							origin="prostatic PLEXUS, pelvic splanchnic nerve"
+							distribution="erectile tissue of penis"
+							imgsrc="http://urology.jhu.edu/prostate/img/erectyle_dysfunction.jpg"
+							modality="parasympathetic motor, autonomic sensory"
+							/>
+					</element>
+					<element name="splanchnic nerves, pelvic, uterovaginal"
+						origin="uterovaginal plexus"
+						distribution="uterus, vagina"
+						imgsrc="http://web.uni-plovdiv.bg/stu1104541018/docs/res/skandalakis%27%20surgical%20anatomy%20-%202004/Chapter%2026_%20Female%20Genital%20System_fichiers/loadBinaryCAVZVP3B.jpg" imgheight="600"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.GENITALIA"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.GENITALIA" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+					<element name="splanchnic nerves, pelvic, to stomach"
+						origin="Auerbach's plexus, Meissner's plexus"
+						distribution="terminal transverse colon, descending colon, sigmoid colon"
+						imgsrc="http://classroom.sdmesa.edu/eschmid/F11.03.L.150.jpg" imgheight="600"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.STOMACH"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.STOMACH" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+					<element name="splanchnic nerves, pelvic, to urinary bladder"
+						origin="hypogastric plexus"
+						distribution="urinary bladder, uterus and uterine tubes; preganglionic axons exit from the ventral roots, travel in the pelvic nerves, pass through the hypogastric plexus, and synapse on postganglionic neurons located in the wall of the urinary bladder"
+						imgsrc="http://3.bp.blogspot.com/-LqINgObPWSs/TkoSQl4QKEI/AAAAAAAAACE/qNVYq5G5rho/s400/urinary+bladder.png"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.URETER"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.URETER" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+					<element name="splanchnic nerves, pelvic, to rectum"
+						origin="mesenteric plexus, inferior"
+						distribution="rectum, anus"
+						imgsrc="http://www.dartmouth.edu/~humananatomy/figures/chapter_36/36-2_files/image002.jpg"
+						modality="parasympathetic motor, autonomic sensory"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.SPS" dst="TARGET.TEA.RECTUM"><mid id="AVA.PN.PSYM.PPG"/></fibers>
+						<fibers type="GVA" src="TARGET.TEA.RECTUM" dst="AVA.SC.IZ.IMM"><mid id="AVA.PN.SG.DRG"/></fibers>
+					</element>
+				</element>
+			</element>
+		</element>
+
+	</division>
+
+</pns>
+

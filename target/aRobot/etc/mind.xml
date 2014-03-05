@@ -1,0 +1,58 @@
+<service>
+
+	<!-- ================= basic neural networks parameters =============== -->
+	<neural-networks>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_INITIAL_pQ" value="70"/>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_MIN_pQ" value="10"/>
+		<property name="NEURON_ACTION_POTENTIAL_BY_SIGNAL_pQ" value="20"/>
+		<property name="NEURON_MEMBRANE_POTENTIAL_BY_ACTION_POTENTIAL_pQ" value="65"/>
+		<property name="NEURON_MEMBRANE_THRESHOLD_INITIAL_pQ" value="60"/>
+		<property name="NEURON_FIRE_OUTPUT_BY_MEMBRANE_POTENTIAL_pQ" value="80"/>
+		<property name="NEURON_INHIBIT_DELAY_ms" value="10"/>
+		<property name="NEURON_FIRE_OUTPUT_SILENT_ms" value="10"/>
+		<property name="NEURON_FIRE_IMPULSE_pQ" value="2"/>
+		<property name="NEURON_POTENTIAL_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_OUTPUT_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_FULL_RELAX_ms" value="1000"/>
+		<property name="NEURON_CONNECTIVITY_UPDATE_FACTOR" value="95"/>
+	</neural-networks>
+
+	<!-- ================= mind geometry =============== -->
+	<mind-space>
+	</mind-space>
+
+	<!-- ================= mind components and circuits =============== -->
+	<mind-map>
+
+		<region-type-set>
+		</region-type-set>
+
+		<!-- ================= typical links =============== -->
+		<connection-type-set>
+		</connection-type-set>
+
+		<component-set>
+		</component-set>
+
+		<circuit-set>
+		</circuit-set>
+
+	</mind-map>
+
+	<!-- ================= memory state =============== -->
+	<active-memory>
+		<memory-focus>
+			<property name="objectCount" value="100"/>
+		</memory-focus>
+
+		<thread-pool>
+			<property name="name" value="AMT"/>
+			<property name="run" value="false"/>
+			<property name="threadCount" value="20"/>
+			<property name="operationsPerSecond" value="100"/>
+			<property name="secondsPerCycle" value="1"/>
+			<property name="maxLoad" value="10"/>
+		</thread-pool>
+	</active-memory>
+
+</service>

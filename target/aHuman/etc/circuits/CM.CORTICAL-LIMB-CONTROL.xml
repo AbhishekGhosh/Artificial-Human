@@ -1,0 +1,31 @@
+<circuits>
+
+	<circuit id="CM.PARIETAL-MOTOR-ZONES" name="Parietal-frontal connections of specific movement zones"
+		image="http://c431376.r76.cf2.rackcdn.com/10053/fnana-05-00034-r1/image_m/fnana-05-00034-g002.jpg"
+		reference="http://www.frontiersin.org/neuroanatomy/10.3389/fnana.2011.00034/full"
+		components="IPS=VCA.NC.IPS.AIP"
+		>
+	</circuit>
+
+	<circuit id="CM.SENSORIMOTOR-PATHWAYS-PPC" name="Sensorimotor cortical pathways"
+		image="http://c431376.r76.cf2.rackcdn.com/10053/fnana-05-00034-r1/image_m/fnana-05-00034-g006.jpg"
+		reference="http://www.frontiersin.org/neuroanatomy/10.3389/fnana.2011.00034/full"
+		components="IPS=VCA.NC.IPS.AIP"
+		>
+	</circuit>
+
+	<circuit id="CM.PARIETAL-IPL-RECEPTORS" name="IPL Receptors"
+		image="http://cercor.oxfordjournals.org/content/early/2012/02/28/cercor.bhs048/F9.medium.gif"
+		reference="http://cercor.oxfordjournals.org/content/early/2012/02/28/cercor.bhs048/F9.expansion.html"
+		components="IPL=VCA.NC.IPL.MST"
+		>
+	</circuit>
+
+	<circuit id="CM.PARIETAL-OVERVIEW" name="Postero-lateral and medial views of hemisphere of human"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0028393205003568-gr1.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S0028393205003568"
+		components="IPL=VCA.NC.IPL.MST"
+		>
+	</circuit>
+
+</circuits>

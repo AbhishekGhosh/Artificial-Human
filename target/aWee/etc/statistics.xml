@@ -1,0 +1,27 @@
+<service>
+
+	<metrics>
+		<metric name="NL2.link.projection.rate" type="percentage"/>
+		<metric name="NL2.link.projection.srcsize" type="int"/>
+		<metric name="NL2.link.projection.dstsize" type="int"/>
+		<metric name="NL3.link.projection.srcsize" type="int"/>
+		<metric name="NL3.link.projection.dstsize" type="int"/>
+		<metric name="NL4.link.projection.srcsize" type="int"/>
+		<metric name="NL4.link.projection.dstsize" type="int"/>
+		<metric name="cortex.prediction.rate" type="percentage"/>
+		<metric name="cortex.spatialmatch.rate" type="percentage"/>
+		<metric name="cortex.temporalmatch.rate" type="percentage"/>
+	</metrics>
+
+	<logging>
+		<logTask name="projection" intervalSec="60">
+			<logRecord metric="NL2.link.projection.rate" aggregate="derived" function="sumbysum2percentage" metric1="NL2.link.projection.dstsize" metric2="NL2.link.projection.srcsize"/>
+			<logRecord metric="NL2.link.projection.srcsize" aggregate="sum"/>
+			<logRecord metric="NL2.link.projection.dstsize" aggregate="sum"/>
+			<logRecord metric="cortex.prediction.rate" aggregate="average"/>
+			<logRecord metric="cortex.spatialmatch.rate" aggregate="average"/>
+			<logRecord metric="cortex.temporalmatch.rate" aggregate="average"/>
+		</logTask>
+	</logging>
+
+</service>

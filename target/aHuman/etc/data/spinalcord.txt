@@ -1,0 +1,13 @@
+Lateral Horn = sympathetic
+Dorsal Horn = sensory
+	L1 = Marginal Nucleus -> Thalamus (pain)
+	L2,L3 = Substantia Gelatinosa of Rolando (regulating afferent input to the spinal cord)
+	L4 = Nucleus Proprius -> Thalamus and lateral cervical nucleus (lateral horn)
+	L V, VI (C6-L3) = Clarke’s column -> Cerebellum
+Intermediate Zone
+	L VII
+		Intermediolateral Cell Column (IML) (T,S) = contains neurons of origin of preganglionic autonomic fibers
+		Intermediomedial Cell Column (IMM)
+Ventral Horn = motor
+	L VIII = movements of muscles in the head and neck
+ 	L IX = flexor and extensors

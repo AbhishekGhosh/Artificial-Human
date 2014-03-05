@@ -1,0 +1,197 @@
+<circuits>
+
+	<circuit id="CF.GENERIC-REWARD" name="Pathways of Reward Circuit"
+		image="http://www.nature.com/npp/journal/v35/n1/images/npp2009129f1.jpg"
+		reference="http://www.nature.com/npp/journal/v35/n1/fig_tab/npp2009129f1.html"
+		components="dACC=CGA.NC.DACG Amy=BFA.FT.AM"
+		>
+	</circuit>
+
+	<circuit id="CF.DEPRESSION" name="Depression"
+		image="http://contemplativemind.files.wordpress.com/2011/03/mental_illness_matrix_2010_final1.jpg"
+		reference="http://contemplativemind.wordpress.com/category/peer-reviewed-journal-articles/"
+		components="dACC=CGA.NC.DACG"
+		>
+	</circuit>
+
+	<circuit id="CF.FEELING" name="Feeling"
+		image="http://www.nature.com/nrn/journal/v5/n7/images/nrn1432-f2.jpg"
+		reference="http://www.nature.com/nrn/journal/v5/n7"
+		components="HC=HBA.FT.HC CG=CGA.NC.MPL.PCG AN=CGA.FD.TH.AN HT=HTA.FD.HT"
+		>
+		<link src="HT" dst="AN"/>
+		<link src="AN" dst="CG"/>
+		<link src="CG" dst="HC"/>
+		<link src="HC" dst="HT"/>
+	</circuit>
+
+	<circuit id="CF.PFC-EMOTIONS" name="Prefrontal Cortex (PFC) in emotional behavior"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/emotional_top.jpg"
+		reference="https://www.google.ru/search?hl=ru&tbo=p&tbm=bks&q=isbn:0080887988"
+		components="LPFC=FCA.NC.LPFC OPFC=FCA.NC.OMPFC ACG=CGA.NC.ACG PCA=CGA.NC.MPL HCA=HBA.FT.HC AM=BFA.FT.AM TH=FCA.FD.TH.MD HT=HTA.FD.HT PN=MBA.HP.PN"
+		>
+		<link src="PCA" dst="OPFC"/>
+		<link src="PCA" dst="LPFC"/>
+		<link src="PCA" dst="HCA"/>
+		<link src="HCA" dst="AM"/>
+		<link src="AM" dst="OPFC"/>
+		<link src="OPFC" dst="LPFC"/>
+		<link src="LPFC" dst="ACG"/>
+		<link src="TH" dst="LPFC"/>
+		<link src="AM" dst="TH"/>
+		<link src="OPFC" dst="HT"/>
+		<link src="HT" dst="PN"/>
+	</circuit>
+
+	<circuit id="CF.PFC-CONNECTIVITY" name="Prefrontal cortex connectivity"
+		image="http://www.nature.com/nrn/journal/v4/n2/images/nrn1033-f1.jpg"
+		reference="http://www.nature.com/nrn/journal/v4/n2/fig_tab/nrn1033_F1.html"
+		components="LPFC=FCA.NC.LPFC OPFC=FCA.NC.OMPFC"
+		>
+	</circuit>
+
+	<circuit id="CF.EMOTIONAL-MODULATION" name="Role for serotonin in moral behavior"
+		image="http://www.pnas.org/content/107/40/17071/F1.medium.gif"
+		reference="http://www.pnas.org/content/107/40/17071/F1.expansion.html"
+		components="LPFC=FCA.NC.LPFC OMPFC=FCA.NC.OMPFC HYP=HTA.FD.HT ACG=CGA.NC.ACG AMY=BFA.FT.AM"
+		>
+		<link src="AMY" dst="HYP"/>
+		<link src="AMY" dst="ACG"/>
+		<link src="ACG" dst="AMY"/>
+		<link src="ACG" dst="LPFC"/>
+		<link src="LPFC" dst="OMPFC"/>
+		<link src="OMPFC" dst="ACG"/>
+	</circuit>
+
+	<circuit id="CF.REWARD-CIRCUIT" name="Reward circuit of human brain"
+		image="http://neurowiki2012.wikispaces.com/file/view/Reward_circuit.jpg/315908202/Reward_circuit.jpg"
+		reference="http://neurowiki2012.wikispaces.com/Presynaptic+Mechanisms+of+Synaptic+Plasticity"
+		components="PFC=FCA.NC.OMPFC HC=HBA.FT.HC NACC=BGA.FT.ACC VPAL=BGA.FT.VP AM=BFA.FT.AM VTA=FBA.MM.VTA"
+		>
+		<link src="PFC" dst="NACC"/>
+		<link src="NACC" dst="VPAL"/>
+		<link src="NACC" dst="VTA"/>
+		<link src="AM" dst="NACC"/>
+		<link src="VTA" dst="AM"/>
+		<link src="VTA" dst="NACC"/>
+		<link src="VTA" dst="HC"/>
+		<link src="VTA" dst="PFC"/>
+		<link src="HC" dst="NACC"/>
+	</circuit>
+
+	<circuit id="CF.CRAVING" name="Craving"
+		image="http://www.impulsecontroldisorders.org/images/8-Urges9proof.jpg"
+		reference="http://www.impulsecontroldisorders.org/html/cravings.html"
+		components="OMPFC=FCA.NC.OMPFC NACC=BGA.FT.ACC SNr=BGA.FT.SN.PR VPAL=BGA.FT.VP VTA=FBA.MM.VTA"
+		>
+		<link src="OMPFC" dst="VTA"/>
+		<link src="OMPFC" dst="SNr"/>
+		<link src="VPAL" dst="SNr"/>
+		<link src="VPAL" dst="VTA"/>
+		<link src="VTA" dst="NACC"/>
+		<link src="NACC" dst="SNr"/>
+		<link src="NACC" dst="VPAL"/>
+	</circuit>
+
+	<circuit id="CF.HB-CONNECTIONS" name="Habenula Connections"
+		image="http://www.scholarpedia.org/w/images/thumb/2/2d/Hb-connections-small.jpg/800px-Hb-connections-small.jpg"
+		reference="http://www.scholarpedia.org/article/Habenula"
+		components="S=BFA.FT.SEP DBB=BFA.FT.SEP.DBB LPO=HTA.FD.HT.PO LH=HTA.FD.HT.LT LHb=BFA.FD.LHB MHb=BFA.FD.MHB PB=TARGET.TEA.ENDOCRINE DR=FBA.MM.RP.DRN MR=FBA.MM.RP.MRN IP=BGA.HP.PPN.IPD SNc=BGA.FT.SN.PC VTA=FBA.MM.VTA CPu=BGA.FT.ST GPi=BGA.FT.GPI"
+		>
+		<link src="S" dst="MHb"/>
+		<link src="DBB" dst="MHb"/>
+		<link src="LPO" dst="LHb"/>
+		<link src="LH" dst="LHb"/>
+		<link src="CPu" dst="GPi"/>
+		<link src="GPi" dst="LHb"/>
+		<link src="MHb" dst="PB"/>
+		<link src="MHb" dst="IP"/>
+		<link src="LHb" dst="SNc"/>
+		<link src="LHb" dst="VTA"/>
+		<link src="LHb" dst="DR"/>
+		<link src="LHb" dst="MR"/>
+	</circuit>
+
+	<circuit id="CF.AFFECTIVE-BG" name="Affective basal ganglia circuit"
+		image="http://www.expertsmind.com/CMSImages/250_Affective%20basal%20ganglia%20circuit.png"
+		reference="http://www.expertsmind.com/topic/emotion/affective-basal-ganglia-circuit-93570.aspx"
+		components="OMPFC=FCA.NC.OMPFC NACC=BGA.FT.ACC nBM=BFA.FT.NBM"
+		>
+		<link src="NACC" dst="nBM"/>
+		<link src="OMPFC" dst="NACC"/>
+	</circuit>
+
+	<circuit id="CF.AM-DISRUPTION" name="Amygdalar disruption of prefrontal cortex"
+		image="http://neuropolitics.org/connect-amygdala.jpg"
+		reference="http://neuropolitics.org/defaultmay10.asp"
+		components="AM=BFA.FT.AM HC=HBA.FT.HC TH=FD.TH PB=BMA.HP.PB SOL=HMA.HM.SOL HT.PV=HTA.FD.HT.PV HT.L=HTA.FD.HT.LT PUT=TARGET.TEA.ENDOCRINE LC=FBA.HP.LC PAG=FBA.MM.PAG INS=PHA.NC.INS MPFC=FCA.NC.OMPFC ACG=CGA.NC.ACG"
+		>
+		<link src="AM" dst="MPFC"/>
+		<link src="AM" dst="ACG"/>
+		<link src="INS" dst="MPFC"/>
+		<link src="INS" dst="ACG"/>
+		<link src="TH" dst="INS"/>
+		<link src="TH" dst="AM"/>
+		<link src="AM" dst="HT.PV"/>
+		<link src="AM" dst="HT.L"/>
+		<link src="HT.PV" dst="PUT"/>
+		<link src="AM" dst="LC"/>
+		<link src="AM" dst="PAG"/>
+		<link src="AM" dst="PB"/>
+		<link src="PB" dst="AM"/>
+		<link src="SOL" dst="PB"/>
+		<link src="SOL" dst="TH"/>
+	</circuit>
+
+	<circuit id="CF.TWO-FEAR-PATHWAYS" name="Amygdala - two pathways of fear"
+		image="http://thebrain.mcgill.ca/flash/a/a_04/a_04_cr/a_04_cr_peu/a_04_cr_peu_2a.gif"
+		reference="http://thebrain.mcgill.ca/flash/a/a_04/a_04_cr/a_04_cr_peu/a_04_cr_peu.html"
+		components="AM=BFA.FT.AM"
+		>
+	</circuit>
+
+	<circuit id="CF.PAIN-MATRIX" name="Pain matrix"
+		image="http://www.springerimages.com/img/Images/Springer/JOU=10194/VOL=2006.7/ISU=4/ART=2006_307/MediaObjects/MEDIUM_10194_2006_Article_307_Fig1.jpg"
+		reference="http://www.springerimages.com/Images/MedicineAndPublicHealth/1-10.1007_s10194-006-0307-1-0"
+		components="PFC=FCA.NC.OMPFC ACC=CGA.NC.ACG SMA=MCA.NC.SMC S1=SMA.NC.PG.S1 TH=FD.TH AM=BFA.FT.AM PPC=NC.SPL INS=PHA.NC.INS PAG=FBA.MM.PAG"
+		>
+	</circuit>
+
+	<circuit id="CF.SOMATOSENSORY-THALAMUS" name="Pain matrix"
+		image="http://users.atw.hu/blp6/BLP6/HTML/common/M9780323045827-007-f005.jpg"
+		reference="http://users.atw.hu/blp6/BLP6/HTML/C0079780323045827.htm"
+		components="S1=SMA.NC.PG.S1 TH.VPM=SMA.FD.TH.VPM TH.VPL=SMA.FD.TH.VPL TH.VPI=SMA.FD.TH.VPI INS=PHA.NC.INS.PIC"
+		>
+		<link src="TH.VPM" dst="S1"/>
+		<link src="TH.VPL" dst="S1"/>
+		<link src="TH.VPI" dst="INS"/>
+	</circuit>
+
+	<circuit id="CF.NUCLEUUS-ACCUMBENS" name="Nucleus Accumbens"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/nucleus-accumbens.jpg"
+		reference="UNKNOWN"
+		components="NACC=BGA.FT.ACC SUB=HBA.FT.SC.SUB CA1=HBA.FT.HC.CA1 CA3=HBA.FT.HC.CA3 PAS=PHA.NC.PAS EC=PHA.NC.PH.ET PRR=PHA.NC.PH.PRR"
+		>
+		<link src="SUB" dst="NACC"/>
+		<link src="CA1" dst="NACC"/>
+		<link src="CA3" dst="NACC"/>
+		<link src="PAS" dst="NACC"/>
+		<link src="EC" dst="NACC"/>
+		<link src="PRR" dst="NACC"/>
+	</circuit>
+
+	<circuit id="CF.MEYNERT" name="Basal Nucleus of Meynert"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/human/22-reticular-formation-and-limbic-system/F22-2.png"
+		reference="article:Biological/2005-The-Human-Nervous-System.pdf"
+		components="AM=BFA.FT.AM CA1=HBA.FT.HC.CA1 EC=PHA.NC.PH.ET PRR=PHA.NC.PH.PRR BMN=BFA.FT.NBM"
+		>
+	</circuit>
+
+	<circuit id="CF.DEFAULT-SYSTEM" name="Medial prefrontal network"
+		image="http://www.nature.com/npp/journal/v35/n1/images/npp2009104f10.jpg"
+		reference="http://www.nature.com/npp/journal/v35/n1/fig_tab/npp2009104f10.html"
+		components="RostralCtx=PHA.NC.TPC PH=NC.LOBE.PH RSP=CGA.NC.MPL.RSC PCG=CGA.NC.MPL.PCG MPFC=FCA.NC.OMPFC TH.PV=BFA.FD.TH.PV VPAL=BGA.FT.VP TH.MD=FCA.FD.TH.MD NACC=BGA.FT.ACC BNST=BFA.FT.BNST"
+		>
+	</circuit>
+
+</circuits>

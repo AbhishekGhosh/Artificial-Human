@@ -1,0 +1,8 @@
+<service>
+	<sensors>
+		<sensor name="SensorEye" run="true"/>
+	</sensors>
+
+	<effectors>
+	</effectors>
+</service>

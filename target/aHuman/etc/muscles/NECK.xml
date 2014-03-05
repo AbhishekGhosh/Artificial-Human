@@ -1,0 +1,129 @@
+<pns>
+
+	<division category="MUSCLES - NECK" name="Suboccipital" group="Suboccipital muscles">
+
+		<element name="Obliquus capitis">
+			<element name="Neck - obliquus capitis inferior muscle" type="extensor" link="http://en.wikipedia.org/wiki/Obliquus_capitis_inferior_muscle"
+				nerves="suboccipital nerve"
+				action="rotation of head and neck"
+				/>
+			<element name="Neck - obliquus capitis superior muscle" type="extensor" link="http://en.wikipedia.org/wiki/Obliquus_capitis_superior_muscle"
+				nerves="suboccipital nerve"
+				action="extends head and flex head to the ipsilateral side"
+				/>
+		</element>
+		<element name="Rectus capitis posterior">
+			<element name="Neck - rectus capitis posterior major muscle" type="extensor" link="http://en.wikipedia.org/wiki/Rectus_capitis_posterior_major_muscle"
+				nerves="suboccipital nerve"
+				action="ipsilateral rotation of head and extension"
+				/>
+			<element name="Neck - rectus capitis posterior minor muscle" type="extensor" link="http://en.wikipedia.org/wiki/Rectus_capitis_posterior_minor_muscle"
+				nerves="suboccipital nerve"
+				action="extends the head at the neck, but is now considered to be more of a sensory organ than a muscle"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - NECK" name="Cervical">
+
+		<element name="Face - platysma muscle" type="cranial" link="http://en.wikipedia.org/wiki/Platysma_muscle"
+			nerves="facial nerve, cervical branch"
+			action="Draws the corners of the mouth inferiorly and widens it (as in expressions of sadness and fright). Also draws the skin of the neck superiorly when teeth are clenched"/>
+
+		<element name="Neck - sternocleidomastoid muscle" type="flexor" link="http://en.wikipedia.org/wiki/Sternocleidomastoid_muscle"
+			nerves="accessory nerve, external"
+			action="Acting alone, tilts head to its own side and rotates it so the face is turned towards the opposite side. Acting together, flexes the neck, raises the sternum and assists in forced inspiration."/>
+
+		<element name="Splenius muscles">
+			<element name="Neck - splenius capitis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Splenius_capitis_muscle"
+				nerves="nerve to splenius capitis muscle"
+				action="prime mover for head extension; can also allow lateral flexion and rotation of the cervical spine"
+				/>
+			<element name="Neck - splenius cervicis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Splenius_cervicis_muscle"
+				nerves="nerve to splenius cervilis muscle"
+				action="bilaterally: extend the head and neck, unilaterally: lateral flexion to the same side, rotation to the same side"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - NECK" name="Suprahyoid" group="Muscles of larynx, Extrinsic, Suprahyoid muscles">
+
+		<element name="Digastric muscle">
+			<element name="Feeder - digastric muscle, facial" type="cranial" link="http://en.wikipedia.org/wiki/Digastric_muscle"
+				notes="posterior belly of digastric muscles"
+				nerves="facial nerve, digastric branch"
+				action="opens the jaw when the masseter and the temporalis are relaxed; elevate hyoid bone to open mouth"/>
+			<element name="Feeder - digastric muscle, trigeminal" type="cranial" link="http://en.wikipedia.org/wiki/Digastric_muscle"
+				nerves="mylohyoid nerve"
+				action="opens the jaw when the masseter and the temporalis are relaxed"/>
+		</element>
+
+		<element name="Feeder - geniohyoid muscle" type="flexor" link="http://en.wikipedia.org/wiki/Geniohyoid_muscle"
+			nerves="nerve to geniohyoid"
+			action="carry hyoid bone and the tongue upward during deglutition"/>
+
+		<element name="Feeder - stylohyoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Stylohyoid_muscle"
+			nerves="facial nerve, stylohyoid branch"
+			action="elevate the hyoid during swallowing"/>
+
+		<element name="Feeder - mylohyoid muscle" type="cranial" link="http://en.wikipedia.org/wiki/Mylohyoid_muscle"
+			nerves="mylohyoid nerve"
+			action="raises oral cavity floor, elevates hyoid, depresses mandible"/>
+
+	</division>
+
+	<division category="MUSCLES - NECK" name="Infrahyoid/Strap" group="Muscles of larynx, Extrinsic, Infrahyoid muscles">
+
+		<element name="Speaker - sternohyoid muscle" type="extensor" link="http://en.wikipedia.org/wiki/Sternohyoid_muscle"
+			nerves="ansa cervicalis, inferior root"
+			action="depress hyoid bone"/>
+
+		<element name="Speaker - sternothyroid muscle" type="extensor" link="http://en.wikipedia.org/wiki/Sternothyroid_muscle"
+			nerves="ansa cervicalis, inferior root"
+			action="elevates larynx, may slightly depress hyoid bone"/>
+
+		<element name="Speaker - thyrohyoid muscle" type="extensor" link="http://en.wikipedia.org/wiki/Thyrohyoid_muscle"
+			nerves="thyroid nerve"
+			action="depresses hyoid bone and elevates the larynx"/>
+
+		<element name="Speaker - omohyoid muscle" type="extensor" link="http://en.wikipedia.org/wiki/Omohyoid_muscle"
+			nerves="ansa cervicalis, superior root"
+			action="Depresses the larynx and hyoid bone. Carries hyoid bone backward and to the side"/>
+
+	</division>
+
+	<division category="MUSCLES - NECK" name="Vertebrate" group="Vertebrate muscles">
+
+		<element name="Neck - longus capitis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Longus_capitis_muscle"
+			nerves="nerve to longus capitis and longus colli muscles"
+			action="flexion of neck at atlanto-occipital joint"/>
+
+		<element name="Neck - longus colli muscle" type="flexor" link="http://en.wikipedia.org/wiki/Longus_colli_muscle"
+			nerves="nerve to longus capitis and longus colli muscles"
+			action="flexes the neck and head"/>
+
+		<element name="Neck - rectus capitis anterior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Rectus_capitis_anterior_muscle"
+			nerves="nerve to atlanto-occipital joint muscles"
+			action="flexion of neck at atlanto-occipital joint"/>
+
+		<element name="Neck - rectus capitis lateralis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Rectus_capitis_lateralis_muscle"
+			nerves="nerve to atlanto-occipital joint muscles"
+			action="sidebend at atlanto-occipital joint, takes care of flexing the neck"/>
+
+		<element name="Scalene muscles">
+			<element name="Neck - scalenus anterior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Scalenus_anterior"
+				nerves="nerve to scalene and levator scapulae muscles"
+				action="C5, C6, elevates first rib, rotate the neck to the opposite side"/>
+			<element name="Neck - scalenus medius muscle" type="flexor" link="http://en.wikipedia.org/wiki/Scalenus_medius"
+				nerves="nerve to scalene and levator scapulae muscles"
+				action="C3, C4, C5, C6, C7, C8, elevate 1st rib, laterally flex (bend) the neck to the same side"/>
+			<element name="Neck - scalenus posterior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Scalenus_posterior"
+				nerves="nerve to scalene and levator scapulae muscles"
+				action="C6, C7, C8, elevate 2nd rib, tilt the neck to the same side"/>
+		</element>
+
+	</division>
+
+</pns>

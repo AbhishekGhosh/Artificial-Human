@@ -1,0 +1,73 @@
+<service>
+	<topics>
+
+		<!-- platform topics -->
+		<topic name="test.commands.in">
+			<property name="msgid" value="TESTREQUEST"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="test.commands.out">
+			<property name="msgid" value="TESTRESPONSE"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="http.request">
+			<property name="msgid" value="HTTP.IN"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="true"/>
+		</topic>
+
+		<topic name="http.response">
+			<property name="msgid" value="HTTP.OUT"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="true"/>
+		</topic>
+
+		<topic name="scheduler">
+			<property name="msgid" value="SCHD"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="true"/>
+		</topic>
+
+		<!-- mind topics -->
+		<topic name="ThalamusArea">
+			<property name="msgid" value="TH"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="PerceptionArea">
+			<property name="msgid" value="PA"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="true"/>
+		</topic>
+
+		<topic name="SensorArea">
+			<property name="msgid" value="SA"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="EffectorArea">
+			<property name="msgid" value="EA"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="ParietalArea">
+			<property name="msgid" value="PA"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+		<topic name="SomaticArea">
+			<property name="msgid" value="SM"/>
+			<property name="auth" value="false"/>
+			<property name="sync" value="false"/>
+		</topic>
+
+	</topics>
+</service>

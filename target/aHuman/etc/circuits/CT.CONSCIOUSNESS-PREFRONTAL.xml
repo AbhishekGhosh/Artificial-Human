@@ -1,0 +1,75 @@
+<circuits>
+
+	<circuit id="CT.PREFRONTAL-FOR-CONSCIOUSNESS" name="Two extended parallel pathways for decision making"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0959438807000323-gr1.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S0959438807000323"
+		components="DLPFC=FCA.NC.LPFC VLPFC=FCA.NC.LPFC PM=NC.PMC M1=MCA.NC.MC IT=VCA.NC.IT PC=NC.LOBE.PAR V1=NC.LOBE.OCC"
+		>
+		<link src="IT" dst="VLPFC"/>
+		<link src="VLPFC" dst="DLPFC"/>
+		<link src="DLPFC" dst="PM"/>
+		<link src="VLPFC" dst="PM"/>
+		<link src="PM" dst="M1"/>
+		<link src="PC" dst="PM"/>
+		<link src="PC" dst="DLPFC"/>
+		<link src="IT" dst="PC"/>
+		<link src="V1" dst="PC"/>
+		<link src="V1" dst="IT"/>
+	</circuit>
+
+	<circuit id="CT.DIRECTED-EFFORT-NETWORK" name="Directed Effort Network"
+		image="http://c431376.r76.cf2.rackcdn.com/18691/fnhum-06-00184-HTML/image_m/fnhum-06-00184-g001.jpg"
+		reference="http://www.frontiersin.org/Human_Neuroscience/10.3389/fnhum.2012.00184/full"
+		components="ACA=ACA.NC.A2 AC22=ACA.NC.A4 PPC=NC.IPL dACC=CGA.NC.DACG fPole=FCA.NC.IPG tPole=PHA.NC.TPC AM=BFA.FT.AM HC=HBA.FT.HC Insula=PHA.NC.INS vACC=CGA.NC.VACG OPFC=FCA.NC.OMPFC DLPFC=FCA.NC.LPFC"
+		>
+		<link src="AC22" dst="PPC"/>
+		<link src="ACA" dst="dACC"/>
+		<link src="PPC" dst="dACC"/>
+		<link src="DLPFC" dst="dACC"/>
+		<link src="AM" dst="vACC"/>
+		<link src="AM" dst="OPFC"/>
+		<link src="OPFC" dst="vACC"/>
+		<link src="tPole" dst="Insula"/>
+		<link src="Insula" dst="vACC"/>
+		<link src="Insula" dst="fPole"/>
+		<link src="vACC" dst="DLPFC"/>
+		<link src="fPole" dst="DLPFC"/>
+		<link src="fPole" dst="vACC"/>
+	</circuit>
+
+	<circuit id="CT.SOCIAL-BRAIN" name="Regulation of Social Brain"
+		image="http://brmlab.cz/lib/exe/fetch.php?hash=fca48f&amp;media=http%3A%2F%2Fars.els-cdn.com%2Fcontent%2Fimage%2F1-s2.0-S1364661308002490-gr2.jpg"
+		reference="http://brmlab.cz/project/brain_hacking/tdcs/pfc"
+		components="SGC=CGA.NC.SGC VACC=CGA.NC.VACG DACC=CGA.NC.DACG IFG=FCA.NC.IPG OFC=FCA.NC.OMPFC AMG=BFA.FT.AM Hipp=HBA.FT.HC PhippG=PHA.NC.PH.ET MPFC=FCA.NC.OMPFC DLPFC=FCA.NC.LPFC Caud=BGA.FT.CN Put=BGA.FT.PU LSN=BMA.SC.LH.LSN SN=BGA.FT.SN VTA=FBA.MM.VTA VentPal=BGA.FT.VP NACC=BGA.FT.ACC"
+		>
+		<link src="SGC" dst="VACC"/>
+		<link src="SGC" dst="DACC"/>
+		<link src="IFG" dst="SGC"/>
+		<link src="OFC" dst="IFG"/>
+		<link src="AMG" dst="OFC"/>
+		<link src="MPFC" dst="OFC"/>
+		<link src="DLPFC" dst="MPFC"/>
+		<link src="DLPFC" dst="Caud"/>
+		<link src="Caud" dst="Put"/>
+		<link src="VTA" dst="NACC"/>
+		<link src="VTA" dst="VentPal"/>
+		<link src="NACC" dst="VentPal"/>
+	</circuit>
+
+	<circuit id="CT.CINGULUM-CONNECTIONS" name="Principal Connections of Hippocampus"
+		image="http://highered.mcgraw-hill.com/sites/dl/free/0071402357/156721/figure350_1.gif"
+		reference="http://highered.mcgraw-hill.com/sites/dl/free/0071402357/156721/figure350_1.html"
+		components="DorsalCingulate=CGA.NC.DACG VentralCingulate=CGA.NC.VACG PosteriorCingulate=CGA.NC.MPL.PCG AN=CGA.FD.TH.AN MB=HBA.FD.MB.MMB SEP=BFA.FT.SEP EC=PHA.NC.PH.ET AM=BFA.FT.AM SUB=HBA.FT.SC.SUB DG=HBA.FT.DG HC=HBA.FT.HC.CA3"
+		>
+		<link src="DorsalCingulate" dst="VentralCingulate"/>
+		<link src="VentralCingulate" dst="PosteriorCingulate"/>
+		<link src="PosteriorCingulate" dst="EC"/>
+		<link src="AM" dst="EC"/>
+		<link src="EC" dst="DG"/>
+		<link src="HC" dst="SEP"/>
+		<link src="HC" dst="MB"/>
+		<link src="HC" dst="AN"/>
+		<link src="AN" dst="VentralCingulate"/>
+	</circuit>
+
+</circuits>

@@ -1,0 +1,212 @@
+<circuits>
+
+	<circuit id="CM.SENSIMOTOR-NERVES" name="Sensimotor Nerves"
+		image="http://aids.hallym.ac.kr/d/kns/tutor/ch2-nb3.jpg"
+		reference="http://aids.hallym.ac.kr/d/kns/tutor/chap2-bn.html"
+		components="MC=MCA.NC.MC"
+		>
+	</circuit>
+
+	<circuit id="CM.SENSIMOTOR-INTERACTIONS" name="Sensimotor Interactions"
+		image="http://aids.hallym.ac.kr/d/kns/tutor/pns49.jpg"
+		reference="http://aids.hallym.ac.kr/d/kns/tutor/chap2-bn.html"
+		components="MC=MCA.NC.MC"
+		>
+	</circuit>
+
+	<circuit id="CM.MOVEMENT-PLANNING" name="Movement Planning"
+		image="http://thebrainlabs.com/Images/primary_motor_cortex.gif"
+		reference="http://thebrainlabs.com/brain.shtml"
+		components="SMC=MCA.NC.SMC PPC=NC.SPL"
+		>
+		<link src="PPC" dst="SMC"/>
+	</circuit>
+
+	<circuit id="CM.SOMATIC-SENSES" name="Somatic Senses"
+		image="http://www.biopsychology.com/6e/step/08/0801-1.jpg"
+		reference="http://www.biopsychology.com/6e/step0801.html"
+		components="S1=SMA.NC.PG.S1"
+		>
+	</circuit>
+
+	<circuit id="CM.OWL-MONKEY" name="Owl Monkey Somatic Area"
+		image="http://www.scholarpedia.org/w/images/thumb/b/bf/PrimateS1cortexfigure1.jpg/400px-PrimateS1cortexfigure1.jpg"
+		reference="http://www.scholarpedia.org/article/User:Tony_J._Prescott/Proposed/Primate_S1_cortex"
+		components="S1=SMA.NC.PG.S1"
+		>
+	</circuit>
+
+	<circuit id="CM.HOMUNCULUS" name="Homunculus S1 and M1"
+		image="http://brainmind.com/images/homunculus.jpg"
+		reference="http://brainmind.com/BasalGanglia.html"
+		components="S1=SMA.NC.PG.S1"
+		>
+	</circuit>
+
+	<circuit id="CM.MOTOR-CORTICES" name="Motor Cortices"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/motor-cortex.jpg"
+		reference="UNKNOWN"
+		components="M1=MCA.NC.MC"
+		>
+	</circuit>
+
+	<circuit id="CM.CORTICOSPINAL-PATHWAY" name="Corticospinal pathway"
+		image="http://brainmind.com/images/Pyramidaltract.jpg"
+		reference="http://brainmind.com"
+		components="M1=MCA.NC.MC"
+		>
+	</circuit>
+
+	<circuit id="CM.GRASPING-CONTROL" name="Primate Control of Grasping"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0893608098000471-gr6.gif"
+		reference="http://www.sciencedirect.com/science/article/pii/S0893608098000471"
+		components="S1=SMA.NC.PG.S1 F1=MCA.NC.MC S2=SMA.NC.PG.S1 F2=MCA.NC.PMC.F2 F5=MCA.NC.PMC.F5 46=FCA.NC.LPFC BG=BGA.FT.BG F6=MCA.NC.SMC.F6 F4=MCA.NC.PMC.F4 AIP=VCA.NC.IPS.AIP VIP=VCA.NC.IPS.VIP PIP=VCA.NC.IPS.PEF VC=NC.LOBE.OCC IT=VCA.NC.IT"
+		>
+		<link src="S1" dst="F1"/>
+		<link src="S1" dst="S2"/>
+		<link src="S2" dst="F5"/>
+		<link src="F5" dst="S2"/>
+		<link src="F5" dst="F1"/>
+		<link src="F5" dst="BG"/>
+		<link src="F5" dst="AIP"/>
+		<link src="F5" dst="46"/>
+		<link src="46" dst="F6"/>
+		<link src="BG" dst="F6"/>
+		<link src="BG" dst="F5"/>
+		<link src="F6" dst="BG"/>
+		<link src="F6" dst="F5"/>
+		<link src="F6" dst="F4"/>
+		<link src="AIP" dst="F4"/>
+		<link src="AIP" dst="F5"/>
+		<link src="VIP" dst="F4"/>
+		<link src="PIP" dst="AIP"/>
+		<link src="IT" dst="AIP"/>
+		<link src="VC" dst="VIP"/>
+		<link src="VC" dst="PIP"/>
+		<link src="VC" dst="IT"/>
+	</circuit>
+
+	<circuit id="CM.MOTOR-DIVISIONS" name="Divisions of Cortical Motor System"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0896627307007118-gr4.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S0896627307007118"
+		components="M1=MCA.NC.MC"
+		>
+	</circuit>
+
+	<circuit id="CM.PFC-MOTOR" name="Prefrontal Cortex (PFC) in motor behavior"
+		image="http://ahuman.googlecode.com/svn/images/wiki/research/biomodel/motor_top.jpg"
+		reference="https://www.google.ru/search?hl=ru&tbo=p&tbm=bks&q=isbn:0080887988"
+		components="LPFC=FCA.NC.LPFC PMC=NC.PMC MC=MCA.NC.MC TH=FD.TH.VTH CN.PU=BGA.FT.ST GP=BGA.FT.GP SN=BGA.FT.SN CR=MBA.HP.CR PN=MBA.HP.PN"
+		>
+		<link src="LPFC" dst="PMC"/>
+		<link src="PMC" dst="MC"/>
+		<link src="MC" dst="PN"/>
+		<link src="PN" dst="CR"/>
+		<link src="MC" dst="CN.PU"/>
+		<link src="CN.PU" dst="GP"/>
+		<link src="GP" dst="SN"/>
+		<link src="SN" dst="CR"/>
+		<link src="CR" dst="TH"/>
+		<link src="CR" dst="LPFC"/>
+		<link src="LPFC" dst="TH"/>
+		<link src="TH" dst="PMC"/>
+	</circuit>
+
+	<circuit id="CM.NORMAL-BG-ANATOMY" name="Normal Functional Anatomy of Basal Ganglia"
+		image="http://www.mdvu.org/images/par_path2.jpg"
+		reference="http://www.mdvu.org/library/disease/pd/par_path.asp"
+		components="STN=BGA.FD.STN GPe=BGA.FT.GPE SNc=BGA.FT.SN.PC SNr=BGA.FT.SN.PR GPi=BGA.FT.GPI VA=MCA.FD.TH.VA VL=MCA.FD.TH.VL"
+		>
+	</circuit>
+
+	<circuit id="CM.BASAL-GANGLIA-ACTIVITY" name="Basal Ganglia Activity"
+		image="http://thebrain.mcgill.ca/flash/a/a_06/a_06_cr/a_06_cr_mou/a_06_cr_mou_2b.jpg"
+		reference="http://thebrain.mcgill.ca/flash/a/a_06/a_06_cr/a_06_cr_mou/a_06_cr_mou.html"
+		components="S1=SMA.NC.PG.S1 M1=MCA.NC.MC SMC=MCA.NC.SMC VLo=MCA.FD.TH.VL GPi=BGA.FT.GPI GPo=BGA.FT.GPE STN=BGA.FD.STN SN=BGA.FT.SN PU=BGA.FT.PU PMC=NC.PMC"
+		>
+		<link src="S1" dst="PU"/>
+		<link src="M1" dst="PU"/>
+		<link src="SN" dst="PU"/>
+		<link src="PU" dst="GPi"/>
+		<link src="PU" dst="GPo"/>
+		<link src="GPo" dst="STN"/>
+		<link src="STN" dst="GPi"/>
+		<link src="GPi" dst="VLo"/>
+		<link src="VLo" dst="SMC"/>
+		<link src="VLo" dst="M1"/>
+		<link src="VLo" dst="PMC"/>
+	</circuit>
+
+	<circuit id="CM.BG-HUMAN-INSECT" name="Basal Ganglia in Human and Insect"
+		image="http://www.sciencemag.org/content/340/6129/157/F2.large.jpg" imageHeight="400" imageWidth="400"
+		reference="http://www.sciencemag.org/content/340/6129/157/F2.expansion.html"
+		components="GPi=BGA.FT.GPI GPo=BGA.FT.GPE STN=BGA.FD.STN SN=BGA.FT.SN PU=BGA.FT.PU PMC=NC.PMC"
+		>
+	</circuit>
+
+	<circuit id="CM.ONUF" name="Physiology and pathophysiology of lower urinary tract"
+		image="http://www.intechopen.com/source/html/40109/media/image1.jpeg"
+		reference="http://www.intechopen.com/books/computational-intelligence-in-electromyography-analysis-a-perspective-on-current-applications-and-future-challenges/sphincter-emg-for-diagnosing-multiple-system-atrophy-and-related-disorders"
+		components="PVN=HTA.FD.HT.PV MPOA=HTA.FD.HT.PO.MED VTA=FBA.MM.VTA ZI=BGA.FD.STN.ZI SNC=BGA.FT.SN.PC MPFC=FCA.NC.OMPFC PU=BGA.FT.PU CN=BGA.FT.CN LC=FBA.HP.LC NBM=BFA.FT.NBM PBN=BMA.HP.PB DVM=AVA.HM.VG PEL=AVA.PN.PSYM.PPG IML=AVA.SC.IZ.IML IMG=AVA.PN.SYM.IMG ONF=AVA.SC.VH.ONF"
+		>
+		<link src="VTA" dst="PVN"/>
+		<link src="VTA" dst="MPOA"/>
+		<link src="VTA" dst="MPFC"/>
+		<link src="NBM" dst="MPFC"/>
+		<link src="SNC" dst="PU"/>
+		<link src="PU" dst="LC"/>
+		<link src="PBN" dst="DVM"/>
+		<link src="LC" dst="IML"/>
+		<link src="IML" dst="ONF"/>
+		<link src="IML" dst="PEL"/>
+	</circuit>
+
+	<circuit id="CM.BARRINGTON" name="Schematic overview of spinobulbospinal micturition reflex pathway"
+		image="http://jp.physoc.org/content/557/1/287/F9.large.jpg"
+		reference="http://jp.physoc.org/content/557/1/287/F9.expansion.html"
+		components="PAG=FBA.MM.PAG BAR=MBA.HP.BR PEL=AVA.PN.PSYM.PPG IML=AVA.SC.IZ.IML IMG=AVA.PN.SYM.IMG ONF=AVA.SC.VH.ONF"
+		>
+		<link src="PAG" dst="BAR"/>
+		<link src="BAR" dst="IML"/>
+		<link src="IML" dst="ONF"/>
+		<link src="IML" dst="PEL"/>
+		<link src="IMG" dst="PAG"/>
+		<link src="IMG" dst="BAR"/>
+	</circuit>
+
+	<circuit id="CM.AUTONOMIC-MUSCLES" name="Autonomic nervous system"
+		image="http://www.neurophysiology.ws/images/fig-4.gif"
+		reference="http://www.neurophysiology.ws/autonomicns.htm"
+		components="EWN=VBA.MM.EWN SSL=AVA.HM.SAL.SSL ISL=AVA.HM.SAL.ISL DM=AVA.HM.VG CLG=VBA.PN.PSYM.CLG EPG=VBA.PN.PSYM.EPG SPG=AVA.PN.PSYM.SPG SMG=AVA.PN.PSYM.SXG OTG=AVA.PN.PSYM.OTG EYE=TARGET.TSA.EYE"
+		>
+		<link src="EWN" dst="CLG"/>
+		<link src="EWN" dst="EPG"/>
+		<link src="CLG" dst="EYE"/>
+		<link src="EPG" dst="EYE"/>
+		<link src="SSL" dst="SPG"/>
+		<link src="SSL" dst="SMG"/>
+		<link src="ISL" dst="OTG"/>
+	</circuit>
+
+	<circuit id="CM.FACE-MUSCLES" name="Face muscles"
+		image="http://lh6.ggpht.com/_oj6TkG186pI/S0_jLifQ2NI/AAAAAAAAA90/WWFumK1zOyw/s1600-h/image%5B7%5D.png"
+		reference="http://www.medicallecturenotes.com/trigeminal-nerve/"
+		components="CLG=VBA.PN.PSYM.CLG SPG=AVA.PN.PSYM.SPG SMG=AVA.PN.PSYM.SXG OTG=AVA.PN.PSYM.OTG"
+		>
+	</circuit>
+
+	<circuit id="CM.HEART-MUSCLES" name="Heart muscles"
+		image="http://circres.ahajournals.org/content/110/2/325/F1.medium.gif"
+		reference="http://circres.ahajournals.org/content/110/2/325/F1.expansion.html"
+		components="H=TARGET.TEA.HEART"
+		>
+	</circuit>
+
+	<circuit id="CM.FACE-GLANDS" name="Face glands"
+		image="http://classconnection.s3.amazonaws.com/184/flashcards/1904184/jpg/21352652550369.jpg" imageHeight="400" imageWidth="400"
+		reference="http://www.studyblue.com/notes/note/n/neuroanatomy-lecture-14-/deck/4433536"
+		components="SMG=AVA.PN.PSYM.SXG PPG=AVA.PN.PSYM.PPG"
+		>
+	</circuit>
+
+</circuits>

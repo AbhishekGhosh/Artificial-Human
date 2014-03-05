@@ -1,0 +1,13 @@
+<mind>
+
+	<division name="Target" xmlfile="hmind/HMIND.TARGET.xml"/>
+	<division name="Cortex" xmlfile="hmind/HMIND.CORTEX.xml"/>
+	<division name="Forebrain Telencephalon" xmlfile="hmind/HMIND.MIDBRAIN.xml"/>
+	<division name="Forebrain Diencephalon" xmlfile="hmind/HMIND.MIDBRAIN.xml"/>
+	<division name="Midbrain Mesencephalon" xmlfile="hmind/HMIND.MIDBRAIN.xml"/>
+	<division name="Hindbrain Metencephalon" xmlfile="hmind/HMIND.MIDBRAIN.xml"/>
+	<division name="Hindbrain Myelencephalon" xmlfile="hmind/HMIND.MIDBRAIN.xml"/>
+	<division name="Spinal Cord" xmlfile="hmind/HMIND.SPINAL.xml"/>
+	<division name="Peripheral Nervous System" xmlfile="hmind/HMIND.PNS.xml"/>
+
+</mind>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\ah_tools.h" />
+    <ClInclude Include="include\ah_consoletool.h" />
+    <ClInclude Include="include\ah_nervetool.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\toolbase.cpp" />
+    <ClCompile Include="src\consoletool.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\nervetool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\platform\lib\platform.lib" />
+    <Library Include="..\library\generic\lib\generic.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\test.bat" />
+  </ItemGroup>
+</Project>

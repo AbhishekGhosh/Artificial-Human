@@ -1,0 +1,175 @@
+<pns>
+
+	<division category="Spinal Nerves" name="CERVICAL NERVES - SYMPATHETIC FIBERS">
+
+		<element name="superior cervical ganglion, sympathetic fibers"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne318.htm SUPERIOR CERVICAL GANGLION]"
+			imgsrc="http://bedahunmuh.files.wordpress.com/2010/05/pterygopalatine-and-submandibular-ganglia-schema1.jpg"
+			modality="sympathetic motor"
+			>
+			<element name="superior cervical ganglion, sympathetic fibers, grey communicating rami"
+				synonyms="lateral branches"
+				origin="spinal cord"
+				distribution="C1-C4 spinal nerve targets"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.SCG"/></fibers>
+				<element name="median nerve, motor, vascular branches"
+					distribution="arm innervation, wall of brachial artery"
+					modality="sympathetic motor"
+					/>
+			</element>
+			<element name="jugular nerve, sympathetic"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne299.htm JUGULAR NERVE]"
+				origin="a branch of the superior cervical GANGLION"
+				distribution="sympathetic vasomotor - to blood vessels"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.SCG"/></fibers>
+			</element>
+			<element name="superior cervical cardiac nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne302.htm LEFT CARDIAC BRANCH OF SUPERIOR CERVICAL GANGLION], [http://www.oluwoleogunranti.com/course/course1/nerves/ne313.htm RIGHT CARDIAC BRANCH OF SUPERIOR CERVICAL GANGLION]"
+				imgsrc="http://cnx.org/content/m46672/latest/2032_Automatic_Innervation.jpg" imgheight="500"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.HEART"><mid id="AVA.PN.SYM.SCG"/></fibers>
+			</element>
+			<element name="carotid nerves"
+				modality="sympathetic motor"
+				>
+				<element name="internal carotid nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne298.htm INTERNAL CAROTID NERVE]"
+					modality="sympathetic motor"
+					>
+					<element name="internal carotid nerve, to tarsal muscle"
+						distribution="superior tarsal muscle; inferior tarsal muscle"
+						imgsrc="http://upload.wikimedia.org/wikipedia/commons/6/6f/Gray894.png"
+						modality="sympathetic motor"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TSA.EYE"><mid id="AVA.PN.SYM.SCG"/></fibers>
+					</element>
+					<element name="caroticotympanic nerves"
+						synonyms="MA[http://www.oluwoleogunranti.com/course/course1/nerves/ne293.htm INFERIOR CAROTICOTYMPANIC NERVE], [http://www.oluwoleogunranti.com/course/course1/nerves/ne317.htm SUPERIOR CAROTICOTYMPANIC NERVE]"
+						origin="internal carotid PLEXUS; inferior and superior nerves can be distinguished; together with tympanic nerve, they form the tympanic plexus"
+						distribution="tympanic region and parotid gland"
+						modality="sympathetic motor"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.SCG"/></fibers>
+					</element>
+					<element name="ciliary nerves, sympathetic fibers"
+						origin="nasociliary nerve, from ophthalmic nerve"
+						distribution="long and short ciliary nerves, dilator muscle of pupil, uvea, cornea"
+						imgsrc="http://what-when-how.com/wp-content/uploads/2012/04/tmp361_thumb.jpg" imgheight="500"
+						modality="sympathetic motor"
+						>
+						<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TSA.EYE"><mid id="AVA.PN.SYM.SCG"/></fibers>
+					</element>
+					<element name="petrosal nerve, deep"
+						synonyms="MA[http://www.oluwoleogunranti.com/course/course1/nerves/ne233.htm EXTERNAL PETROSAL NERVE], MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne173.htm DEEP PETROSAL NERVE]; vidian nerve, deep"
+						origin="internal carotid PLEXUS from T1 spinal nerve"
+						distribution="from superior cervical sympathetic ganglion as internal carotid nerve, joins greater petrosal nerve to form nerve of pterygoid canal, and supplies lacrimal, nasal, and palatine glands via pterygopalatine ganglion and its branches"
+						modality="sympathetic motor"
+						>
+						<element name="palatine nerve, sympathetic fibers"
+							distribution="superior cervical ganglion sends sympathetic nerve fibers to the head organs, sympathetic fibers from the SCG run up on the internal carotid artery and form the deep petrosal nerve to pterygopalatine ganglia and follow the same tracts as the parasympathetic fibers"
+							modality="sympathetic motor"
+							>
+							<fibers type="GVE" src="AVA.PN.SYM.SCG" dst="TARGET.TEA.VESSELS"></fibers>
+							<element name="palatine nerve, sympathetic fibers, greater"
+								synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne149.htm POSTERIOR INFERIOR NASAL NERVES]; palatine nerve, sympathetic fibers, anterior"
+								origin="deep petrosal nerve to pterygopalatine GANGLION"
+								distribution="hard palate, blood vessels"
+								modality="sympathetic motor"
+								/>
+							<element name="palatine nerves, sympathetic fibers, lesser"
+								origin="pterygopalatine GANGLION"
+								distribution="soft palate, blood vessels"
+								modality="sympathetic motor"
+								/>
+						</element>
+					</element>
+				</element>
+				<element name="external carotid nerve"
+					distribution="ramify upon the common carotid artery and upon the external carotid artery and its branches; w/o connection in submaxillary ganglion, otic ganglion, external petrosal nerve, to the genicular ganglion of the facial nerve"
+					modality="sympathetic motor"
+					>
+					<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.SCG"/></fibers>
+				</element>
+			</element>
+			<element name="superior cervical ganglion, laryngopharyngeal branches"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne300.htm LARYNGOPHARYNGEAL BRANCHES OF SUPERIOR CERVICAL GANGLION]"
+				distribution="carotid body efferent inhibition; pass to the side of the pharynx, where they join with branches from the glossopharyngeal, vagus, and external laryngeal nerves to form the pharyngeal plexus"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.HEART"><mid id="AVA.PN.SYM.SCG"/></fibers>
+			</element>
+		</element>
+
+		<element name="middle cervical ganglion, sympathetic fibers"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne309.htm MIDDLE CERVICAL GANGLION]"
+			modality="sympathetic motor"
+			>
+			<element name="middle cervical ganglion, sympathetic fibers, grey communicating rami"
+				synonyms="lateral branches"
+				origin="spinal cord"
+				distribution="C5-C6 spinal nerve targets, inner surface of hands"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.MCG"/></fibers>
+			</element>
+			<element name="cervical cardiac nerve, middle, sympathetic"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne303.htm LEFT CARDIAC BRANCH OF MIDDLE CERVICAL GANGLION], [http://www.oluwoleogunranti.com/course/course1/nerves/ne314.htm RIGHT CARDIAC BRANCH OF MIDDLE CERVICAL GANGLION]"
+				origin="middle cervical GANGLION"
+				distribution="heart"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.HEART"><mid id="AVA.PN.SYM.MCG"/></fibers>
+			</element>
+			<element name="middle cervical ganglion, thyroid branches"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne325.htm THYROID BRANCHES OF MIDDLE CERVICAL GANGLION]"
+				imgsrc="http://images2.wikia.nocookie.net/__cb20100110092761/corposcindosis/images/6/6c/Thyroid.jpg"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.ENDOCRINE"><mid id="AVA.PN.SYM.MCG"/></fibers>
+			</element>
+			<element name="ansa subclavia"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne285.htm ANSA SUBCLAVIA]"
+				distribution="to stellate ganglion"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.STG"/></fibers>
+			</element>
+		</element>
+
+		<element name="stellate ganglion, sympathetic fibers"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne316.htm CERVICOTHORACIC GANGLION]; inferior cervical ganglion, cervicothoracic ganglion"
+			modality="sympathetic motor"
+			>
+			<element name="stellate ganglion, sympathetic fibers, grey communicating rami"
+				synonyms="lateral branches"
+				origin="spinal cord"
+				distribution="C7-C8 spinal nerve targets, upper hand blood vessels"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.STG"/></fibers>
+			</element>
+			<element name="cervical cardiac nerve, inferior, sympathetic"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne286.htm CARDIAC BRANCH OF CERVICOTHORACIC GANGLION]"
+				origin="cervicothoracic GANGLION"
+				distribution="heart via cardiac PLEXUS"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.HEART"><mid id="AVA.PN.SYM.STG"/></fibers>
+			</element>
+			<element name="stellate ganglion, arterial branches"
+				distribution="supply the subclavian and vertebral arteries"
+				imgsrc="http://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Blood_vessels.svg/720px-Blood_vessels.svg.png"
+				modality="sympathetic motor"
+				>
+				<fibers type="GVE" src="AVA.SC.IZ.IML" dst="TARGET.TEA.VESSELS"><mid id="AVA.PN.SYM.STG"/></fibers>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

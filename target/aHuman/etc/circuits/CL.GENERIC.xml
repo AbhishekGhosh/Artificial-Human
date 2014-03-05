@@ -1,0 +1,57 @@
+<circuits>
+
+	<circuit id="CL.THALAMUS-PROJECTIONS" name="Thalamocortical relationships"
+		image="http://what-when-how.com/wp-content/uploads/2012/04/tmp3649_thumb1_thumb.jpg" imageHeight="400" imageWidth="400"
+		reference="http://what-when-how.com/neuroscience/the-thalamus-and-cerebral-cortex-integrative-systems-part-2/"
+		components="s1A=HBA.FT.SC.SUB s2A=FD.MB A=CGA.FD.TH.AN sVA=BGA.FT.BG VA=MCA.FD.TH.VA s1VL=MBA.HP.CR s2VL=BGA.FT.BG VL=MCA.FD.TH.VL sVPL=BMA.SC.PH.MG VPL=SMA.FD.TH.VPL VPM=SMA.FD.TH.VPM LGN=VBA.FD.LGN MGN=ABA.FD.TH.MGB sLP=MM.SC LP=SMA.FD.TH.LP s1P=BMA.SC.IZ.CCV s2P=HMA.HP.PTP.PTR P=SMA.FD.TH.VP sCM=BGA.FT.GPI CM=BGA.FD.TH.CM MD=FCA.FD.TH.MD sLD=NC.SPL LD=CGA.FD.TH.LD pA=CGA.NC.MPL.PCG pVA=MCA.NC.SMC pVL=MCA.NC.MC pVPL=SMA.NC.PG.S1 sVPM=HMA.HM.SOL pVPM=SMA.NC.PO.PCC pLGN=VCA.NC.V1 pMGN=ACA.NC.A1 pLP=NC.SPL pP=PHA.NC.INS pCM=BGA.FT.PU s1MD=BFA.FT.SEP s2MD=PHA.NC.PH.PIR s3MD=NC.PFC pMD=NC.PFC pLD=CGA.NC.ACG"
+		>
+		<link src="s1A" dst="A"/>
+		<link src="s2A" dst="A"/>
+		<link src="A" dst="pA"/>
+		<link src="sVA" dst="VA"/>
+		<link src="VA" dst="pVA"/>
+		<link src="s1VL" dst="VL"/>
+		<link src="s2VL" dst="VL"/>
+		<link src="VL" dst="pVL"/>
+		<link src="sVPL" dst="VPL"/>
+		<link src="VPL" dst="pVPL"/>
+		<link src="sVPM" dst="VPM"/>
+		<link src="VPM" dst="pVPM"/>
+		<link src="LGN" dst="pLGN"/>
+		<link src="MGN" dst="pMGN"/>
+		<link src="sLP" dst="LP"/>
+		<link src="LP" dst="pLP"/>
+		<link src="s1P" dst="P"/>
+		<link src="s2P" dst="P"/>
+		<link src="P" dst="pP"/>
+		<link src="sCM" dst="CM"/>
+		<link src="CM" dst="pCM"/>
+		<link src="s1MD" dst="MD"/>
+		<link src="s2MD" dst="MD"/>
+		<link src="s3MD" dst="MD"/>
+		<link src="MD" dst="pMD"/>
+		<link src="sLD" dst="LD"/>
+		<link src="LD" dst="pLD"/>
+	</circuit>
+
+	<circuit id="CL.CORTICO-CORTICAL-CONNECTIVITY" name="Cortico-Cortical Connectivity"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S1053810011000080-gr3.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S1053810011000080"
+		components="V1=VCA.NC.V1 VA=VCA.NC.V2 A1=ACA.NC.A1 AA=ACA.NC.A3 PTHA=NC.IPL S1=SMA.NC.PG.S1 SA=SMA.NC.SPL.SA M1=MCA.NC.MC MA=NC.PMC PFC=NC.PFC"
+		>
+		<link src="V1" dst="VA"/>
+		<ignorelink src="VA" dst="PTHA"/>
+		<link src="S1" dst="M1"/>
+		<link src="S1" dst="SA"/>
+		<link src="S1" dst="PTHA"/>
+		<link src="M1" dst="MA"/>
+		<link src="A1" dst="AA"/>
+		<link src="AA" dst="PTHA"/>
+		<link src="MA" dst="SA"/>
+		<link src="MA" dst="PFC"/>
+		<link src="VA" dst="PFC"/>
+		<link src="SA" dst="PFC"/>
+		<link src="PTHA" dst="PFC"/>
+	</circuit>
+
+</circuits>

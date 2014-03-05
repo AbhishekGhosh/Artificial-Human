@@ -1,0 +1,461 @@
+<pns>
+
+	<division category="MUSCLES - TORSO" name="Visceral">
+
+		<element name="Endocrine - adrenal gland" type="gland" link="http://en.wikipedia.org/wiki/Adrenal_gland"
+			nerves="lesser splanchnic nerve"
+			action="releasing hormones in response to stress through the synthesis of corticosteroids such as cortisol and catecholamines such as epinephrine (adrenaline) and norepinephrine"
+			/>
+
+		<element name="Vessels - thorathic arterial vasoconstrictors" type="flexor" link="http://en.wikipedia.org/wiki/Vasoconstriction"
+			nerves="intercostal nerves, sympathetic fibers; thoracic sympatetic fibers, meningeal branches; greater thoracic splanchnic nerve"
+			action="narrowing of the blood vessels resulting from contraction of the muscular wall of the vessels, in particular the large arteries and small arterioles"
+			/>
+
+		<element name="Vessels - heart blood vessels" type="flexor" link="http://en.wikipedia.org/wiki/Vasoconstriction"
+			nerves="jugular nerve, sympathetic"
+			action="narrowing of the blood vessels"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Heart">
+
+		<element name="Heart - NE receptors of atrium muscles" type="gland" link="http://www.cram.com/flashcards/summary-of-ach-and-ne-influence-in-ans-682571"
+			nerves="lesser splanchnic nerve"
+			action="increase contractility in the atria of the heart"
+			/>
+
+		<element name="Heart - upper cardiac muscle" type="gland" link="http://en.wikipedia.org/wiki/Heart"
+			nerves="superior cervical cardiac nerve; superior cervical ganglion, laryngopharyngeal branches"
+			action="increase contractility"
+			/>
+
+		<element name="Heart - lower cardiac muscle">
+			<element name="Heart - lower cardiac muscle, middle" type="gland" link="http://en.wikipedia.org/wiki/Heart"
+				nerves="cervical cardiac nerve, middle, sympathetic"
+				action="increase contractility"
+				/>
+			<element name="Heart - lower cardiac muscle, stellar" type="gland" link="http://en.wikipedia.org/wiki/Heart"
+				nerves="cervical cardiac nerve, inferior, sympathetic"
+				action="increase contractility"
+				/>
+		</element>
+
+		<element name="Heart - ACh receptors of atrium muscles" type="gland" link="http://en.wikipedia.org/wiki/Heart"
+			nerves="vagus nerve, cardiac branch"
+			action="decrease contractility"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Back" group="Muscles of the back; Axioappendicular muscles, Posterior axioappendicular muscles, Extrinsic shoulder muscles, Superficial Posterior Axioappendicular muscles">
+
+		<element name="Erector spinae muscles" link="http://en.wikipedia.org/wiki/Erector_spinae"
+			notes="CERVICAL NERVES - MOTOR ROOTS, THORACIC NERVES - MOTOR ROOTS, LUMBAR NERVES - ROOTS, SACRAL AND COCCYGEAL NERVES - ROOTS"
+			action="extends the vertebral column; unilaterally: flex the head and neck to the same side; bilaterally: extend the vertebral column"
+			>
+			<element name="Trunk - iliocostalis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Iliocostalis"
+				nerves="motor nerves of back, flexors"
+				action="extends and lateral flexes spine"
+				>
+				<element name="Iliocostalis cervicis"
+					/>
+				<element name="Iliocostalis dorsi"
+					synonyms="musculus accessorius; iliocostalis thoracis"
+					/>
+				<element name="Iliocostalis lumborum"
+					synonyms="iliocostalis muscle; sacrolumbalis muscle"
+					/>
+			</element>
+			<element name="Trunk - longissimus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Longissimus"
+				nerves="motor nerves of back, extensors"
+				action="extends spine"
+				>
+				<element name="Longissimus thoracis"
+					/>
+				<element name="Longissimus cervicis"
+					synonyms="transversalis cervicis"
+					/>
+				<element name="Longissimus capitis"
+					synonyms="trachelomastoid muscle"
+					/>
+			</element>
+			<element name="Trunk - spinalis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Spinalis"
+				nerves="motor nerves of back, flexors"
+				action="lateral flexion of spine"
+				>
+				<element name="Spinalis dorsi"
+					/>
+				<element name="Spinalis cervicis"
+					synonyms="spinalis colli"
+					/>
+				<element name="Spinalis capitis"
+					synonyms="biventer cervicis"
+					/>
+			</element>
+		</element>
+
+		<element name="Transversospinales muscles">
+			<element name="Trunk - multifidus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Multifidus_muscle"
+				notes="CERVICAL NERVES - C5-C8, THORACIC NERVES - all, LUMBAR NERVES - all, SACRAL AND COCCYGEAL NERVES - S1-S4"
+				nerves="motor nerves of back, extensors"
+				action="stabilizes vertebrae in local movements of vertebral column"
+				/>
+			<element name="Trunk - rotatores muscles" type="flexor" link="http://en.wikipedia.org/wiki/Rotatores_muscle"
+				notes="THORACIC NERVES - MOTOR ROOTS"
+				nerves="motor nerves of back, flexors"
+				action="facilitates the unilateral rotation and bilateral extension of the spine"
+				/>
+			<element name="Semispinalis">
+				<element name="Neck - semispinalis capitis" type="extensor" link="http://en.wikipedia.org/wiki/Semispinalis_capitis"
+					nerves="occipital nerve, greater"
+					action="extend the head"
+					/>
+				<element name="Trunk - semispinalis cervicis" type="extensor" link="http://en.wikipedia.org/wiki/Semispinalis_cervicis"
+					notes="C3, C4, C5"
+					nerves="motor nerves of back, extensors"
+					action="extends and rotates the head to the contralateral side and also extends the ribs"
+					/>
+				<element name="Trunk - semispinalis dorsi (thoracis)" type="extensor" link="http://en.wikipedia.org/wiki/Semispinalis_dorsi"
+					notes="T2, T3, T4, T5"
+					nerves="motor nerves of back, extensors"
+					action="extends vertebral column"
+					/>
+			</element>
+		</element>
+
+		<element name="Minor deep layer of intrinsic back muscles">
+			<element name="Trunk - levatores costarum muscles" type="extensor" link="http://en.wikipedia.org/wiki/Levatores_costarum_muscles"
+				nerves="motor nerves of back, extensors"
+				notes="C8-T11"
+				action="elevate ribs, assisting respiration; assist with lateral flexion of vertebral column"
+				/>
+			<element name="Trunk - interspinales muscles" type="extensor" link="http://en.wikipedia.org/wiki/Interspinales_muscle"
+				nerves="motor nerves of back, extensors"
+				notes="CERVICAL NERVES - MOTOR ROOTS, 01, T1 nerve, 12, T12 nerve, LUMBAR NERVES - ROOTS"
+				action="aid in extension and rotation of vertebral column"
+				/>
+			<element name="Trunk - intertransversarii muscle" type="extensor" link="http://en.wikipedia.org/wiki/Intertransversarii_muscle"
+				nerves="motor nerves of back, extensors"
+				notes="CERVICAL NERVES - MOTOR ROOTS, 01, T1 nerve, 12, T12 nerve, LUMBAR NERVES - ROOTS"
+				action="aid in lateral flexion of vertebral column; acting bilaterally, stabilize vertebral column"
+				/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Chest" group="Muscles of the back">
+
+		<element name="Intercostales">
+			<element name="Trunk - external intercostal muscles" type="flexor" link="http://en.wikipedia.org/wiki/External_intercostal_muscles"
+				nerves="thoracic and thoracicoabdominal intercostal nerves, flexors"
+				action="aid in quiet and forced inhalation"
+				/>
+			<element name="Trunk - internal intercostal muscles" type="extensor" link="http://en.wikipedia.org/wiki/Internal_intercostal_muscles"
+				nerves="thoracicoabdominal intercostal nerves, extensors"
+				action="aid in forced expiration"
+				/>
+			<element name="Innermost intercostal muscles" link="http://en.wikipedia.org/wiki/Innermost_intercostal_muscle">
+				<element name="Trunk - subcostalis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Semispinalis_dorsi"
+					nerves="thoracicoabdominal intercostal nerves, extensors"
+					action="synergist in aiding the internal intercostal muscles with forced exhalation"
+					/>
+				<element name="Trunk - transversus thoracis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Semispinalis_dorsi"
+					nerves="thoracicoabdominal intercostal nerves, extensors"
+					action="depresses the ribs; aids in exertional expiration by decreasing the transverse diameter of the thoracic cage"
+					/>
+			</element>
+		</element>
+
+		<element name="Serratus muscle">
+			<element name="Trunk - serratus posterior inferior muscle" type="extensor" link="http://en.wikipedia.org/wiki/Serratus_posterior_inferior_muscle"
+				nerves="thoracicoabdominal intercostal nerves, extensors"
+				action="depress the lower ribs, aiding in expiration"
+				/>
+			<element name="Trunk - serratus posterior superior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Serratus_posterior_superior_muscle"
+				nerves="thoracic and thoracicoabdominal intercostal nerves, flexors"
+				action="elevate the ribs which aids in inspiration"
+				/>
+		</element>
+
+		<element name="Lung - thoracic diaphragm" type="flexor" link="http://en.wikipedia.org/wiki/Semispinalis_dorsi"
+			nerves="phrenic nerve"
+			action="increases thoracic cavity volume; inhalation"
+			/>
+
+		<element name="Lung - glands of trachea, lungs, and bronchi" type="gland" link="http://education.yahoo.com/reference/gray/subjects/subject/237"
+			nerves="vagus nerve, bronchial branch"
+			action="increase in airway secretions"
+			/>
+
+		<element name="Lung - smooth muscles of trachea and bronchial tree" type="extensor" link="http://en.wikipedia.org/wiki/Bronchus"
+			nerves="vagus nerve, bronchial branch"
+			action="constriction of trachea and bronchioles"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Abdomen">
+
+		<element name="Trunk muscles">
+			<element name="Abdominal oblique muscle">
+				<element name="Trunk - abdominal external oblique muscle" type="flexor" link="http://en.wikipedia.org/wiki/Abdominal_external_oblique_muscle"
+					nerves="thoracic and thoracicoabdominal intercostal nerves, flexors"
+					action="rotates torso"
+					/>
+				<element name="Trunk - abdominal internal oblique muscle" type="flexor" link="http://en.wikipedia.org/wiki/Abdominal_internal_oblique_muscle"
+					nerves="subcostal nerve, motor"
+					action="compresses abdomen and rotates vertebral column"
+					/>
+			</element>
+
+			<element name="Trunk - pyramidalis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Pyramidalis_muscle"
+				nerves="subcostal nerve, motor"
+				action="tensing the linea alba"
+				/>
+			<element name="Trunk - quadratus lumborum muscle" type="extensor" link="http://en.wikipedia.org/wiki/Quadratus_lumborum_muscle"
+				nerves="nerve to quadratus lumborum"
+				action="extension of lumbar vertebral column, with bilateral contraction; alone, lateral flexion of vertebral column; together, depression of thoracic rib cage"
+				/>
+			<element name="Trunk - rectus abdominis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Rectus_abdominis_muscle"
+				nerves="thoracic and thoracicoabdominal intercostal nerves, flexors"
+				action="flexion of trunk/lumbar vertebrae"
+				/>
+			<element name="Trunk - transversus abdominis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Transversus_abdominis_muscle"
+				nerves="thoracicoabdominal intercostal nerves, extensors"
+				action="compress the ribs and viscera, providing thoracic and pelvic stability"/>
+				/>
+			<element name="Vessels - renal blood vessels" type="flexor" link="http://en.wikipedia.org/wiki/Aorticorenal_ganglion"
+				nerves="lowest splanchnic nerve"
+				action="contract blood vessels"
+				/>
+
+		</element>
+
+		<element name="Reproductive organs">
+			<element name="Male">
+				<element name="Genitalia - prostate gland" type="gland" link="http://en.wikipedia.org/wiki/Prostate"
+					nerves="left hypogastric nerve, lubricate"
+					action="secrete a slightly alkaline fluid, milky or white in appearance, constitutes 50-75 percents of the volume of the semen along with spermatozoa and seminal vesicle fluid"
+					/>
+				<element name="Endocrine - testicle gland" type="gland" link="http://en.wikipedia.org/wiki/Testicle"
+					nerves="inferior spermatic nerve"
+					action="produce androgens, primarily testosterone (growth of muscle mass and strength, regulator of cognitive and physical energy, sperm development"
+					/>
+				<element name="Genitalia - cowper gland" type="gland" link="http://en.wikipedia.org/wiki/Bulbourethral_gland"
+					nerves="left hypogastric nerve, lubricate"
+					action="produces a clear, salty, viscous secretion known as pre-ejaculate, homologous to Bartholin glands in females"
+					/>
+				<element name="Genitalia - vas deferens" type="flexor" link="http://en.wikipedia.org/wiki/Prostate"
+					nerves="left hypogastric nerve, prostatic"
+					action="male - emission (prior to ejaculation), contracts, propelling sperm forward"
+					/>
+				<element name="Genitalia - cremaster muscle" type="flexor" link="http://en.wikipedia.org/wiki/Cremaster_muscle"
+					nerves="genitofemoral nerve, genital branch"
+					action="raise and lower the scrotum, acts quickly, it is a reflex"
+					/>
+				<element name="Genitalia - dartos muscle" type="flexor" link="http://en.wikipedia.org/wiki/Dartos"
+					nerves="scrotal nerve, posterior"
+					imgsrc="http://cnx.org/content/m46400/latest/Figure_28_01_02.JPG"
+					action="corrugates the scrotum; contraction reduces the surface area available for heat loss, thus reducing heat loss and warming the testicles; expansion increases the surface area, promoting heat loss and thus cooling the testicles."
+					/>
+			</element>
+
+			<element name="Female">
+				<element name="Genitalia - skenes gland" type="gland" link="http://en.wikipedia.org/wiki/Skene%27s_gland"
+					nerves="left hypogastric nerve, lubricate"
+					action="cause female ejaculation and G-Spot orgasms"
+					/>
+				<element name="Endocrine - ovary gland" type="gland" link="http://en.wikipedia.org/wiki/Ovary"
+					nerves="superior ovarian nerve"
+					action="secretes estrogen (maturation and maintenance of the reproductive organs), testosterone (prepares the uterus for pregnancy, and the mammary glands for lactation) and progesterone (promoting menstrual cycle changes in the endometrium)"
+					/>
+				<element name="Genitalia - bartholin gland" type="gland" link="http://en.wikipedia.org/wiki/Bartholin%27s_gland"
+					nerves="left hypogastric nerve, lubricate"
+					action="secretes mucus to lubricate the vagina"
+					/>
+				<element name="Genitalia - cervix" type="gland" link="http://en.wikipedia.org/wiki/Cervix"
+					nerves="left hypogastric nerve, cervical"
+					action="female - produces cervical mucus that changes in consistency during the menstrual cycle to prevent or promote pregnancy"
+					/>
+				<element name="Genitalia - uterus, sympathetic contractors" type="flexor" link="http://en.wikipedia.org/wiki/Uterus"
+					nerves="left hypogastric nerve, uterovaginal"
+					action="female - contraction of smooth muscles of myometrium, decreased blood flow, loss of erection"
+					/>
+				<element name="Genitalia - parasympathetic uterus vasodilators" type="extensor" link="http://en.wikipedia.org/wiki/Uterus"
+					nerves="splanchnic nerves, pelvic, uterovaginal"
+					action="female - contraction of smooth muscles of myometrium, increased blood flow"
+					/>
+				<element name="Genitalia - vagina, sympathetic vasoconstrictors" type="flexor" link="http://en.wikipedia.org/wiki/Vagina"
+					nerves="left hypogastric nerve, uterovaginal"
+					action="female - vasoconstriction of fibromuscular tube, loss of erection"
+					/>
+				<element name="Genitalia - parasympathetic vaginal vasodilators" type="extensor" link="http://en.wikipedia.org/wiki/Vagina"
+					nerves="splanchnic nerves, pelvic, uterovaginal"
+					action="female - contraction of smooth muscles of myometrium, increased blood flow"
+					/>
+				<element name="Breast - nipple smooth muscles" type="extensor" link="http://en.wikipedia.org/wiki/Nipple"
+					nerves="splanchnic nerves, pelvic, nipple"
+					action="female - erection of nipples due to contraction of smooth muscle"
+					/>
+			</element>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Pelvis">
+
+		<element name="Stomach - outer longitudinal and inner circular smooth muscles" type="extensor" link="http://en.wikipedia.org/wiki/Muscularis_mucosae"
+			nerves="splanchnic nerves, pelvic, to stomach"
+			action="keep the mucosal surface and underlying glands in a constant state of gentle agitation to expel contents of glandular crypts and enhance contact between epithelium and the contents of the lumen"
+			/>
+
+		<element name="Stomach - mucosal gastric glands" type="extensor" link="http://en.wikipedia.org/wiki/Intestinal_gland"
+			nerves="splanchnic nerves, pelvic, to stomach"
+			action="acetylcholine activates muscarinic receptors cause an increase in gastric juice secretion"
+			/>
+
+		<element name="Liver - abdominal alimentary tract glands" type="gland" link="http://en.wikipedia.org/wiki/Accessory_digestive_gland"
+			nerves="vagus nerve, hepatic branch"
+			action="secretes bile into the small intestine via the bile duct employing the gallbladder as a reservoi"
+			/>
+
+		<element name="Vessels - breast blood vessels" type="flexor" link="http://en.wikipedia.org/wiki/Breast"
+			nerves="intercostal nerves, sympathetic fibers"
+			action="contract blood vessels"
+			/>
+
+		<element name="Vessels - stomach blood vessels" type="flexor" link="http://en.wikipedia.org/wiki/Stomach"
+			nerves="greater thoracic splanchnic nerve"
+			action="contract blood vessels"
+			/>
+
+		<element name="Vessels - liver blood vessels" type="flexor" link="http://en.wikipedia.org/wiki/Liver"
+			nerves="greater thoracic splanchnic nerve"
+			action="contract blood vessels"
+			/>
+
+		<element name="Levator ani">
+			<element name="Rectum - iliococcygeus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Iliococcygeus_muscle"
+				notes="S4"
+				nerves="nerves to coccygeus and levator ani muscles"
+				action="supports the viscera in pelvic cavity"
+				/>
+			<element name="Genitalia - pubococcygeus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Pubococcygeus_muscle"
+				notes="S3, S4"
+				nerves="nerves to coccygeus and levator ani muscles"
+				action="controls urine flow and contracts during orgasm"
+				/>
+			<element name="Rectum - puborectalis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Puborectalis_muscle"
+				nerves="nerves to coccygeus and levator ani muscles"
+				action="inhibit defecation"
+				/>
+		</element>
+
+		<element name="Rectum - coccygeus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Coccygeus_muscle"
+			notes="S4, S5"
+			nerves="nerves to coccygeus and levator ani muscles"
+			action="pulls coccyx forward after defecation, closing in the back part of the outlet of the pelvis"
+			/>
+
+	</division>
+
+	<division category="MUSCLES - TORSO" name="Perineum" group="Perineal muscles">
+
+		<element name="Genitalia - bulbospongiosus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Bulbospongiosus_muscle"
+			nerves="perineal nerve, deep branch"
+			action="in males, empties the urethra; in females, clenches the vagina"
+			/>
+
+		<element name="Genitalia - ischiocavernosus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Ischiocavernosus_muscle"
+			nerves="perineal nerve, deep branch"
+			action="stabilize the erect penis or (in females) tense the vagina during orgasm"
+			/>
+
+		<element name="Corpus cavernosum">
+			<element name="Genitalia - corpus cavernosum penis" type="extensor" link="http://en.wikipedia.org/wiki/Corpus_cavernosum_penis"
+				nerves="cavernous nerves of penis"
+				action="penile erection; simultaneously the ischiocavernosus and bulbospongiosus muscles compress the veins of the corpora cavernosa restricting the egress and circulation of this blood"
+				/>
+			<element name="Genitalia - corpus cavernosum clitoridis" type="extensor" link="http://en.wikipedia.org/wiki/Corpus_cavernosum_clitoridis"
+				nerves="cavernous nerves of clitoris"
+				action="clitoral erection; simultaneously the ischiocavernosus and bulbospongiosus muscles compress the veins of the corpora cavernosa restricting the egress and circulation of this blood"
+				/>
+		</element>
+
+		<element name="Deep transverse perineal muscle">
+			<element name="Genitalia - deep transverse perineal muscle, clitoris" type="flexor" link="http://en.wikipedia.org/wiki/Transversus_perinei_profundus_muscle"
+				nerves="dorsal nerve of clitoris"
+				action="fixation of central tendon of perineum, support of pelvic floor, expulsion of semen in males and last drops of urine in both sexes"
+				/>
+			<element name="Genitalia - deep transverse perineal muscle, penis" type="flexor" link="http://en.wikipedia.org/wiki/Transversus_perinei_profundus_muscle"
+				nerves="dorsal nerve of penis"
+				action="fixation of central tendon of perineum, support of pelvic floor, expulsion of semen in males and last drops of urine in both sexes"
+				/>
+		</element>
+
+		<element name="Sphincter ani">
+			<element name="Sphincter ani externus muscle">
+				<element name="Rectum - sphincter ani externus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Sphincter_ani_externus_muscle"
+					nerves="inferior rectal nerve"
+					action="keep the anal canal and anus closed, aids in the expulsion of the feces"
+					/>
+				<element name="Rectum - corrugator cutis ani muscle" type="flexor" link="http://en.wikipedia.org/wiki/Corrugator_cutis_ani_muscle"
+					nerves="inferior rectal nerve"
+					action="raises the skin into ridges around the margin of the anus"
+					/>
+			</element>
+			<element name="Rectum - sphincter ani internus muscle">
+				<element name="Rectum - sphincter ani internus muscle, parasympathetic" type="extensor" link="http://en.wikipedia.org/wiki/Sphincter_ani_internus_muscle"
+					nerves="splanchnic nerves, pelvic, to rectum"
+					action="keep the anal canal and anus closed, aids in the expulsion of the feces, inhibit contraction"
+					/>
+				<element name="Rectum - sphincter ani internus muscle, sympathetic" type="flexor" link="http://en.wikipedia.org/wiki/Sphincter_ani_internus_muscle"
+					nerves="right hypogastric nerve"
+					action="stimulate and maintain internal anal sphincter contraction"
+					/>
+			</element>
+		</element>
+
+		<element name="Rectum - superficial transverse perineal muscle" type="flexor" link="http://en.wikipedia.org/wiki/Transversus_perinei_superficialis_muscle"
+			nerves="nerve to superficial transverse perineal"
+			action="Fixation of central tendon of perineum, support of pelvic floor"
+			/>
+
+		<element name="Urethral sphincter">
+			<element name="Internal sphincter muscle of urethra">
+				<element name="Ureter - internal sphincter muscle of urethra, sympathetic" type="flexor" link="http://en.wikipedia.org/wiki/Internal_sphincter_muscle_of_urethra"
+					nerves="left hypogastric nerve, ureteric"
+					action="sympathetic contracts the muscle"
+					/>
+				<element name="Ureter - internal sphincter muscle of urethra, parasympathetic" type="extensor" link="http://en.wikipedia.org/wiki/Internal_sphincter_muscle_of_urethra"
+					nerves="splanchnic nerves, pelvic, to urinary bladder"
+					action="parasympathetic relaxes the muscle"
+					/>
+			</element>
+			<element name="External sphincter muscle of urethra">
+				<element name="Ureter - external sphincter muscle of male urethra" type="flexor" link="http://en.wikipedia.org/wiki/External_sphincter_muscle_of_male_urethra"
+					nerves="perineal nerve, deep branch"
+					action="control urination, constricts urethra, maintain urinary continence"
+					/>
+				<element name="Ureter - external sphincter muscle of female urethra" type="flexor" link="http://en.wikipedia.org/wiki/External_sphincter_muscle_of_female_urethra"
+					nerves="perineal nerve, deep branch"
+					action="control urination, constricts urethra, maintain urinary continence"
+					/>
+			</element>
+			<element name="Detrusor urinae muscle">
+				<element name="Ureter - detrusor urinae muscle, sympathetic" type="flexor" link="http://en.wikipedia.org/wiki/Detrusor_urinae_muscle"
+					nerves="left hypogastric nerve, ureteric"
+					action="sympathetic relaxes, to store urine"
+					/>
+				<element name="Ureter - detrusor urinae muscle, parasympathetic" type="extensor" link="http://en.wikipedia.org/wiki/Detrusor_urinae_muscle"
+					nerves="splanchnic nerves, pelvic, to urinary bladder"
+					action="parasympathetic contracts, to urinate"
+					/>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

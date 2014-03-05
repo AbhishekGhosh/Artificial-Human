@@ -1,0 +1,39 @@
+<circuits>
+
+	<circuit id="CM.VOCAL-CONTROL" name="Vocal Control"
+		image="http://c431376.r76.cf2.rackcdn.com/10053/fnana-05-00034-r1/image_m/fnana-05-00034-g002.jpg"
+		reference="http://www.frontiersin.org/neuroanatomy/10.3389/fnana.2011.00034/full"
+		components="Premotor24=CGA.NC.VACG M2=MCA.NC.SMC Broca=ACA.NC.BRA Wernike=ACA.NC.A4 A1=ACA.NC.A1 RF=HP.PRF MotorVII=HMA.HP.FCM MotorV=HMA.HP.PTP.TRM NucleusAmbiguus=HMA.HM.AMB NucleusXII=HMA.HM.HYG"
+		>
+		<link src="Premotor24" dst="RF"/>
+		<link src="M2" dst="RF"/>
+		<link src="Broca" dst="RF"/>
+		<link src="A1" dst="Wernike"/>
+		<link src="Wernike" dst="Broca"/>
+		<link src="RF" dst="MotorVII"/>
+		<link src="RF" dst="MotorV"/>
+		<link src="RF" dst="NucleusAmbiguus"/>
+		<link src="RF" dst="NucleusXII"/>
+	</circuit>
+
+	<circuit id="CM.LANGUAGE-RELATED-REGIONS" name="Language-Related Regions"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S1364661312002823-gr2.jpg"
+		reference="http://www.sciencedirect.com/science/article/pii/S1364661312002823"
+		components="IFG=ACA.NC.BRA STG22a=ACA.NC.A3 STG22b=ACA.NC.A4 MTG21=VCA.NC.IT.TEO pSTC=ACA.NC.A4 PMC=NC.PMC BA44=ACA.NC.BRA BA45=ACA.NC.BRA TC=PHA.NC.TPC vIFC=FCA.NC.IPG"
+		>
+		<link src="pSTC" dst="PMC"/>
+		<link src="pSTC" dst="BA44"/>
+		<link src="TC" dst="vIFC"/>
+		<link src="TC" dst="BA45"/>
+		<link src="STG22a" dst="TC"/>
+		<link src="MTG21" dst="TC"/>
+	</circuit>
+
+	<circuit id="CM.AUDITORY-MUSCLES" name="Auditory system"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S1364661312002823-gr2.jpg"
+		reference="http://www.walkingwithataxia.com/Neuroanatomy.htm"
+		components="IC=ABA.MM.IC"
+		>
+	</circuit>
+
+</circuits>

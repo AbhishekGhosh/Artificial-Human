@@ -1,0 +1,19 @@
+<xmlcall name="ThreadPoolWorkflow" class="ThreadPoolTest" method="testResPoolWorkflow">
+	<!-- -->
+	<parameters>
+		<property name="threadPoolName" value="TPR"/>
+		<property name="taskTimeMs" value="100"/>
+		<property name="runTimeSec" value="60"/>
+		<property name="suspendTimeSec" value="30"/>
+		<property name="resumeTimeSec" value="30"/>
+	</parameters>
+	<!-- -->
+	<threadpoolconfiguration>
+		<property name="run" value="true"/>
+		<property name="threadCount" value="1"/>
+		<property name="executionTimeWindowMs" value="1400"/>
+		<property name="secondsPerMonitoringCycle" value="10"/>
+		<property name="maxLoadPercents" value="10"/>
+	</threadpoolconfiguration>
+	<!-- -->
+</xmlcall>

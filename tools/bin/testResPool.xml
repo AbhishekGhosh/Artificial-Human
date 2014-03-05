@@ -1,0 +1,1 @@
+<xmlcall name="ThreadPoolWorkflow" class="ThreadPoolTest" method="testResPool"/>

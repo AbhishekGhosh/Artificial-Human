@@ -1,0 +1,6 @@
+<xmlcall name="DirectChannels-Google" class="DirectChannelsTest" method="testRequestPage">
+	<parameters>
+		<property name="endpoint" value="http://www.google.com"/>
+		<property name="page" value=""/>
+	</parameters>
+</xmlcall>

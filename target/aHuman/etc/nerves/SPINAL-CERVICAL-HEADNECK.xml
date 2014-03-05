@@ -1,0 +1,212 @@
+<pns>
+
+	<division category="Spinal Nerves" name="HEAD AND NECK CERVICAL NERVES">
+
+		<element name="head and neck cervical nerves, motor"
+			modality="flexor motor, extensor motor"
+			>
+			<element name="nerve to geniohyoid"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne277.htm NERVE TO GENIOHYOID]"
+				imgsrc="http://www.upstate.edu/cdb/education/grossanat/gifs/hnsg3-3.gif"
+				origin="C1"
+				distribution="C1 fibers along with hypoglossal nerve to geniohyoid muscle, capital neck flexor"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="HMA.SC.VH.SAN" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="thyroid nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne284.htm NERVE TO THYROHYOID]"
+				origin="C1"
+				imgsrc="http://www.cambridgequestions.co.uk/diagrams/Hypoglossal%20nerve%202.png"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.SPEAKER"></fibers>
+			</element>
+			<element name="nerve to atlanto-occipital joint muscles"
+				origin="C1-C2"
+				imgsrc="http://optimumsportsperformance.com/blog/wp-content/uploads/2010/05/so.gif"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="HMA.SC.VH.SAN" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="ansa cervicalis"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ansacervicalis.htm ANSA CERVICALIS]"
+				origin="from branches of C2/C3 nerves and from hypoglossal nerve"
+				distribution="branches to all infrahyoid muscles except the thyrohyoid"
+				imgsrc="http://www.edoctoronline.com/media/19/photos_70E525D5-413A-4D15-9A87-62954E148E9A.jpg" imgheight="500"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.NECK"></fibers>
+				<element name="ansa cervicalis, inferior root"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/infrootansacervicalis.htm INFERIOR ROOT OF ANSA CERVICALIS]"
+					origin="union of branches from 2nd and 3rd cervical nerves"
+					modality="extensor motor"
+					/>
+				<element name="ansa cervicalis, superior root"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne283.htm SUPERIOR ROOT OF ANSA CERVICALIS]"
+					origin="C1 spinal cord segment ventral horn"
+					distribution="muscular branch to the superior belly of omohyoid"
+					modality="extensor motor"
+					/>
+			</element>
+			<element name="nerve to longus capitis and longus colli muscles"
+				origin="C2-C4"
+				imgsrc="http://body-disease.com/wp-content/uploads/2013/02/The-right-rectus-capitis-anterior-and-longus-colli-and-the-left-longus-capitis-muscles-anterior-view.jpg"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="HMA.SC.VH.SAN" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="nerve to scalene and levator scapulae muscles"
+				origin="C3-C4"
+				imgsrc="http://body-disease.com/wp-content/uploads/2013/02/The-right-rectus-capitis-anterior-and-longus-colli-and-the-left-longus-capitis-muscles-anterior-view.jpg"
+				modality="flexor motor"
+				>
+				<fibers type="GSE" src="HMA.SC.VH.SAN" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="nerve to splenius capitis muscle"
+				origin="C3-C4"
+				imgsrc="http://api.ning.com/files/JHB19gOGKoT4cqImOzJCYdETRIsedzDtxnDYYfSDJafmY89SharSDZu*GWYaKtj2FE79i*eGTZqV9bPRLzkiOsl2epi3B8UG/Neck_muscles.jpg"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="nerve to splenius cervilis muscle"
+				origin="C5-C6"
+				imgsrc="http://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Splenius_cervicis_muscle_back.png/240px-Splenius_cervicis_muscle_back.png"
+				modality="extensor motor"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+		</element>
+
+		<element name="head and neck cervical nerves, sensory"
+			imgsrc="http://1.bp.blogspot.com/-xcHyQKvK2K0/Tf9bFTmZkhI/AAAAAAAAH5o/7YzfCwbmWok/s1600/Great_Auricular_Nerve.JPG"
+			modality="general sensory, extensor motor"
+			>
+			<element name="cervical nerve, transverse"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/transversecervical.htm TRANSVERSE CERVICAL NERVE]; cutaneous nerve of neck, anterior"
+				imgsrc="http://studydroid.com/imageCards/05/er/card-5729362-front.jpg"
+				origin="cervical PLEXUS (C2,C3)"
+				distribution="skin on side and front of neck, VPL"
+				modality="general sensory"
+				>
+				<fibers type="GSA" src="TARGET.TEA.NECK" dst="AVA.PN.SG.DRG.CX"></fibers>
+			</element>
+			<element name="great auricular nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/greaterauricular.htm GREATER AURICULAR NERVE]"
+				origin="cervical PLEXUS, C2/C3"
+				distribution="skin over parotid gland and mastoid process, and both surfaces of auricle"
+				imgsrc="http://www.edoctoronline.com/media/19/photos_DA5CB8B5-9C1A-4DFA-B179-B31F65C94A2F.jpg"
+				modality="general sensory"
+				>
+				<element name="great auricular nerve, anterior branch"
+					origin="C2"
+					distribution="face; anterior branch is sensory to facial skin over the parotid gland"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.FACE" dst="AVA.PN.SG.DRG.CX"></fibers>
+				</element>
+				<element name="great auricular nerve, posterior branch"
+					origin="C3"
+					distribution="ear; posterior branch supplies the skin over the mastoid process, back of the auricle, lobule and a portion of the scalp"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TSA.EAR" dst="AVA.PN.SG.DRG.CX"></fibers>
+				</element>
+			</element>
+			<element name="jugular nerve, sensory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne299.htm JUGULAR NERVE]"
+				origin="a branch of the superior cervical GANGLION"
+				distribution="communicates with the vagus and glossopharyngeal nerves; jugular nerve, passes upward to the base of the skull, and divides to join the petrous ganglion of the glossopharyngeal, and the jugular ganglion of the vagus"
+				imgsrc="http://bedahunmuh.files.wordpress.com/2010/05/glossopharyngeal-nerve-schema.jpg"
+				notes="RAR - rapidly adapting pulmonary stretch receptors"
+				modality="general sensory"
+				>
+				<fibers type="GSA" src="TARGET.TEA.LUNG" dst="SMA.FD.TH.VPM"><mid id="AVA.PN.SG.JUG"/><mid id="HMA.HM.SOL"/></fibers>
+				<element name="jugular nerve, branch to petrosal (inferior glossopharyngeal) ganglion"
+					modality="general sensory"
+					/>
+				<element name="jugular nerve, branch to jugular (superior vagal) ganglion"
+					modality="general sensory"
+					/>
+			</element>
+			<element name="occipital nerve"
+				imgsrc="http://o.quizlet.com/BOpC1X9RipzmNSxz6TvK-g.png"
+				modality="general sensory, extensor motor"
+				>
+				<element name="occipital nerve, neck"
+					modality="general sensory, extensor motor"
+					>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="AVA.PN.SG.DRG.CX"></fibers>
+					<element name="occipital nerve, greater"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/greateroccipitalnerve.htm GREATER OCCIPITAL NERVE]"
+						origin="medial branch of dorsal branch of C2; spinalis dorsi"
+						distribution="semispinal muscle of head and skin of scalp as far forward as the vertex"
+						modality="general sensory, extensor motor"
+						>
+						<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.NECK"></fibers>
+					</element>
+					<element name="occipital nerve, lesser"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/lesseroccipital.htm LESSER OCCIPITAL NERVE]"
+						origin="superficial cervical PLEXUS (C2-C3)"
+						distribution="ascends behind the auricle and supplies some of the skin on the side of the head and on the cranial surface of the auricle"
+						modality="general sensory"
+						/>
+				</element>
+				<element name="occipital nerve, third"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/thirdoccipital.htm THIRD OCCIPITAL NERVE]"
+					origin="medial branch of dorsal branch of C3"
+					distribution="skin of upper part of back of neck and head; splenius (SPL), biventer cervicis and complexus (BCC), rectus capitus dorsalis, and obliquus capitus caudalis"
+					modality="general sensory"
+					notes="BCC,biventer cervicis and complexus=spinalis capitis"
+					>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="MBA.HP.CR"><mid id="AVA.PN.SG.DRG.CX"/><mid id="BMA.SC.IZ.CCV"/><mid id="BMA.HM.IO"/></fibers>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="MBA.HP.CR"><mid id="AVA.PN.SG.DRG.CX"/><mid id="BMA.SC.PH.NP"/><mid id="BMA.HM.IO"/></fibers>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="BMA.HP.VB"><mid id="AVA.PN.SG.DRG.CX"/><mid id="BMA.SC.IZ.CCV"/></fibers>
+				</element>
+			</element>
+			<element name="suboccipital nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne58.htm C1 NERVE]; infraoccipital nerve"
+				origin="dorsal branch of C1 nerve"
+				distribution="proprioception; emerges above posterior arch of atlas and supplies muscles of suboccipital triangle and semispinal muscle of head"
+				imgsrc="http://www.uptomed.ir/Digimed.ir/Williams-Atlas-Anatomy/Williams_Atlas_Anatomy/1%20-%20The%20Back_files/C1FF16.png"
+				modality="general sensory, extensor motor"
+				>
+				<fibers type="GSA" src="TARGET.TEA.NECK" dst="AVA.PN.SG.DRG.CX"></fibers>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.NECK"></fibers>
+			</element>
+			<element name="supraclavicular nerves"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/supraclavicularnerves.htm SUPRACLAVICULAR NERVES]"
+				distribution="neck and upper cutaneous parts of female breast"
+				modality="general sensory"
+				>
+				<element name="supraclavicular nerves, intermediate"
+					synonyms="middle supraclavicular nerves"
+					origin="cervical PLEXUS (C3-C4)"
+					distribution="descend in the posterior triangle, cross the clavicle, and supply the skin over pectoral and deltoid region"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="AVA.PN.SG.DRG.CX"></fibers>
+				</element>
+				<element name="supraclavicular nerves, lateral"
+					synonyms="posterior supraclavicular nerves"
+					origin="cervical PLEXUS (C3-C4)"
+					distribution="descend in the posterior triangle, cross the clavicle, and supply the skin of superior and posterior parts of shoulder"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.NECK" dst="AVA.PN.SG.DRG.CX"></fibers>
+				</element>
+				<element name="supraclavicular nerves, medial"
+					synonyms="anterior supraclavicular nerves"
+					origin="cervical PLEXUS (C3-C4)"
+					distribution="descend in posterior triangle, cross the clavicle, and supply the skin of medial infraclavicular region"
+					modality="general sensory"
+					>
+					<fibers type="GSA" src="TARGET.TEA.BREAST" dst="AVA.PN.SG.DRG.CX"></fibers>
+				</element>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

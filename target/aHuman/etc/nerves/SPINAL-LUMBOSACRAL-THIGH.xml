@@ -1,0 +1,264 @@
+<pns>
+
+	<division category="Spinal Nerves" name="LUMBOSACRAL NERVES - THIGH AND UPPER LEG">
+
+		<element name="coccygeal plexus"
+			origin="coccygeal PLEXUS"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.TRUNK" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<element name="anococcygeal nerve"
+				distribution="S5, CX, sacrococcygeal joint, coccyx; coccygeus and levator ani muscles, innervate skin between coccyx and anus"
+				imgsrc="http://classconnection.s3.amazonaws.com/962/flashcards/3550962/jpg/pn_18-1423482A58033660B94.jpg"
+				modality="general sensory"
+				/>
+			<element name="coccygeal nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne56.htm Co1 NERVE]"
+				origin="either of thirty-first pair of spinal nerves (CX, Co), arising from coccygeal segment of spinal cord"
+				imgsrc="http://www.iicma.org/Coccyx.jpg" imgheight="400"
+				modality="general sensory"
+				/>
+		</element>
+
+		<element name="nerve to psoas muscles"
+			origin="lumbar plexus via anterior branches of L1-L3 nerves"
+			modality="flexor motor"
+			action="flexion and external rotation in the hip joint"
+			>
+			<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+		</element>
+
+		<element name="gluteal nerve"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="gluteal nerve, inferior"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne83.htm INFERIOR GLUTEAL NERVE]" imgheight="500"
+				origin="sacral PLEXUS (L5-S2)"
+				distribution="gluteus maximus muscle"
+				imgsrc="http://www.pudendalhope.info/sites/default/files/AC1357_01.jpg"
+				modality="extensor motor"
+				action="Extension, external rotation, abduction (upper fibers), and adduction (lower fibers) of thigh"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.LEG"></fibers>
+			</element>
+			<element name="gluteal nerve, superior"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne82.htm SUPERIOR GLUTEAL NERVE]"
+				origin="sacral PLEXUS (L4-S1)"
+				distribution="gluteus medius and minimus muscles, tensor fasciae latae, and hip joint"
+				imgsrc="http://web.uni-plovdiv.bg/stu1104541018/docs/res/skandalakis%27%20surgical%20anatomy%20-%202004/Chapter%2028_%20Pelvis%20and%20Perineum_fichiers/loadBinaryCA02DNWW.jpg"
+				modality="flexor motor, general sensory"
+				action="Abduction of thigh, external/internal rotation of thigh; Abducts, medially rotates, and flexes femur"
+				>
+				<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+				<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+			</element>
+		</element>
+
+		<element name="sciatic nerves, second"
+			modality="flexor motor, general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<element name="piriform nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne81.htm NERVE TO PIRIFORMIS]"
+				origin="dorsal branches of ventral branches of sacral PLEXUS S1-S2"
+				distribution="anterior piriform muscle"
+				imgsrc="http://teachmeanatomy.info/wp-content/uploads/Posterior-View-of-the-Lower-Limb-Anatomical-Course-of-the-Sciatic-Nerve.png"
+				modality="general sensory, flexor motor"
+				action="External rotation of thigh; abduction of thigh when thigh is flexed"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+			</element>
+		</element>
+
+		<element name="genitofemoral nerve, thigh"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne71.htm GENITOFEMORAL NERVE]"
+			origin="lumbar PLEXUS (L1-L2)"
+			branches="femoral branches"
+			distribution="adjacent area of thigh and femoral triangle"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<element name="genitofemoral nerve, femoral branch"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne208.htm FEMORAL BRANCH OF GENITOFEMORAL NERVE]"
+				origin="genitofemoral nerve (L1-L2)"
+				distribution="supply skin over sheath"
+				imgsrc="http://www.spinalmodulation.com/wp-content/uploads/2013/10/ann-surg-results_ILLU120912-2.jpg"
+				modality="general sensory"
+				/>
+		</element>
+
+		<element name="nerve to quadratus lumborum"
+			origin="lumbosacral plexus (L1/L4), ventral branches"
+			distribution="quadratus lumborum is a muscle in the lower back"
+			imgsrc="http://upload.wikimedia.org/wikipedia/commons/8/8d/Quadratuslumborum.png"
+			modality="extensor motor"
+			action="extension of lumbar vertebral column, with bilateral contraction"
+			>
+			<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.TRUNK"></fibers>
+		</element>
+
+		<element name="nerve of quadrate muscle of thigh"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne79.htm NERVE TO QUADRATUS FEMORIS]"
+			origin="lumbosacral plexus (L4/L5, S1), ventral branches"
+			distribution="inferior gemellus muscle, anterior quadratus muscle of thigh, hip joint"
+			imgsrc="http://accweb.itr.maryville.edu/myu/image/SacralPlexusReal.gif"
+			modality="flexor motor, general sensory"
+			action="Exernal rotation of thigh; abduction of thigh when thigh flexed"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+		</element>
+
+		<element name="cluneal nerves"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<element name="cluneal nerves, superior"
+				origin="dorsal branches of the upper lumbar nerves, L1-L3"
+				distribution="innervating skin of upper part of buttocks"
+				imgsrc="http://web.uni-plovdiv.bg/stu1104541018/docs/res/anatomy_atlas_-_Patrick_W._Tank/3%20-%20The%20Lower%20Limb_files/C3FF3.jpg"
+				modality="general sensory"
+				/>
+			<element name="cluneal nerves, middle"
+				origin="PLEXUS formed by lateral branches of dorsal branches of S1-S4"
+				distribution="innervating ligaments of sacrum and skin over posterior buttocks"
+				modality="general sensory"
+				/>
+			<element name="cluneal nerves, inferior"
+				origin="posterior femoral cutaneous nerve"
+				distribution="innervating skin of lower part of buttocks"
+				modality="general sensory"
+				>
+				<element name="perforating cutaneous nerve"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne95.htm PERFORATING CUTANEOUS NERVE]"
+					origin="S2-S3, one of inferior cluneal nerves which pierces sacrotuberous ligament, absent in one third of population"
+					distribution="supplies skin over inferomedial gluteus maximus"
+					imgsrc="http://o.quizlet.com/GcOrDTOBtwf5DOm4P7mrdw.jpg"
+					modality="general sensory"
+					/>
+			</element>
+		</element>
+
+		<element name="femoral nerve, thigh"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne75.htm FEMORAL NERVE]"
+			origin="lumbar PLEXUS (L2-L4); descending behind the inguinal ligament to the femoral triangle"
+			branches="muscular and cutaneous branches"
+			distribution="skin of thigh and leg, muscles of front of thigh, and hip and knee joints; psoas major, sartorius"
+			modality="flexor motor, extensor motor, general sensory"
+			action="flexes, abducts, and laterally rotates femur at hip"
+			>	
+			<element name="femoral nerve, thigh, motor"
+				modality="flexor motor, extensor motor"
+				>
+				<element name="femoral nerve, thigh, muscular branches, flexor"
+					distribution="muscles of anterior compartment of thigh - sartorius, iliacus, pectiueus, vastus intermedius/lateralis/medialis, rectus femoris"
+					imgsrc="http://classconnection.s3.amazonaws.com/694/flashcards/597694/jpg/muscles_at_knee_joint1312156562172.jpg"
+					modality="flexor motor"
+					action="flexes, abducts, and laterally rotates femur at hip; flex femur at hip; adducts and flexes femur"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+				</element>
+				<element name="femoral nerve, thigh, muscular branches, extensor"
+					distribution="muscles of anterior compartment of thigh - sartorius, iliacus, pectiueus, vastus intermedius/lateralis/medialis, rectus femoris"
+					imgsrc="https://www.dartmouth.edu/~anatomy/Lowerextremity/nerves/tutorial/images/nerves%20with%20arteries/femoral.jpg"
+					modality="extensor motor"
+					action="extend leg at knee joint"
+					>
+					<fibers type="GSE" src="BMA.SC.VH.VM" dst="TARGET.TEA.LEG"></fibers>
+				</element>
+			</element>
+			<element name="femoral nerve, thigh, sensory"
+				modality="general sensory"
+				>
+				<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+				<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+				<element name="femoral nerve, anterior cutaneous"
+					modality="general sensory"
+					>
+					<element name="cutaneous nerve of thigh, intermediate"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne76.htm INTERMEDIATE CUTANEOUS NERVE OF THIGH]; anterior cutaneous femoral nerve"
+						origin="femoral nerve, L2/L3" 
+						distribution="supply the skin of front of thigh right to knee"
+						imgsrc="http://o.quizlet.com/tq3uDMGj.OpvTmOFN9vOqA.png"
+						modality="general sensory"
+						/>
+					<element name="cutaneous nerve of thigh, medial"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne77.htm MEDIAL CUTANEOUS NERVE OF THIGH]; medial femoral cutaneous nerve"
+						origin="femoral nerve, L2/L3" 
+						branches="anterior, posterior"
+						imgsrc="http://o.quizlet.com/2.7-Aq4CgCMtOJnSBUIAsA.png"
+						modality="general sensory"
+						/>
+				</element>
+				<element name="femoral nerve, posterior cutaneous"
+					modality="general sensory"
+					>
+					<element name="cutaneous nerve of thigh, posterior"
+						synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne84.htm POSTERIOR CUTANEOUS NERVE OF THIGH]; posterior femoral cutaneous nerve"
+						origin="femoral nerve, S1-S3" 
+						branches="inferior cluneal nerves and perineal branches"
+						distribution="skin of buttock, external genitalia, and back of thigh and calf"
+						imgsrc="http://o.quizlet.com/i/VdcQbe0TshrRdOzz9AuRGw.jpg"
+						modality="general sensory"
+						/>
+				</element>
+			</element>
+		</element>
+
+		<element name="cutaneous nerve of thigh, lateral"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne72.htm LATERAL CUTANEOUS NERVE OF THIGH]; lateral femoral cutaneous nerve"
+			origin="lumbar PLEXUS L2-L3" 
+			distribution="skin of lateral and frontal aspects of thigh"
+			imgsrc="http://www.wehealny.org/services/bi_nervecenter/images/meralgia_tunnel.jpg"
+			modality="general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+		</element>
+
+		<element name="obturator nerve"
+			synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne11.htm OBTURATOR NERVE]"
+			modality="flexor motor, general sensory"
+			>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSA" src="TARGET.TEA.LEG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+			<fibers type="GSE" src="BMA.SC.VH.PM" dst="TARGET.TEA.LEG"></fibers>
+
+			<element name="obturator nerve, proper"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne73.htm OBTURATOR NERVE]"
+				origin="lumbar PLEXUS L3-L4"
+				branches="anterior, posterior, and muscular branches"
+				distribution="adductor muscles (adductor brevis, adductor longus, adductor magnus) and gracilis muscle, skin of medial part of thigh, and hip and knee joints, obturator externus"
+				imgsrc="http://classconnection.s3.amazonaws.com/807/flashcards/589807/png/screen_shot_2011-07-20_at_11.16.16_am1311185841879.png"
+				modality="flexor motor, general sensory"
+				action="Adducts femur, flexes leg and helps rotate leg medially; External rotation of thigh"
+				/>
+			<element name="obturator nerve, accessory"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/Ne74.htm ACCESSORY OBTURATOR NERVE]"
+				origin="ventral branches of ventral branches of L3-L4"
+				distribution="pectineus muscle, hip joint"
+				imgsrc="http://classconnection.s3.amazonaws.com/788/flashcards/402788/jpg/adductor_brevis__gracilis1332181558523.jpg"
+				modality="flexor motor, general sensory"
+				action="Adducts and flexes femur"
+				/>
+			<element name="obturator nerve, internal"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne80.htm NERVE TO OBTURATOR INTERNUS]"
+				origin="ventral branches of ventral branches of L5, S1-S2"
+				distribution="posterior gemellus superior muscle and obturator internus muscle"
+				imgsrc="http://i1251.photobucket.com/albums/hh551/vladimirzec/Anatomija%20ljudskog%20pokreta/pelvitrohantericnimisici_zpsc7590667.jpg"
+				modality="flexor motor, general sensory"
+				action="External rotation of thigh; abduction of thigh when thigh is flexed"
+				/>
+		</element>
+
+	</division>
+
+</pns>
+

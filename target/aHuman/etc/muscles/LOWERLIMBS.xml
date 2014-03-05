@@ -1,0 +1,272 @@
+<pns>
+
+	<division category="MUSCLES - LOWER LIMBS" name="Iliac region">
+
+		<element name="Iliopsoas muscle (psoas major, iliacus)">
+			<element name="Leg - psoas major muscle" type="flexor" link="http://en.wikipedia.org/wiki/Psoas_major_muscle"
+				notes="L1-L3"
+				nerves="nerve to psoas muscles"
+				action="flexes and rotates laterally thigh"/>
+			<element name="Leg - psoas minor muscle" type="flexor" link="http://en.wikipedia.org/wiki/Psoas_minor_muscle"
+				notes="L1"
+				nerves="nerve to psoas muscles"
+				action="weak trunk flexor"/>
+			<element name="Leg - iliacus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Iliacus_muscle"
+				notes="L2, L3"
+				nerves="femoral nerve, thigh, muscular branches, flexor"
+				action="flexes and rotates laterally thigh"/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - LOWER LIMBS" name="Buttocks">
+
+		<element name="Leg - gluteus maximus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Gluteus_maximus_muscle"
+			nerves="gluteal nerve, inferior"
+			action="external rotation and extension of the hip joint, supports the extended knee through the iliotibial tract, chief antigravity muscle in sitting"/>
+
+		<element name="Leg - gluteus medius muscle" type="flexor" link="http://en.wikipedia.org/wiki/Gluteus_medius_muscle"
+			nerves="gluteal nerve, superior"
+			action="abduction of the hip; preventing adduction of the hip. Medial rotation of thigh"/>
+
+		<element name="Leg - gluteus minimus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Gluteus_minimus_muscle"
+			nerves="gluteal nerve, superior"
+			action="Works in concert with gluteus medius: abduction of the hip; preventing adduction of the hip. Medial rotation of thigh"/>
+
+		<element name="Leg - tensor fasciae latae muscle" type="flexor" link="http://en.wikipedia.org/wiki/Tensor_fasciae_latae"
+			nerves="gluteal nerve, superior"
+			action="Thigh - flexion, medial rotation. Trunk stabilization"/>
+
+		<element name="Lateral rotator group muscles">
+			<element name="Leg - piriformis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Piriformis_muscle"
+				nerves="piriform nerve"
+				action="rotate laterally (outward) the thigh"/>
+			<element name="Leg - gemellus superior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Superior_gemellus_muscle"
+				nerves="obturator nerve, internal"
+				action="rotates laterally thigh"/>
+			<element name="Leg - gemellus inferior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Inferior_gemellus_muscle"
+				nerves="nerve of quadrate muscle of thigh"
+				action="rotates laterally thigh"/>
+			<element name="Leg - obturator internus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Obturator_internus_muscle"
+				nerves="obturator nerve, internal"
+				action="abducts & rotates laterally thigh, and stabiliser of the hip during walking"/>
+			<element name="Leg - obturator externus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Obturator_externus_muscle"
+				nerves="obturator nerve, proper"
+				action="adduct thigh, rotate laterally thigh"/>
+			<element name="Leg - quadratus femoris muscle" type="flexor" link="http://en.wikipedia.org/wiki/Quadratus_femoris_muscle"
+				nerves="nerve of quadrate muscle of thigh"
+				action="lateral rotation of thigh"/>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - LOWER LIMBS" name="Thigh">
+
+		<element name="Thigh, Anterior compartment">
+			<element name="Leg - sartorius muscle" type="flexor" link="http://en.wikipedia.org/wiki/Sartorius_muscle"
+				nerves="femoral nerve, thigh, muscular branches, flexor"
+				action="flexion, lateral rotation and abduction of thigh; flexion and medial rotation of leg"/>
+			<element name="Quadriceps femoris muscle">
+				<element name="Leg - rectus femoris muscle" type="extensor" link="http://en.wikipedia.org/wiki/Rectus_femoris_muscle"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="knee extension; hip flexion"/>
+				<element name="Leg - vastus intermedius muscle" type="extensor" link="http://en.wikipedia.org/wiki/Vastus_intermedius_muscle"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="extends knee"/>
+				<element name="Leg - vastus lateralis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Vastus_lateralis_muscle"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="extends and stabilizes knee"/>
+				<element name="Leg - vastus medialis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Vastus_intermedius_muscle"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="extends knee"/>
+				<element name="Leg - articularis genu muscle" type="extensor" link="http://en.wikipedia.org/wiki/Articularis_genu_muscle"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="pulling the suprapatellar bursa during extension of the knee"/>
+				<element name="Leg - obliquus genu muscle" type="extensor" link="http://en.wikipedia.org/wiki/Obliquus_genu"
+					nerves="femoral nerve, thigh, muscular branches, extensor"
+					action="maintaining patella position and limiting injuries to the knee"/>
+			</element>
+		</element>
+
+		<element name="Thigh, Posterior compartment/Hamstring">
+			<element name="Biceps femoris muscle">
+				<element name="Leg - biceps femoris muscle, peroneal" type="flexor" link="http://en.wikipedia.org/wiki/Biceps_femoris_muscle"
+					nerves="common peroneal nerve, articular branches"
+					action="flexes knee joint, laterally rotates knee joint (when knee is flexed)"/>
+				<element name="Leg - biceps femoris muscle, tibial" type="flexor" link="http://en.wikipedia.org/wiki/Biceps_femoris_muscle"
+					nerves="tibial nerve"
+					action="extends hip joint (long head only)"/>
+			</element>
+			<element name="Leg - semimembranosus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Semimembranosus_muscle"
+				nerves="tibial nerve"
+				action="hip extension, knee flexion"/>
+			<element name="Leg - semitendinosus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Semitendinosus_muscle"
+				nerves="tibial nerve"
+				action="flex knee, extend hip joint"/>
+		</element>
+
+		<element name="Medial compartment of thigh">
+			<element name="Adductor muscles of the hip">
+				<element name="Leg - adductor brevis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_brevis_muscle"
+					nerves="obturator nerve, proper"
+					action="adduction of hip"/>
+				<element name="Leg - adductor longus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_longus_muscle"
+					nerves="obturator nerve, proper"
+					action="adduction of thigh"/>
+				<element name="Adductor magnus muscle">
+					<element name="Leg - adductor magnus muscle, obturator" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_magnus_muscle"
+						nerves="obturator nerve, proper"
+						action="adduction of hip"/>
+					<element name="Leg - adductor magnus muscle, tibial" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_magnus_muscle"
+						nerves="tibial nerve"
+						action="adduction of hip"/>
+				</element>
+				<element name="Adductor minimus muscle">
+					<element name="Leg - adductor minimus muscle, obturator" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_minimus_muscle"
+						nerves="obturator nerve, proper"
+						action="adduction and lateral rotation of thigh"/>
+					<element name="Leg - adductor minimus muscle, tibial" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_minimus_muscle"
+						nerves="tibial nerve"
+						action="adduction and lateral rotation of thigh"/>
+				</element>
+				<element name="Pectineus muscle">
+					<element name="Leg - pectineus muscle, femoral" type="flexor" link="http://en.wikipedia.org/wiki/Pectineus_muscle"
+						nerves="femoral nerve, thigh"
+						action="thigh - flexion, adduction, medial rotation"/>
+					<element name="Leg - pectineus muscle, obturator" type="flexor" link="http://en.wikipedia.org/wiki/Pectineus_muscle"
+						nerves="obturator nerve, accessory"
+						action="thigh - flexion, adduction, medial rotation"/>
+				</element>
+				<element name="Leg - gracilis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Gracilis_muscle"
+					nerves="obturator nerve, proper"
+					action="flexes hip, knee"/>
+			</element>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - LOWER LIMBS" name="Leg">
+
+		<element name="Leg, Anterior compartment">
+			<element name="Leg - tibialis anterior muscle" type="extensor" link="http://en.wikipedia.org/wiki/Tibialis_anterior_muscle"
+				nerves="fibular nerve, deep"
+				action="dorsiflex and invert the foot"/>
+			<element name="Leg - extensor digitorum longus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Extensor_digitorum_longus_muscle"
+				nerves="fibular nerve, deep"
+				action="extension of toes and ankle"/>
+			<element name="Leg - extensor hallucis longus muscle" type="extensor" link="http://en.wikipedia.org/wiki/Extensor_hallucis_longus_muscle"
+				nerves="fibular nerve, deep"
+				action="Extends the big toe and assists in dorsiflexion of the foot at the ankle. Also is a weak invertor"/>
+			<element name="Leg - fibularis tertius muscle" type="extensor" link="http://en.wikipedia.org/wiki/Peroneus_tertius"
+				nerves="fibular nerve, deep"
+				action="dorsi flexes and everts foot"/>
+		</element>
+
+		<element name="Leg, Posterior compartment">
+			<element name="Leg, Posterior compartment, Superficial">
+				<element name="Triceps surae muscles">
+					<element name="Leg - gastrocnemius muscle" type="flexor" link="http://en.wikipedia.org/wiki/Gastrocnemius_muscle"
+						nerves="tibial nerve, muscular branches"
+						action="plantar flexion, flexion of knee (minor)"/>
+					<element name="Leg - soleus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Soleus_muscle"
+						nerves="tibial nerve"
+						action="plantar flexion"/>
+					<element name="Leg - accessory soleus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Accessory_soleus_muscle"
+						nerves="tibial nerve"
+						action="plantar flexion"/>
+				</element>
+				<element name="Leg - plantaris muscle" type="flexor" link="http://en.wikipedia.org/wiki/Plantaris_muscle"
+					nerves="tibial nerve, muscular branches"
+					action="plantar flexes foot and flexes knee"/>
+			</element>
+			<element name="Leg, Posterior compartment, Deep">
+				<element name="Leg - popliteus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Popliteus_muscle"
+					nerves="tibial nerve, muscular branches"
+					action="medial rotation and flexion of knee"/>
+				<element name="Tarsal tunnel">
+					<element name="Leg - flexor digitorum longus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Flexor_digitorum_longus_muscle"
+						nerves="plantar nerve, medial"
+						action="primary action is flex digits"/>
+					<element name="Leg - flexor hallucis longus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Flexor_hallucis_longus_muscle"
+						nerves="tibial nerve"
+						action="flexes all joints of the Hallux, plantar flexion of the ankle joint"/>
+					<element name="Leg - tibialis posterior muscle" type="flexor" link="http://en.wikipedia.org/wiki/Tibialis_posterior_muscle"
+						nerves="tibial nerve, muscular branches"
+						action="inversion of the foot, plantar flexion of the foot at the ankle"/>
+				</element>
+			</element>
+		</element>
+
+		<element name="Leg, Lateral compartment">
+			<element name="Peroneus muscles (Fibularis muscles)">
+				<element name="Leg - fibularis brevis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Fibularis_brevis"
+					nerves="fibular nerve, superficial"
+					action="plantarflexion, eversion"/>
+				<element name="Leg - fibularis longus muscle" type="flexor" link="http://en.wikipedia.org/wiki/Fibularis_longus"
+					nerves="fibular nerve, superficial"
+					action="plantarflexion, eversion"/>
+			</element>
+		</element>
+
+	</division>
+
+	<division category="MUSCLES - LOWER LIMBS" name="Foot">
+
+		<element name="Foot, Dorsal">
+			<element name="Leg - extensor digitorum brevis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Extensor_digitorum_brevis_muscle"
+				nerves="fibular nerve, deep"
+				action="extends digits 2, 3, and 4"/>
+			<element name="Leg - extensor hallucis brevis muscle" type="extensor" link="http://en.wikipedia.org/wiki/Extensor_hallucis_brevis_muscle"
+				nerves="fibular nerve, deep"
+				action="extension of hallux"/>
+		</element>
+
+		<element name="Foot, Plantar">
+			<element name="1st layer">
+				<element name="Leg - abductor digiti minimi muscle of foot" type="flexor" link="http://en.wikipedia.org/wiki/Abductor_digiti_minimi_muscle_(foot)"
+					nerves="plantar nerve, lateral"
+					action="flex and abduct the fifth toe"/>
+				<element name="Leg - abductor hallucis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Abductor_hallucis_muscle"
+					nerves="plantar nerve, medial"
+					action="abducts hallux"/>
+				<element name="Leg - flexor digitorum brevis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Flexor_digitorum_brevis_muscle"
+					nerves="plantar nerve, medial"
+					action="flexes lateral four toes"/>
+			</element>
+			<element name="2nd layer">
+				<element name="Leg - quadratus plantae muscle" type="flexor" link="http://en.wikipedia.org/wiki/Quadratus_plantae_muscle"
+					nerves="plantar nerve, lateral, deep branch"
+					action="assists Flexor Digitorum Longus in flexion of DIP joints"/>
+				<element name="Lumbrical muscle of foot">
+					<element name="Leg - lumbrical muscle of foot, lateral" type="flexor" link="http://en.wikipedia.org/wiki/Lumbrical_muscle_(foot)"
+						nerves="plantar nerve, lateral"
+						action="flex proximal phalanges and extend middle and distal phalanges of lateral four digits"/>
+					<element name="Leg - lumbrical muscle of foot, medial" type="flexor" link="http://en.wikipedia.org/wiki/Lumbrical_muscle_(foot)"
+						nerves="plantar nerve, medial, branches to LAFF muscles"
+						action="flex proximal phalanges and extend middle and distal phalanges of lateral four digits"/>
+				</element>
+			</element>
+			<element name="3rd layer">
+				<element name="Leg - flexor digiti minimi brevis muscle of foot" type="flexor" link="http://en.wikipedia.org/wiki/Flexor_digiti_minimi_brevis_muscle_(foot)"
+					nerves="plantar nerve, lateral, digital branches branch"
+					action="flex and adduct the fifth toe"/>
+				<element name="Leg - flexor hallucis brevis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Flexor_hallucis_brevis_muscle"
+					nerves="plantar nerve, medial, branches to LAFF muscles"
+					action="flex hallux"/>
+				<element name="Leg - adductor hallucis muscle" type="flexor" link="http://en.wikipedia.org/wiki/Adductor_hallucis_muscle"
+					nerves="plantar nerve, lateral"
+					action="adducts hallux"/>
+			</element>
+			<element name="4th layer">
+				<element name="Leg - dorsal interossei muscles of the foot" type="flexor" link="http://en.wikipedia.org/wiki/Dorsal_interossei_of_the_foot"
+					nerves="plantar nerve, lateral"
+					action="abduct toes"/>
+				<element name="Leg - plantar interossei muscles" type="flexor" link="http://en.wikipedia.org/wiki/Plantar_interossei_muscles"
+					nerves="plantar nerve, lateral, digital branches branch"
+					action="adduct toes"/>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

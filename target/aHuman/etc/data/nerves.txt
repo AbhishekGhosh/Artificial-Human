@@ -1,0 +1,360 @@
+http://medical-dictionary.thefreedictionary.com/hypoglossal+nerve
+---------------
+
+- afferent nerve  any nerve that transmits impulses from the periphery toward the central nervous system; see sensory n.
+- autonomic nerve  any of the parasympathetic or sympathetic nerves of the autonomic nervous system.
+- accelerator nerves  the cardiac sympathetic nerves, which, when stimulated, accelerate action of the heart.
+- cardiac nerves, thoracic  branches of the second through fourth or fifth thoracic ganglia of the sympathetic trunk, supplying the heart and having a sympathetic (accelerator) modality as well as a visceral afferent one (chiefly for pain).
+- centrifugal nerve  efferent n.
+- centripetal nerve  afferent n.
+- cervical nerves  the eight pairs of nerves (C1–C8) that arise from the cervical segments of the spinal cord and, except for the last pair, leave the vertebral column above the correspondingly numbered vertebra. The ventral branches of the upper four, on either side, unite to form the cervical plexus, and those of the lower four, together with the ventral branch of the first thoracic nerve, form most of the brachial plexus.
+- cranial nerves  the twelve pairs of nerves that are connected with the brain, including the olfactory (I), optic (II), oculomotor (III), trochlear (IV), trigeminal (V), abducens (VI), facial (VII), vestibulocochlear (VIII), glossopharyngeal (IX), vagus (X), accessory (XI), and hypoglossal (XII) nerves.
+- depressor nerve 
+	1. a nerve that lessens the activity of an organ.
+	2. an afferent nerve whose stimulation causes a fall in blood pressure.
+- efferent nerve  any that carries impulses from the central nervous system to the periphery, e.g., a motor nerve.
+- exciter nerve , excitor nerve one that transmits impulses resulting in an increase in functional activity.
+- excitoreflex nerve  a visceral nerve that produces reflex action.
+- fusimotor nerves  those with nerve endings that innervate intrafusal fibers of the muscle spindle.
+- gangliated nerve  any nerve of the sympathetic nervous system.
+- gluteal nerves 
+	1. the superior and inferior gluteal nerves (qq.v.).
+	2. the cluneal nerves in the lumbar and sacral regions; see inferior cluneal n's, middle cluneal n's, and superior cluneal n's.
+- gustatory nerves  sensory nerve fibers innervating the taste buds and associated with taste, including branches from the lingual and glossopharyngeal nerves.
+- inhibitory nerve  one that transmits impulses resulting in a decrease in functional activity.
+- mixed nerve , nerve of mixed fibers one composed of both sensory and motor fibers.
+- motor nerve  an efferent nerve that stimulates muscle contraction.
+- myelinated nerve  one whose axons are encased in a myelin sheath.
+- peripheral nerve  any nerve outside the central nervous system.
+- pressor nerve  an afferent nerve, irritation of which stimulates a vasomotor center and increases intravascular tension.
+- secretory nerve  any efferent nerve whose stimulation increases glandular activity.
+- sensory nerve  a peripheral nerve that conducts impulses from a sense organ to the spinal cord or brain.
+- somatic nerves  the motor and sensory nerves supplying skeletal muscle and somatic tissues.
+- spinal nerves  the thirty-one pairs of nerves that arise from the spinal cord and pass out between the vertebrae, including the eight pairs of cervical, twelve of thoracic, five of lumbar, five of sacral, and one pair of coccygeal nerves.
+- splanchnic nerves  those of the blood vessels and viscera, especially the visceral branches of the thoracic, lumbar, and pelvic parts of the sympathetic trunks.
+- sympathetic nerve 
+	1. see under trunk.
+	2. any nerve of the sympathetic nervous system.
+- thoracic nerves  the twelve pairs of spinal nerves (T1–T12) that arise from the thoracic segments of the spinal cord, each pair leaving the vertebral column below the correspondingly numbered vertebra. They innervate the body wall of the thorax and upper abdomen.
+- unmyelinated nerve  one whose axons are not encased in a myelin sheath.
+- vasoconstrictor nerve  one whose stimulation contracts blood vessels.
+- vasodilator nerve  one whose stimulation dilates blood vessels.
+- vasomotor nerve  one concerned in controlling the caliber of vessels, whether as a vasoconstrictor or vasodilator.
+
+=============================================
+
+CRANIAL NERVES (cerebral nerves):
+	- abducent nerve  (sixth cranial nerve, VI); ORIGIN, a NUCLEUS in the pons, beneath the floor of the fourth ventricle, emerging from the brain stem anteriorly between the pons and medulla oblongata; distribution, lateral rectus muscle of eye; modality, motor.
+	- accessory nerve  (eleventh cranial nerve, XI); ORIGIN, by cranial ROOTS from the side of the medulla oblongata, and by spinal roots from the side of the spinal cord (from the upper three or more cervical segments); the roots unite to form the trunk of the accessory nerve, which divides into an internal branch (cranial portion) and an external branch (spinal portion); distribution, the internal branch to the vagus and thereby to the palate, pharynx, larynx, and thoracic viscera; the external branch branches to the sternocleidomastoid and trapezius muscles; modality, parasympathetic and motor.
+	- facial nerve  (seventh cranial nerve, VII), consisting of two ROOTS: a large motor root, which supplies the muscles of facial expression, and a smaller root, the intermediate nerve (q.v.). ORIGIN, inferior border of pons, between olive and inferior cerebellar peduncle; branches (of motor root), stapedius and posterior auricular nerves, parotid plexus, digastric, temporal, zygomatic, buccal, lingual, marginal mandibular, and cervical branches, and a communicating branch with the tympanic plexus; distribution, various structures of face, head, and neck; modality, motor, parasympathetic, general sensory, special sensory.
+		- auricular nerve, posterior  ORIGIN, facial nerve; branches, occipital branch; distribution, posterior auricular and occipitofrontal muscles and skin of external acoustic meatus; modality, motor and general sensory.
+		- stapedius nerve  ORIGIN, facial nerve; distribution, stapedius muscle; modality, motor.
+		- intermediate nerve  the smaller root of the facial nerve, lying between the main root and the vestibulocochlear nerve; it joins the main root at, or merges with, the geniculate ganglion at the geniculum of the facial nerve; branches, chorda tympani and greater petrosal nerve; distribution, lacrimal, nasal, palatine, submandibular, and sublingual glands, and anterior two-thirds of tongue; modality, parasympathetic and special sensory.
+			- petrosal nerve, greater  ORIGIN, intermediate nerve via geniculate GANGLION; distribution, running forward from the geniculate ganglion, it joins the deep petrosal nerve of the pterygoid canal, and reaches lacrimal, nasal, and palatine glands and nasopharynx, via pterygopalatine ganglion and its branches; modality, parasympathetic and general sensory.
+	- glossopharyngeal nerve  (ninth cranial nerve, IX); ORIGIN, several ROOTLETS from lateral side of upper part of medulla oblongata, between the olive and the inferior cerebellar peduncle; branches, tympanic nerve, pharyngeal, stylopharyngeal, tonsillar, and lingual branches, branch to the carotid sinus, and a branch communicating with the auricular branch of the vagus nerve; distribution, it has two enlargements (superior and inferior ganglia) and supplies the tongue, pharynx, and parotid gland; modality, motor, parasympathetic, and general, special, and visceral sensory.
+		- tympanic nerve  ORIGIN, inferior GANGLION of glossopharyngeal nerve; branches, helps form tympanic plexus; distribution, mucous membrane of tympanic cavity, mastoid air cells, auditory tube, and, via lesser petrosal nerve and otic ganglion, the parotid gland; modality, general sensory and parasympathetic.
+	- hypoglossal nerve  (twelfth cranial nerve, XII); ORIGIN, several ROOTLETS in the anterolateral sulcus between the olive and the pyramid of the medulla oblongata; it passes through the hypoglossal canal to the tongue; branches, lingual branches; distribution, styloglossus, hyoglossus, and genioglossus muscles and intrinsic muscles of the tongue; modality, motor.
+	- oculomotor nerve  (third cranial nerve, III); ORIGIN, BRAIN STEM, emerging medial to cerebral peduncles and running forward in the cavernous sinus; branches, superior and inferior branches; distribution, entering the orbit through the superior orbital fissure, the branches supply the levator muscle of upper eyelid, all extrinsic eye muscles except the lateral rectus and superior oblique, and carry parasympathetic fibers for the ciliary muscle and sphincter pupillae; modality, motor and parasympathetic.
+	- olfactory nerves  (first cranial nerve, I); the nerves of smell, consisting of about 20 bundles which arise in (ORIGIN) the OLFACTORY EPITHELIUM and pass through the cribriform plate of the ethmoid bone to the olfactory bulb.
+	- optic nerve  (second cranial nerve, II), the so-called nerve of sight, actually part of the central nervous system throughout its course; it consists chiefly of axons and central processes of cells of the ganglionic layer of (ORIGIN) the RETINA, which leave the orbit through the optic canal, and joins with its opposite number to form the optic chiasm (the medial fibers of each nerve crossing over to the opposite side), then continues as the optic tract to end in the lateral geniculate body.
+	- trigeminal nerve  (fifth cranial nerve, V), which emerges from (ORIGIN) the lateral surface of the pons as a MOTOR and a SENSORY ROOT, together with some intermediate fibers. The sensory root expands into the trigeminal ganglion, which contains the cells of origin of most of the sensory fibers, and from which the three divisions of the nerve arise. See mandibular n., maxillary n., and ophthalmic n. The trigeminal nerve is sensory in supplying the face, teeth, mouth, and nasal cavity, and motor in supplying the muscles of mastication.
+		- mandibular nerve  one of three terminal divisions of the trigeminal nerve, passing through the foramen ovale to the infratemporal fossa. ORIGIN, trigeminal GANGLION; branches, meningeal branch, masseteric, deep temporal, lateral and medial pterygoid, buccal, auriculotemporal, lingual, and inferior alveolar nerves; distribution, extensive distribution to muscles of mastication, skin of face, mucous membrane of mouth, and teeth; modality, general sensory and motor.
+			- alveolar nerve, inferior  ORIGIN, mandibular nerve; branches, mylohyoid, inferior dental, mental, and inferior gingival nerves; distribution —teeth and gums of lower jaw, skin of chin and lower lip, mylohyoid muscle and anterior belly of digastric muscle; modality, motor and general sensory.
+				- mental nerve  ORIGIN, inferior alveolar nerve; branches, mental, gingival, and inferior labial branches; distribution, skin of chin, and lower lip; modality, general sensory.
+				- mylohyoid nerve  ORIGIN, inferior alveolar nerve; distribution, mylohyoid muscle, anterior belly of digastric muscle; modality, motor.
+			- auriculotemporal nerve  ORIGIN, by two roots from the mandibular nerve; branches, anterior auricular nerve, nerve of external acoustic meatus, parotid branches, branch to tympanic membrane, and branches communicating with facial nerve; its terminal branches are superficial temporal to the scalp; distribution, parotid gland, scalp in temporal region, tympanic membrane; modality, general sensory.
+				- auricular nerves, anterior  ORIGIN, auriculotemporal nerve; distribution, skin of anterosuperior part of external ear; modality, general sensory.
+				- nerve of external acoustic meatus  ORIGIN, auriculotemporal nerve; distribution, skin lining external acoustic meatus, and tympanic membrane; modality, general sensory.
+			- buccal nerve  ORIGIN, mandibular nerve; distribution, skin and mucous membrane of cheeks, gums, and perhaps the first two molars and the premolars; modality, general sensory.
+			- lingual nerve  ORIGIN, mandibular nerve, descending to the tongue, first medial to the mandible and then under cover of the mucous membrane of the mouth; branches, sublingual nerve, lingual branch, branch to the isthmus of the fauces, and branches communicating with the hypoglossal nerve and chorda tympani; distribution, anterior two-thirds of tongue, adjacent areas of mouth, gums, isthmus of fauces; modality, general sensory.
+				- sublingual nerve  ORIGIN, lingual nerve; distribution, sublingual gland and overlying mucous membrane; modality, parasympathetic and general sensory.
+			- masseteric nerve  ORIGIN, mandibular division of trigeminal nerve; distribution, masseter muscle and temporomandibular joint; modality, motor and general sensory.
+			- pterygoid nerve, lateral  ORIGIN, mandibular nerve; distribution, lateral pterygoid muscle; modality, motor.
+			- pterygoid nerve, medial  ORIGIN, mandibular nerve; distribution, medial pterygoid, tensor tympani, and tensor veli palatini muscles; modality, motor.
+			- nerve to tensor tympani  ORIGIN, mandibular nerve via nerve to medial pterygoid MUSCLE and otic GANGLION; distribution, tensor tympani muscle; modality, motor.
+			- nerve to tensor veli palatini  ORIGIN, mandibular nerve via nerve to medial pterygoid MUSCLE and otic GANGLION; distribution, tensor veli palatini muscle; modality, motor.
+			- temporal nerves, deep  usually two in number, anterior and posterior, with a third middle one often seen: ORIGIN, mandibular nerve; distribution, temporal muscles; modality, motor.
+		- maxillary nerve  one of the three terminal divisions of the trigeminal nerve, passing through the foramen rotundum, and entering the pterygopalatine fossa. ORIGIN, trigeminal GANGLION; branches, meningeal branch, zygomatic nerve, posterior superior alveolar branches, infraorbital nerve, pterygopalatine nerves, and, indirectly, the branches of the pterygopalatine ganglion; distribution, extensive distribution to skin of face and scalp, mucous membrane of maxillary sinus and nasal cavity, and teeth; modality, general sensory.
+			- infraorbital nerve  ORIGIN, continuation of the maxillary nerve, entering the orbit through the inferior orbital fissure, and occupying in succession the infraorbital groove, canal, and foramen; branches, middle and anterior superior alveolar, inferior palpebral, internal and external nasal, and superior labial branches; distribution, incisor, cuspid, and premolar teeth of upper jaw, skin and conjunctiva of lower eyelid, mobile septum and skin of side of nose, mucous membrane of mouth, skin of upper lip; modality, general sensory.
+				- alveolar nerves, superior  the superior alveolar branches (anterior, middle, and posterior) that (ORIGIN) arise from the maxillary and infraorbital nerves, innervating the teeth of the upper jaw and the maxillary sinus, and forming the superior dental plexus.
+			- pterygopalatine nerves (sphenopalatine nerves) the two nerves which connect the maxillary nerve to the pterygopalatine GANGLION; they are the sensory roots of the ganglion.
+				- nasopalatine nerve  ORIGIN, pterygopalatine GANGLION; distribution, mucosa and glands of most of nasal septum and anterior part of hard palate; modality, parasympathetic and general sensory.
+				- nerve of pterygoid canal (vidian nerve) ORIGIN, union of deep and greater petrosal nerves; distribution, pterygopalatine ganglion and branches; modality, parasympathetic and sympathetic.
+				- palatine nerve
+					- palatine nerve, anterior , palatine nerve, greater ORIGIN, pterygopalatine GANGLION; branches, posterior inferior (lateral) nasal branches; distribution, emerges through the greater palatine foramen and supplies the palate; modality, parasympathetic, sympathetic, and general sensory.
+					- palatine nerves, lesser  ORIGIN, pterygopalatine GANGLION; distribution, emerge through the lesser palatine foramen and supply the soft palate and tonsil; modality, parasympathetic, sympathetic, and general sensory.
+				- pharyngeal nerve  a nerve running from (ORIGIN) the posterior part of the pterygopalatine GANGLION, through the pharyngeal canal with the pharyngeal branch of the maxillary artery, to the mucous membrane of the nasal part of the pharynx posterior to the auditory tube.
+			- zygomatic nerve  ORIGIN, maxillary nerve, entering the orbit through the inferior orbital fissure; branches, zygomaticofacial and zygomaticotemporal branches; distribution, communicates with the lacrimal nerve and supplies the skin of the temple and adjacent part of the face; modality, general sensory.
+		- ophthalmic nerve  one of the three terminal divisions of the trigeminal nerve. ORIGIN, trigeminal GANGLION; branches, tentorial branches, frontal, lacrimal, and nasociliary nerves; distribution, eyeball and conjunctiva, lacrimal gland and sac, nasal mucosa and frontal sinus, external nose, upper eyelid, forehead, and scalp; modality, general sensory.
+			- frontal nerve  ORIGIN, ophthalmic division of trigeminal nerve; enters the orbit through the superior orbital fissure; branches, supraorbital and supratrochlear nerves; distribution, chiefly to the forehead and scalp; modality, general sensory.
+				- supraorbital nerve  ORIGIN, continuation of frontal nerve, from ophthalmic nerve; branches, lateral and medial branches; distribution, leaves orbit through supraorbital notch or foramen, and supplies the skin of upper eyelid, forehead, anterior scalp (to vertex), mucosa of frontal sinus; modality, general sensory.
+				- supratrochlear nerve  ORIGIN, frontal nerve, from ophthalmic nerve; distribution, leaves orbit at medial end of supraorbital margin and supplies the forehead and upper eyelid; modality, general sensory.
+			- lacrimal nerve  ORIGIN, ophthalmic division of trigeminal nerve, entering the orbit through the superior orbital fissure; distribution, lacrimal gland, conjunctiva, lateral commissure of eye, and skin of upper eyelid; modality, general sensory.
+			- nasociliary nerve  ORIGIN, ophthalmic division of trigeminal nerve; branches, long ciliary, posterior ethmoidal, anterior ethmoidal, and infratrochlear nerves, and a communicating branch to the ciliary ganglion; distribution —see individual nerve branches; modality, general sensory.
+				- ciliary nerves, long  ORIGIN, nasociliary nerve, from ophthalmic nerve; distribution, dilator muscle of pupil, uvea, cornea; modality, sympathetic and general sensory.
+				- ciliary nerves, short  ORIGIN, ciliary GANGLION; distribution, smooth muscle and tunics of eye; modality, parasympathetic, sympathetic, and general sensory.
+				- ethmoidal nerve, anterior  ORIGIN, continuation of nasociliary nerve, from ophthalmic nerve; branches, internal, external, lateral, and medial branches; distribution, mucosa of upper and anterior nasal septum, lateral wall of nasal cavity, skin of lower bridge and tip of nose; modality, general sensory.
+				- ethmoidal nerve, posterior  ORIGIN, nasociliary nerve, from ophthalmic nerve; distribution, mucosa of posterior ethmoid cells and of sphenoidal sinus; modality, general sensory.
+				- infratrochlear nerve  ORIGIN, nasociliary nerve from ophthalmic nerve; branches, palpebral branches; distribution, skin of root and upper bridge of nose and lower eyelid, conjunctiva, lacrimal duct; modality, general sensory.
+			- tentorial nerve  a branch that arises from (ORIGIN) the ophthalmic nerve close to its origin from the trigeminal ganglion, turning back to innervate the dura mater of the tentorium cerebelli and falx cerebri; modality, general sensory.
+	- trochlear nerve  (fourth cranial nerve, IV); ORIGIN, the fibers of each trochlear nerve (one on either side) decussate across the median plane and emerge from the back of the BRAIN STEM below the corresponding inferior colliculus; distribution, runs forward in lateral wall of cavernous sinus, traverses the superior orbital fissure, and supplies superior oblique muscle of eyeball; modality, motor.
+	- vagus nerve (pneumogastric nerve, tenth cranial nerve, X); ORIGIN, by numerous ROOTLETS from lateral side of medulla oblongata in the groove between the olive and the inferior cerebellar peduncle; branches, superior and recurrent laryngeal nerves, meningeal, auricular, pharyngeal, cardiac, bronchial, gastric, hepatic, celiac, and renal branches, pharyngeal, pulmonary, and esophageal plexuses, and anterior and posterior trunks; distribution, descending through the jugular foramen, it presents as a superior and an inferior ganglion, and continues through the neck and thorax into the abdomen. It supplies sensory fibers to the ear, tongue, pharynx, and larynx, motor fibers to the pharynx, larynx, and esophagus, and parasympathetic and visceral afferent fibers to thoracic and abdominal viscera; modality, parasympathetic, visceral afferent, motor, general sensory.
+		- laryngeal nerve, recurrent  ORIGIN, vagus nerve (chiefly the cranial part of the accessory nerve): branches, inferior laryngeal nerve and tracheal, esophageal, and inferior cardiac branches; distribution, tracheal mucosa, esophagus, cardiac plexus; modality, parasympathetic, visceral afferent, and motor.
+			- laryngeal nerve, inferior  ORIGIN, recurrent laryngeal nerve, especially the terminal portion of this nerve; distribution, intrinsic muscles of larynx, except cricothyroid; communicates with the internal laryngeal nerve; modality, motor.
+		- laryngeal nerve, superior  ORIGIN, inferior GANGLION of vagus nerve; branches, external, internal, and communicating branches; distribution, inferior constrictor of the pharynx, cricothyroid muscle, and mucous membrane of back of tongue and larynx; modality, motor, general sensory, visceral afferent, and parasympathetic.
+			- laryngeal nerve, external  the smaller of the two branches into which the superior laryngeal nerve divides, descending under cover of the sternothyroid muscle and innervating the cricothyroid and the inferior constrictor of the pharynx; modality, motor.
+			- laryngeal nerve, internal  the larger of the two branches of the superior laryngeal nerve, which innervates the mucosa of the epiglottis, base of the tongue, and larynx; modality, general sensory.
+	- vestibulocochlear nerve (acoustic nerve, auditory nerve, eighth cranial nerve, VIII); it emerges from the brain between the pons and the medulla oblongata, at the cerebellopontine angle and behind the facial nerve. It divides near the lateral end of the internal acoustic meatus into two functionally distinct and incompletely united components, the vestibular nerve and the cochlear nerve, and is connected with the brain by corresponding roots, the vestibular and the cochlear roots.
+		- cochlear nerve  the part of (ORIGIN) the vestibulocochlear nerve concerned with hearing, consisting of fibers that arise from the bipolar cells in the spiral ganglion and have their receptors in the spiral organ of the cochlea.
+		- vestibular nerve  the posterior part of (ORIGIN) the vestibulocochlear nerve, which is concerned with the sense of equilibrium. It consists of fibers arising from bipolar cells in the vestibular ganglion, and divides peripherally into a rostral and a caudal part, with receptors in the ampullae of the semicircular canals, the utricle, and the saccule.
+			- ampullar nerve
+				- ampullar nerve, anterior (ampullar nerve, superior) the branch of (ORIGIN) the vestibular nerve that innervates the ampulla of the anterior semicircular duct, ending around the hair cells of the ampullary crest.
+				- ampullar nerve, lateral  the branch of (ORIGIN) the vestibular nerve that innervates the ampulla of the lateral semicircular duct, ending around the hair cells of the ampullary crest.
+				- ampullar nerve, posterior (ampullar nerve, inferior) the branch of (ORIGIN) the vestibular nerve that innervates the ampulla of the posterior semicircular duct, ending around the hair cells of the ampullary crest.
+			- saccular nerve  the branch of (ORIGIN) the vestibular nerve that innervates the macula of the saccule.
+			- utricular nerve  the branch of the vestibular nerve that innervates the macula of the utricle.
+			- utriculoampullary nerve  a nerve that arises by peripheral division of the vestibular nerve, and supplies the utricle and ampullae of the semicircular ducts.
+
+=============================================
+
+BRACHIAL PLEXUS:
+	- axillary nerve  ORIGIN, posterior cord of brachial PLEXUS (C5–C6); branches, lateral superior brachial cutaneous nerve and muscular branches; distribution, deltoid and teres minor muscles, skin on back of arm; modality, motor and general sensory.
+		- cutaneous nerve of arm, posterior  ORIGIN, radial nerve in the axilla; distribution, skin on back of arm; modality, general sensory.
+		- cutaneous nerve of arm, superior lateral  ORIGIN, axillary nerve; distribution, skin of back of arm; modality, general sensory.
+	- cutaneous nerve of arm, medial  ORIGIN, medial cord of brachial PLEXUS (T1); distribution, skin on medial and posterior aspects of arm; modality, general sensory.
+	- cutaneous nerve of forearm, medial  ORIGIN, medial cord of brachial PLEXUS (C8, T1); branches, anterior and ulnar; distribution, skin of front, medial, and posteromedial aspects of forearm; modality, general sensory.
+		- ulnar nerve (cubital nerve) ORIGIN, medial and lateral cords of brachial PLEXUS (C7–T1); branches, muscular, dorsal, palmar, superficial, and deep branches; distribution, ultimately to skin on front and back of medial part of hand, some flexor muscles on front of forearm, many short muscles of hand, elbow joint, many joints of hand; modality, general sensory and motor.
+			- digital nerves of ulnar nerve, common palmar  number, two; ORIGIN, superficial branch of ulnar nerve; branches, proper palmar digital nerves; distribution, little and ring fingers; modality, general sensory.
+				- digital nerves of ulnar nerve, proper palmar  proper palmar digital nerves of ulnar nerve: ORIGIN, the lateral of the two common palmar digital nerves from the superficial branch of the ulnar nerve; distribution, skin and joints of adjacent sides of fourth and fifth fingers; modality, general sensory.
+			- digital nerves of ulnar nerve, dorsal  ORIGIN, dorsal branch of ulnar nerve; distribution, skin and joints of medial side of little finger, dorsal aspects of adjacent sides of little and ring fingers and of ring and middle fingers; modality, general sensory.
+	- dorsal scapular nerve  ORIGIN, brachial PLEXUS—ventral branch of C5; distribution, rhomboid muscles and occasionally the levator muscle of scapula; modality, motor.
+	- median nerve  ORIGIN, lateral and medial cords of brachial PLEXUS—C6–T1; branches, anterior interosseous nerve of forearm, common palmar digital nerves, and muscular and palmar branches, and a communicating branch with the ulnar nerve; distribution, ultimately, skin on front of lateral part of hand, most of flexor muscles of front of forearm, most of short muscles of thumb and elbow joint, and many joints of hand; modality, general sensory.
+		- interosseous nerve of forearm, anterior  ORIGIN, median nerve; distribution, long flexor of thumb, deep flexor of fingers, and pronator quadratus muscles, wrist and intercarpal joints; modality, motor and general sensory.
+		- digital nerves of median nerve, common palmar  number, four; ORIGIN, lateral and medial divisions of median nerve; branches, proper palmar digital nerves; distribution, thumb, index, middle, and ring fingers, and first two lumbrical muscles; modality, motor and general sensory.
+			- digital nerves of median nerve, proper palmar  ORIGIN, common palmar digital nerves; distribution, first two lumbrical muscles, skin and joints of both sides and palmar aspect of thumb, index, and middle fingers, radial side of ring finger, and back of distal aspect of these digits; modality, general sensory and motor.
+	- musculocutaneous nerve  ORIGIN, lateral cord of brachial PLEXUS—C5–C7; branches, lateral cutaneous nerve of forearm, and muscular branches; distribution, coracobrachial and biceps brachial muscles, the elbow joint, and skin of radial side of forearm; modality, general sensory and motor.
+		- cutaneous nerve of forearm, lateral  ORIGIN, continuation of musculocutaneous nerve; distribution, skin over radial side of forearm and sometimes an area of skin of dorsum of hand; modality, general sensory.
+		- musculocutaneous nerve of foot  superficial fibular n.
+			- cutaneous nerve of foot, intermediate dorsal  ORIGIN, superficial fibular nerve; branches, dorsal digital nerves of foot; distribution, skin of front of lower third of leg and dorsum of foot, and skin and joints of adjacent sides of third and fourth, and of fourth and fifth toes; modality, general sensory.
+				- digital nerves of foot, dorsal 
+					1. nerves supplying the third, fourth, and fifth toes; ORIGIN, intermediate dorsal cutaneous nerve; distribution, skin and joints of adjacent sides of third and fourth, and of fourth and fifth toes; modality, general sensory.
+			- cutaneous nerve of foot, medial dorsal  ORIGIN, superficial fibular nerve; distribution, skin and joints of medial side of foot and big toe, and adjacent sides of second and third toes; modality, general sensory.
+				- sural nerve  ORIGIN, medial sural cutaneous nerve and fibular communicating branch of common fibular nerve; branches, lateral dorsal cutaneous nerve and lateral calcaneal branches; distribution, skin on back of leg, and skin and joints on lateral side of heel and foot; modality, general sensory.
+					- cutaneous nerve of foot, lateral dorsal  ORIGIN, continuation of sural nerve; distribution, skin and joints of lateral side of foot and fifth toe; modality, general sensory.
+		- musculocutaneous nerve of leg  deep fibular n.
+			- digital nerves of foot, dorsal 
+				2. nerves supplying the first and second toes; ORIGIN, medial terminal division of deep fibular nerve; distribution, skin and joints of adjacent sides of great and second toes; modality, general sensory.
+	- radial nerve  ORIGIN, posterior cord of brachial PLEXUS (C6–C8, and sometimes C5 and T1); branches, posterior cutaneous and inferior lateral cutaneous nerves of arm, posterior cutaneous nerve of forearm, muscular, deep, and superficial branches; distribution, descending in the back of arm and forearm, it is ultimately distributed to skin on back of arm, forearm, and hand, extensor muscles on back of arm and forearm, and elbow joint and many joints of hand; modality, general sensory and motor.
+		- cutaneous nerve of arm, inferior lateral  ORIGIN, radial nerve; distribution, skin of lateral surface of lower part of arm; modality, general sensory.
+		- cutaneous nerve of forearm, posterior  ORIGIN, radial nerve; distribution, skin of dorsal aspect of forearm; modality, general sensory.
+		- digital nerves of radial nerve, dorsal  ORIGIN, superficial branch of radial nerve; distribution, skin and joints of back of thumb, index finger, and part of middle finger, as far distally as the distal phalanx; modality, general sensory.
+		- interosseous nerve of forearm, posterior  ORIGIN, continuation of deep branch of radial nerve; distribution, long abductor muscle of thumb, extensor muscles of the thumb and second finger, and wrist and intercarpal joints; modality, motor and general sensory.
+	- subclavian nerve  ORIGIN, upper trunk of brachial PLEXUS (C5); distribution, subclavius muscle and sternoclavicular joint; modality, motor and general sensory.
+	- subscapular nerves  ORIGIN, posterior cord of brachial PLEXUS (C5); distribution, usually two or more nerves, upper and lower, supplying subscapular and teres major muscles; modality, motor.
+	- thoracic nerve
+		- thoracic nerve, long  ORIGIN, brachial PLEXUS (ventral branches of C5–C7); distribution, descends behind brachial plexus to serratus anterior muscle; modality, motor.
+			- subcostal nerve  ORIGIN, anterior branch of twelfth thoracic nerve; distribution, skin of lower abdomen and lateral side of gluteal region, parts of abdominal transverse, oblique, and rectus muscles, and usually the pyramidal muscle, and adjacent peritoneum; modality, general sensory and motor.
+		- thoracodorsal nerve  ORIGIN, posterior cord of brachial PLEXUS (C7–C8); distribution, latissimus dorsi muscle; modality, motor.
+		- intercostal nerves: ORIGIN arise from anterior divisions (rami anteriores; ventral divisions) of the thoracic spinal nerves from T1 to T11; branches, lateral cutaneous, anterior, posterior
+			- intercostobrachial nerves, lateral cutaneus branch  two nerves arising from the intercostal nerves and supplying the skin of the upper limb. 
+				- The first is constant: ORIGIN, second intercostal nerve; distribution, skin on back and medial aspect of arm; modality, general sensory. 
+				- A second intercostobrachial nerve is often present; ORIGIN, third intercostal nerve; distribution, skin of axilla and medial aspect of arm; modality, general sensory.
+			- anterior branches run forward to the side and the forepart of the chest, supplying the skin and the mamma; those of the fifth and sixth nerves supply the upper digitations of the Obliquus externus abdominis.
+			- posterior branches run backward, and supply the skin over the scapula and Latissimus dorsi.run forward the side two way side of the muscular supply
+		- splanchnic nerve, greater  ORIGIN, thoracic sympathetic trunk and fifth through tenth thoracic GANGLIA; distribution, descending through the diaphragm or its aortic openings, ends in celiac ganglia and plexuses, with a splanchnic ganglion commonly occurring near the diaphragm; modality, preganglionic sympathetic and visceral afferent.
+		- splanchnic nerve, lesser  ORIGIN, ninth and tenth thoracic GANGLIA of sympathetic trunk; branches, renal branch; distribution, pierces the diaphragm, joins the aorticorenal ganglion and celiac plexus, and communicates with the renal and superior mesenteric plexuses; modality, preganglionic sympathetic and visceral afferent.
+			- splanchnic nerve, lowest  ORIGIN, last GANGLION of sympathetic trunk or lesser splanchnic nerve; distribution, aorticorenal ganglion and adjacent plexus; modality, sympathetic and visceral afferent.
+	- suprascapular nerve  ORIGIN, brachial PLEXUS (C5–C6); distribution, descends through suprascapular and spinoglenoid notches and supplies acromioclavicular and shoulder joints, and supraspinous and infraspinous muscles; modality, motor and general sensory.
+
+=============================================
+
+CERVICAL/INTERNAL CAROTID/EXTERNAL CAROTID/CARDIAC/TYMPANIC PLEXUS:
+	- auricular nerve, great  ORIGIN, cervical PLEXUS—C2–C3; branches, anterior and posterior branches; distribution, skin over parotid gland and mastoid process, and both surfaces of auricle.
+	- carotid nerve
+		- carotid nerves, external  ORIGIN, superior cervical GANGLION; distribution, cranial blood vessels and glands via the external carotid plexus; modality, sympathetic.
+		- carotid nerve, internal  ORIGIN, superior cervical GANGLION; distribution, cranial blood vessels and glands via internal carotid plexus; modality, sympathetic.
+	- caroticotympanic nerves  ORIGIN, internal carotid PLEXUS; inferior and superior nerves can be distinguished; together with tympanic nerve, they form the tympanic plexus; distribution, tympanic region and parotid gland; modality, sympathetic.
+	- cervical cardiac nerve (accelerator nerves)
+		- cervical cardiac nerve, inferior  ORIGIN, cervicothoracic GANGLION; distribution, heart via cardiac PLEXUS; modality, sympathetic (accelerator) and visceral afferent (chiefly pain).
+		- cervical cardiac nerve, middle  ORIGIN, middle cervical GANGLION; distribution, heart; modality, sympathetic (accelerator) and visceral afferent (chiefly pain).
+		- cervical cardiac nerve, superior  ORIGIN, superior cervical GANGLION; distribution, heart; modality, sympathetic (accelerator).
+	- cervical nerve, transverse (cutaneous nerve of neck, anterior) ORIGIN, cervical PLEXUS (C2–C3); branches, superior and inferior branches; distribution, skin on side and front of neck; modality, general sensory.
+		- suboccipital nerve (infraoccipital nerve) ORIGIN, dorsal branch of first cervical nerve; distribution, emerges above posterior arch of atlas and supplies muscles of suboccipital triangle and semispinal muscle of head; modality, motor.
+	- jugular nerve  a branch of (ORIGIN) the superior cervical GANGLION which communicates with the vagus and glossopharyngeal nerves.
+	- occipital nerve
+		- occipital nerve, greater  ORIGIN, medial branch of dorsal branch of C2; distribution, semispinal muscle of head and skin of scalp as far forward as the vertex; modality, general sensory and motor.
+		- occipital nerve, lesser  ORIGIN, superficial cervical PLEXUS (C2–C3); distribution, ascends behind the auricle and supplies some of the skin on the side of the head and on the cranial surface of the auricle; modality, general sensory.
+		- occipital nerve, third  ORIGIN, medial branch of dorsal branch of C3; distribution, skin of upper part of back of neck and head; modality, general sensory.
+	- petrosal nerve, deep (vidian nerve, deep) ORIGIN, internal carotid PLEXUS; distribution, joins greater petrosal nerve to form nerve of pterygoid canal, and supplies lacrimal, nasal, and palatine glands via pterygopalatine ganglion and its branches; modality, sympathetic.
+	- petrosal nerve, lesser  ORIGIN, tympanic PLEXUS; distribution, parotid GLAND via otic GANGLION and auriculotemporal nerve; modality, parasympathetic.
+	- phrenic nerve  ORIGIN, cervical PLEXUS (C4–C5); branches, pericardiac and phrenicoabdominal branches; distribution, pleura, pericardium, diaphragm, peritoneum, and sympathetic plexuses; modality, general sensory and motor.
+		- phrenic nerves, accessory  an inconstant contribution of the fifth cervical nerve to the phrenic nerve; when present, they run a separate course to the root of the neck or into the thorax before joining the phrenic nerve.
+	- supraclavicular nerve
+		- supraclavicular nerves, intermediate (middle supraclavicular nerves) ORIGIN, cervical PLEXUS (C3–C4); distribution, descend in the posterior triangle, cross the clavicle, and supply the skin over pectoral and deltoid region; modality, general sensory.
+		- supraclavicular nerves, lateral (posterior supraclavicular nerves) ORIGIN, cervical PLEXUS (C3–C4); distribution, descend in the posterior triangle, cross the clavicle, and supply the skin of superior and posterior parts of shoulder; modality, general sensory.
+		- supraclavicular nerves, medial (anterior supraclavicular nerves) ORIGIN, cervical PLEXUS (C3–C4); distribution, descend in posterior triangle, cross the clavicle, and supply the skin of medial infraclavicular region; modality, general sensory.
+	- vertebral nerve  ORIGIN, cervicothoracic and vertebral GANGLIA; distribution, ascends with vertebral artery and gives fibers to spinal meninges, cervical nerves, and posterior cranial fossa; modality, sympathetic.
+
+=============================================
+
+LUMBAR PLEXUS:
+	- cutaneous nerve, perforating  one of the inferior cluneal nerves which pierces the sacrotuberous ligament and supplies the skin over the inferomedial gluteus maximus; it is absent in one third of the population.
+		- cutaneous nerve of thigh, lateral  ORIGIN, lumbar PLEXUS—L2–L3; distribution, skin of lateral and frontal aspects of thigh; modality, general sensory.
+	- femoral nerve  ORIGIN, lumbar PLEXUS (L2–L4); descending behind the inguinal ligament to the femoral triangle; branches, saphenous nerve, muscular and anterior cutaneous branches; distribution, skin of thigh and leg, muscles of front of thigh, and hip and knee joints; modality, general sensory and motor.
+		- saphenous nerve  ORIGIN, termination of femoral nerve, descending first with femoral vessels and then on medial side of leg and foot; branches, infrapatellar and medial crural cutaneous branches; distribution, knee joint, subsartorial and patellar plexuses, skin on medial side of leg and foot; modality, general sensory.
+	- genitofemoral nerve  ORIGIN, lumbar PLEXUS (L1–L2); branches, genital and femoral branches; distribution, cremaster muscle, skin of scrotum or labium majus and of adjacent area of thigh and femoral triangle; modality, general sensory and motor.
+	- iliohypogastric nerve  ORIGIN, lumbar PLEXUS—L1 (sometimes T12); branches, lateral and anterior cutaneous branches; distribution, the skin above the pubis and over the lateral side of the buttock, and occasionally the pyramidal muscle; modality, motor and general sensory.
+	- ilioinguinal nerve  ORIGIN, lumbar PLEXUS—L1 (sometimes T12); accompanies the spermatic cord through the inguinal canal; branches, anterior scrotal or labial branches; distribution, skin of scrotum or labia majora, and adjacent part of thigh; modality, general sensory.
+		- labial nerves, anterior  ORIGIN, ilioinguinal nerve; distribution, skin of anterior labial region of labia majora, and adjacent part of thigh; modality, general sensory.
+		- scrotal nerves, anterior  ORIGIN, ilioinguinal nerve; distribution, skin of anterior scrotal region; modality, general sensory.
+	- lumbar nerves (furcal nerve - forth lumbar nerve) the five pairs of nerves (L1–L5) that arise from the lumbar segments of the spinal cord, each pair leaving the VERTEBRAL COLUMN below the correspondingly numbered vertebra. The ventral branches of these nerves participate in the formation of the lumbosacral plexus.
+		- cluneal nerves, superior  general sensory nerve branches of (ORIGIN) the dorsal branches of the upper lumbar nerves, innervating the skin of the upper part of the buttocks.
+		- splanchnic nerves, lumbar  ORIGIN, lumbar GANGLIA or sympathetic trunk; distribution, upper nerves join celiac and adjacent plexuses, middle ones go to intermesenteric and adjacent plexuses, and lower ones descend to superior hypogastric plexus; modality, preganglionic sympathetic and visceral afferent.
+	- nerve of quadrate muscle of thigh  ORIGIN, ventral branches of ventral branches of lumbar PLEXUS L4–L5; distribution, inferior gemellus muscle, anterior quadratus muscle of thigh, hip joint; modality, general sensory and motor.
+	- obturator nerve
+		- obturator nerve  ORIGIN, lumbar PLEXUS—L3–L4; branches, anterior, posterior, and muscular branches; distribution, adductor muscles and gracilis muscle, skin of medial part of thigh, and hip and knee joints; modality, general sensory and motor.
+		- obturator nerve, accessory  ORIGIN, ventral branches of ventral branches of L3–L4; distribution, pectineus muscle, hip joint, obturator nerve; modality, general sensory and motor.
+		- obturator nerve, internal  ORIGIN, ventral branches of ventral branches of L5, S1–S2; distribution, posterior gemellus superior muscle and obturator internus muscle; modality, general sensory and motor.
+
+=============================================
+
+SACRAL/UTEROVAGINAL/PROSTATIC/COCCYGEAL PLEXUS:
+	- anococcygeal nerve  ORIGIN, coccygeal PLEXUS; distribution, sacrococcygeal joint, coccyx, skin over coccyx; modality, general sensory.
+	- cavernous nerves of clitoris  ORIGIN, uterovaginal PLEXUS; distribution, erectile tissue of clitoris; modality, parasympathetic, sympathetic, and visceral afferent.
+	- cavernous nerves of penis  ORIGIN, prostatic PLEXUS; distribution, erectile tissue of penis; modality, sympathetic, parasympathetic, and visceral afferent.
+	- coccygeal nerve  either of the thirty-first pair of spinal nerves (Co), arising from the coccygeal segment of the spinal cord.
+	- cutaneous nerve of thigh, posterior  ORIGIN, sacral PLEXUS—S1–S3; branches, inferior cluneal nerves and perineal branches; distribution, skin of buttock, external genitalia, and back of thigh and calf; modality, general sensory.
+		- cluneal nerves, inferior  general sensory nerve branches of (ORIGIN) the posterior femoral cutaneous nerve, innervating the skin of the lower part of the buttocks.
+	- gluteal nerve
+		- gluteal nerve, inferior  ORIGIN, sacral PLEXUS (L5–S2); distribution, gluteus maximus muscle; modality, motor.
+		- gluteal nerve, superior ORIGIN, sacral PLEXUS (L4–S1); distribution, gluteus medius and minimus muscles, tensor fasciae latae, and hip joint; modality, motor and general sensory.
+	- piriform nerve  ORIGIN, dorsal branches of ventral branches of sacral PLEXUS S1–S2; distribution, anterior piriform muscle; modality, general sensory and motor.
+	- pudendal nerve  ORIGIN, sacral PLEXUS (S2–S4); branches, enters the pudendal canal, gives off the inferior anal nerve, and then divides into the perineal nerve and dorsal nerve of the penis (clitoris); distribution, muscles, skin, and erectile tissue of perineum; modality, general sensory, motor, and parasympathetic.
+		- anal nerves, inferior (rectal nerves, inferior hemorrhoidal nerves)  ORIGIN, pudendal nerve, or independently from sacral PLEXUS; distribution, external anal sphincter muscle, skin around anus, and lining of anal canal up to pectinate line; modality, general sensory and motor.
+		- dorsal nerve of clitoris  ORIGIN, pudendal nerve; distribution, deep transverse muscle of perineum, sphincter muscle of urethra, corpus cavernosum of clitoris, and skin, prepuce, and glans of clitoris; modality, general sensory and motor.
+		- dorsal nerve of penis  ORIGIN, pudendal nerve; distribution, deep transverse muscle of perineum, sphincter muscle of urethra, corpus cavernosum of penis, and skin, prepuce, and glans of penis; modality, general sensory and motor.
+		- labial nerves, posterior  ORIGIN, pudendal nerve; distribution, labium majus; modality, general sensory.
+		- perineal nerves  ORIGIN, pudendal nerve in the pudendal canal; branches, muscular branches and posterior scrotal or labial nerves; distribution, muscular branches supply the bulbocavernous, ischiocavernous, and superficial transverse perineal muscles and bulb of the penis and, in part, the external anal sphincter and levator ani muscles; the scrotal (labial) nerves supply the scrotum or labium majus; modality, general sensory and motor.
+			- scrotal nerves, posterior  ORIGIN, perineal nerves; distribution, skin of scrotum; modality, general sensory.
+	- sacral nerves  (S1–S5) that arise from the sacral segments of the SPINAL CORD; the ventral branches of the first four pairs participate in the formation of the sacral plexus.
+		- cluneal nerves, middle  general sensory nerve branches of (ORIGIN) the PLEXUS formed by the lateral branches of dorsal branches of the first four sacral nerves, innervating ligaments of the sacrum and the skin over the posterior buttocks.
+	- sciatic nerve (ischiadic nerve) the largest nerve of the body: ORIGIN, sacral PLEXUS (L4–S3); it leaves the pelvis through the greater sciatic foramen; branches, divides into the tibial and common fibular nerves, usually in lower third of thigh; distribution, see individual nerve branches; modality, general sensory and motor.
+		- fibular nerve, common (common peroneal nerve, popliteal nerve) ORIGIN, sciatic nerve in lower part of thigh; branches and distribution, supplies short head of biceps femoris muscle (while still incorporated in sciatic nerve), gives off lateral sural cutaneous nerve and fibular communicating branch as it descends in popliteal fossa, supplies knee and superior tibiofibular joints and tibialis anterior muscle, and divides into superficial and deep fibular nerves; modality, general sensory and motor.
+			- cutaneous nerve of calf, lateral  ORIGIN, common fibular nerve; distribution, skin of lateral side of back of leg, rarely may continue as the sural nerve; modality, general sensory.
+			- fibular nerve, deep (peroneal nerve, deep) ORIGIN, a terminal branch of common fibular nerve; branches and distribution, winds around the neck of the fibula and descends on the interosseous membrane to the front of the ankle; gives off muscular branches to anterior tibial, extensor of great toe, long extensor of toes, and third fibular muscles, and a twig to ankle joint; a lateral terminal division supplies the short extensor muscle of toes and tarsal joints; medial terminal division, or digital branch, divides into dorsal digital nerves for skin and joints of adjacent sides of first and second toes; modality, general sensory and motor.
+			- fibular nerve, superficial (peroneal nerve, superficial) ORIGIN, a terminal branch of common fibular nerve; branches and distribution, descends in front of the fibula, supplies long and short fibular muscles and, in the lower part of the leg, divides into the muscular branches, medial and intermediate dorsal cutaneous nerves; modality, general sensory and motor.
+		- tibial nerve  tibial nerve: ORIGIN, sciatic nerve in lower part of thigh; branches, interosseous nerve of leg, medial cutaneous nerve of calf, sural nerve, and medial and lateral plantar nerves, and muscular and medial calcaneal branches; distribution, while still incorporated in the sciatic nerve, it supplies the semimembranous and semitendinous muscles, long head of biceps, and great adductor muscle; it supplies the knee joint as it descends in the popliteal fossa and, continuing into the leg, supplies the muscles and skin of the calf and sole of the foot, and the toes; modality, general sensory and motor.
+			- cutaneous nerve of calf, medial  ORIGIN, tibial nerve; usually joins fibular communicating branch of common fibular nerve to form the sural nerve; distribution, may continue as the sural nerve; modality, general sensory.
+			- interosseous nerve of leg  ORIGIN, tibial nerve; distribution, interosseous membrane and tibiofibular syndesmosis; modality, general sensory.
+			- plantar nerve
+				- plantar nerve, lateral  ORIGIN, the smaller of terminal branches of tibial nerve; branches, muscular, superficial, and deep branches; distribution, lying between first and second layers of muscles of sole, it supplies the quadratus of sole, abductor of little toe, short flexor of little toe, adductor of great toe, interosseous, and second, third, and fourth lumbrical muscles, and gives off cutaneous and articular twigs to lateral side of sole and fourth and fifth toes; modality, general sensory and motor.
+					- digital nerves of lateral plantar nerve, common plantar  number, two; ORIGIN, superficial branch of lateral plantar nerve; branches, the medial nerve gives rise to two proper plantar digital nerves; distribution, the lateral one to the short flexor muscle of little toe and to skin and joints of lateral side of sole and little toe; the medial one to adjacent sides of fourth and fifth toes; modality, motor and general sensory.
+				- plantar nerve, medial  ORIGIN, the larger of the terminal branches of tibial nerve; branches, common plantar digital nerves and muscular branches; distribution, abductor of great toe, short flexor of toes, short flexor of great toe, and first lumbrical muscles, and cutaneous and articular twigs to the medial side of the sole, and to the first to fourth toes; modality, general sensory and motor.
+					- digital nerves of medial plantar nerve, common plantar  number, four; ORIGIN, medial plantar nerve; branches, muscular and proper plantar digital nerves; distribution, flexor hallucis brevis muscle and first lumbrical muscles, skin and joints of medial side of foot and big toe, and adjacent sides of first and second, second and third, and third and fourth toes; modality, motor and general sensory.
+						- digital nerves of lateral plantar nerve, proper plantar  ORIGIN, common plantar digital nerves; distribution, short flexor muscle of little toe, skin and joints of lateral side of sole and little toe, and adjacent sides of fourth and fifth toes; modality, motor and general sensory.
+						- digital nerves of medial plantar nerve, proper plantar  ORIGIN, common plantar digital nerves; distribution, skin and joints of medial side of first toe, and adjacent sides of first and second, second and third, and third and fourth toes; the nerves extend to the dorsum to supply nail beds and tips of toes; modality, general sensory.
+	- splanchnic nerves, pelvic  ORIGIN, sacral PLEXUS—S3–S4; distribution, leaving the sacral plexus, they enter the inferior hypogastric plexus and supply the pelvic organs; modality, preganglionic parasympathetic and visceral afferent.
+	- splanchnic nerves, sacral  ORIGIN, sacral part of sympathetic TRUNK; distribution, pelvic organs and blood vessels via inferior hypogastric plexus; modality, preganglionic sympathetic and visceral afferent.
+	- vaginal nerves  ORIGIN, uterovaginal PLEXUS; distribution, vagina; modality, sympathetic and parasympathetic.
+
+=============================================
+
+http://radiopaedia.org/articles/glossopharyngeal-nerve
+
+stretching of dura mater -> meningeal branch of max. nerve -> trigeminal ganglion -> spinal trigeminal nucleus -> headache
+
+=============================================
+
+spinal:
+Ad -> MG
+C -> SG
+
+=============================================
+
+reference="http://chestofbooks.com/health/anatomy/Human-Body-Construction/1-The-Flexors-And-Extensors-Of-The-Fingers.html"
+notes="flexion/extension/adduction (ulnar deviation)/abduction (radial deviation)"
+
+==================
+
+median: flexor, dorsolateral (forearm) & retrodorsolateral (hand)
+ulnar: flexor, C6-T2, retrodorsolateral (hand)
+radial: extensor, C4-T1, ventrolateral (overlap with ulnar in C8, but on different neurons)
+
+flex forearm:
+- pronator teres (pronates and flexes forearm): median nerve
+- pronator quadratus (pronates forearm): anterior interosseous nerve
+
+extend forearm:
+- brachioradialis (extend forearm): radial nerve
+- supinator (supinate forearm): deep branch of radial nerve
+- abductor pollicis longus (abducts thumb metacarpal): posterior interosseous nerve
+
+==================
+
+flex wrist:
+- flexor carpi radialis (flexion/abduction wrist, 2-3 metacarpals): median nerve
+- flexor carpi ulnaris (flexion/adduction wrist, pisiform/hamate/5 metacarpal): ulnar nerve
+- palmaris longus (flexion wrist, 2-5 metacarpals): median nerve
+- opponens digiti minimi (stabilization of skin of palm for gripping): ulnar nerve
+
+extend wrist:
+- extensor carpi ulnaris (extension/adduction wrist, 5 metacarpal): deep branch of radial nerve
+- extensor carpi radialis longus (extension/abduction wrist, 2 metacarpal): radial nerve
+- extensor carpi radialis brevis (extension/abduction wrist, 3 metacarpal): deep branch of radial nerve
+
+==================
+
+flex wrist and fingers:
+- flexor digitorum superficialis (flexion wrist/fingers, middle phalanges 2-5): median nerve
+- flexor digitorum profundus (flexion wrist/fingers, distal phalanges 2-5): anterior interosseous nerve
+- flexor pollicis longus (flexion wrist/thumb, distal phalanx 1): anterior interosseous nerve
+- flexor pollicis brevis (flex the thumb): ulnar nerve
+- abductor pollicis brevis (abduction of thumb): median nerve
+- adductor pollicis (extension of IP joints): ulnar nerve
+- opponens pollicis (opposition of thumb): median nerve
+- palmaris brevis (opposition of digit 5 to thumb): ulnar nerve
+- palmar interossei (flexion of digit 5): ulnar nerve
+- dorsal interossei (extension of interphalangeal joints of digits 4-5): ulnar nerve
+- abductor digiti minimi (abduction of digit 5): ulnar nerve
+- flexor digiti minimi (flexion of thumb - deep head, aids in opposition and adduction): ulnar nerve
+- hypothenar muscles (control motion of little finger, abduction of digits 2-4): ulnar nerve
+- third and fourth lumbrical muscles (flexion of MCP joints): ulnar nerve
+
+extend wrist and fingers:
+- extensor digitorum (extension wrist/fingers, distal phalanges 2-5): deep branch of radial nerve
+- extensor indicis (extension wrist/index finger, middle and distal palanges): posterior interosseous nerve
+- extensor digiti minimi (extension wrist/litle finger, middle and distal palanges): deep branch of radial nerve
+- extensor pollicis longus and brevis (extention wrist/thumb, phalanges): posterior interosseous nerve
+
+-----------------------------
+
+forearm compartments: ventromedial=flexor (median/ulnar nerves), dorsolateral=extensor (radial nerve)
+
+forearm muscles groups: anterior group (flexors of wrist/fingers/pronators), posterior group (extensors of wrist/fingers/supinator)
+flexors: posterior interosseus nerve, radial nerve
+extensors: anterior interosseus nerve, median nerve, ulnar nerve
+thenar muscles: flexor pollicis brevis, abductor pollicis brevis, opponens pollicis
+
+Muscles of the anterior forearm - flexors: 4 superficial, 1 intermediate and 3 deep muscles
+- superficial group (pronator teres, flexor carpi radialis/ulnaris, palmaris longus): median nerve, ulnar nerve
+- intermediate muscle (flexor digitorum superficialis): median nerve
+- deep group (flexor pollicis longus, flexor digitorum profundus, pronator quadratus): ulnar nerve, anterior interosseous nerve (branch of median nerve)
+
+Muscles of the posterior forearm - extensors: 7 superficial and 5 deep muscles
+- superficial group (brachioradialis, extensor carpi radialis longus/brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris, anconeus): radial nerve, posterior interosseous nerve (branch of radial nerve)
+- deep group (supinator, abductor pollicis longus, extensor pollicis longus/brevis, extensor indicis): deep branch of radial nerve, posterior interosseous nerve
+
+==============================
+
+shoulder flexors: pectoralis major, anterior deltoid (anterior axillary nerve), biceps: long head, coracobrachialis, teres major and subscapularis
+shoulder extensors: lateral/posterior deltoid (posterior axillary nerve), teres minor
+
+==============================
+expiration/inspiration:
+
+diaphragm: 2 muscles - crural (C7) and costal (C5) regions; ventral - C5, dorsal - C6
+
+1. phrenic nerve during inspiration
+2. internal intercostal nerve branches that innervate the triangularis sterni muscle during the second stage of expiration
+3. recurrent laryngeal nerve branches that innervate the thyroarytenoid muscle during the last stage of expiration
+

@@ -1,0 +1,6 @@
+<service>
+	<channels>
+		<property name="request" value="test.commands.in"/>
+		<property name="response" value="test.commands.out"/>
+	</channels>
+</service>

@@ -1,0 +1,146 @@
+<service>
+
+	<NeuralNetworks>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_INITIAL_pQ" value="70"/>
+		<property name="NEURON_SYNAPTIC_THRESHOLD_MIN_pQ" value="10"/>
+		<property name="NEURON_ACTION_POTENTIAL_BY_SIGNAL_pQ" value="20"/>
+		<property name="NEURON_MEMBRANE_POTENTIAL_BY_ACTION_POTENTIAL_pQ" value="65"/>
+		<property name="NEURON_MEMBRANE_THRESHOLD_INITIAL_pQ" value="60"/>
+		<property name="NEURON_FIRE_OUTPUT_BY_MEMBRANE_POTENTIAL_pQ" value="80"/>
+		<property name="NEURON_INHIBIT_DELAY_ms" value="10"/>
+		<property name="NEURON_FIRE_OUTPUT_SILENT_ms" value="10"/>
+		<property name="NEURON_FIRE_IMPULSE_pQ" value="2"/>
+		<property name="NEURON_POTENTIAL_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_OUTPUT_DISCHARGE_RATE_pQ_per_ms" value="1"/>
+		<property name="NEURON_FULL_RELAX_ms" value="1000"/>
+		<property name="NEURON_CONNECTIVITY_UPDATE_FACTOR" value="95"/>
+	</NeuralNetworks>
+
+	<MindSpace>
+	</MindSpace>
+
+	<MindMap>
+
+		<MindRegionTypeDefSet>
+
+			<MindRegionTypeDef name="MindSensor">
+
+				<MindRegionConnectorDefSet>
+					<MindRegionConnectorDef id="sensor.data" source="true"/>
+					<MindRegionConnectorDef id="sensor.control" source="false"/>
+					<MindRegionConnectorDef id="sensor.control-feedback" source="true"/>	
+				</MindRegionConnectorDefSet>
+
+			</MindRegionTypeDef>
+
+			<MindRegionTypeDef name="NucleiRegion">
+
+				<MindRegionConnectorDefSet>
+					<MindRegionConnectorDef id="nucleus.input" source="false"/>
+					<MindRegionConnectorDef id="nucleus.output" source="true"/>
+					<MindRegionConnectorDef id="nucleus.interneurons-input" source="false"/>
+				</MindRegionConnectorDefSet>
+
+				<MindRegionInternalLinkSet>
+					<NeuroLink id="interneurons" type="InhibitoryLink" transmitter="GLU"/>
+				</MindRegionInternalLinkSet>
+
+			</MindRegionTypeDef>
+
+			<MindRegionTypeDef name="NeoNeocortexRegion">
+
+				<MindRegionConnectorDefSet>
+					<MindRegionConnectorDef id="cortex.ff-input" source="false"/>
+					<MindRegionConnectorDef id="cortex.fb-output" source="true"/>
+				</MindRegionConnectorDefSet>
+
+			</MindRegionTypeDef>
+
+		</MindRegionTypeDefSet>
+
+		<MindNetworkTypeSet>
+			<MindNetworkType name="sensor"/>
+		</MindNetworkTypeSet>
+
+		<MindNetworkSet>
+			<MindNet name="SensorFileSysWalker" type="sensor"/>
+		</MindNetworkSet>
+
+		<MindAreaSet>
+
+			<MindArea id="SensorArea" enabled="true">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+				<MindAreaChannel name="SensorArea"/>
+				<MindAreaNetwork net="SensorFileSysWalker" transmitters="GLU"/>
+			</MindArea>
+
+			<MindArea id="EffectorArea" enabled="false">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+			</MindArea>
+
+			<MindArea id="ThalamusArea" enabled="true">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+				<MindAreaChannel name="ThalamusArea"/>
+				<MindAreaNetwork net="SensorFileSysWalker" transmitters="GLU"/>
+			</MindArea>
+
+			<MindArea id="PerceptionArea" enabled="true">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+				<MindAreaChannel name="PerceptionArea"/>
+				<MindAreaNetwork net="SensorFileSysWalker" transmitters="GLU"/>
+			</MindArea>
+
+			<MindArea id="ParietalArea" enabled="false">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+				<MindAreaNetwork net="SensorFileSysWalker" transmitters="GLU"/>
+			</MindArea>
+
+			<MindArea id="SomaticArea" enabled="false">
+				<MindLocation posX="0" posY="0" posZ="0" sizeX="10000" sizeY="10000" sizeZ="2"/>
+				<MindAreaNetwork net="SensorFileSysWalker" transmitters="GLU"/>
+			</MindArea>
+
+			<MindArea id="HippocampusArea" enabled="false"/>
+			<MindArea id="PrefrontalCortexArea" enabled="false"/>
+			<MindArea id="BasalGangliaArea" enabled="false"/>
+			<MindArea id="BrainStemArea" enabled="false"/>
+			<MindArea id="CranialNerveArea" enabled="false"/>
+			<MindArea id="SpinalCordArea" enabled="false"/>
+			<MindArea id="MotorNerveArea" enabled="false"/>
+			<MindArea id="BodyFeelingNerveArea" enabled="false"/>
+    
+		</MindAreaSet>
+
+		<MindCircuitLinkTypeDefSet>
+
+			<MindCircuitLinkTypeDef name="sensor-stream">
+				<NeuroLink type="ExcitatoryLink" masterEntity="sensor.data" slaveEntity="nucleus.input" transmitter="GLU" forward="true"/>
+				<NeuroLink type="ExcitatoryLink" masterEntity="nucleus.output" slaveEntity="cortex.ff-input" transmitter="GLU" forward="true"/>
+				<NeuroLink type="ExcitatoryLink" slaveEntity="cortex.fb-output" masterEntity="nucleus.interneurons-input" transmitter="GLU" forward="false"/>
+			</MindCircuitLinkTypeDef>
+
+		</MindCircuitLinkTypeDefSet>
+
+		<MindLinkSet>
+			<MindLink type="sensor-stream" masterArea="SensorArea" slaveArea="ThalamusArea" masterChannel="SensorArea" enabled="true"/>
+			<MindLink type="sensor-stream" masterArea="ThalamusArea" slaveArea="PerceptionArea" masterChannel="ThalamusArea" slaveChannel="PerceptionArea" enabled="true"/>
+		</MindLinkSet>
+
+	</MindMap>
+
+	<ActiveMemory>
+		<MemoryFocus>
+			<property name="objectCount" value="100"/>
+		</MemoryFocus>
+
+		<ThreadPool>
+			<property name="name" value="AMT"/>
+			<property name="run" value="false"/>
+			<property name="threadCount" value="20"/>
+			<property name="operationsPerSecond" value="100"/>
+			<property name="secondsPerCycle" value="1"/>
+			<property name="maxLoad" value="10"/>
+		</ThreadPool>
+	</ActiveMemory>
+
+</service>

@@ -1,0 +1,257 @@
+<pns>
+
+	<division category="Spinal Nerves" name="CERVICAL NERVES - ROOTS" tree="false">
+
+		<element name="C1-C4, upper cervical ventral spinal roots"
+			imgsrc="http://upload.wikimedia.org/wikipedia/commons/9/99/Cervical_plexus.PNG" imgheight="400"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="C1 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne58.htm C1 NERVE]"
+				distribution="moves forward lateral to the lateral mass and medial to vertebral artery"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C1 nerve, dorsal root" type="root"
+					synonyms="suboccipital nerve"
+					distribution="supplies all the muscles in suboccipital triangle"
+					modality="general sensory"
+					>
+					<nerve name="suboccipital nerve"/>
+					<nerve name="jugular nerve, sensory"/>
+				</element>
+				<element name="C1 nerve, ventral root" type="root"
+					modality="flexor motor, extensor motor"
+					distribution="joins the ascending branches of C2 nerve"
+					branches="muscular branch to sternocleidomastoid, rectus lateralis/capitis anterior, longus capitis; greater auricular nerve; lesser occipital nerve; branch to vagus nerve; superior root of ansa cervicalis"
+					action="flexes head"
+					>
+					<nerve name="accessory nerve, external"/>
+					<nerve name="ansa cervicalis, superior root"/>
+					<nerve name="nerve to geniohyoid"/>
+					<nerve name="thyroid nerve"/>
+					<nerve name="suboccipital nerve"/>
+					<nerve name="nerve to atlanto-occipital joint muscles"/>
+				</element>
+			</element>
+			<element name="C2 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne59.htm C2 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C2 nerve, dorsal root" type="root"
+					branches="divides into medial (greater occipital nerve - supplies the skin of the scalp as far as the vertex) and lateral branches"
+					modality="general sensory"
+					>
+					<nerve name="cervical nerve, transverse"/>
+					<nerve name="great auricular nerve, anterior branch"/>
+					<nerve name="occipital nerve, greater"/>
+					<nerve name="occipital nerve, lesser"/>
+					<nerve name="jugular nerve, sensory"/>
+				</element>
+				<element name="C2 nerve, ventral root" type="root"
+					branches="divides into terminal ascending and descending branches; muscular branches to sternocleidomastoid, longus capitis/colli; inferior root of ansa cervicalis; greater auricular nerve; lesser occipital nerve"
+					modality="flexor motor, extensor motor"
+					action="extends and rotates head, flexes vertebral column; flexes cervical vertebrae, flexes head"
+					>
+					<nerve name="accessory nerve, external"/>
+					<nerve name="ansa cervicalis, inferior root"/>
+					<nerve name="occipital nerve, greater"/>
+					<nerve name="nerve to atlanto-occipital joint muscles"/>
+				</element>
+			</element>
+			<element name="C3 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne60.htm C3 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C3 nerve, dorsal root" type="root"
+					branches="medial and lateral branches"
+					distribution="medial - skin after piercing the trapezius and the splenius; lateral - joins C2 dorsal ramus"
+					modality="general sensory"
+					>
+					<nerve name="phrenic nerve, proper"/>
+					<nerve name="cervical nerve, transverse"/>
+					<nerve name="great auricular nerve, posterior branch"/>
+					<nerve name="occipital nerve, lesser"/>
+					<nerve name="occipital nerve, third"/>
+					<nerve name="supraclavicular nerves"/>
+					<nerve name="jugular nerve, sensory"/>
+				</element>
+				<element name="C3 nerve, ventral root" type="root"
+					branches="muscular branches to trapezius, longus capitis, longus colli, scalenus medius, levator scapulae; inferior root of ansa cervicalis; root to phrenic nerve"
+					modality="flexor motor, extensor motor"
+					action="extends and rotates head, flexes vertebral column; Flexes head; Bends head laterally"
+					>
+					<nerve name="accessory nerve, external"/>
+					<nerve name="ansa cervicalis, inferior root"/>
+					<nerve name="phrenic nerve, proper"/>
+					<nerve name="nerve to scalene and levator scapulae muscles"/>
+					<nerve name="nerve to splenius capitis muscle"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="C4 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne61.htm C4 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C4 nerve, dorsal root" type="root"
+					branches="medial and lateral branches"
+					distribution="supply the skin of C4 dermatome and the muscles of the back; medial - skin after piercing the trapezius and the splenius; lateral - supply the longissimus, cervicis, longissimus capitis, and iliocostalis cervicis"
+					modality="general sensory"
+					>
+					<nerve name="phrenic nerve, proper"/>
+					<nerve name="supraclavicular nerves"/>
+					<nerve name="jugular nerve, sensory"/>
+				</element>
+				<element name="C4 nerve, ventral root" type="root"
+					branches="muscular branches to trapezius, levator scapulae, longus colli; branch to phrenic nerve; small communication to C5 nerve; with C3 forms supraclavicular nerves"
+					modality="flexor motor, extensor motor"
+					action="rotates head and pulls backward; flexes cervical vertebrae"
+					>
+					<nerve name="accessory nerve, external"/>
+					<nerve name="phrenic nerve, proper"/>
+					<nerve name="nerve to scalene and levator scapulae muscles"/>
+					<nerve name="nerve to splenius capitis muscle"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+		</element>
+
+		<element name="C5-C8, lower cervical ventral spinal roots"
+			imgsrc="http://upload.wikimedia.org/wikipedia/commons/c/c9/Brachial_plexus_color.svg"
+			modality="flexor motor, extensor motor, general sensory"
+			>
+			<element name="C5 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne62.htm C5 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C5 nerve, dorsal root" type="root"
+					distribution="medial - skin after piercing the trapezius and the splenius; lateral - longissimus, cervicis, longissimus capitis, and iliocostalis cervicis"
+					modality="general sensory"
+					>
+					<nerve name="phrenic nerve, accessory"/>
+					<nerve name="suprascapular nerve"/>
+					<nerve name="musculocutaneous nerve, sensory"/>
+					<nerve name="axillary nerve"/>
+					<nerve name="median nerve, sensory"/>
+					<nerve name="radial nerve, sensory"/>
+				</element>
+				<element name="C5 nerve, ventral root" type="root"
+					branches="dorsal scapular nerve; muscular branch to scalene muscles; branch to long thoracic nerve/phrenic nerve; terminal part joins C6 to form upper trunk of brachial plexus"
+					distribution="leads into the upper trunk, then to the lateral cord, and finally to the musculocutaneous nerve"
+					modality="flexor motor, extensor motor"
+					action="extends cervical vertebrae; rotates head and pulls backward"
+					>
+					<nerve name="phrenic nerve, accessory"/>
+					<nerve name="nerve to scalene and levator scapulae muscles"/>
+					<nerve name="dorsal scapular nerve"/>
+					<nerve name="suprascapular nerve"/>
+					<nerve name="lateral pectoral nerve"/>
+					<nerve name="musculocutaneous nerve, motor"/>
+					<nerve name="long thoracic nerve"/>
+					<nerve name="subclavian nerve"/>
+					<nerve name="axillary nerve"/>
+					<nerve name="lower subscapular nerve"/>
+					<nerve name="upper subscapular nerve"/>
+					<nerve name="pectoral nerve"/>
+					<nerve name="median nerve, motor"/>
+					<nerve name="radial nerve, motor"/>
+					<nerve name="nerve to splenius cervilis muscle"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="C6 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne63.htm C6 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C6 nerve, dorsal root" type="root"
+					branches="medial and lateral branches"
+					distribution="skin of C6 dermatome and the muscles of the back; medial - skin after piercing the trapezius and the splenius; lateral - longissimus, cervicis, longissimus capitis, and iliocostalis cervicis"
+					modality="general sensory"
+					>
+					<nerve name="suprascapular nerve"/>
+					<nerve name="musculocutaneous nerve, sensory"/>
+					<nerve name="axillary nerve"/>
+					<nerve name="median nerve, sensory"/>
+					<nerve name="radial nerve, sensory"/>
+				</element>
+				<element name="C6 nerve, ventral root" type="root"
+					branches="to scalene muscles; long thoracic nerve; terminal part joins C5 to form upper trunk of brachial plexus"
+					distribution="innervating many muscles of the rotator cuff and distal arm - subclavius, supraspinatus, infraspinatus, biceps brachii, brachialis, deltoid, teres minor, brachioradialis, serratus anterior, subscapularis, pectoralis major, coracobrachialis, teres major, supinator, extensor carpi radialis brevis, extensor carpi radialis longus, latissimus dorsi"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="subclavian nerve"/>
+					<nerve name="musculocutaneous nerve, motor"/>
+					<nerve name="axillary nerve"/>
+					<nerve name="median nerve, motor"/>
+					<nerve name="radial nerve, motor"/>
+					<nerve name="lower subscapular nerve"/>
+					<nerve name="upper subscapular nerve"/>
+					<nerve name="long thoracic nerve"/>
+					<nerve name="nerve to splenius cervilis muscle"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="C7 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne64.htm C7 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C7 nerve, dorsal root" type="root"
+					branches="medial and lateral branches"
+					distribution="supply the skin of C7 dermatome and the muscles of the back; medial - skin after piercing the trapezius and the splenius; lateral - longissimus, cervicis, longissimus capitis, and iliocostalis cervicis"
+					modality="general sensory"
+					>
+					<nerve name="musculocutaneous nerve, sensory"/>
+					<nerve name="median nerve, sensory"/>
+					<nerve name="radial nerve, sensory"/>
+				</element>
+				<element name="C7 nerve, ventral root" type="root"
+					branches="to scalene muscles; to long thoracic nerve; terminal part forms the middle trunk of brachial plexus"
+					distribution="musculocutaneous nerve, ulnar nerve, radial nerve, wrist flexion and hand adduction"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="musculocutaneous nerve, motor"/>
+					<nerve name="lateral pectoral nerve"/>
+					<nerve name="median nerve, motor"/>
+					<nerve name="radial nerve, motor"/>
+					<nerve name="long thoracic nerve"/>
+					<nerve name="middle subscapular nerve"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+			<element name="C8 nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne65.htm C8 NERVE]"
+				modality="flexor motor, extensor motor, general sensory"
+				>
+				<element name="C8 nerve, dorsal root" type="root"
+					branches="medial and lateral branches"
+					distribution="supply the skin of C8 dermatome and the muscles of the back; medial - skin after piercing the trapezius and the splenius; lateral - longissimus, cervicis, longissimus capitis, and iliocostalis cervicis; skin on the little finger, slightly past the wrist on the palmar and dorsal aspects of the hand and forearm"
+					modality="general sensory"
+					>
+					<nerve name="median nerve, sensory"/>
+					<nerve name="radial nerve, sensory"/>
+					<nerve name="ulnar nerve, sensory"/>
+					<nerve name="cutaneous nerve of arm, medial"/>
+				</element>
+				<element name="C8 nerve, ventral root" type="root"
+					branches="to scalene muscles; to long thoracic nerve"
+					distribution="flexion of the fingers, many mucles of trunk, upper arm, forearm, hand"
+					modality="flexor motor, extensor motor"
+					>
+					<nerve name="median nerve, motor"/>
+					<nerve name="radial nerve, motor"/>
+					<nerve name="ulnar nerve, motor"/>
+					<nerve name="medial pectoral nerve"/>
+					<nerve name="middle subscapular nerve"/>
+					<nerve name="motor nerves of back, flexors"/>
+					<nerve name="motor nerves of back, extensors"/>
+				</element>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

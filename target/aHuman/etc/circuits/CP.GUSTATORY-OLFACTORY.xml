@@ -1,0 +1,39 @@
+<circuits>
+
+	<circuit id="CP.GUSTATORY-OLFACTORY" name="Gustatory sensory system of rat and macaque"
+		image="http://ars.els-cdn.com/content/image/1-s2.0-S0149763401000215-gr4a.gif"
+		reference="http://www.sciencedirect.com/science/article/pii/S0149763401000215"
+		components="Iav=PHA.NC.INS EnP=PHA.FT.EPF PiR=PHA.NC.PH.PIR PrC=PHA.NC.PH.PRR IadIap=PHA.NC.INS Gud=PHA.NC.INS Gug=PHA.NC.INS VPMpc=SMA.FD.TH.VPM PB=BMA.HP.PB NST=HMA.HM.SOL HF=HBA.FT.HF"
+		effectors="MOB=MainOlfactoryBulb or=OlfactoryReceptors gr=GustatoryReceptors"
+		>
+		<abstractlink src="or" dst="MOB"/>
+		<abstractlink src="MOB" dst="PiR"/>
+		<link src="PiR" dst="EnP"/>
+		<link src="PiR" dst="Iav"/>
+		<link src="EnP" dst="Iav"/>
+		<link src="EnP" dst="IadIap"/>
+		<link src="EnP" dst="Gud"/>
+		<link src="Iav" dst="IadIap"/>
+		<link src="Iav" dst="PrC"/>
+		<abstractlink src="gr" dst="NST"/>
+		<link src="NST" dst="PB"/>
+		<link src="PB" dst="VPMpc"/>
+		<link src="PB" dst="Gud"/>
+		<link src="PB" dst="IadIap"/>
+		<link src="VPMpc" dst="Gug"/>
+		<link src="VPMpc" dst="Gud"/>
+		<link src="VPMpc" dst="IadIap"/>
+		<link src="Gug" dst="Gud"/>
+		<link src="Gud" dst="IadIap"/>
+		<link src="IadIap" dst="PrC"/>
+		<link src="PrC" dst="HF"/>
+	</circuit>
+
+	<circuit id="CP.GUSTATORY-VISCEROSENSORY" name="Smell, taste, touch"
+		image="http://www.nature.com/nrn/journal/v12/n8/images/nrn3071-f2.jpg"
+		reference="http://www.readcube.com/articles/10.1038/nrn3071"
+		components="INS=PHA.NC.INS"
+		>
+	</circuit>
+
+</circuits>

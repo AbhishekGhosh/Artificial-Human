@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="etc\logging.xml" />
+    <None Include="etc\testing.xml" />
+    <None Include="etc\main.xml" />
+    <None Include="etc\media.xml" />
+    <None Include="etc\messaging.xml" />
+    <None Include="etc\mind.xml" />
+    <None Include="etc\scheduler.xml" />
+    <None Include="etc\statistics.xml" />
+    <None Include="etc\target.xml" />
+    <None Include="etc\hmind.xml" />
+    <None Include="etc\circuits.xml" />
+    <None Include="etc\_renamecomp.sh" />
+    <None Include="etc\mindnet.xml" />
+    <None Include="etc\hpns.xml" />
+    <None Include="etc\nerves\CRANIAL-MIXED.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-SYMPATHETIC.xml" />
+    <None Include="etc\nerves\CRANIAL-MOTOR.xml" />
+    <None Include="etc\nerves\CRANIAL-SENSORY.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HANDSHOULDER.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HEADNECK.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-HEARTLUNG.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-MOTOR.xml" />
+    <None Include="etc\nerves\SPINAL-CERVICAL-SYMPATHETIC.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-MOTOR.xml" />
+    <None Include="etc\nerves\SPINAL-THORACIC-SENSORY.xml" />
+    <None Include="etc\data\face.txt" />
+    <None Include="etc\data\spinalcord.txt" />
+    <None Include="etc\data\miscanatomy.txt" />
+    <None Include="etc\data\nerves.txt" />
+    <None Include="etc\circuits\CF.REWARD.xml" />
+    <None Include="etc\circuits\CX.EYE.xml" />
+    <None Include="etc\circuits\CL.GENERIC.xml" />
+    <None Include="etc\circuits\CM.AUDITORY-CONTROL.xml" />
+    <None Include="etc\circuits\CM.CORTICAL-LIMB-CONTROL.xml" />
+    <None Include="etc\circuits\CM.MUSCLE-CONTROL.xml" />
+    <None Include="etc\circuits\CP.AUDITORY-PERCEPTION.xml" />
+    <None Include="etc\circuits\CP.GUSTATORY-OLFACTORY.xml" />
+    <None Include="etc\circuits\CP.VISUAL-MOTOR-CONTROL.xml" />
+    <None Include="etc\circuits\CP.VISUAL-PERCEPTION-FLOWS.xml" />
+    <None Include="etc\circuits\CT.CONSCIOUSNESS-HIPPOCAMPUS.xml" />
+    <None Include="etc\circuits\CT.CONSCIOUSNESS-PREFRONTAL.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\ahumantarget.h" />
+    <ClInclude Include="include\stdafx.h" />
+    <ClInclude Include="include\xmlhuman.h" />
+    <ClInclude Include="include\ahumanwiki.h" />
+    <ClInclude Include="include\ahumanverify.h" />
+    <ClInclude Include="include\ahumanplayer.h" />
+    <ClInclude Include="include\ahumanmodel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\ahumantarget.cpp" />
+    <ClCompile Include="src\scenarioplayer.cpp" />
+    <ClCompile Include="src\modelverifier.cpp" />
+    <ClCompile Include="src\wikimaker.cpp" />
+    <ClCompile Include="src\xmlhmind.cpp" />
+    <ClCompile Include="src\xmlcircuits.cpp" />
+    <ClCompile Include="src\wikiareapages.cpp" />
+    <ClCompile Include="src\wikihierarchypage.cpp" />
+    <ClCompile Include="src\wikimainpage.cpp" />
+    <ClCompile Include="src\wikicircuitpages.cpp" />
+    <ClCompile Include="src\mindmodel.cpp" />
+    <ClCompile Include="src\wikiregionpage.cpp" />
+    <ClCompile Include="src\actuator\actuator_eye.cpp" />
+    <ClCompile Include="src\actuator\actuator_ear.cpp" />
+    <ClCompile Include="src\actuator\actuator_heart.cpp" />
+    <ClCompile Include="src\actuator\actuator_nose.cpp" />
+    <ClCompile Include="src\actuator\actuator_liver.cpp" />
+    <ClCompile Include="src\actuator\actuator_stomach.cpp" />
+    <ClCompile Include="src\actuator\actuator_face.cpp" />
+    <ClCompile Include="src\actuator\actuator_neck.cpp" />
+    <ClCompile Include="src\actuator\actuator_lung.cpp" />
+    <ClCompile Include="src\actuator\actuator_hand.cpp" />
+    <ClCompile Include="src\actuator\actuator_trunk.cpp" />
+    <ClCompile Include="src\actuator\actuator_breast.cpp" />
+    <ClCompile Include="src\xmlnerves.cpp" />
+    <ClCompile Include="src\wikinervemainpage.cpp" />
+    <ClCompile Include="src\wikinervespecpages.cpp" />
+    <ClCompile Include="src\xmlmuscles.cpp" />
+    <ClCompile Include="src\wikimusclemainpage.cpp" />
+    <ClCompile Include="src\actuator\actuator_genitalia.cpp" />
+    <ClCompile Include="src\actuator\actuator_leg.cpp" />
+    <ClCompile Include="src\wikimusclespecpages.cpp" />
+    <ClCompile Include="src\actuator\actuator_ureter.cpp" />
+    <ClCompile Include="src\actuator\actuator_rectum.cpp" />
+    <ClCompile Include="src\modelfibervalidator.cpp" />
+    <ClCompile Include="src\modelverifier_hmind.cpp" />
+    <ClCompile Include="src\modelverifier_circuits.cpp" />
+    <ClCompile Include="src\modelverifier_nerves.cpp" />
+    <ClCompile Include="src\modelverifier_muscles.cpp" />
+    <ClCompile Include="src\modelverifier_mind.cpp" />
+    <ClCompile Include="src\actuator\actuator_vessels.cpp" />
+    <ClCompile Include="src\actuator\actuator-endocrine.cpp" />
+    <ClCompile Include="src\actuator\actuator_protector.cpp" />
+    <ClCompile Include="src\actuator\actuator_feeder.cpp" />
+    <ClCompile Include="src\actuator\actuator_speaker.cpp" />
+    <ClCompile Include="src\xmlspinalcordlayout.cpp" />
+    <ClCompile Include="src\wikispinalcordpage.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\library\generic\lib\generic.lib" />
+    <Library Include="..\..\platform\lib\platform.lib" />
+    <Library Include="..\..\mind\lib\mind.lib" />
+  </ItemGroup>
+</Project>

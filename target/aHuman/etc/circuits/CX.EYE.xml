@@ -1,0 +1,13 @@
+<circuits>
+
+	<circuit id="CX.EYE-EXTRAOCULAR-MUSCLES" name="Extraocular eye muscles" 
+		image="http://what-when-how.com/wp-content/uploads/2012/04/tmp15F38_thumb.jpg" imageHeight="400" imageWidth="400"
+		reference="http://what-when-how.com/neuroscience/the-cranial-nerves-organization-of-the-central-nervous-system-part-4"
+		components="OCN=VBA.MM.OCN TRC=VBA.MM.TRH ABD=VBA.HP.ABD EYE=TARGET.TSA.EYE"
+		>
+		<link src="OCN" dst="EYE" notes="CN III: Superior/Medial/Inferior Rectus, Inferior Oblique"/>
+		<link src="TRC" dst="EYE" notes="CN IV: Superior Oblique"/>
+		<link src="ABD" dst="EYE" notes="CN VI: Lateral Rectus"/>
+	</circuit>
+
+</circuits>

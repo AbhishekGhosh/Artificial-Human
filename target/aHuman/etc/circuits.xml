@@ -1,0 +1,137 @@
+<circuits>
+
+	<category name="perception"
+		notes="Includes sensory (e.g. pupil size) and related motor (e.g. turning head) control"
+		>
+
+		<circuit id="CP.BASE-VISUAL-CORTEX-FLOWS" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.PRIMARY-VISUAL-FORWARD-FLOWS" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-PATH-TO-HC" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-FUNCTIONAL-VIEW" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-DORSAL-PATHWAY" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-SPATIAL-PROCESSING" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-PARIETAL-ASSOCIATION-CORTEX" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.GLOBAL-VISUAL-SYSTEM" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-PERCEPTION-ABSTRACTION" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-PERCEPTION-V1" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+		<circuit id="CP.VISUAL-PERCEPTION-V6" file="circuits/CP.VISUAL-PERCEPTION-FLOWS.xml"/>
+
+		<circuit id="CP.EYE-FIELDS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.RETINA-SUPERIOR-COLLICULUS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.RETINA-OUTPUTS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.SACCADIC-VISION" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.GENICULATE-PATHS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.VISION-COMPONENTS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.VISION-SACCADES" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.SACCADIC-MOTOR-CONTROL" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.SACCADIC-VOLUNTARY-AND-PURSUIT" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.VESTIBULO-OCULAR-REFLEX" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.EYE-MOVEMENT-TERMINOLOGY" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.EYE-MUSCLE-DIRECTIONS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.EYE-MUSCLES" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.OCULOMOTOR-DECISION-MAKING" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.EYE-SYM-PATHWAYS" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+		<circuit id="CP.TRIGEMINAL-NUCLEI" file="circuits/CP.VISUAL-MOTOR-CONTROL.xml"/>
+
+		<circuit id="CP.GUSTATORY-OLFACTORY" file="circuits/CP.GUSTATORY-OLFACTORY.xml"/>
+		<circuit id="CP.GUSTATORY-VISCEROSENSORY" file="circuits/CP.GUSTATORY-OLFACTORY.xml"/>
+		<circuit id="CP.CORTICAL-AUDITORY-SYSTEM" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.DUAL-AUDITORY-PROCESSING" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.VISUAL-AUDITORY-INTERACTIONS" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.ECHOLOCATION" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.FIVE-AUDITORY-PATHWAYS" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.AUDITORY-SYSTEM-BRAIN" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+		<circuit id="CP.AUDITORY-SYSTEM-MODEL" file="circuits/CP.AUDITORY-PERCEPTION.xml"/>
+
+	</category>
+
+	<category name="motor">
+		<circuit id="CM.PARIETAL-MOTOR-ZONES" file="circuits/CM.CORTICAL-LIMB-CONTROL.xml"/>
+		<circuit id="CM.SENSORIMOTOR-PATHWAYS-PPC" file="circuits/CM.CORTICAL-LIMB-CONTROL.xml"/>
+		<circuit id="CM.PARIETAL-IPL-RECEPTORS" file="circuits/CM.CORTICAL-LIMB-CONTROL.xml"/>
+		<circuit id="CM.PARIETAL-OVERVIEW" file="circuits/CM.CORTICAL-LIMB-CONTROL.xml"/>
+
+		<circuit id="CM.VOCAL-CONTROL" file="circuits/CM.AUDITORY-CONTROL.xml"/>
+		<circuit id="CM.LANGUAGE-RELATED-REGIONS" file="circuits/CM.AUDITORY-CONTROL.xml"/>
+		<circuit id="CM.AUDITORY-MUSCLES" file="circuits/CM.AUDITORY-CONTROL.xml"/>
+
+		<circuit id="CM.SENSIMOTOR-NERVES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.SENSIMOTOR-INTERACTIONS" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.MOVEMENT-PLANNING" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.BASAL-GANGLIA-ACTIVITY" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.SOMATIC-SENSES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.OWL-MONKEY" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.HOMUNCULUS" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.MOTOR-CORTICES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.CORTICOSPINAL-PATHWAY" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.GRASPING-CONTROL" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.MOTOR-DIVISIONS" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.PFC-MOTOR" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.NORMAL-BG-ANATOMY" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.BG-HUMAN-INSECT" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.ONUF" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.BARRINGTON" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.AUTONOMIC-MUSCLES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.FACE-MUSCLES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.HEART-MUSCLES" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+		<circuit id="CM.FACE-GLANDS" file="circuits/CM.MUSCLE-CONTROL.xml"/>
+	</category>
+
+	<category name="feeling">
+		<circuit id="CF.GENERIC-REWARD" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.DEPRESSION" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.FEELING" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.PFC-EMOTIONS" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.PFC-CONNECTIVITY" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.EMOTIONAL-MODULATION" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.REWARD-CIRCUIT" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.CRAVING" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.HB-CONNECTIONS" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.AFFECTIVE-BG" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.AM-DISRUPTION" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.TWO-FEAR-PATHWAYS" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.PAIN-MATRIX" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.SOMATOSENSORY-THALAMUS" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.NUCLEUUS-ACCUMBENS" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.MEYNERT" file="circuits/CF.REWARD.xml"/>
+		<circuit id="CF.DEFAULT-SYSTEM" file="circuits/CF.REWARD.xml"/>
+	</category>
+
+	<category name="thinking">
+		<circuit id="CT.HIPPOCAMPUS-FOR-CONSCIOUSNESS" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.CINGULATE-CORTEX" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HIPPOCAMPAL-FORMATION" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.CATEGORY-SELECTIVITY" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HEAD-DIRECTION" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.RECOGNITION-MEMORY" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.ATTRACTOR-NETWORK" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.ENTORHINAL-CORTEX" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.CA2" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.OPERATING-MODEL" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.KIV-MODEL" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.LONG-TERM-MEMORY-VTA" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HC-PATHWAYS" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HC-IMAGE" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HC-AND-FORNIX" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HC-AND-AMYGDALA" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.HC-AND-SEPTAL" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.MB-MEMORY" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.LMB-MMB" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+		<circuit id="CT.MMB-THETA" file="circuits/CT.CONSCIOUSNESS-HIPPOCAMPUS.xml"/>
+
+		<circuit id="CT.PREFRONTAL-FOR-CONSCIOUSNESS" file="circuits/CT.CONSCIOUSNESS-PREFRONTAL.xml"/>
+		<circuit id="CT.DIRECTED-EFFORT-NETWORK" file="circuits/CT.CONSCIOUSNESS-PREFRONTAL.xml"/>
+		<circuit id="CT.SOCIAL-BRAIN" file="circuits/CT.CONSCIOUSNESS-PREFRONTAL.xml"/>
+		<circuit id="CT.CINGULUM-CONNECTIONS" file="circuits/CT.CONSCIOUSNESS-PREFRONTAL.xml"/>
+	</category>
+
+	<category name="lifecycle">
+		<circuit id="CL.THALAMUS-PROJECTIONS" file="circuits/CL.GENERIC.xml"/>
+		<circuit id="CL.CORTICO-CORTICAL-CONNECTIVITY" file="circuits/CL.GENERIC.xml"/>
+	</category>
+
+	<category name="externals">
+		<circuit id="CX.EYE-EXTRAOCULAR-MUSCLES" file="circuits/CX.EYE.xml"/>
+	</category>
+
+</circuits>

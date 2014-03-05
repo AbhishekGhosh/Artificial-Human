@@ -1,0 +1,173 @@
+<hmind>
+
+	<division name="Peripheral Nervous System"
+		dotdef="color=darkorange"
+		>
+
+		<element id="PN.SYM" name="Sympathetic Ganglia">
+			<element id="VBA.PN.SYM.PA" name="Paravertebral Ganglia">
+				<element id="AVA.PN.SYM.SCG" name="Superior Cervical Ganglion" mapped="true" type="Symp. Gang."
+					function="Eye, tear and salivatory glands"
+					/>
+				<element id="AVA.PN.SYM.MCG" name="Middle Cervical Ganglion" mapped="true" type="Symp. Gang."
+					function="Eye, tear and salivatory glands"
+					/>
+				<element id="AVA.PN.SYM.STG" name="Stellate Ganglion" mapped="true" type="Symp. Gang."
+					function="Heart, Lung"
+					notes="Inferior cervical ganglion"
+					/>
+				<element id="AVA.PN.SYM.TG" name="Sympathetic Thoracic Ganglia" mapped="true" type="Symp. Gang."
+					function="Heart"
+					notes="T1-T4"
+					/>
+			</element>
+			<element id="VBA.PN.SYM.PR" name="Prevertebral Ganglia">
+				<element id="AVA.PN.SYM.CEG" name="Coelic Ganglion" mapped="true" type="Symp. Gang."
+					function="Liver, stomach, pancreas, small intestine"
+					notes="T5-T9"
+					/>
+				<element id="AVA.PN.SYM.SMG" name="Superior Mesenteric Ganglion" mapped="true" type="Symp. Gang."
+					function="Large intestine, rectum"
+					notes="T9-T11"
+					/>
+				<element id="AVA.PN.SYM.ARG" name="Aorticorenal Ganglion" mapped="true" type="Symp. Gang."
+					function="Kidney, Ureter"
+					notes="T12"
+					/>
+				<element id="AVA.PN.SYM.IMG" name="Inferior Mesenteric Ganglion" mapped="true" type="Symp. Gang."
+					function="Bladder, rectum, reproductive organs"
+					notes="S1-S4, single - not paired, unpaired visceral arteries"
+					/>
+			</element>
+		</element>
+
+		<element id="PN.PSYM" name="Parasympathetic Ganglia">
+			<element id="VBA.PN.PSYM.CLG" name="Ciliary Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Control pupillary diameter"
+				notes="Sphincter muscles of the iris"
+				/>
+			<element id="VBA.PN.PSYM.EPG" name="Episcleral Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Control curvature of lens"
+				notes="Sphincter muscles of the iris"
+				/>
+			<element id="AVA.PN.PSYM.SPG" name="Sphenopalatine Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Lacrimal gland and mucous membranes"
+				notes="Head and neck region"
+				/>
+			<element id="AVA.PN.PSYM.SXG" name="Submandibular Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Submaxillary and sublingual salivary glands"
+				notes="Head and neck region"
+				/>
+			<element id="AVA.PN.PSYM.PTG" name="Pterygopalatine Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Lacrimal, nasal and palatine glands"
+				comments="from SSL parasympathetic, to nasal (smelling and moisturing) and palatine (create antibodies, immunity booster) glands"
+				notes="Head and neck region"
+				/>
+			<element id="AVA.PN.PSYM.OTG" name="Otic Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Parotid gland"
+				/>
+			<element id="AVA.PN.PSYM.ILG" name="Intralaryngeal Peripheral Ganglion" mapped="true" type="Symp. Gang."
+				function="parasympathetic motor of larynx,  c.n. X"
+				notes="macroscopic ganglion on the human internal laryngeal nerve, with the distribution of its post-ganglionic fibres to the glands in the saccule and to the glands at the root of epiglottis in the vicinity of the opening of the saccule"
+				/>
+			<element id="AVA.PN.PSYM.PPG" name="Pelvic Peripheral Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Sigmoid, rectum, bladder, and external genitalia"
+				notes="Pelvic nerve fibers"
+				/>
+			<element id="AVA.PN.PSYM.CRG" name="Cardiac Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Heart"
+				notes="Inside heart"
+				/>
+			<element id="AVA.PN.PSYM.PUG" name="Pulmonary Peripheral Ganglion" mapped="true" type="Parasymp. Gang."
+				function="Lung"
+				/>
+			<element id="AVA.PN.PSYM.GUT" mapped="true" name="Parasympathetic Gut Brain" type="Parasymp. Gang."
+				function="Autonomic control of stomach, liver"
+				>
+				<element id="AVA.PN.PSYM.MTG" name="Myenteric Ganglion"
+					synonyms="myenteric (Auerbach's) plexus"
+					function="Controls gastrointestinal movements"
+					notes="ganglion is outer neural layer around stomach"
+					/>
+				<element id="AVA.PN.PSYM.SGG" name="Submucosal Gut Ganglion" type="Parasymp. Gang."
+					function="Controls gastrointestinal secretion and local blood flow"
+					notes="ganglion is inner neural layer around stomach"
+					/>
+			</element>
+		</element>
+
+		<element id="PN.SG" name="Sensory Ganglia">
+			<element id="AVA.PN.SG.TRG" name="Trigeminal Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Integration of external auditory meatus (auricular branch), cranial meninges (meningeal branch), and external surface of tympanic membrane"
+				comments="Gasserian, semilunar"
+				notes="sensory fibers of ophthalmic, maxillary, mandibular nerves to principal trigeminal nucleus"
+				/>
+			<element id="AVA.PN.SG.GNG" name="Geniculate Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Trophic support for survival"
+				notes="Innervation taste buds, ear skin"
+				comments="Sensory and Parasympathetic"
+				>
+				<element name="Chorda Tympani" function="to taste buds in tongue"/>
+				<element name="Superficial Petrosal Nerve" function="to other taste buds"/>
+				<element name="Posterior Auricular Nerve" function="to external ear skin"/>
+			</element>
+			<element id="AVA.PN.SG.JUG" name="Jugular Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Integration of external auditory meatus (auricular branch), cranial meninges (meningeal branch), and external surface of tympanic membrane"
+				comments="CN X, superior ganglion of vagus nerve"
+				notes="to Sensory Trigeminal Nucleus"
+				/>
+			<element id="AVA.PN.SG.PET" name="Petrosal Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Integration of afferent signaling from viscera"
+				comments="CN IX, superior and inferior ganglia of glossopharyngeal nerve, Hering's nerve"
+				notes="mucous membranes of pharynx, middle ear, carotid body and sinus, taste sensor on the posterior third of tongue to SOL"
+				/>
+			<element id="AVA.PN.SG.NOD" name="Nodose Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Integration of afferent signaling from viscera"
+				comments="CN X, inferior ganglion of vagus nerve"
+				notes="caudal SOL - larynx, trachea, gut, and aortic arch receptors; rostral SOL - taste receptors of posterior oral cavity"
+				/>
+			<element id="AVA.PN.SG.OLB" name="Olfactory Bulb" mapped="true" type="Sensory Ganglion"
+				function="Olfaction patterns"
+				notes="in=glomeruli -> 1000x1 -> out=mitral"
+				/>
+			<element id="ABA.PN.SG.SP" name="Spiral Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Auditory patterns"
+				comments="human has 30K, cat - 50K cells"
+				notes="Fibres from bipolar cells in the spiral ganglion consist of peripheral branches that end in the organ of Corti and central branches that end in the ventral and dorsal cochlear nuclei"
+				/>
+			<element id="MBA.PN.SG.VB" name="Vestibular Ganglion" mapped="true" type="Sensory Ganglion"
+				function="transform vestibular (balance) information into body coords"
+				comments="ganglion of Scarpa"
+				/>
+			<element id="AVA.PN.SG.DRG" name="Dorsal Root Ganglion" mapped="true" type="Sensory Ganglion"
+				function="Integration of afferent signaling from viscera"
+				notes="Sensory nerves project to upper thoracic dorsal horn via dorsal root ganglia"
+				>
+				<element id="AVA.PN.SG.DRG.CX" name="Cervical Dorsal Root Ganglia"
+					function="touch/proprioception/vibration sensory pathway"
+					notes="Integration of afferent signaling"
+					comments="C1:meningles, C2:head, C3-C4:neck, C5-C6:shoulder, C7-C8-arms"
+					>
+					<element id="AVA.PN.SG.DRG.UC" name="Upper Cervical Dorsal Root Ganglia" 
+						function="Integration of afferent signaling from meningles, head, neck"
+						notes="C1-C4"
+						/>
+					<element id="AVA.PN.SG.DRG.LC" name="Lower Cervical Dorsal Root Ganglia" 
+						function="Integration of afferent signaling from shoulder, arms"
+						notes="C5-C8"
+						/>
+				</element>
+				<element id="AVA.PN.SG.DRG.TX" name="Thoracic Dorsal Root Ganglia" 
+					function="touch/proprioception/vibration sensory pathway"
+					>
+					<element id="AVA.PN.SG.DRG.UT" name="Upper Thoracic Dorsal Root Ganglia" 
+						function="Integration of afferent signaling from visceral heart"
+						notes="Sensory nerves project to upper thoracic dorsal horn via dorsal root ganglia"
+						/>
+				</element>
+			</element>
+		</element>
+
+	</division>
+
+</hmind>

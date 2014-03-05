@@ -1,0 +1,174 @@
+http://anatomy.uams.edu/anatomyhtml/introheadneck.html 
+
+ear
+    auditory meatus -> geniculate ganglion (AVA.PN.SG.GNG) -> HMA.HM.TGM.STR
+    HMA.HP.FCM -> auricularis (stapedius)
+	Auricularis posterior - may move the ears
+	Auricularis superioris - may move the ears
+	Auricularis anterior - may move the ears
+
+eye
+    AVA.HM.SAL.SSL -> sphenopalatine ganglion -> lacrimal gland (tears)
+    HMA.HP.FCM (intermediate facial subnucleus) -> Orbicularis oculi - the only conscious muscle to close eye, squints the eyes, and the part that is labeled, or outer part, is the basis for AU 6 in FACS; the inner part, mostly on the eyelids is the basis for AU 7 in FACS
+    HMA.HP.FCM -> Ligamentum palpebrale - involuntary muscle to close eye (sleep, blink, corneal/clinking reflex), a small muscle at the corner of the eye
+
+nose
+    AVA.HM.SAL.SSL -> pterygopalatine ganglion (parasympathetic) -> nasal (smelling and moisturing) and palatine (create antibodies, immunity booster) glands
+    HMA.HP.FCM -> nasalis = Compressor naris - constricts the nostrils
+    HMA.HP.FCM -> depressor septi = Depressor naris -lowers and may flare the alar pars of the nose
+    HMA.HP.FCM -> accessory labial muscle = Levator labii superioris alaque nasi - wrinkles the nose and is the basis for AU 9 in FACS
+    HMA.HP.FCM -> procerus = Pyramidalis - lowers the glabella and helps wrinkle the nose
+    HMA.HP.FCM -> dilator naris
+
+    somatic -> trigeminal (semilunar) ganglion
+	    trigeminal (semilunar) ganglion -> principal trigeminal nucleus (HMA.HP.PTP.PTR), spinal trigeminal nucleus (HMA.HM.TGM.STR) -> VPM -> S1
+	    spinal trigeminal nucleus (HMA.HM.TGM.STR) -> (part of corneal reflex) -> facial motor nucleus (HMA.HP.FCM)
+    visceral -> (glossopharyngeal nerve) -> petrosal ganglion -> caudal solitary nucleus (HMA.HM.SOL) -> reticular formation
+    visceral -> (vagus nerve) -> nodose ganglion -> caudal solitary nucleus (HMA.HM.SOL) -> reticular formation
+
+    (proprioception) -> mesencephalic trigeminal nucleus (HMA.MM.MSTR)
+    (touch) -> trigeminal ganglion -> principal trigeminal nucleus
+    (pain and temperature) -> trigeminal ganglion -> spinal trigeminal nucleus
+
+    olfactory mucosa -> olfactory bulb (in=glomeruli -> 1000x1 -> out=mitral) -> (lateral olfactory tract) -> 
+	anterior olfactory nucleus
+	olfactory tubercle
+	amygdala
+	piriform cortex
+	entorhinal cortex
+    anterior olfactory nucleus -> (inhibit) -> contralateral olfactory bulb
+    piriform cortex (3-layered, anterior=chemical structure, posterior=categorizing odors) -> MD/TH (also to HT, HC, AM) -> OMPFC (conscious perception of odor)
+    entorhinal cortex (emotional and autonomic responses to odor) -> AM
+
+---------
+
+buccinator (mouth corner to lateral)
+depressor anguli oris (mouth corner down)
+epicranius (elevate eyebrows)
+frontalis (wrinkle forehead)
+levator labii superioris (elevate upper lip)
+occipitalis (pull scalp posteriorly)
+occipitofrontalis (elevate eyebrows)
+orbicularis oculi (close eyelids)
+orbicularis oris (purse lips)
+platysma (mouth corner down)
+zygomaticus major (mouth corner to lateral)
+zygomaticus minor (lateral-upper lip)
+
+mouth
+    AVA.HM.SAL.SSL -> submandibular (submaxillary) ganglion -> submandibular gland, sublingual gland (under tongue)
+    tongue -> geniculate ganglion -> HMA.HM.SOL
+    AVA.HM.SAL.ISL -> otic ganglion -> parotid gland (hidration of chewing and swallowing)
+    HMA.HM.AMB -> muscles: pharyngeal, intrinsic laryngeal, vocalis, most of palate, upper esophagus
+    epiglottis, tongue, palate (taste) -> nodose ganglion -> HMA.HM.SOL
+    muscle spindles in the jaw muscles -> mesencephalic trigeminal nucleus (HMA.MM.MSTR)
+    Caninus (Levator anguli oris) - elevates the lateral parts of the lips and is the basis for AU 13 in FACS
+    Depressor anguli oris (Triangularis) - pulls the corners of the mouth downwards and is the basis of AU 15 in FACS
+    HMA.HP.PTP.TRM (via CN V) -> masticator nerve (buccinator, masseter, and mylohyoid)
+	Buccinator - acts to compress the cheek towards the teeth and is the underlying muscle of AU 14 in FACS
+	Masseter - a powerful muscle of mastication that closes the jaw
+    HMA.HP.FCM -> Levator labii superioris - pulls the upper lip upwards and is the basis of AU 10 in FACS
+    Orbicularis oris - acts to constrict and deform the lips and mouth opening and is the basis for several FACS AUs
+    Quadratus (Depressor) labii inferioris - pulls the lower lip down and is the underlying muscle of AU 16
+    Quadratus labii superioris - a muscle in the medial cheek and nose are that has multiple strands, including:
+	Levator labii superioris or Caput infraobitalis - pulls the upper lip upwards and is the basis of AU 10 in FACS
+	Caput zygomatic - more lateral strand often not separately distinguished
+    Risorius - retracts the lip corners and is the basis of AU 20 in FACS
+    Temporalis - elevates the jaw and moves it forward
+    Zygomatic - retracts and pulls the lip corners upwards
+	Zygomatic major - retracts and pulls the lip corners upwards and is the basis of AU 12 in FACS
+	Zygomatic minor - retracts and pulls the lip corners upwards and is the basis of AU 11 in FACS
+
+	taste:
+	facial nerve
+		chorda timpani branch: taste bugs of anterior 2/3 of tongue -> geniculate ganglion (AVA.PN.SG.GNG) -> HMA.HM.SOL
+		greater superficial petrosal branch: taste bugs of soft palate -> geniculate ganglion (AVA.PN.SG.GNG) -> HMA.HM.SOL
+	glossopharyngeal nerve
+		lingual-tonsillar branch: vallate and foliate papillae -> petrosal ganglion -> HMA.HM.SOL
+	vagus nerve
+		superior laryngeal branch: epiglottis, esophagus -> nodose ganglion -> HMA.HM.SOL
+	HMA.HM.SOL -> VPMpc -> frontal operculum, anterior insular cortex
+
+	gag reflex:
+	soft palate and pharynx -> AVA.PN.SG.JUG (superior ganglion IX, jugular), AVA.PN.SG.NOD (superior ganglion X) -> 
+		caudal spinal trigeminal nucleus (HMA.HM.TGM.CSTR) -> HMA.HM.AMB -> pharyngeal constrictors
+
+neck
+    HMA.SC.VH.ISL -> muscles: trapezius, stemocleidomastoid
+    Levator (anguli) scapulae - a muscle in the back of the neck that helps control head position
+    Platysma - a large muscle that lies under the jaw and down the neck to the upper chest, and is the basis of AU 21 in FACS
+    Scalenus posticus - one of three scaleni, deep neck muscles that help position the head
+    Splenius - a muscle at the back of the neck with two parts, helps position the head
+    Sternocleidomastoid - a ribbon-like muscle running along the side of the neck that tilts the head right or left
+    Trapezius - a large muscle in the area of the back shoulder, that has some fibers in the neck
+
+face
+    HMA.HP.FCM (via CN VII) -> most face muscles (dorsal->upper face, ventral->lower face) [both hemispheres control muscles of upper face, right->left lower face]
+    HMA.HP.FCM -> Corrugator - lowers and pulls the eyebrows together and is the basis of AU 4 in FACS
+    HMA.HP.FCM -> Epicranius - runs over the top of the skull from the eyebrows to the back of the skull and has the following two parts:
+    	Frontalis (temporal branches of facial nerve) - pulls the eyebrows up and is the basis of AUs 1 and 2 in FACS, and
+	Occipitalis (posterior auricular branches of facial nerve) - tightens back of the scalp
+    Transversus menti (Mentalis) - pushes chin up and wrinkles chin boss and is basis of FACS AU 17
+
+	facial nerve:
+	greater petrosal n. - to pterygopalatine ganglion -> superior salivatory nucleus 
+		preganglionic parasympathetic to pterygopalatine ganglion
+		postganglionic parasympathetic travels with brs. of maxillary division of V
+	chorda tympani
+		SVA taste from anterior 2/3 of the tongue - from geniculate ganglion to nucleus solitarius
+		FCM -> preganglionic parasympathetic to the submandibular ganglion
+		submandibular ganglion -> postganglionic parasympathetic to the submandibular and sublingual glands
+	n. to stapedius
+	posterior auricular n.
+	intraparotid plexus with temporal, zygomatic, buccal, marginal mandibular & cervical brs.
+
+	Fascia parotideomasseterica - covering the masseter muscle and parotid gland is a sheet of fascia tissue
+	Galea aponeurotica - tough tissue on the top of the skull
+
+-----------
+
+http://www.neonet.ch/assets/images/cotm/December_2005_Fig_1.jpg
+	AVA.HM.VG -> intramural ganglia -> muscles: gut, cardiac
+
+skin: at the nostrils, the lips of the mouth, the eyelids, the ears, the genital area, and the anus.
+The glans clitoridis, glans penis (head of the penis), along with the inside of the foreskin and the clitoral hood, are mucous membranes. 
+The urethra is also a mucous membrane. 
+The secreted mucus traps the pathogens in the body, preventing any further activities of diseases.
+
+nose:
+    muscles: nasalis, procerus, depressor septi, dilator naris
+	external nose - from trigeminal facial nerve (ophthalmic division)
+	internal nose - from reticular formation
+
+	sneeze reflex
+
+reflexes:
+        Via IX afferents: Carotid sinus reflex, carotid body reflex, gag reflex
+        Via X afferents: Cough reflex, vomiting reflex (via gut vagal afferents)
+
+		<element id="TARGET.TEA.FACE" name="Face" mapped="true" type="Effector"
+			dotdef="color=firebrick1"
+			function="Mimics"
+			>
+			<element id="" name="" type="connector"
+				notes="otic ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="submandibular ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="submaxillary ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="pterygopalatine ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="sphenopalatine ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="geniculate ganglion" 
+				function=""/>
+			<element id="" name="" type="connector"
+				notes="trigeminal ganglion (gasserion, semilunar)" 
+				function=""/>
+		</element>

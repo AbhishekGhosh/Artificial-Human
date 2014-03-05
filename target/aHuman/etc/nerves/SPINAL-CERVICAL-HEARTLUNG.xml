@@ -1,0 +1,57 @@
+<pns>
+
+	<division category="Spinal Nerves" name="HEART AND LUNG CERVICAL NERVES">
+
+		<element name="heart cervical nerves, sensory"
+			modality="autonomic sensory"
+			>
+			<element name="cervical cardiac nerve, sensory"
+				imgsrc="http://web.uni-plovdiv.bg/stu1104541018/docs/res/skandalakis%27%20surgical%20anatomy%20-%202004/Chapter%2007_%20Pericardium,%20Heart,%20and%20Great%20Vessels_fichiers/loadBinaryCA8UT42Z.jpg"
+				notes="visceral afferent (chiefly pain)"
+				modality="autonomic sensory"
+				>
+				<fibers type="GVA" src="TARGET.TEA.HEART" dst="AVA.PN.SG.DRG"></fibers>
+				<element name="cervical cardiac nerve, middle, sensory"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne303.htm LEFT CARDIAC BRANCH OF MIDDLE CERVICAL GANGLION], [http://www.oluwoleogunranti.com/course/course1/nerves/ne314.htm RIGHT CARDIAC BRANCH OF MIDDLE CERVICAL GANGLION]"
+					origin="sensory fibers whose cell bodies are placed in the C5-6 spinal ganglia through the thoracic splanchnic nerves"
+					distribution="heart"
+					modality="autonomic sensory"
+					/>
+				<element name="cervical cardiac nerve, inferior, sensory"
+					synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/ne286.htm CARDIAC BRANCH OF CERVICOTHORACIC GANGLION]"
+					origin="sensory fibers whose cell bodies are placed in the C7-8,T1 spinal ganglia through the thoracic splanchnic nerves"
+					distribution="heart via cardiac PLEXUS"
+					modality="autonomic sensory"
+					/>
+			</element>
+		</element>
+
+		<element name="lung cervical nerves, mixed"
+			modality="flexor motor, general sensory"
+			>
+			<element name="phrenic nerve"
+				synonyms="MA:[http://www.oluwoleogunranti.com/course/course1/nerves/leftphrenicnerve.htm LEFT PHRENIC NERVE], [http://www.oluwoleogunranti.com/course/course1/nerves/rightphrenicnerve.htm RIGHT PHRENIC NERVE]"
+				origin="cervical PLEXUS (C3-C5)"
+				distribution="sensory to pleura, pericardium, motor to diaphragm, peritoneum, and sympathetic plexuses; sensory - central tendon of the diaphragm"
+				imgsrc="http://www.medicalartlibrary.com/respiratory/images/diaphragm-phrenic-nerve.jpg"
+				modality="flexor motor, general sensory"
+				>
+				<fibers type="GSE" src="BMA.SC.VH.PHR" dst="TARGET.TEA.LUNG"></fibers>
+				<fibers type="GSA" src="TARGET.TEA.LUNG" dst="BMA.SC.PH.MG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+				<fibers type="GSA" src="TARGET.TEA.LUNG" dst="BMA.SC.PH.SG"><mid id="AVA.PN.SG.DRG.CX"/></fibers>
+
+				<element name="phrenic nerve, proper"
+					origin="C3-C4"
+					modality="flexor motor, general sensory"
+					/>
+				<element name="phrenic nerve, accessory"
+					origin="inconstant contribution of C5 nerve to the phrenic nerve"
+					distribution="when present, they run a separate course to the root of the neck or into the thorax before joining the phrenic nerve"
+					modality="flexor motor, general sensory"
+					/>
+			</element>
+		</element>
+
+	</division>
+
+</pns>

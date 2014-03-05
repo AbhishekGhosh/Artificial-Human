@@ -1,0 +1,3 @@
+<service>
+	<property name="notifyChannel" value="scheduler"/>
+</service>
